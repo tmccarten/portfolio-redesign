@@ -1,0 +1,45 @@
+.header-container {
+  background-color: darken($maincolour, 5);
+  padding: 1rem;
+  width: 100vw;
+  margin-left: -1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-right: 32px;
+}
+
+.logo__img {
+  max-width: 100%;
+}
+
+.btn-menu-container {
+  background-color: $maincolour;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 14px;
+  border-radius: 5px;
+}
+
+.btn-menu {
+  height: 24px;
+  align-self: center;
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.btn-menu__line {
+  height: 4px;
+  width: 24px;
+  background-color: white;
+}
