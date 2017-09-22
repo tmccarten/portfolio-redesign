@@ -1,14 +1,17 @@
-/* -- Global -- */
+/* -- GLOBAL -- */
 html {
 	box-sizing: border-box;
-	overflow-y: scroll;
 }
 
 *, *:before, *:after {
 	box-sizing: inherit;
 }
 
-/* -- Utility classes -- */
+*:focus {
+	outline-color: #485689;
+}
+
+/* -- UTILITY CLASSES -- */
 .visuallyhidden {
 	position: absolute;
 	clip: rect(1px 1px 1px 1px);
@@ -21,18 +24,26 @@ html {
 	overflow: hidden;
 }
 
-/* -- Body -- */
+.full-width {
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+}
+
+/* -- BODY -- */
 body {
 	background-color: #252c46;
 	padding: 0 1rem;
+	font-family: "Georgia";
 }
 
-/* -- Components -- */
+/* -- COMPONENTS -- */
 .header-container {
 	background-color: #1c2235;
 	padding: 1rem;
-	width: 100vw;
-	margin-left: -1rem;
 }
 
 .header {
@@ -45,33 +56,42 @@ body {
 }
 
 .logo {
-	margin-right: 32px;
+	width: 200px;
+	margin-right: 1rem;
 }
 
 .logo__img {
-	max-width: 100%;
+	display: block;
+	width: 100%;
 }
 
-.btn-menu-container {
-	background-color: #252c46;
+/*  Menu Button  */
+.btn-menu {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	background-color: #252c46;
+	height: 52px;
+	min-width: 52px;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-ms-flex-item-align: center;
+	    align-self: center;
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
-	-ms-flex-item-align: center;
-	    align-self: center;
-	padding: 14px;
+	padding: 0;
+	border: 0;
 	border-radius: 5px;
 }
 
-.btn-menu {
-	height: 24px;
-	-ms-flex-item-align: center;
-	    align-self: center;
-	background-color: transparent;
-	border: 0;
+.btn-menu:hover, .btn-menu:active, .btn-menu:focus {
+	outline: 0;
+	background-color: #2e3657;
+}
+
+.btn-menu__lines {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -82,13 +102,87 @@ body {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	padding: 0;
+	height: 24px;
+	width: 24px;
 }
 
 .btn-menu__line {
+	display: block;
 	height: 4px;
-	width: 24px;
+	width: 100%;
 	background-color: white;
+	-webkit-transform: rotate(0);
+	        transform: rotate(0);
+	transition: -webkit-transform 300ms;
+	transition: transform 300ms;
+	transition: transform 300ms, -webkit-transform 300ms;
+}
+
+.btn-menu__line--vanished {
+	display: none;
+}
+
+.btn-menu__line--leftcross {
+	-webkit-transform: translateY(10px) rotate(45deg);
+	        transform: translateY(10px) rotate(45deg);
+	transition: -webkit-transform 300ms;
+	transition: transform 300ms;
+	transition: transform 300ms, -webkit-transform 300ms;
+}
+
+.btn-menu__line--rightcross {
+	-webkit-transform: translateY(-10px) rotate(-45deg);
+	        transform: translateY(-10px) rotate(-45deg);
+	transition: -webkit-transform 300ms;
+	transition: transform 300ms;
+	transition: transform 300ms, -webkit-transform 300ms;
+}
+
+.main-nav {
+	height: 0;
+	overflow: hidden;
+	transition: height 300ms ease-in;
+}
+
+.main-menu {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 2rem;
+	background-color: #313b5d;
+}
+
+.main-menu__item {
+	width: 100%;
+	text-align: center;
+}
+
+.main-menu__link {
+	display: block;
+	color: rgba(255, 255, 255, 0.8);
+	text-decoration: none;
+	padding: 2rem;
+}
+
+.main-menu__link:focus, .main-menu__link:hover {
+	outline: 0;
+	color: white;
+	background-color: #3a456e;
+}
+
+.main-nav--expanded {
+	height: 25rem;
+	transition: height 500ms ease-out;
 }
 
 /*# sourceMappingURL=../portfolio-redesign/assets/css/maps/style.css.map */
