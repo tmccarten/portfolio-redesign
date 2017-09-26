@@ -138,6 +138,7 @@ body {
 	transition: transform 300ms, -webkit-transform 300ms;
 }
 
+/* -- Menu -- */
 .main-nav {
 	height: 0;
 	overflow: hidden;
@@ -181,7 +182,7 @@ body {
 }
 
 .main-nav--expanded {
-	height: 25rem;
+	height: 26.25rem;
 	transition: height 500ms ease-out;
 }
 
