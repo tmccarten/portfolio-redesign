@@ -1,6 +1,7 @@
 
 /* -- GLOBAL -- */
 @import '1-global/variables';
+@import '1-global/mixins';
 @import '1-global/global';
 
 /* -- UTILITY CLASSES -- */
@@ -12,3 +13,4 @@
 /* -- COMPONENTS -- */
 @import '3-components/header';
 @import '3-components/menu';
+@import '3-components/tiles';

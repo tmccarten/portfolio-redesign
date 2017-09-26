@@ -1,5 +1,9 @@
-$maincolour: #252c46;
+$maincolour: #113c50;
 
-$bodyfont: 'Georgia';
+$bodyfont: Roboto, 'Droid Serif', Georgia, Times;
 
 $bodypadding: 1rem;
+
+@media screen and (min-width: 700px) {
+  $bodypadding: 2rem;
+}
