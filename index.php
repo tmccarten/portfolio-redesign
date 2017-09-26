@@ -10,6 +10,26 @@
   <body>
     <?php include 'assets/includes/header.php';?>
 
+    <main>
+      <section class="tiles">
+
+        <div class="tile">
+          <div class="tile-inner tile-inner--intro">
+            <p class="tile-inner__sub">Hello.</p>
+            <h2 class="tile-inner__main">I'm a front end developer/designer based in Medway, Kent.</h2>
+          </div>
+        </div>
+
+        <div class="tile">
+          <div class="tile-inner">
+            <p class="tile-inner__sub">Hello.</p>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+
     <script src="<?php echo $index?>/assets/js/script.js"></script>
   </body>
 
