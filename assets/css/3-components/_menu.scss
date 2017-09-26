@@ -1,3 +1,5 @@
+/* -- Menu -- */
+
 .main-nav {
   height: 0;
   overflow: hidden;
@@ -34,6 +36,6 @@
 }
 
 .main-nav--expanded {
-  height: 25rem;
+  height: 26.25rem;
   transition: height 500ms ease-out;
 }
