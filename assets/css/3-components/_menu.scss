@@ -1,0 +1,41 @@
+/* -- Menu -- */
+
+.main-nav {
+  height: 0;
+  overflow: hidden;
+  transition: height 300ms ease-in;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 2rem;
+  background-color: lighten($maincolour, 7);
+}
+
+.main-menu__item {
+  width: 100%;
+  text-align: center;
+}
+
+.main-menu__link {
+  display: block;
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  padding: 2rem;
+
+  &:focus, &:hover {
+    outline: 0;
+    color: white;
+    background-color: lighten($maincolour, 12);
+  }
+}
+
+.main-nav--expanded {
+  height: 26.25rem;
+  transition: height 500ms ease-out;
+}

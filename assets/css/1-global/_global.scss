@@ -1,7 +1,10 @@
 html {
   box-sizing: border-box;
-  overflow-y: scroll;
 }
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+*:focus {
+  outline-color: lighten($maincolour, 20);
 }
