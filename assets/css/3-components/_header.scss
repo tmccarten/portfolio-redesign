@@ -1,16 +1,18 @@
 .header-container {
-  background-color: darken($maincolour, 5);
   padding: 1rem;
+  //background-color: darken($maincolour, 3);
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  max-width: $max-width;
+  margin: 0 auto;
 }
 
 .logo {
   width: 200px;
-  margin-right: 1rem;
+  margin: 1rem 1rem 1rem 0;
 }
 
 .logo__img {
