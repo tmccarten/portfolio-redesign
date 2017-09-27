@@ -3,3 +3,11 @@
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+@media screen and (min-width: $mqdesktop) {
+
+  .main {
+    padding: 0 2rem;    
+  }
+
+}

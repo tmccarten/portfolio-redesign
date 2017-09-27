@@ -1,14 +1,19 @@
 .header-container {
-  padding: 1rem;
-  background-color: darken($maincolour, 3);
+  background-color: darken($maincolour, 2);
 }
 
 .header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   max-width: $max-width;
-  font-family: Georgia, Times, serif;
   margin: 0 auto;
+  background-color: inherit;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
 .logo {
@@ -70,4 +75,39 @@
 .btn-menu__line--rightcross {
   transform: translateY(-10px) rotate(-45deg);
   transition: transform 300ms;
+}
+
+@media screen and (min-width: $mqdesktop) {
+
+  .header-container {
+    background-color: transparent;
+  }
+
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem;
+  }
+
+  .header__top {
+    padding: 0;
+    display: block;
+  }
+
+  .btn-menu {
+    display: none;
+  }
+
+  .logo {
+    display: block;
+    margin: 0 1rem 0 0;
+    width: auto;
+  }
+
+  .logo__img {
+    width: 290px;
+    height: auto;
+  }
+
 }
