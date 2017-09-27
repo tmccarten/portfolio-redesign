@@ -1,4 +1,4 @@
-<div class="header-container full-width">
+<div class="header-container">
   <header class="header">
 
     <a class="logo" href="#" title="Tom McCarten Web Design Homepage">
