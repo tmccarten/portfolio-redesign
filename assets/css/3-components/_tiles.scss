@@ -13,12 +13,17 @@
   height: 18em;
   width: 18em;
   margin-top: 1em;
-  background-color: lighten($maincolour, 3.5);
+  background-color: lighten($maincolour, 3);
+}
+
+.tile--alternate {
+  background-color: darken($maincolour, 2);
 }
 
 .tile-inner {
   width: 12.875em;
   text-align: center;
+
 }
 
 .tile-inner > * {
@@ -35,4 +40,40 @@
 
 .tile-inner__main {
   font-weight: normal;
+  padding: 1em;
+  background-color: lighten($maincolour, 4);
+  width: 100%;
+  font-size: 1.17em;
+}
+
+.tile-inner__main--intro {
+  font-size: 1.5em;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 39.5em) {
+
+  .tiles {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .tile {
+    width: 300px;
+    height: 300px;
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (min-width: $mqdesktop) {
+
+  .tile {
+    width: 334px;
+    height: 334px;
+  }
+
 }

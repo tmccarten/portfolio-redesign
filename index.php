@@ -13,14 +13,32 @@
     <main class="main">
       <section class="tiles">
 
-        <div class="tile">
+        <div class="tile tile--alternate">
           <div class="tile-inner tile-inner--intro">
             <p class="tile-inner__sub">Hello!</p>
-            <h2 class="tile-inner__main">I'm a front end developer/designer based in Medway, Kent.</h2>
+            <h2 class="tile-inner__main tile-inner__main--intro">I'm a front-end developer/designer based in Medway, Kent.</h2>
           </div>
         </div>
 
         <div class="tile">
+          <div class="tile-inner">
+            <p class="tile-inner__sub">Get in touch.</p>
+          </div>
+        </div>
+
+        <div class="tile">
+          <div class="tile-inner">
+            <h3 class="tile-inner__main">Projects</h3>
+          </div>
+        </div>
+
+        <div class="tile">
+          <div class="tile-inner">
+            <h3 class="tile-inner__main">Graphic Design</h3>
+          </div>
+        </div>
+
+        <div class="tile tile--alternate">
           <div class="tile-inner">
             <p class="tile-inner__sub">Get in touch.</p>
           </div>

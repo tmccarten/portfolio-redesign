@@ -77,6 +77,19 @@
   transition: transform 300ms;
 }
 
+@media screen and (min-width: 39.5em) {
+
+  .header__top {
+    padding: 2rem;
+  }
+
+  .logo__img {
+    width: 290px;
+    height: auto;
+  }
+
+}
+
 @media screen and (min-width: $mqdesktop) {
 
   .header-container {
@@ -105,9 +118,20 @@
     width: auto;
   }
 
-  .logo__img {
-    width: 290px;
-    height: auto;
+}
+
+@media screen and (min-width: 1066px) {
+
+  .header {
+    max-width: 1066px;
+  }
+
+}
+
+@media screen and (min-width: 1400px) {
+
+  .header {
+    max-width: 1400px;
   }
 
 }
