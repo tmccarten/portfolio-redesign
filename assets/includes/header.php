@@ -16,7 +16,7 @@
   </header>
 </div>
 
-<nav id="mainNav" class="main-nav full-width">
+<nav id="mainNav" class="main-nav">
   <ul class="main-menu">
     <li class="main-menu__item"><a href="#" class="main-menu__link">Work</a></li>
     <li class="main-menu__item"><a href="#" class="main-menu__link">Blog</a></li>
