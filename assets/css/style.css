@@ -13,7 +13,7 @@ html {
 }
 
 *:focus {
-	outline-color: #ce7e8c;
+	outline-color: #7883a6;
 }
 
 /* -- UTILITY CLASSES -- */
@@ -41,7 +41,7 @@ html {
 /* -- BODY -- */
 
 body {
-	background-color: #813744;
+	background-color: #3a3f50;
 	font-family: Roboto, "Droid Serif", Georgia, Times;
 	line-height: 1.3;
 	transition: background-color 1000ms;
@@ -70,7 +70,7 @@ body::before {
 /* -- COMPONENTS -- */
 
 .header-container {
-	background-color: #a03c4d;
+	background-color: #454d69;
 }
 
 .header {
@@ -112,7 +112,7 @@ body::before {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	background-color: #a73f51;
+	background-color: #49526f;
 	height: 52px;
 	min-width: 52px;
 	-webkit-box-align: center;
@@ -132,7 +132,7 @@ body::before {
 .btn-menu:active,
 .btn-menu:focus {
 	outline: 0;
-	background-color: #b9465a;
+	background-color: #535d7e;
 }
 
 .btn-menu__lines {
@@ -206,7 +206,7 @@ body::before {
 	margin: 0;
 	list-style-type: none;
 	font-size: 2rem;
-	background-color: #bc4e61;
+	background-color: #576285;
 }
 
 .main-menu__item {
@@ -225,7 +225,7 @@ body::before {
 .main-menu__link:hover {
 	outline: 0;
 	color: white;
-	background-color: #c36071;
+	background-color: #616d94;
 }
 
 .main-nav--expanded {
@@ -264,7 +264,7 @@ body::before {
 	height: 18em;
 	width: 18em;
 	margin-top: 1em;
-	background-color: #b24356;
+	background-color: #4f5978;
 }
 
 .tile:hover {
@@ -273,7 +273,7 @@ body::before {
 }
 
 .tile--alternate {
-	background-color: #a03c4d;
+	background-color: #454d69;
 }
 
 .tile-inner {
@@ -296,7 +296,7 @@ body::before {
 .tile-inner__main {
 	font-weight: normal;
 	padding: 1em;
-	background-color: #b64558;
+	background-color: #515b7b;
 	width: 100%;
 	font-size: 1.17em;
 }
@@ -379,9 +379,9 @@ body::before {
 
 .main-menu__link:focus,
 .main-menu__link:hover {
-	background-color: #ae4255;
-	border-bottom: 1px solid #bb4a5d;
-	border-top: 1px solid #bb4a5d;
+	background-color: #4d5775;
+	border-bottom: 1px solid #556081;
+	border-top: 1px solid #556081;
 }
 
 .tiles {

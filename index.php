@@ -40,7 +40,9 @@
 
         <div class="tile tile--alternate">
           <div class="tile-inner">
-            <p class="tile-inner__sub">Get in touch.</p>
+            <img src="<?php echo $index?>/assets/img/icons/twitter.svg" alt="Twitter logo" width="54">
+            <img src="<?php echo $index?>/assets/img/icons/github.svg" alt="GitHub logo" width="54">
+            <img src="<?php echo $index?>/assets/img/icons/facebook.svg" alt="Facebook logo" width="54">
           </div>
         </div>
 
