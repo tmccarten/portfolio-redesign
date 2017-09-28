@@ -12,7 +12,7 @@
 
 }
 
-@media screen and (min-width: 1066px) {
+@media screen and (min-width: $mqthreecol) {
 
   .main {
     max-width: 1066px;
@@ -20,7 +20,7 @@
 
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: $mqfourcol) {
 
   .main {
     max-width: 1400px;
