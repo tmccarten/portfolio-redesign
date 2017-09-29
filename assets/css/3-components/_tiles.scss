@@ -84,6 +84,7 @@
     height: 334px;
     margin-top: 0;
     font-size: 1rem;
+    //clip-path: polygon(90% 0, 100% 10%, 100% 100%, 0 100%, 0 0);
   }
 
   .tile-inner {
@@ -94,6 +95,15 @@
   .tile-inner--intro {
     text-align: left;
     padding: initial;
+  }
+
+}
+
+@media screen and (min-width: $mqtwocol) and (max-width: $mqthreecol) {
+
+  .tile {
+    width: 50%;
+    height: 50vw;
   }
 
 }

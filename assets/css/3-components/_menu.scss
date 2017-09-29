@@ -57,14 +57,14 @@
     color: white;
 
     &:focus, &:hover {
-      background-color: lighten($maincolour, 2);          
+      background-color: lighten($maincolour, 2);
     }
 
   }
 
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: $mqfourcol) {
 
   .main-menu__item + * {
     margin-left: 2rem;

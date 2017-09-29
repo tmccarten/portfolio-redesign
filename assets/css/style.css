@@ -411,6 +411,15 @@ body {
 
 }
 
+@media screen and (min-width: 48.0625em) and (max-width: 67.6875em) {
+
+.tile {
+	width: 50%;
+	height: 50vw;
+}
+
+}
+
 @media screen and (min-width: 67.6875em) {
 
 .main {
@@ -438,10 +447,6 @@ body {
 .header {
 	max-width: 1400px;
 }
-
-}
-
-@media screen and (min-width: 1400px) {
 
 .main-menu__item + * {
 	margin-left: 2rem;
