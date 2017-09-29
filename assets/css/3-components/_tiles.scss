@@ -22,12 +22,15 @@
 
 .tile--alternate {
   background-color: darken($maincolour, 2);
+
+  &:hover {
+    transform: none;
+  }
 }
 
 .tile-inner {
   width: 12.875em;
   text-align: center;
-
 }
 
 .tile-inner > * {
@@ -55,6 +58,14 @@
   padding: 0;
   border: 0;
   background-color: transparent;
+}
+
+.tile-inner__icon {
+  text-decoration: none;
+
+  & img:hover {
+    transform: scale(1.1);
+  }
 }
 
 @media screen and (min-width: $mqtwocol) {

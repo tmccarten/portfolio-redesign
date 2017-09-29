@@ -40,9 +40,15 @@
 
         <div class="tile tile--alternate">
           <div class="tile-inner">
-            <img src="<?php echo $index?>/assets/img/icons/twitter.svg" alt="Twitter logo" width="54">
-            <img src="<?php echo $index?>/assets/img/icons/github.svg" alt="GitHub logo" width="54">
-            <img src="<?php echo $index?>/assets/img/icons/facebook.svg" alt="Facebook logo" width="54">
+            <a href="http://twitter.com/thomasmccarten" class="tile-inner__icon">
+              <img src="<?php echo $index?>/assets/img/icons/twitter.svg" alt="Twitter logo" width="54" height="54">
+            </a>
+            <a href="http://github.com/tmccarten" class="tile-inner__icon">
+              <img src="<?php echo $index?>/assets/img/icons/github.svg" alt="GitHub logo" width="54" height="54">
+            </a>
+            <a href="http://facebook.com/thomasmccarten" class="tile-inner__icon">
+              <img src="<?php echo $index?>/assets/img/icons/facebook.svg" alt="Facebook logo" width="54" height="54">
+            </a>
           </div>
         </div>
 

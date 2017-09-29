@@ -57,9 +57,7 @@
     color: white;
 
     &:focus, &:hover {
-      background-color: lighten($maincolour, 2);
-      border-bottom: 1px solid lighten($maincolour, 6);
-      border-top: 1px solid lighten($maincolour, 6);
+      background-color: lighten($maincolour, 2);          
     }
 
   }
