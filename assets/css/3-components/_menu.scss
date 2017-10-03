@@ -29,7 +29,7 @@
   text-decoration: none;
   padding: 1em;
 
-  &:focus, &:hover {
+  &:focus, &:hover, &.main-menu__link--current {
     outline: 0;
     color: white;
     background-color: lighten($maincolour, 12);
@@ -56,8 +56,8 @@
   .main-menu__link {
     color: white;
 
-    &:focus, &:hover {
-      background-color: lighten($maincolour, 2);
+    &:focus, &:hover, &.main-menu__link--current {
+      background-color: $maincolour;
     }
 
   }

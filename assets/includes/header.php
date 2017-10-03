@@ -18,7 +18,7 @@
 
     <nav id="mainNav" class="main-nav">
       <ul class="main-menu">
-        <li class="main-menu__item"><a href="#" class="main-menu__link">Work</a></li>
+        <li class="main-menu__item"><a href="#" <?php if ($activePage == "Home") {?> class="main-menu__link main-menu__link--current" <?php } ?> class="main-menu__link">Home</a></li>
         <li class="main-menu__item"><a href="#" class="main-menu__link">Blog</a></li>
         <li class="main-menu__item"><a href="#" class="main-menu__link">About</a></li>
         <li class="main-menu__item"><a href="#" class="main-menu__link">Contact</a></li>

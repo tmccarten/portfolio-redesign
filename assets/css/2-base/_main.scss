@@ -4,6 +4,11 @@
   padding: 0 1rem;
 }
 
+.main--home {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 39.5em) {
 
   .main {
@@ -24,6 +29,10 @@
 
   .main {
     max-width: 1400px;
+  }
+
+  .main--home {
+    flex-direction: row;
   }
 
 }

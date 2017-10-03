@@ -9,30 +9,41 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  //height: 18em;
-  //width: 18em;
   width: 100%;
-  height: 90vw;
+  height: 40vw;
   margin-top: 1em;
+  border-radius: 1em;
+  font-size: 1rem;
   background-color: lighten($maincolour, 3);
+  //background-color: #ad503c;
+  text-decoration: none;
+  color: white;
 
   &:hover {
-    transform: scale(1.1);
+    background-color: lighten($maincolour, 4.5);
   }
 }
 
 .tile--alternate {
   background-color: darken($maincolour, 2);
+  clip-path: polygon(100% 0, 0 0, 0 80%, 50% 100%, 100% 80%);
+  height: 90vw;
+  border-radius: 0;
 
   &:hover {
-    transform: none;
+    background-color: darken($maincolour, 2);
   }
+}
+
+.tile--contact {
+  //background-color: lighten(desaturate(adjust-hue($maincolour, 140), 10), 5);
+  //background-color: #b16170;
 }
 
 .tile-inner {
   max-width: 28.75em;
   text-align: center;
-  font-size: calc(.8rem + 1vw);
+  //font-size: calc(.8rem + 1vw);
 }
 
 .tile-inner > * {
@@ -46,14 +57,16 @@
 .tile-inner--intro {
   text-align: center;
   padding: 0 2em;
+  margin-bottom: 2em;
 }
 
 .tile-inner__main {
   font-weight: normal;
   padding: 1em;
-  background-color: lighten($maincolour, 4);
+  background-color: lighten($maincolour, 4.5);
+  border-radius: .8em;
   width: 100%;
-  font-size: 1.17em;
+  //font-size: 1.25em;
 }
 
 .tile-inner__main--intro {
@@ -63,12 +76,22 @@
   background-color: transparent;
 }
 
+.tile-inner__main--contact {
+  //background-color: lighten(lighten(saturate(adjust-hue($maincolour, 140), 20), 12), 4.5);
+  //background-color: lighten(#b16170, 4.5);
+}
+
 .tile-inner__icon {
   text-decoration: none;
 
   & img:hover {
     transform: scale(1.1);
   }
+}
+
+.tile-inner__link {
+  text-decoration: none;
+  color: white;
 }
 
 @media screen and (min-width: $mqtwocol) {
@@ -83,18 +106,23 @@
     width: 334px;
     height: 334px;
     margin-top: 0;
-    font-size: 1rem;
-    //clip-path: polygon(90% 0, 100% 10%, 100% 100%, 0 100%, 0 0);
+    //font-size: 1rem;
+    border-radius: 0;
+  }
+
+  .tile--alternate {
+    clip-path: none;
   }
 
   .tile-inner {
     max-width: 12.875em;
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 
   .tile-inner--intro {
     text-align: left;
     padding: initial;
+    margin-bottom: 0;
   }
 
 }
@@ -112,6 +140,7 @@
 
   .tiles {
     justify-content: flex-start;
+    max-width: 1002px;
   }
 
 }
