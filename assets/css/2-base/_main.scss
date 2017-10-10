@@ -28,7 +28,7 @@
 @media screen and (min-width: $mqfourcol) {
 
   .main {
-    max-width: 1400px;
+    max-width: $max-width;
   }
 
   .main--home {

@@ -131,7 +131,7 @@
 @media screen and (min-width: $mqfourcol) {
 
   .header {
-    max-width: 1400px;
+    max-width: $max-width;
   }
 
 }

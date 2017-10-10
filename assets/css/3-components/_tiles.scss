@@ -14,13 +14,28 @@
   margin-top: 1em;
   border-radius: 1em;
   font-size: 1rem;
-  background-color: lighten($maincolour, 3);
-  //background-color: #ad503c;
+  background-color: $tilecolour;
   text-decoration: none;
   color: white;
 
-  &:hover {
-    background-color: lighten($maincolour, 4.5);
+  &:nth-child(2) {
+    background-color: lighten($tilecolour, 2);
+  }
+
+  &:nth-child(3) {
+    background-color: lighten($tilecolour, 4);
+  }
+
+  &:nth-child(4) {
+    background-color: lighten($tilecolour, 6);
+  }
+
+  &:nth-child(5) {
+    background-color: lighten($tilecolour, 8);
+  }
+
+  &:nth-child(6) {
+    background-color: lighten($tilecolour, 10);
   }
 }
 
@@ -31,7 +46,7 @@
   border-radius: 0;
 
   &:hover {
-    background-color: darken($maincolour, 2);
+    //background-color: darken($maincolour, 2);
   }
 }
 
@@ -63,10 +78,9 @@
 .tile-inner__main {
   font-weight: normal;
   padding: 1em;
-  background-color: lighten($maincolour, 4.5);
-  border-radius: .8em;
-  width: 100%;
-  //font-size: 1.25em;
+  //background-color: lighten($tilecolour, 12);
+  border-radius: 1em;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
 }
 
 .tile-inner__main--intro {
@@ -74,6 +88,7 @@
   padding: 0;
   border: 0;
   background-color: transparent;
+  box-shadow: none;
 }
 
 .tile-inner__main--contact {
@@ -105,8 +120,7 @@
   .tile {
     width: 334px;
     height: 334px;
-    margin-top: 0;
-    //font-size: 1rem;
+    margin: .5em;
     border-radius: 0;
   }
 
@@ -117,6 +131,8 @@
   .tile-inner {
     max-width: 12.875em;
     font-size: 1rem;
+    font-family: Arial;
+    font-weight: normal;
   }
 
   .tile-inner--intro {
@@ -140,7 +156,26 @@
 
   .tiles {
     justify-content: flex-start;
-    max-width: 1002px;
+    width: 1058px;
+    perspective: 1500px;
+  }
+
+  .tile {
+    transform: rotateY(0);
+    transition: transform 300ms ease, background-color 500ms ease, border-color 500ms ease, box-shadow 1000ms ease;
+    border: 2px solid;
+    border-color: transparent;
+
+    &:hover {
+      transform: rotateY(15deg);
+      background-color: lighten($tilecolour, 20);
+      border-color: lighten($tilecolour, 35);
+
+    .tile-inner__main {
+      box-shadow: none;
+    }
+
+    }
   }
 
 }

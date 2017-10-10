@@ -4,7 +4,7 @@
   height: 0;
   overflow: hidden;
   transition: height 300ms ease-in;
-  font-family: Georgia, Times, serif;
+  font-weight: normal;
 }
 
 .main-menu {
@@ -50,13 +50,13 @@
   .main-menu {
     flex-direction: row;
     background-color: transparent;
-    font-size: 1.25rem;
+    font-size: 20px;
   }
 
   .main-menu__link {
     color: white;
 
-    &:focus, &:hover, &.main-menu__link--current {
+    &:focus, &:hover, &.main-menu__link--current {      
       background-color: $maincolour;
     }
 

@@ -1,11 +1,12 @@
 // Colours //
-$maincolour: #314070;
+$maincolour: #2a354f;
+$tilecolour: lighten($maincolour, 2);
 
 // Fonts //
-$bodyfont: Roboto, 'Droid Serif', Georgia, Times;
+$bodyfont: 'Segoe UI';
 
 // Sizes //
-$max-width: 1400px;
+$max-width: 1488px;
 
 // Media queries //
 $mqtwocol: 48.0625em;
