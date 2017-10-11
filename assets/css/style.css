@@ -466,7 +466,7 @@ body::before {
 
 .tile-inner--intro {
 	text-align: left;
-	padding: initial;
+	padding: 0;
 	margin-bottom: 0;
 }
 
