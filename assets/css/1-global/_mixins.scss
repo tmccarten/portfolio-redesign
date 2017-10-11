@@ -10,3 +10,15 @@
         padding-top: $padding;
     }
 }
+
+// Tile colours //
+@function color-adjust($basecolour, $endcolour) {
+
+  $hue-difference: hue($endcolour) - hue($maincolour);
+  $saturation-difference: saturation($endcolour) - saturation($maincolour);
+  $lightness-difference: lightness($endcolour) - lightness($maincolour);
+
+  @return hsl(hue($basecolour) + $hue-difference,
+          saturation($basecolour) + $saturation-difference,
+          lightness($basecolour) + $lightness-difference)
+}

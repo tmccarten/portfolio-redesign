@@ -13,7 +13,7 @@ html {
 }
 
 *:focus {
-	outline-color: #4d6292;
+	outline-color: #4c618b;
 }
 
 /* -- UTILITY CLASSES -- */
@@ -41,7 +41,7 @@ html {
 /* -- BODY -- */
 
 body {
-	background-color: #1f283b;
+	background-color: #1d2535;
 	font-family: "Segoe UI";
 	line-height: 1.3;
 	transition: background-color 1000ms;
@@ -117,7 +117,7 @@ body::before {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	background-color: #2a354f;
+	background-color: #283349;
 	height: 52px;
 	min-width: 52px;
 	-webkit-box-align: center;
@@ -137,7 +137,7 @@ body::before {
 .btn-menu:active,
 .btn-menu:focus {
 	outline: 0;
-	background-color: #334060;
+	background-color: #313f59;
 }
 
 .btn-menu__lines {
@@ -211,7 +211,7 @@ body::before {
 	margin: 0;
 	list-style-type: none;
 	font-size: 2rem;
-	background-color: #364566;
+	background-color: #354360;
 }
 
 .main-menu__item {
@@ -231,7 +231,7 @@ body::before {
 .main-menu__link.main-menu__link--current {
 	outline: 0;
 	color: white;
-	background-color: #3f5077;
+	background-color: #3e4f71;
 }
 
 .main-nav--expanded {
@@ -271,33 +271,33 @@ body::before {
 	margin-top: 1em;
 	border-radius: 1em;
 	font-size: 1rem;
-	background-color: #2e3956;
+	background-color: #2c3850;
 	text-decoration: none;
 	color: white;
 }
 
 .tile:nth-child(2) {
-	background-color: #313e5c;
+	background-color: #2f3c56;
 }
 
 .tile:nth-child(3) {
-	background-color: #354263;
+	background-color: #33415d;
 }
 
 .tile:nth-child(4) {
-	background-color: #38476a;
+	background-color: #364563;
 }
 
 .tile:nth-child(5) {
-	background-color: #3c4b70;
+	background-color: #3a4a6a;
 }
 
 .tile:nth-child(6) {
-	background-color: #3f5077;
+	background-color: #3e4f71;
 }
 
-.tile--alternate {
-	background-color: #263148;
+.tile--flat {
+	background-color: #242e42;
 	-webkit-clip-path: polygon(100% 0, 0 0, 0 80%, 50% 100%, 100% 80%);
 	clip-path: polygon(100% 0, 0 0, 0 80%, 50% 100%, 100% 80%);
 	height: 90vw;
@@ -326,7 +326,6 @@ body::before {
 .tile-inner__main {
 	font-weight: normal;
 	padding: 1em;
-	border-radius: 1em;
 	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -356,7 +355,7 @@ body::before {
 	width: 350px;
 	height: 684px;
 	margin-top: .5em;
-	background-color: #2e3956;
+	background-color: #2c3850;
 }
 
 @media screen and (min-width: 39.5em) {
@@ -431,7 +430,7 @@ body::before {
 .main-menu__link:focus,
 .main-menu__link:hover,
 .main-menu__link.main-menu__link--current {
-	background-color: #2a354f;
+	background-color: #283349;
 }
 
 .tiles {
@@ -453,7 +452,7 @@ body::before {
 	border-radius: 0;
 }
 
-.tile--alternate {
+.tile--flat {
 	-webkit-clip-path: none;
 	clip-path: none;
 }
@@ -501,24 +500,25 @@ body::before {
 	perspective: 1500px;
 }
 
-.tile {
+.tile--3d {
 	-webkit-transform: rotateY(0);
 	transform: rotateY(0);
-	transition: background-color 500ms ease, border-color 500ms ease, box-shadow 1000ms ease, -webkit-transform 300ms ease;
-	transition: transform 300ms ease, background-color 500ms ease, border-color 500ms ease, box-shadow 1000ms ease;
-	transition: transform 300ms ease, background-color 500ms ease, border-color 500ms ease, box-shadow 1000ms ease, -webkit-transform 300ms ease;
+	transition: background-color 500ms ease, border-color 500ms ease, box-shadow 500ms ease, -webkit-transform 300ms ease;
+	transition: transform 300ms ease, background-color 500ms ease, border-color 500ms ease, box-shadow 500ms ease;
+	transition: transform 300ms ease, background-color 500ms ease, border-color 500ms ease, box-shadow 500ms ease, -webkit-transform 300ms ease;
 	border: 2px solid;
 	border-color: transparent;
 }
 
-.tile:hover {
+.tile--3d:hover {
 	-webkit-transform: rotateY(15deg);
 	transform: rotateY(15deg);
-	background-color: #516698;
-	border-color: #7c8eb9;
+	background-color: #cd5150;
+	border-color: #d97977;
+	box-shadow: 0px 0px 30px #cd5150;
 }
 
-.tile:hover .tile-inner__main {
+.tile--3d:hover .tile-inner__main {
 	box-shadow: none;
 }
 

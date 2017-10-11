@@ -39,26 +39,16 @@
   }
 }
 
-.tile--alternate {
+.tile--flat {
   background-color: darken($maincolour, 2);
   clip-path: polygon(100% 0, 0 0, 0 80%, 50% 100%, 100% 80%);
   height: 90vw;
   border-radius: 0;
-
-  &:hover {
-    //background-color: darken($maincolour, 2);
-  }
-}
-
-.tile--contact {
-  //background-color: lighten(desaturate(adjust-hue($maincolour, 140), 10), 5);
-  //background-color: #b16170;
 }
 
 .tile-inner {
   max-width: 28.75em;
   text-align: center;
-  //font-size: calc(.8rem + 1vw);
 }
 
 .tile-inner > * {
@@ -79,7 +69,7 @@
   font-weight: normal;
   padding: 1em;
   //background-color: lighten($tilecolour, 12);
-  border-radius: 1em;
+  //border-radius: 1em;
   box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
 }
 
@@ -89,11 +79,6 @@
   border: 0;
   background-color: transparent;
   box-shadow: none;
-}
-
-.tile-inner__main--contact {
-  //background-color: lighten(lighten(saturate(adjust-hue($maincolour, 140), 20), 12), 4.5);
-  //background-color: lighten(#b16170, 4.5);
 }
 
 .tile-inner__icon {
@@ -124,7 +109,7 @@
     border-radius: 0;
   }
 
-  .tile--alternate {
+  .tile--flat {
     clip-path: none;
   }
 
@@ -160,16 +145,17 @@
     perspective: 1500px;
   }
 
-  .tile {
+  .tile--3d {
     transform: rotateY(0);
-    transition: transform 300ms ease, background-color 500ms ease, border-color 500ms ease, box-shadow 1000ms ease;
+    transition: transform 300ms ease, background-color 500ms ease, border-color 500ms ease, box-shadow 500ms ease;
     border: 2px solid;
     border-color: transparent;
 
     &:hover {
       transform: rotateY(15deg);
-      background-color: lighten($tilecolour, 20);
-      border-color: lighten($tilecolour, 35);
+      background-color: color-adjust(#2c3a50, #cb5047);
+      border-color: lighten(color-adjust(#2c3a50, #cb5047), 10);
+      box-shadow: 0px 0px 30px color-adjust(#2c3a50, #cb5047);
 
     .tile-inner__main {
       box-shadow: none;
