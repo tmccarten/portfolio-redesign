@@ -39,6 +39,10 @@
   }
 }
 
+.tile__img {
+  max-width: 100%;  
+}
+
 .tile--flat {
   background-color: darken($maincolour, 2);
   clip-path: polygon(100% 0, 0 0, 0 80%, 50% 100%, 100% 80%);
@@ -68,9 +72,10 @@
 .tile-inner__main {
   font-weight: normal;
   padding: 1em;
-  //background-color: lighten($tilecolour, 12);
-  //border-radius: 1em;
-  box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+  background-color: transparent;
+  border-radius: 2em;
+  border: .15em solid rgba(255,255,255,0.2);
+  //box-shadow: 0 0 70px rgba(255,255,255,0.2);
 }
 
 .tile-inner__main--intro {
@@ -155,10 +160,11 @@
       transform: rotateY(15deg);
       background-color: color-adjust(#2c3a50, #cb5047);
       border-color: lighten(color-adjust(#2c3a50, #cb5047), 10);
-      box-shadow: 0px 0px 30px color-adjust(#2c3a50, #cb5047);
+      //box-shadow: 0px 0px 30px color-adjust(#2c3a50, #cb5047);
 
     .tile-inner__main {
       box-shadow: none;
+      background-color: transparent;
     }
 
     }

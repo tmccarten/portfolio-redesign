@@ -296,6 +296,10 @@ body::before {
 	background-color: #3e4f71;
 }
 
+.tile__img {
+	max-width: 100%;
+}
+
 .tile--flat {
 	background-color: #242e42;
 	-webkit-clip-path: polygon(100% 0, 0 0, 0 80%, 50% 100%, 100% 80%);
@@ -326,7 +330,9 @@ body::before {
 .tile-inner__main {
 	font-weight: normal;
 	padding: 1em;
-	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+	background-color: transparent;
+	border-radius: 2em;
+	border: 0.15em solid rgba(255, 255, 255, 0.2);
 }
 
 .tile-inner__main--intro {
@@ -515,11 +521,11 @@ body::before {
 	transform: rotateY(15deg);
 	background-color: #cd5150;
 	border-color: #d97977;
-	box-shadow: 0px 0px 30px #cd5150;
 }
 
 .tile--3d:hover .tile-inner__main {
 	box-shadow: none;
+	background-color: transparent;
 }
 
 }

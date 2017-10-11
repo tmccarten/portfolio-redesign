@@ -14,6 +14,10 @@
         <section class="tiles">
 
           <div class="tile tile--flat">
+            <img class="tile__img" src="<?php echo $index?>/assets/img/tom_mccarten.png" alt="Tom McCarten">
+          </div>
+
+          <div class="tile tile--flat">
             <div class="tile-inner tile-inner--intro">
               <p class="tile-inner__sub">Hello!</p>
               <h2 class="tile-inner__main tile-inner__main--intro">I'm a front-end developer/designer based in Medway, Kent.</h2>
@@ -23,12 +27,6 @@
           <a href="#" class="tile tile--3d">
             <div class="tile-inner">
               <h3 class="tile-inner__main">Projects</h3>
-            </div>
-          </a>
-
-          <a href="#" class="tile tile--3d">
-            <div class="tile-inner">
-              <h3 class="tile-inner__main">Graphic Design</h3>
             </div>
           </a>
 
@@ -45,6 +43,12 @@
               </a>
             </div>
           </div>
+
+          <a href="#" class="tile tile--3d">
+            <div class="tile-inner">
+              <h3 class="tile-inner__main">Graphic Design</h3>
+            </div>
+          </a>
 
           <a href="#" class="tile tile--3d">
             <div class="tile-inner">
