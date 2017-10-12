@@ -60,11 +60,12 @@
 
         </section><!-- end tiles -->
 
-        <section class="blogposts">
-          <h4 class="blogposts__title">Recent blog posts</h3>      
+        <aside class="sidebar">
+          <h4 class="sidebar__title">Recent blog posts</h4>
 
+          <?php include 'assets/includes/sidebar.php';?>
 
-        </section>
+        </aside>
 
     </main>
 

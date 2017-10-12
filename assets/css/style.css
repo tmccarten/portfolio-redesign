@@ -51,7 +51,7 @@ h6 {
 
 body {
 	background: #276dc4; /* Old browsers */
-	background: linear-gradient(to bottom, #5269ba 0%, #23305f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: linear-gradient(to bottom, #23305f 0%, #384983 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	font-family: "Segoe UI";
 	line-height: 1.3;
 	transition: background-color 1000ms;
@@ -67,7 +67,6 @@ body::before {
 	bottom: 0;
 	left: 0;
 	z-index: -1;
-	background-image: url("../img/body_bg.png");
 	background-size: cover;
 }
 
@@ -369,8 +368,8 @@ body::before {
 	color: white;
 }
 
-.blogposts {
-	width: 350px;
+.sidebar {
+	width: 406px;
 	height: 668px;
 	background-color: #625fa5;
 	display: -webkit-box;
@@ -382,12 +381,72 @@ body::before {
 	flex-direction: column;
 }
 
-.blogposts__title {
+.sidebar__title {
 	text-align: center;
 	padding: 1em;
 	font-size: 1.5em;
 	margin: 0;
 	background-color: #4a477f;
+}
+
+.blogposts {
+	padding: 2em;
+	list-style-type: none;
+}
+
+.blogposts__item + * {
+	margin-top: 1em;
+}
+
+.blogposts__post {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #565292;
+	color: white;
+	text-decoration: none;
+	max-height: 4.25em;
+	overflow: hidden;
+}
+
+.blogposts__post:hover {
+	background-color: #e95f4d;
+}
+
+.blogposts__post:hover .post__date {
+	background-color: #e64b37;
+}
+
+.post__title {
+	font-size: 1em;
+	margin: 0;
+	margin-left: 1em;
+	text-overflow: ellipsis;
+}
+
+.post__date {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #4a477f;
+	min-width: 4.25em;
+	min-height: 4.25em;
 }
 
 @media screen and (min-width: 39.5em) {
