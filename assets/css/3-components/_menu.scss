@@ -56,8 +56,8 @@
   .main-menu__link {
     color: white;
 
-    &:focus, &:hover, &.main-menu__link--current {      
-      background-color: $maincolour;
+    &:focus, &:hover, &.main-menu__link--current {
+      background-color: lighten($maincolour, 10);
     }
 
   }
@@ -67,6 +67,6 @@
 @media screen and (min-width: $mqfourcol) {
 
   .main-menu__item + * {
-    margin-left: 2rem;
+    margin-left: 4rem;
   }
 }

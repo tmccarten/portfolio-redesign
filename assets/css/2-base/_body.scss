@@ -1,12 +1,13 @@
 body {
-  background-color: darken(desaturate($maincolour, 0), 6);
+  background: #276dc4; /* Old browsers */
+  background: linear-gradient(to bottom,  #5269ba 0%, #23305f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   font-family: $bodyfont;
   line-height: 1.3;
   transition: background-color 1000ms;
   color: white;
 
   &::before {
-    //content: "";
+    content: "";
     opacity: .25;
     position: fixed;
     height: 600px;

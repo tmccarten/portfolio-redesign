@@ -12,11 +12,11 @@
 }
 
 // Tile colours //
-@function color-adjust($basecolour, $endcolour) {
+@function color-adjust($basecolour) {
 
-  $hue-difference: hue($endcolour) - hue($maincolour);
-  $saturation-difference: saturation($endcolour) - saturation($maincolour);
-  $lightness-difference: lightness($endcolour) - lightness($maincolour);
+  $hue-difference: hue($maincolour) - hue($basecolour);
+  $saturation-difference: saturation($maincolour) - saturation($basecolour);
+  $lightness-difference: lightness($maincolour) - lightness($basecolour);
 
   @return hsl(hue($basecolour) + $hue-difference,
           saturation($basecolour) + $saturation-difference,

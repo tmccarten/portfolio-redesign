@@ -1,7 +1,7 @@
 // Colours //
-$maincolour: #283349;
+$maincolour: #37355e;
 $tilecolour: lighten($maincolour, 2);
-$tilecolour--hover: #e04c40;
+$tilecolour--hover: lighten(saturate(adjust-hue($maincolour, -236), 50), 32);
 
 // Fonts //
 $bodyfont: 'Segoe UI';
