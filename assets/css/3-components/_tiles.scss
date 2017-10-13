@@ -12,43 +12,45 @@
   flex-direction: column;
   width: 100%;
   height: 40vw;
-  //margin-top: 1em;
   border-radius: 1em;
   font-size: 1rem;
   background-color: $tilecolour;
   text-decoration: none;
   color: white;
+}
 
-  &:nth-child(2) {
-    background-color: lighten($tilecolour, 2);
-  }
+.tile--image {
+  background-color: $tilecolour;
+  clip-path: polygon(100% 0, 0 0, 0 80%, 50% 100%, 100% 80%);
+  height: 90vw;
+}
 
-  &:nth-child(3) {
-    background-color: lighten($tilecolour, 6);
-  }
+.tile--intro {
+  background-color: lighten($tilecolour, 2);
+}
 
-  &:nth-child(4) {
-    background-color: lighten($tilecolour, 10);
-  }
+.tile--projects {
+  background-color: lighten($tilecolour, 6);
+}
 
-  &:nth-child(5) {
-    background-color: lighten($tilecolour, 14);
-  }
+.tile--icons {
+  background-color: lighten($tilecolour, 10);
+}
 
-  &:nth-child(6) {
-    background-color: lighten($tilecolour, 18);
-  }
+.tile--graphics {
+  background-color: lighten($tilecolour, 14);
+}
+
+.tile--contact {
+  background-color: lighten($tilecolour, 18);
 }
 
 .tile__img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
-.tile--flat {
-  background-color: darken($maincolour, 2);
-  clip-path: polygon(100% 0, 0 0, 0 80%, 50% 100%, 100% 80%);
-  height: 90vw;
-  border-radius: 0;
+.tile--3d {
+  border-color: transparent;
 }
 
 .tile-inner {
@@ -76,7 +78,6 @@
   background-color: transparent;
   border-radius: 0;
   border-bottom: .1em solid rgba(255,255,255,1);
-  //box-shadow: 0 0 70px rgba(255,255,255,0.2);
 }
 
 .tile-inner__main--intro {
@@ -111,18 +112,30 @@
   .tile {
     width: 334px;
     height: 334px;
-    //margin: .5em;
     border-radius: 0;
+    border: 1px solid darken($maincolour, 2);
   }
 
-  .tile--flat {
+  .tile--image {
     clip-path: none;
+  }
+
+  .tile--image, .tile--projects {
+    border-right: 0;
+    border-bottom: 0;
+  }
+
+  .tile--intro, .tile--icons {
+    border-bottom: 0;
+  }
+
+  .tile--graphics {
+    border-right: 0;
   }
 
   .tile-inner {
     max-width: 12.875em;
     font-size: 1rem;
-    font-family: Arial;
     font-weight: normal;
   }
 
@@ -151,17 +164,27 @@
     perspective: 1000px;
   }
 
+  .tile--intro, .tile--icons, .tile--graphics {
+    border-right: 0;
+  }
+
+  .tile--projects {
+    border-bottom: 0;
+    border-right: 1px solid darken($maincolour, 2);
+  }
+
+  .tile--icons {
+    border-bottom: 1px solid darken($maincolour, 2);
+  }
+
   .tile--3d {
     transform: rotateY(0);
     transition: transform 300ms ease, background-color 500ms ease, border-color 500ms ease, box-shadow 500ms ease;
-    border: 2px solid;
-    border-color: transparent;
 
     &:hover {
       transform: rotateY(15deg) scale(0.95);
-      background-color: rgba($tilecolour--hover, 0.9);
+      background-color: rgba($tilecolour--hover, 0.8);
       border-color: lighten($tilecolour--hover, 5);
-      //box-shadow: 0px 0px 30px $tilecolour--hover;
 
       .tile-inner__main {
         box-shadow: none;

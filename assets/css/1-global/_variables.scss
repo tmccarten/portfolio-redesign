@@ -1,10 +1,10 @@
 // Colours //
-$maincolour: #37355e;
+$maincolour: #302e59;
 $tilecolour: lighten($maincolour, 2);
-$tilecolour--hover: lighten(saturate(adjust-hue($maincolour, -236), 50), 32);
+$tilecolour--hover: lighten(saturate(adjust-hue($maincolour, -236), 40), 32);
 
 // Fonts //
-$bodyfont: 'Segoe UI';
+$bodyfont: 'Proxima Nova Regular';
 
 // Sizes //
 $max-width: 1488px;
