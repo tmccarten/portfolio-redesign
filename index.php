@@ -56,8 +56,6 @@
             </div>
           </a>
 
-
-
         </section><!-- end tiles -->
 
         <aside class="sidebar">

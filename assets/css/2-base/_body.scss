@@ -1,21 +1,30 @@
 body {
-  background: #276dc4; /* Old browsers */
-  background: linear-gradient(to bottom,  #23305f 0%, #384983 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: $maincolour; /* Old browsers */
   font-family: $bodyfont;
   line-height: 1.3;
   transition: background-color 1000ms;
   color: white;
-
-  &::before {
-    content: "";
-    opacity: .25;
-    position: fixed;
-    height: 600px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    //background-image: url('../img/body_bg.png');
-    background-size: cover;
-  }
 }
+
+  @media screen and (min-width: $mqtwocol) {
+
+    body {
+      background: linear-gradient(to bottom,  #23305f 0%, #384983 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+  }
+
+  @media screen and (min-width: $mqthreecol) {
+
+    body::before {
+      content: "";
+      opacity: .25;
+      position: fixed;
+      height: 600px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      //background-image: url('../img/body_bg.png');
+      background-size: cover;
+      }
+  }

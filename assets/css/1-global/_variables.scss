@@ -4,12 +4,12 @@ $tilecolour: lighten($maincolour, 2);
 $tilecolour--hover: lighten(saturate(adjust-hue($maincolour, -236), 40), 32);
 
 // Fonts //
-$bodyfont: 'Proxima Nova Regular';
+$bodyfont: 'Segoe UI';
 
 // Sizes //
 $max-width: 1488px;
 
 // Media queries //
-$mqtwocol: 48.0625em;
-$mqthreecol: 67.6875em;
-$mqfourcol: 88.5625em;
+$mqtwocol: 52em;
+$mqthreecol: 68.9125em;
+$mqfourcol: 95.1875em;

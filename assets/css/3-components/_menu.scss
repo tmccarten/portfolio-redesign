@@ -58,7 +58,7 @@
   }
 
   .main-menu__link {
-    color: white;
+    color: white;    
 
     &:focus, &:hover, &.main-menu__link--current {
       background-color: lighten($maincolour, 10);

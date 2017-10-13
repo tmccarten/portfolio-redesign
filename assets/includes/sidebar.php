@@ -60,4 +60,16 @@
       </a>
     </li>
 
+    <li class="blogposts__item">
+      <a href="#" class="blogposts__post">
+        <div class="post__date">
+          <span>06</span>
+          <span>Nov</span>
+        </div>
+        <h5 class="post__title">
+          Building my portfolio
+        </h5>
+      </a>
+    </li>    
+
 </ul>
