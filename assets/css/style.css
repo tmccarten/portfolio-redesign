@@ -13,7 +13,7 @@ html {
 }
 
 *:focus {
-	outline-color: #54519c;
+	outline-color: #505280;
 }
 
 h1,
@@ -50,7 +50,7 @@ h6 {
 /* -- BODY -- */
 
 body {
-	background: #302e59; /* Old browsers */
+	background: #292a41; /* Old browsers */
 	font-family: "Segoe UI";
 	line-height: 1.3;
 	transition: background-color 1000ms;
@@ -114,7 +114,7 @@ body {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	background-color: #302e59;
+	background-color: #292a41;
 	height: 52px;
 	min-width: 52px;
 	-webkit-box-align: center;
@@ -134,7 +134,7 @@ body {
 .btn-menu:active,
 .btn-menu:focus {
 	outline: 0;
-	background-color: #39376a;
+	background-color: #333451;
 }
 
 .btn-menu__lines {
@@ -208,7 +208,7 @@ body {
 	margin: 0;
 	list-style-type: none;
 	font-size: 2rem;
-	background-color: #3d3a71;
+	background-color: #373857;
 }
 
 .main-menu__item {
@@ -228,7 +228,7 @@ body {
 .main-menu__link.main-menu__link--current {
 	outline: 0;
 	color: white;
-	background-color: #464381;
+	background-color: #414267;
 }
 
 .main-nav--expanded {
@@ -268,7 +268,7 @@ body {
 	width: 100%;
 	height: 35vw;
 	font-size: 1rem;
-	background-color: #343160;
+	background-color: #2d2e47;
 	text-decoration: none;
 	color: white;
 }
@@ -278,7 +278,7 @@ body {
 }
 
 .tile--image {
-	background-color: #343160;
+	background-color: #2d2e47;
 	display: none;
 }
 
@@ -288,24 +288,25 @@ body {
 }
 
 .tile--intro {
-	background-color: #373566;
-	height: 100vw;
+	background-color: #31324e;
+	height: 90vw;
+	font-size: calc(1em + 1vw);
 }
 
 .tile--projects {
-	background-color: #3f3c74;
+	background-color: #393a5a;
 }
 
 .tile--icons {
-	background-color: #464381;
+	background-color: #414267;
 }
 
 .tile--graphics {
-	background-color: #4d4a8f;
+	background-color: #494a73;
 }
 
 .tile--contact {
-	background-color: #54519c;
+	background-color: #505280;
 }
 
 .tile--3d {
@@ -328,7 +329,6 @@ body {
 .tile-inner--intro {
 	text-align: center;
 	padding: 0 2em;
-	margin-bottom: 2em;
 }
 
 .tile-inner__main {
@@ -372,7 +372,7 @@ body {
 	width: 100%;
 	height: auto;
 	margin: 1em 0;
-	background-color: #5854a3;
+	background-color: #545686;
 }
 
 .sidebar__title {
@@ -380,7 +380,7 @@ body {
 	padding: 1em;
 	font-size: 1.5em;
 	margin: 0;
-	background-color: #423f7b;
+	background-color: #3d3e60;
 }
 
 .blogposts {
@@ -402,7 +402,7 @@ body {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background-color: #4d4a8f;
+	background-color: #494a73;
 	color: white;
 	text-decoration: none;
 	max-height: 4.25em;
@@ -410,11 +410,11 @@ body {
 }
 
 .blogposts__post:hover {
-	background-color: #e15a49;
+	background-color: #d23f3b;
 }
 
 .blogposts__post:hover .post__date {
-	background-color: #de4633;
+	background-color: #c6312e;
 }
 
 .post__title {
@@ -438,7 +438,7 @@ body {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background-color: #423f7b;
+	background-color: #3d3e60;
 	min-width: 4.25em;
 	min-height: 4.25em;
 	height: 0;
@@ -464,7 +464,7 @@ body {
 @media screen and (min-width: 52em) {
 
 body {
-	background: linear-gradient(to bottom, #23305f 0%, #384983 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: linear-gradient(to bottom, #283844 0%, #384983 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .header-container {
@@ -524,7 +524,7 @@ body {
 .main-menu__link:focus,
 .main-menu__link:hover,
 .main-menu__link.main-menu__link--current {
-	background-color: #423f7b;
+	background-color: #3d3e60;
 }
 
 .tiles {
@@ -543,7 +543,7 @@ body {
 	width: 334px;
 	height: 334px;
 	border-radius: 0;
-	border: 1px solid #302e59;
+	border: 1px solid #292a41;
 }
 
 .tile + * {
@@ -575,6 +575,10 @@ body {
 	text-align: left;
 	padding: 0;
 	margin-bottom: 0;
+}
+
+.sidebar {
+	border: 1px solid #292a41;
 }
 
 }
@@ -626,16 +630,22 @@ body::before {
 }
 
 .tile--image {
-	display: block;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.tile__img {
+	max-width: 90%;
 }
 
 .tile--projects {
 	border-bottom: 0;
-	border-right: 1px solid #302e59;
+	border-right: 1px solid #292a41;
 }
 
 .tile--icons {
-	border-bottom: 1px solid #302e59;
+	border-bottom: 1px solid #292a41;
 }
 
 .tile--3d {
@@ -649,8 +659,8 @@ body::before {
 .tile--3d:hover {
 	-webkit-transform: rotateY(15deg) scale(0.95);
 	transform: rotateY(15deg) scale(0.95);
-	background-color: rgba(225, 90, 73, 0.8);
-	border-color: #e56e5f;
+	background-color: rgba(210, 63, 59, 0.8);
+	border-color: #d75350;
 }
 
 .tile--3d:hover .tile-inner__main {

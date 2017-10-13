@@ -35,7 +35,8 @@
 
 .tile--intro {
   background-color: lighten($tilecolour, 2);
-  height: 100vw;
+  height: 90vw;
+  font-size: calc(1em + 1vw);
 }
 
 .tile--projects {
@@ -73,8 +74,7 @@
 
 .tile-inner--intro {
   text-align: center;
-  padding: 0 2em;
-  margin-bottom: 2em;
+  padding: 0 2em;  
 }
 
 .tile-inner__main {
@@ -174,7 +174,11 @@
   }
 
   .tile--image {
-    display: block;
+    display: flex;
+  }
+
+  .tile__img {
+    max-width: 90%;
   }
 
   .tile--projects {
