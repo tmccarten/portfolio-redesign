@@ -1,5 +1,5 @@
 // Colours //
-$maincolour: #302e59;
+$maincolour: #292a41;
 $tilecolour: lighten($maincolour, 2);
 $tilecolour--hover: lighten(saturate(adjust-hue($maincolour, -236), 40), 32);
 
