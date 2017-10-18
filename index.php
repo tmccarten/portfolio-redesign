@@ -26,7 +26,7 @@
 
           <a href="#" class="tile tile--projects tile--3d">
             <div class="tile-inner">
-              <h3 class="tile-inner__main">Projects</h3>
+              <h3 class="tile-inner__main tile-inner__main--border">Projects</h3>
             </div>
           </a>
 
@@ -46,7 +46,7 @@
 
           <a href="#" class="tile tile--graphics tile--3d">
             <div class="tile-inner">
-              <h3 class="tile-inner__main">Graphic Design</h3>
+              <h3 class="tile-inner__main tile-inner__main--border">Graphic Design</h3>
             </div>
           </a>
 

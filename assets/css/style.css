@@ -380,7 +380,14 @@ body {
 	font-weight: 300;
 	padding: 1em;
 	background-color: transparent;
-	border-radius: 0;
+}
+
+.tile-inner__main--border {
+	border-radius: 2em;
+	border: 0.08em solid white;
+}
+
+.tile-inner__main--contact {
 	border-bottom: 0.1em solid white;
 }
 
@@ -422,7 +429,7 @@ body {
 	width: 100%;
 	height: auto;
 	margin: 1em 0;
-	background-color: #393a5a;
+	background-color: #3d3e60;
 	border: 3px solid #292a41;
 }
 
@@ -453,7 +460,7 @@ body {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background-color: #3d3e60;
+	background-color: #43446a;
 	color: white;
 	text-decoration: none;
 	max-height: 4.25em;
@@ -489,7 +496,7 @@ body {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background-color: #414267;
+	background-color: #353654;
 	min-width: 4.25em;
 	min-height: 4.25em;
 	height: 0;

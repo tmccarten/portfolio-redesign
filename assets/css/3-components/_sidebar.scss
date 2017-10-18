@@ -16,7 +16,7 @@
   padding: 1em;
   font-size: 1.5em;
   margin: 0;
-  background-color: darken($sidebarcolour, 2);
+  background-color: darken($sidebarcolour, 4);
 }
 
 .blogposts {
@@ -32,7 +32,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: lighten($sidebarcolour, 2);
+  background-color: lighten($sidebarcolour, 3);
   color: white;
   text-decoration: none;
   max-height: 4.25em;
@@ -59,7 +59,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: lighten($sidebarcolour, 4);
+  background-color: darken($sidebarcolour, 4);
   min-width: 4.25em;
   min-height: 4.25em;
   height: 0; // IE fix

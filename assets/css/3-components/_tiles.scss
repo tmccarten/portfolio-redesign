@@ -83,7 +83,14 @@
   font-weight: 300;
   padding: 1em;
   background-color: transparent;
-  border-radius: 0;
+}
+
+.tile-inner__main--border {
+  border-radius: 2em;
+  border: .08em solid rgba(255,255,255,1);
+}
+
+.tile-inner__main--contact {
   border-bottom: .1em solid rgba(255,255,255,1);
 }
 
@@ -185,7 +192,7 @@
   }
 
   .tile__img {
-    max-width: 90%;    
+    max-width: 90%;
   }
 
   .tile--projects {
