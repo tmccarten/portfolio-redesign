@@ -1,0 +1,18 @@
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.project__img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media screen and (min-width: $mqtwocol) {
+
+  .project {
+    flex-direction: row;
+  }
+
+}

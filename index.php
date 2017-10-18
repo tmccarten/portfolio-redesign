@@ -24,7 +24,7 @@
             </div>
           </div>
 
-          <a href="#" class="tile tile--projects tile--3d">
+          <a href="projects/" class="tile tile--projects tile--3d">
             <div class="tile-inner">
               <h3 class="tile-inner__main tile-inner__main--border">Projects</h3>
             </div>

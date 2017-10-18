@@ -70,6 +70,14 @@
 
 }
 
+@media screen and (min-width: $mqthreecol) {
+
+  .main-menu__link {
+    padding: 1.5em 2em;
+  }
+
+}
+
 @media screen and (min-width: $mqfourcol) {
 
   .main-menu__item + * {
