@@ -9,7 +9,7 @@ body {
   @media screen and (min-width: $mqtwocol) {
 
     body {
-      //background: linear-gradient(to bottom,  #283844 0%, #384983 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      background: linear-gradient(to bottom,  #2d304d 0%, #464c7a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     }
   }
 
@@ -24,7 +24,7 @@ body {
       bottom: 0;
       left: 0;
       z-index: -1;
-      //background-image: url('../img/body_bg.png');
+      background-image: url('../img/body_bg.png');
       background-size: cover;
       }
   }

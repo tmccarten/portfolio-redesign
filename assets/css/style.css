@@ -57,7 +57,7 @@ html {
 }
 
 *:focus {
-	outline-color: #505280;
+	outline-color: #555c94;
 }
 
 h1,
@@ -94,8 +94,8 @@ h6 {
 /* -- BODY -- */
 
 body {
-	background: #292a41; /* Old browsers */
-	font-family: "Segoe UI";
+	background: #303453; /* Old browsers */
+	font-family: "Webly Sleek UI";
 	line-height: 1.3;
 	transition: background-color 1000ms;
 	color: white;
@@ -158,7 +158,7 @@ body {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	background-color: #292a41;
+	background-color: #303453;
 	height: 52px;
 	min-width: 52px;
 	-webkit-box-align: center;
@@ -178,7 +178,7 @@ body {
 .btn-menu:active,
 .btn-menu:focus {
 	outline: 0;
-	background-color: #333451;
+	background-color: #393e63;
 }
 
 .btn-menu__lines {
@@ -234,7 +234,7 @@ body {
 	height: 0;
 	overflow: hidden;
 	transition: height 300ms ease-in;
-	font-weight: normal;
+	font-weight: 300;
 }
 
 .main-menu {
@@ -252,7 +252,7 @@ body {
 	margin: 0;
 	list-style-type: none;
 	font-size: 2rem;
-	background-color: #373857;
+	background-color: #3d426a;
 }
 
 .main-menu__item {
@@ -272,7 +272,7 @@ body {
 .main-menu__link.main-menu__link--current {
 	outline: 0;
 	color: white;
-	background-color: #414267;
+	background-color: #464c7a;
 }
 
 .main-nav--expanded {
@@ -312,7 +312,7 @@ body {
 	width: 100%;
 	height: 35vw;
 	font-size: 1rem;
-	background-color: #2d2e47;
+	background-color: #343859;
 	text-decoration: none;
 	color: white;
 }
@@ -322,7 +322,7 @@ body {
 }
 
 .tile--image {
-	background-color: #2d2e47;
+	background-color: #343859;
 	height: auto;
 }
 
@@ -332,25 +332,25 @@ body {
 }
 
 .tile--intro {
-	background-color: #31324e;
+	background-color: #373c60;
 	height: 90vw;
 	font-size: calc(1em + 1vw);
 }
 
 .tile--projects {
-	background-color: #353654;
+	background-color: #3b4066;
 }
 
 .tile--icons {
-	background-color: #393a5a;
+	background-color: #3f446d;
 }
 
 .tile--graphics {
-	background-color: #3d3e60;
+	background-color: #434873;
 }
 
 .tile--contact {
-	background-color: #414267;
+	background-color: #464c7a;
 }
 
 .tile--3d {
@@ -377,14 +377,14 @@ body {
 }
 
 .tile-inner__main {
-	font-weight: 300;
+	font-weight: normal;
 	padding: 1em;
 	background-color: transparent;
 }
 
 .tile-inner__main--border {
 	border-radius: 2em;
-	border: 0.08em solid white;
+	border: 0.08125em solid white;
 }
 
 .tile-inner__main--contact {
@@ -401,7 +401,7 @@ body {
 }
 
 .tile-inner__sub--intro {
-	font-weight: 500;
+	font-weight: 400;
 }
 
 .tile-inner__icon {
@@ -429,8 +429,7 @@ body {
 	width: 100%;
 	height: auto;
 	margin: 1em 0;
-	background-color: #3d3e60;
-	border: 3px solid #292a41;
+	background-color: #434873;
 }
 
 .sidebar__title {
@@ -438,7 +437,7 @@ body {
 	padding: 1em;
 	font-size: 1.5em;
 	margin: 0;
-	background-color: #353654;
+	background-color: #3b4066;
 }
 
 .blogposts {
@@ -460,7 +459,7 @@ body {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background-color: #43446a;
+	background-color: #484e7d;
 	color: white;
 	text-decoration: none;
 	max-height: 4.25em;
@@ -468,11 +467,11 @@ body {
 }
 
 .blogposts__post:hover {
-	background-color: #cc4541;
+	background-color: #d65157;
 }
 
 .blogposts__post:hover .post__date {
-	background-color: #c03734;
+	background-color: #d13c43;
 }
 
 .post__title {
@@ -496,7 +495,7 @@ body {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background-color: #353654;
+	background-color: #3b4066;
 	min-width: 4.25em;
 	min-height: 4.25em;
 	height: 0;
@@ -520,6 +519,10 @@ body {
 }
 
 @media screen and (min-width: 52em) {
+
+body {
+	background: linear-gradient(to bottom, #2d304d 0%, #464c7a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
 
 .header-container {
 	background-color: transparent;
@@ -556,6 +559,7 @@ body {
 
 .main-nav {
 	height: auto;
+	background-color: #343859;
 }
 
 .main-menu {
@@ -578,7 +582,7 @@ body {
 .main-menu__link:focus,
 .main-menu__link:hover,
 .main-menu__link.main-menu__link--current {
-	background-color: #3d3e60;
+	background-color: #3d426a;
 }
 
 .tiles {
@@ -597,7 +601,6 @@ body {
 	width: 334px;
 	height: 334px;
 	border-radius: 0;
-	border: 3px solid #292a41;
 }
 
 .tile + * {
@@ -653,6 +656,7 @@ body::before {
 	bottom: 0;
 	left: 0;
 	z-index: -1;
+	background-image: url("../img/body_bg.png");
 	background-size: cover;
 }
 
@@ -691,11 +695,6 @@ body::before {
 
 .tile--projects {
 	border-bottom: 0;
-	border-right: 3px solid #292a41;
-}
-
-.tile--icons {
-	border-bottom: 3px solid #292a41;
 }
 
 .tile--3d {
@@ -709,8 +708,8 @@ body::before {
 .tile--3d:hover {
 	-webkit-transform: rotateY(15deg) scale(0.95);
 	transform: rotateY(15deg) scale(0.95);
-	background-color: rgba(204, 69, 65, 0.8);
-	border-color: #d15855;
+	background-color: rgba(214, 81, 87, 0.8);
+	border-color: #db656b;
 }
 
 .tile--3d:hover .tile-inner__main {

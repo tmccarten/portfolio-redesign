@@ -1,11 +1,11 @@
 // Colours //
-$maincolour: #292a41;
+$maincolour: #303453;
 $tilecolour: lighten($maincolour, 2);
 $tilecolour--hover: lighten(saturate(adjust-hue($maincolour, -236), 35), 32);
 $sidebarcolour: lighten($maincolour, 10);
 
 // Fonts //
-$bodyfont: 'Segoe UI';
+$bodyfont: 'Webly Sleek UI';
 
 // Sizes //
 $max-width: 1488px;

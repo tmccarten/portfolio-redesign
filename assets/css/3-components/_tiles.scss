@@ -80,14 +80,14 @@
 }
 
 .tile-inner__main {
-  font-weight: 300;
+  font-weight: normal;
   padding: 1em;
   background-color: transparent;
 }
 
 .tile-inner__main--border {
   border-radius: 2em;
-  border: .08em solid rgba(255,255,255,1);
+  border: .08125em solid rgba(255,255,255,1);
 }
 
 .tile-inner__main--contact {
@@ -104,7 +104,7 @@
 }
 
 .tile-inner__sub--intro {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .tile-inner__icon {
@@ -132,7 +132,7 @@
     width: 334px;
     height: 334px;
     border-radius: 0;
-    border: 3px solid $maincolour;
+    //border: 3px solid $maincolour;
   }
 
   .tile + * {
@@ -189,19 +189,21 @@
 
   .tile--image {
     display: flex;
+    //justify-content: flex-start;
   }
 
   .tile__img {
     max-width: 90%;
+    //filter: grayscale(0.3) sepia(30%);
   }
 
   .tile--projects {
     border-bottom: 0;
-    border-right: 3px solid $maincolour;
+    //border-right: 3px solid $maincolour;
   }
 
   .tile--icons {
-    border-bottom: 3px solid $maincolour;
+    //border-bottom: 3px solid $maincolour;
   }
 
   .tile--3d {

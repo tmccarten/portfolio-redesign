@@ -4,7 +4,7 @@
   height: 0;
   overflow: hidden;
   transition: height 300ms ease-in;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .main-menu {
@@ -45,6 +45,7 @@
 
   .main-nav {
     height: auto;
+    background-color: $tilecolour;
   }
 
   .main-menu {
@@ -61,7 +62,8 @@
     color: white;
 
     &:focus, &:hover, &.main-menu__link--current {
-      background-color: lighten($maincolour, 10);
+      background-color: lighten($tilecolour, 5);
+      //border-bottom: .08125em solid white;
     }
 
   }
