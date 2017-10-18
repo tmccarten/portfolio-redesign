@@ -430,6 +430,7 @@ body {
 	height: auto;
 	margin: 1em 0;
 	background-color: #434873;
+	border: 2px solid #303453;
 }
 
 .sidebar__title {
@@ -672,9 +673,10 @@ body::before {
 	-webkit-box-pack: start;
 	-ms-flex-pack: start;
 	justify-content: flex-start;
-	width: 1058px;
+	width: 1006px;
 	-webkit-perspective: 1000px;
 	perspective: 1000px;
+	border: 2px solid #303453;
 }
 
 .tile--intro,
@@ -690,7 +692,7 @@ body::before {
 }
 
 .tile__img {
-	max-width: 90%;
+	max-width: 85%;
 }
 
 .tile--projects {
@@ -744,7 +746,7 @@ body::before {
 }
 
 .sidebar {
-	width: 406px;
+	width: 400px;
 	margin: 0;
 }
 

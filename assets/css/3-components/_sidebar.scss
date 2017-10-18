@@ -8,7 +8,7 @@
   margin: 1em 0;
   //background-color: lighten($tilecolour, 15);
   background-color: $sidebarcolour;
-  //border: 3px solid $maincolour;
+  border: 2px solid $maincolour;
 }
 
 .sidebar__title {
@@ -69,7 +69,7 @@
 @media screen and (min-width: $mqfourcol) {
 
   .sidebar {
-    width: 406px;
+    width: 400px;
     margin: 0;
   }
 

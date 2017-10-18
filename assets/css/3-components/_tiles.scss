@@ -179,8 +179,9 @@
 
   .tiles {
     justify-content: flex-start;
-    width: 1058px;
+    width: 1006px;
     perspective: 1000px;
+    border: 2px solid $maincolour;
   }
 
   .tile--intro, .tile--icons, .tile--graphics {
@@ -193,7 +194,7 @@
   }
 
   .tile__img {
-    max-width: 90%;
+    max-width: 85%;    
     //filter: grayscale(0.3) sepia(30%);
   }
 
