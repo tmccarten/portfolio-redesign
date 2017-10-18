@@ -19,7 +19,7 @@
 
           <div class="tile tile--intro">
             <div class="tile-inner tile-inner--intro">
-              <p class="tile-inner__sub">Hello!</p>
+              <p class="tile-inner__sub tile-inner__sub--intro">Hello!</p>
               <h2 class="tile-inner__main tile-inner__main--intro">I'm a front-end developer/designer based in Medway, Kent.</h2>
             </div>
           </div>

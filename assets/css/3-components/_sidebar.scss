@@ -6,8 +6,9 @@
   //height: 668px;
   height: auto;
   margin: 1em 0;
-  background-color: lighten($tilecolour, 20);
-
+  //background-color: lighten($tilecolour, 15);
+  background-color: $sidebarcolour;
+  border: 3px solid $maincolour;
 }
 
 .sidebar__title {
@@ -15,7 +16,7 @@
   padding: 1em;
   font-size: 1.5em;
   margin: 0;
-  background-color: lighten($maincolour, 10);
+  background-color: darken($sidebarcolour, 2);
 }
 
 .blogposts {
@@ -31,7 +32,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: lighten($tilecolour, 14);
+  background-color: lighten($sidebarcolour, 2);
   color: white;
   text-decoration: none;
   max-height: 4.25em;
@@ -58,20 +59,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  //margin-right: 2em;
-  background-color: lighten($maincolour, 10);;
+  background-color: lighten($sidebarcolour, 4);
   min-width: 4.25em;
   min-height: 4.25em;
   height: 0; // IE fix
 }
 
-@media screen and (min-width: $mqtwocol) {
-
-  .sidebar {
-    border: 1px solid $maincolour;
-  }
-
-}
 
 @media screen and (min-width: $mqfourcol) {
 
@@ -79,9 +72,5 @@
     width: 406px;
     margin: 0;
   }
-
-
-
-
 
 }

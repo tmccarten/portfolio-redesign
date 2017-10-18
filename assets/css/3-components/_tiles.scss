@@ -24,8 +24,9 @@
 
 .tile--image {
   background-color: $tilecolour;
+  height: auto;
   //clip-path: polygon(100% 0, 0 0, 0 80%, 50% 100%, 100% 80%);
-  display: none;
+  //display: none;
 }
 
 .tile__img {
@@ -40,19 +41,19 @@
 }
 
 .tile--projects {
-  background-color: lighten($tilecolour, 6);
+  background-color: lighten($tilecolour, 4);
 }
 
 .tile--icons {
-  background-color: lighten($tilecolour, 10);
+  background-color: lighten($tilecolour, 6);
 }
 
 .tile--graphics {
-  background-color: lighten($tilecolour, 14);
+  background-color: lighten($tilecolour, 8);
 }
 
 .tile--contact {
-  background-color: lighten($tilecolour, 18);
+  background-color: lighten($tilecolour, 10);
 }
 
 .tile--3d {
@@ -74,11 +75,12 @@
 
 .tile-inner--intro {
   text-align: center;
-  padding: 0 2em;  
+  padding: 0 2em;
+  font-weight: 500;
 }
 
 .tile-inner__main {
-  font-weight: normal;
+  font-weight: 300;
   padding: 1em;
   background-color: transparent;
   border-radius: 0;
@@ -91,6 +93,11 @@
   border: 0;
   background-color: transparent;
   box-shadow: none;
+  font-weight: 500;
+}
+
+.tile-inner__sub--intro {
+  font-weight: 500;
 }
 
 .tile-inner__icon {
@@ -118,7 +125,7 @@
     width: 334px;
     height: 334px;
     border-radius: 0;
-    border: 1px solid $maincolour;
+    border: 3px solid $maincolour;
   }
 
   .tile + * {
@@ -178,16 +185,16 @@
   }
 
   .tile__img {
-    max-width: 90%;
+    max-width: 90%;    
   }
 
   .tile--projects {
     border-bottom: 0;
-    border-right: 1px solid $maincolour;
+    border-right: 3px solid $maincolour;
   }
 
   .tile--icons {
-    border-bottom: 1px solid $maincolour;
+    border-bottom: 3px solid $maincolour;
   }
 
   .tile--3d {
