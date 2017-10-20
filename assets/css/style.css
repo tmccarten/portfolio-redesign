@@ -733,6 +733,13 @@ body {
 	font-size: 1.25rem;
 }
 
+.project a {
+	color: #d65157;
+	font-weight: 500;
+	text-decoration: none;
+	border-bottom: 0.1em solid #d65157;
+}
+
 .project__wrapper {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -823,6 +830,7 @@ body {
 
 .project__text {
 	font-size: 0.81818181818181818181818181818182em;
+	line-height: 1.5em;
 }
 
 }
@@ -970,6 +978,10 @@ body {
 	flex: 1;
 }
 
+.project__text {
+	line-height: 1.6em;
+}
+
 .project__imgbtn-wrapper {
 	-webkit-box-ordinal-group: 4;
 	-ms-flex-order: 3;
@@ -978,10 +990,6 @@ body {
 	-ms-flex: 1;
 	flex: 1;
 	margin-left: 2em;
-}
-
-.project__wrapper--right {
-	margin-left: 1em;
 }
 
 .project__title {
