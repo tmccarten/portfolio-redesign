@@ -16,6 +16,7 @@
   background-color: $tilecolour;
   text-decoration: none;
   color: white;
+  flex-shrink: 0;
 }
 
 .tile + * {
@@ -32,6 +33,7 @@
 .tile__img {
   max-width: 100%;
   width: 100%;
+  height: 100%;
 }
 
 .tile--intro {
@@ -61,7 +63,8 @@
 }
 
 .tile-inner {
-  max-width: 28.75em;
+  //max-width: 28.75em;
+  max-width: 100%;
   text-align: center;
 }
 
@@ -75,12 +78,13 @@
 
 .tile-inner--intro {
   text-align: center;
-  padding: 0 2em;
+  padding: 0;
   font-weight: 500;
 }
 
 .tile-inner__main {
   font-weight: normal;
+  font-size: 1em;
   padding: 1em;
   background-color: transparent;
 }
@@ -96,7 +100,7 @@
 
 .tile-inner__main--intro {
   font-size: 1.5em;
-  padding: 0;
+  padding: 0 1em;
   border: 0;
   background-color: transparent;
   box-shadow: none;
@@ -120,6 +124,61 @@
   color: white;
 }
 
+@media screen and (min-width: $mqbigphone) {
+
+  .tiles {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .tile {
+    width: 50%;
+  }
+
+  .tile + * {
+    margin-top: 0;
+  }
+
+  .tile--intro {
+    height: auto;
+    font-size: 1rem;
+    align-self: stretch;
+  }
+
+  .tile-inner--intro {
+    padding: 0;
+  }
+
+  .tile-inner__main {
+    font-size: calc(1em + .2vw);
+  }
+
+  .tile-inner__main--intro {
+    padding: 0 1em;
+    font-size: calc(.9rem + 1vw);
+    font-weight: 400;
+  }
+
+  .tile-inner__icon {
+
+    img {
+      transform: scale(.8);
+    }
+  }
+
+}
+
+@media screen and (min-width: $mqbiglogo) {
+
+  .tile-inner__icon {
+
+    img {
+      transform: scale(1);
+    }
+  }
+
+}
+
 @media screen and (min-width: $mqtwocol) {
 
   .tiles {
@@ -133,6 +192,10 @@
     height: 334px;
     border-radius: 0;
     //border: 3px solid $maincolour;
+  }
+
+  .tile__img {
+    max-width: 90%;
   }
 
   .tile + * {
@@ -160,8 +223,18 @@
 
   .tile-inner--intro {
     text-align: left;
-    padding: 0;
+    font-size: 1.25em;
+    padding: 0 1.5em;
     margin-bottom: 0;
+  }
+
+  .tile-inner__main {
+    font-size: 1.175em;
+  }
+
+  .tile-inner__main--intro {
+    padding: 0;
+    font-weight: 200;
   }
 
 }
@@ -169,8 +242,8 @@
 @media screen and (min-width: $mqtwocol) and (max-width: $mqthreecol) {
 
   .tile {
-    width: 50%;
-    height: 50vw;
+    width: 33.33333333333333%;
+    height: 32.3333333333333vw;
   }
 
 }
