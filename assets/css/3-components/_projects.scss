@@ -87,12 +87,12 @@
   }
 
   .project__title {
-    flex: 1;
     display: none;
   }
 
   .project__title--no-mob {
     display: block;
+    font-size: 2rem;
   }
 
   .project__info {
@@ -110,10 +110,6 @@
     margin-left: 2em;
     //align-self: center;
 
-  }
-
-  .project__title {
-    font-size: 2rem;
   }
 
 }
