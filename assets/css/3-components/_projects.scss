@@ -1,18 +1,85 @@
 .project {
   display: flex;
   flex-direction: column;
+  color: $maincolour;
+  font-size: 1.25rem;
+}
+
+.project__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.project__title {
+  font-size: 1em;
+  font-weight: 700;
+  font-family: $seriffont;
 }
 
 .project__img {
   max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
+.project__header {
+  font-weight: bold;
+}
+
+.project__btn-view {
+  margin: 1em 0;
+  background-color: transparent;
+  //background-color: lighten($maincolour, 10);
+  border: .1em solid $maincolour;
+  //border: 0;
+  font-family: $bodyfont;
+  font-weight: bold;
+  padding: .5em;
+  color: $maincolour;
+  //color: white;
+  border-radius: .3em;
+  width: 100%;
+  align-self: center;
+}
+
+.project__text {
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 23px;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: $mqbiglogo) {
+
+  .project {
+    font-size: 1.375rem;
+  }
+
+  .project__text {
+    font-size: 0.81818181818181818181818181818182em;
+  }
+
+}
 
 @media screen and (min-width: $mqtwocol) {
 
   .project {
     flex-direction: row;
+  }
+
+  .project__wrapper {
+    flex: 1;
+  }
+
+  .project__wrapper--right {
+    margin-left: 1em;
+  }
+
+  .project__title {
+    font-size: 2rem;
   }
 
 }

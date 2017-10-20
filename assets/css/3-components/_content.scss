@@ -1,18 +1,34 @@
 .content {
   max-width: 1006px;
-  width: 100%;
-  background-color: lighten($maincolour, 2);
+  width: 100vw;
+  margin-left: -1em;
+  //background-color: lighten($maincolour, 2);
 }
 
 .content__inner {
-  padding: 2em;
+  padding: 1em;
+  background-color: white;
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 1.375rem;
   background-color: darken($maincolour, 1);
   width: 100%;
   padding: 1em;
   margin: 0;
   font-weight: 500;
+}
+
+@media screen and (min-width: $mqbiglogo) {
+
+  .content {
+    width: 100%;
+    margin-left: 0;
+    border: 2px solid $maincolour;
+  }
+
+  .content__inner {
+    padding: 2em;
+  }
+
 }

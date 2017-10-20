@@ -5,12 +5,14 @@ $tilecolour--hover: lighten(saturate(adjust-hue($maincolour, -236), 35), 32);
 $sidebarcolour: lighten($maincolour, 10);
 
 // Fonts //
-$bodyfont: 'Webly Sleek UI';
+$bodyfont: 'Webly Sleek UI Type', 'Segoe UI', Tahoma, Arial, sans-serif;
+$seriffont: Merriweather, Georgia, Times, serif;
 
 // Sizes //
 $max-width: 1488px;
 
 // Media queries //
+$mqbiglogo: 39.5em;
 $mqtwocol: 52em;
 $mqthreecol: 68.9125em;
 $mqfourcol: 95.1875em;
