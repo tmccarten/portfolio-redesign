@@ -1,11 +1,11 @@
 .project {
   display: flex;
   flex-direction: column;
-  color: $maincolour;
+  color: white;
   font-size: 1.25rem;
 
   a {
-    color: $tilecolour--hover;
+    color: lighten($tilecolour--hover, 5);
     font-weight: 500;
     text-decoration: none;
     border-bottom: .1em solid $tilecolour--hover;
@@ -43,14 +43,14 @@
 
 .project__btn-view {
   margin: 1em 0;
-  background-color: transparent;
-  //background-color: lighten($maincolour, 10);
+  //background-color: transparent;
+  background-color: lighten($maincolour, 10);
   border: .1em solid $maincolour;
   //border: 0;
   font-family: $bodyfont;
   font-weight: bold;
   padding: .5em;
-  color: $maincolour;
+  color: white;
   //color: white;
   //border-radius: .3em;
   width: 100%;
@@ -65,7 +65,7 @@
 
 .project__text {
   font-size: 0.8em;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 23px;
 
   &:first-of-type {

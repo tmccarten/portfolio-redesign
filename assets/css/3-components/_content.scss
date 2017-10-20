@@ -8,7 +8,7 @@
 
 .content__inner {
   padding: 1em;
-  background-color: white;
+  background-color: lighten($maincolour, 8);
 }
 
 .content__inner + * {
@@ -33,7 +33,7 @@
 
   .content__inner {
     padding: 2rem;
-    border: 2px solid $maincolour;
+    //border: 2px solid $maincolour;
   }
 
   .title {
