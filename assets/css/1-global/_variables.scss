@@ -1,7 +1,7 @@
 // Colours //
 $maincolour: #303453;
 $tilecolour: lighten($maincolour, 2);
-$tilecolour--hover: lighten(saturate(adjust-hue($maincolour, -236), 35), 32);
+$tilecolour--hover: lighten(saturate(adjust-hue($maincolour, -230), 35), 32);
 $sidebarcolour: lighten($maincolour, 10);
 
 // Fonts //

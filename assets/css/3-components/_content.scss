@@ -3,11 +3,16 @@
   width: 100vw;
   margin-left: -1em;
   //background-color: lighten($maincolour, 2);
+  margin-bottom: 1em;
 }
 
 .content__inner {
   padding: 1em;
   background-color: white;
+}
+
+.content__inner + * {
+  margin-top: 1em;
 }
 
 .title {
@@ -24,11 +29,11 @@
   .content {
     width: 100%;
     margin-left: 0;
-    border: 2px solid $maincolour;
   }
 
   .content__inner {
     padding: 2rem;
+    border: 2px solid $maincolour;
   }
 
   .title {

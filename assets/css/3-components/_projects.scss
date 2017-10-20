@@ -12,6 +12,10 @@
   }
 }
 
+.project + * {
+  margin-top: 1em;
+}
+
 .project__wrapper {
   display: flex;
   flex-direction: column;
@@ -48,9 +52,15 @@
   padding: .5em;
   color: $maincolour;
   //color: white;
-  border-radius: .3em;
+  //border-radius: .3em;
   width: 100%;
   align-self: center;
+
+  &:hover, &:active, &:focus {
+    background-color: $tilecolour;
+    color: white;
+    //border-color: transparent;
+  }
 }
 
 .project__text {
@@ -63,6 +73,18 @@
   }
 }
 
+.tool-tag {
+  //border: .1em solid $maincolour;
+  background-color: $tilecolour--hover;
+  //border-radius: 1.5em;
+  padding: .5em 1em;
+  //font-weight: 500;
+  display: inline-block;
+  margin-bottom: .5em;
+  font-size: 1rem;
+  color: white;
+}
+
 @media screen and (min-width: $mqbiglogo) {
 
   .project {
@@ -71,6 +93,7 @@
 
   .project__title {
     margin-top: 0;
+    font-size: 2rem;
   }
 
   .project__text {
