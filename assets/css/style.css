@@ -514,8 +514,6 @@ body {
 	background-color: #343859;
 	text-decoration: none;
 	color: white;
-	-ms-flex-negative: 0;
-	flex-shrink: 0;
 }
 
 .tile + * {
@@ -530,7 +528,6 @@ body {
 .tile__img {
 	max-width: 100%;
 	width: 100%;
-	height: 100%;
 }
 
 .tile--intro {
@@ -560,7 +557,7 @@ body {
 }
 
 .tile-inner {
-	max-width: 100%;
+	max-width: 28.75em;
 	text-align: center;
 }
 
@@ -574,13 +571,12 @@ body {
 
 .tile-inner--intro {
 	text-align: center;
-	padding: 0;
+	padding: 0 2em;
 	font-weight: 500;
 }
 
 .tile-inner__main {
 	font-weight: normal;
-	font-size: 1em;
 	padding: 1em;
 	background-color: transparent;
 }
@@ -596,7 +592,7 @@ body {
 
 .tile-inner__main--intro {
 	font-size: 1.5em;
-	padding: 0 1em;
+	padding: 0;
 	border: 0;
 	background-color: transparent;
 	box-shadow: none;
@@ -823,54 +819,6 @@ body {
 	color: white;
 }
 
-@media screen and (min-width: 26.5em) {
-
-.tiles {
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-}
-
-.tile {
-	width: 50%;
-}
-
-.tile + * {
-	margin-top: 0;
-}
-
-.tile--intro {
-	height: auto;
-	font-size: 1rem;
-	-ms-flex-item-align: stretch;
-	-ms-grid-row-align: stretch;
-	align-self: stretch;
-}
-
-.tile-inner--intro {
-	padding: 0;
-}
-
-.tile-inner__main {
-	font-size: calc(1em + .2vw);
-}
-
-.tile-inner__main--intro {
-	padding: 0 1em;
-	font-size: calc(.9rem + 1vw);
-	font-weight: 400;
-}
-
-.tile-inner__icon img {
-	-webkit-transform: scale(0.8);
-	transform: scale(0.8);
-}
-
-}
-
 @media screen and (min-width: 39.5em) {
 
 .main {
@@ -884,11 +832,6 @@ body {
 .logo__img {
 	width: 330px;
 	height: auto;
-}
-
-.tile-inner__icon img {
-	-webkit-transform: scale(1);
-	transform: scale(1);
 }
 
 .content {
@@ -1013,10 +956,6 @@ body {
 	border-radius: 0;
 }
 
-.tile__img {
-	max-width: 90%;
-}
-
 .tile + * {
 	margin-top: 0;
 }
@@ -1044,18 +983,8 @@ body {
 
 .tile-inner--intro {
 	text-align: left;
-	font-size: 1.25em;
-	padding: 0 1.5em;
-	margin-bottom: 0;
-}
-
-.tile-inner__main {
-	font-size: 1.175em;
-}
-
-.tile-inner__main--intro {
 	padding: 0;
-	font-weight: 200;
+	margin-bottom: 0;
 }
 
 .sidebar {
@@ -1106,8 +1035,8 @@ body {
 @media screen and (min-width: 52em) and (max-width: 68.9125em) {
 
 .tile {
-	width: 33.33333333333333%;
-	height: 32.3333333333333vw;
+	width: 50%;
+	height: 50vw;
 }
 
 }
