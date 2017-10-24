@@ -1090,10 +1090,6 @@ body::before {
 	display: flex;
 }
 
-.tile__img {
-	max-width: 85%;
-}
-
 .tile--projects {
 	border-bottom: 0;
 }
