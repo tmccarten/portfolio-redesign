@@ -171,41 +171,13 @@
 
 @media screen and (min-width: $mqnavbar) {
 
-  .tiles {
-    flex-direction: row;
-    flex-wrap: wrap;
-    border: 2px solid $maincolour;
-    //justify-content: center;
-  }
-
   .tile {
-    width: 334px;
-    height: 334px;
-    border-radius: 0;
-    //border: 3px solid $maincolour;
-  }
-
-  .tile + * {
-    margin-top: 0;
-  }
-
-  .tile--image, .tile--projects {
-    border-right: 0;
-    border-bottom: 0;
-  }
-
-  .tile--intro, .tile--icons {
-    border-bottom: 0;
-  }
-
-  .tile--graphics {
-    border-right: 0;
+    width: 33.33333333333333333333333333333333%;
+    height: 30.769230769230769230769230769231vw;
   }
 
   .tile-inner {
     max-width: 12.875em;
-    font-size: 1rem;
-    font-weight: normal;
   }
 
   .tile-inner__main--intro {
@@ -213,18 +185,7 @@
   }
 
   .tile-inner--intro {
-    //text-align: left;
-    padding: 0;
     margin-bottom: 0;
-  }
-
-}
-
-@media screen and (min-width: $mqnavbar) and (max-width: $mqthreecol) {
-
-  .tile {
-    width: 33.33333333333333333333333333333333%;
-    height: 30.769230769230769230769230769231vw;
   }
 
 }
@@ -236,6 +197,11 @@
     width: 1006px;
     perspective: 1000px;
     border: 2px solid $maincolour;
+  }
+
+  .tile {
+    width: 334px;
+    height: 334px;
   }
 
   .tile--intro, .tile--icons, .tile--graphics {
