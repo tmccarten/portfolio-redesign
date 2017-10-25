@@ -45,7 +45,7 @@
   display: block;
   text-align: center;
   margin: 1em 0;
-  //background-color: lighten($maincolour, 5);
+  background-color: lighten($maincolour, 5);
   border: .1em solid $tilecolour;
   font-family: $bodyfont;
   font-weight: bold;
@@ -129,6 +129,14 @@
 
   .project__text {
     line-height: 1.6em;
+  }
+
+  .project__btn-view {
+    transition: transform 300ms ease;
+
+    &:hover {
+      transform: scale(1.03);
+    }
   }
 
   .project__imgbtn-wrapper {

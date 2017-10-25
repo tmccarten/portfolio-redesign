@@ -825,6 +825,7 @@ body {
 	display: block;
 	text-align: center;
 	margin: 1em 0;
+	background-color: #393e63;
 	border: 0.1em solid #343859;
 	font-family: "Webly Sleek UI Type", "Segoe UI", Tahoma, Arial, sans-serif;
 	font-weight: bold;
@@ -1067,6 +1068,17 @@ body {
 	border: 2px solid #303453;
 }
 
+.blogposts__item {
+	transition: -webkit-transform 300ms ease;
+	transition: transform 300ms ease;
+	transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+.blogposts__item:hover {
+	-webkit-transform: translateX(-0.5em);
+	transform: translateX(-0.5em);
+}
+
 .project {
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
@@ -1094,6 +1106,17 @@ body {
 
 .project__text {
 	line-height: 1.6em;
+}
+
+.project__btn-view {
+	transition: -webkit-transform 300ms ease;
+	transition: transform 300ms ease;
+	transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+.project__btn-view:hover {
+	-webkit-transform: scale(1.03);
+	transform: scale(1.03);
 }
 
 .project__imgbtn-wrapper {
