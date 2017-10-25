@@ -461,7 +461,7 @@ body {
 
 .main-menu__link {
 	display: block;
-	color: rgba(255, 255, 255, 0.8);
+	color: white;
 	text-decoration: none;
 	padding: 1em;
 }
@@ -836,13 +836,13 @@ body {
 	-ms-grid-row-align: center;
 	align-self: center;
 	text-decoration: none;
+	transition: background-color 300ms ease;
 }
 
 .project__btn-view:hover,
 .project__btn-view:active,
 .project__btn-view:focus {
-	background-color: transparent;
-	border: 0.1em solid #4c5283;
+	background-color: #434873;
 	color: white;
 }
 
@@ -1106,17 +1106,6 @@ body {
 
 .project__text {
 	line-height: 1.6em;
-}
-
-.project__btn-view {
-	transition: -webkit-transform 300ms ease;
-	transition: transform 300ms ease;
-	transition: transform 300ms ease, -webkit-transform 300ms ease;
-}
-
-.project__btn-view:hover {
-	-webkit-transform: scale(1.03);
-	transform: scale(1.03);
 }
 
 .project__imgbtn-wrapper {

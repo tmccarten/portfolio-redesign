@@ -54,10 +54,11 @@
   width: 100%;
   align-self: center;
   text-decoration: none;
+  transition: background-color 300ms ease;
 
   &:hover, &:active, &:focus {
-    background-color: transparent;
-    border: .1em solid lighten($maincolour, 15);
+    background-color: lighten($maincolour, 10);
+    //border: .1em solid lighten($maincolour, 15);
     color: white;
   }
 }
@@ -129,14 +130,6 @@
 
   .project__text {
     line-height: 1.6em;
-  }
-
-  .project__btn-view {
-    transition: transform 300ms ease;
-
-    &:hover {
-      transform: scale(1.03);
-    }
   }
 
   .project__imgbtn-wrapper {
