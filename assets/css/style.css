@@ -516,6 +516,11 @@ body {
 	color: white;
 }
 
+.tile a {
+	color: white;
+	text-decoration: none;
+}
+
 .tile--image {
 	background-color: #343859;
 	height: auto;
@@ -528,6 +533,7 @@ body {
 	max-width: 100%;
 	width: 100%;
 	max-height: 100%;
+	min-height: 1px;
 }
 
 .tile--intro {
@@ -567,7 +573,7 @@ body {
 }
 
 .tile-inner {
-	max-width: 28.75em;
+	max-width: 100%;
 	text-align: center;
 }
 
@@ -596,6 +602,23 @@ body {
 	padding: 1em;
 	border-top: 0.08em dashed rgba(255, 255, 255, 0.5);
 	border-bottom: 0.08em dashed rgba(255, 255, 255, 0.5);
+	transition: border-color 500ms ease;
+}
+
+.tile-inner--contact img {
+	transition: -webkit-transform 500ms ease;
+	transition: transform 500ms ease;
+	transition: transform 500ms ease, -webkit-transform 500ms ease;
+}
+
+.tile-inner--contact:hover {
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+}
+
+.tile-inner--contact:hover img {
+	-webkit-transform: translateY(-0.25em);
+	transform: translateY(-0.25em);
 }
 
 .tile-inner__main {

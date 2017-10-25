@@ -36,12 +36,12 @@
             </div>
           </a>
 
-          <a href="#" class="tile tile--contact tile--3d">
-            <div class="tile-inner tile-inner--contact">
+          <div class="tile tile--contact">
+            <a href="#" class="tile-inner tile-inner--contact">
               <h3 class="tile-inner__main tile-inner__main--contact">Get in touch</h3>
               <img src="<?php echo $index?>/assets/img/icons/contact.svg" alt="Email icon" width="22" height="22">
-            </div>
-          </a>
+            </a>
+          </div>
 
           <div class="tile tile--icons">
             <div class="tile-inner">
