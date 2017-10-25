@@ -57,7 +57,7 @@
                 <p class="project__text">
                   <span class="tool-tag">HTML5</span>
                   <span class="tool-tag">CSS3</span>
-                  <span class="tool-tag">Sass</span>                  
+                  <span class="tool-tag">Sass</span>
                   <span class="tool-tag">JavaScript</span>
                   <span class="tool-tag">PHP</span>
                 </p>

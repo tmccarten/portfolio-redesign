@@ -79,12 +79,8 @@
   justify-content: space-around;
   align-items: center;
   padding: 1em;
-  //border-bottom: .1em solid rgba(255,255,255,1);
-  border-top: .08em dashed rgba(255,255,255,.5);
-  border-bottom: .08em dashed rgba(255,255,255,.5);
-  //border-radius: 2em;
-  //border-left: none;
-  //border-right: none;
+  border-top: .08em dashed rgba(white, .5);
+  border-bottom: .08em dashed rgba(white, .5);  
 }
 
 .tile-inner__main {

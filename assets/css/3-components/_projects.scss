@@ -43,23 +43,18 @@
 
 .project__btn-view {
   margin: 1em 0;
-  //background-color: transparent;
   background-color: lighten($maincolour, 10);
   border: .1em solid $maincolour;
-  //border: 0;
   font-family: $bodyfont;
   font-weight: bold;
   padding: .5em;
   color: white;
-  //color: white;
-  //border-radius: .3em;
   width: 100%;
   align-self: center;
 
   &:hover, &:active, &:focus {
     background-color: $tilecolour;
     color: white;
-    //border-color: transparent;
   }
 }
 
@@ -74,11 +69,8 @@
 }
 
 .tool-tag {
-  //border: .1em solid $maincolour;
   background-color: $tilecolour--hover;
-  //border-radius: 1.5em;
-  padding: .5em 1em;
-  //font-weight: 500;
+  padding: .5em 1em;  
   display: inline-block;
   margin-bottom: .5em;
   font-size: 1rem;
