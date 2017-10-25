@@ -1,0 +1,91 @@
+.bloglisting {
+  font-size: 1.25rem;
+}
+
+.bloglisting__title {
+  font-size: 1em;
+  font-weight: 700;
+  font-family: $seriffont;
+}
+
+.bloglisting__date {
+  background-color: $tilecolour;
+  padding: .5em 1em;
+  border-left: .1em solid white;
+  display: inline;
+  font-size: .8125em;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.bloglisting__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  max-width: 30em;
+}
+
+.bloglisting__teaser {
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.bloglisting__btn-read {
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  background-color: lighten($maincolour, 5);
+  border: .1em solid $tilecolour;
+  font-weight: 500;
+  width: auto;
+  margin: 1em 0;
+  align-self: flex-start;
+  text-shadow: 1px 1px $maincolour;
+
+}
+
+@media screen and (min-width: $mqphonelimit) {
+
+  .bloglisting__title {
+    font-size: 1.3em;
+  }
+
+}
+
+@media screen and (min-width: $mqbiglogo) {
+
+  .bloglisting__title {
+    margin-top: 0;
+    font-size: 2rem;
+  }
+
+}
+
+@media screen and (min-width: $mqblogindex) {
+
+  .bloglisting__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: none;
+  }
+
+  .bloglisting__btn-read {
+    align-self: center;
+    margin: 0 auto;
+    box-shadow: .5em .5em 0 darken($tilecolour, 3);
+    background-color: transparent;
+    transition: box-shadow 300ms ease, background-color 300ms ease;
+
+    &:hover {
+      box-shadow: 0 0 0 transparent;
+      //background-color: lighten($tilecolour, 8);
+    }
+  }
+
+  .bloglisting__teaser {
+    //text-align: justify;
+    padding-right: 1em;
+    border-right: .1em dashed $maincolour;
+    max-width: 30em;
+  }
+}
