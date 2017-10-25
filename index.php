@@ -13,10 +13,6 @@
     <main class="main main--home">
         <section class="tiles">
 
-          <div class="tile tile--image">
-            <img class="tile__img" src="<?php echo $index?>/assets/img/tom_mccarten.png" alt="Tom McCarten">
-          </div>
-
           <div class="tile tile--intro">
             <div class="tile-inner tile-inner--intro">
               <p class="tile-inner__sub tile-inner__sub--intro">Hello!</p>
@@ -24,37 +20,42 @@
             </div>
           </div>
 
+          <div class="tile tile--image">
+            <img class="tile__img" src="<?php echo $index?>/assets/img/tom_mccarten2.png" alt="Tom McCarten">
+          </div>
+
           <a href="projects/" class="tile tile--projects tile--3d">
-            <div class="tile-inner">
-              <h3 class="tile-inner__main tile-inner__main--border">Projects</h3>
+            <div class="tile-inner tile-inner--border">
+              <h3 class="tile-inner__main">Projects</h3>
             </div>
           </a>
+
+          <a href="#" class="tile tile--graphics tile--3d">
+            <div class="tile-inner tile-inner--border">
+              <h3 class="tile-inner__main">Graphic Design</h3>
+            </div>
+          </a>
+
+          <div class="tile tile--contact">
+            <a href="#" class="tile-inner tile-inner--contact">
+              <h3 class="tile-inner__main tile-inner__main--contact">Get in touch</h3>
+              <img src="<?php echo $index?>/assets/img/icons/contact.svg" alt="Email icon" width="22" height="22">
+            </a>
+          </div>
 
           <div class="tile tile--icons">
             <div class="tile-inner">
               <a href="http://twitter.com/thomasmccarten" class="tile-inner__icon">
-                <img src="<?php echo $index?>/assets/img/icons/twitter.svg" alt="Twitter logo" width="54" height="54">
+                <img src="<?php echo $index?>/assets/img/icons/twitter.svg" alt="Twitter logo" width="44" height="44">
               </a>
               <a href="http://github.com/tmccarten" class="tile-inner__icon">
-                <img src="<?php echo $index?>/assets/img/icons/github.svg" alt="GitHub logo" width="54" height="54">
+                <img src="<?php echo $index?>/assets/img/icons/github.svg" alt="GitHub logo" width="44" height="44">
               </a>
               <a href="http://facebook.com/thomasmccarten" class="tile-inner__icon">
-                <img src="<?php echo $index?>/assets/img/icons/facebook.svg" alt="Facebook logo" width="54" height="54">
+                <img src="<?php echo $index?>/assets/img/icons/facebook.svg" alt="Facebook logo" width="44" height="44">
               </a>
             </div>
           </div>
-
-          <a href="#" class="tile tile--graphics tile--3d">
-            <div class="tile-inner">
-              <h3 class="tile-inner__main tile-inner__main--border">Graphic Design</h3>
-            </div>
-          </a>
-
-          <a href="#" class="tile tile--contact tile--3d">
-            <div class="tile-inner">
-              <h3 class="tile-inner__main tile-inner__main--contact">Get in touch.</h3>
-            </div>
-          </a>
 
         </section><!-- end tiles -->
 
