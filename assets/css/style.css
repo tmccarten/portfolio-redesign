@@ -906,14 +906,12 @@ body {
 	padding: 1em;
 	color: white;
 	text-decoration: none;
-	background-color: #393e63;
-	border: 0.1em solid #343859;
+	background-color: #d65751;
 	font-weight: 500;
 	width: auto;
 	margin: 1em 0;
 	-ms-flex-item-align: start;
 	align-self: flex-start;
-	text-shadow: 1px 1px #303453;
 }
 
 @media screen and (min-width: 26.5625em) {
@@ -1205,8 +1203,7 @@ body {
 	-ms-grid-row-align: center;
 	align-self: center;
 	margin: 0 auto;
-	box-shadow: 0.5em 0.5em 0 #2e3250;
-	background-color: transparent;
+	box-shadow: 0.5em 0.5em 0 #a03f3a;
 	transition: box-shadow 300ms ease, background-color 300ms ease;
 }
 
