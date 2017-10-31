@@ -1213,8 +1213,8 @@ body {
 }
 
 .bloglisting__teaser {
-	padding-right: 1em;
-	border-right: 0.1em dashed #303453;
+	padding-left: 1em;
+	border-left: 0.1em dashed #303453;
 	max-width: 30em;
 }
 
