@@ -60,4 +60,16 @@
       </a>
     </li>
 
+    <li class="sidebar-blogposts__item">
+      <a href="<?php echo $index?>/blog/2016/front-end-in-a-booming-digital-industry.php" class="sidebar-blogposts__post">
+        <div class="post__date">
+          <span>26</span>
+          <span>Oct</span>
+        </div>
+        <h5 class="post__title">
+          Front-end in a booming digital industry
+        </h5>
+      </a>
+    </li>
+
 </ul>

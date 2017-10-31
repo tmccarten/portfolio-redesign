@@ -90,6 +90,21 @@
 
           </div>
 
+          <div class="content__inner">
+
+            <div class="bloglisting">
+              <h3 class="bloglisting__title">Front-end in a booming digital industry</h3>
+              <p class="bloglisting__date">26th October, 2016</p>
+              <div class="bloglisting__wrapper">
+                <p class="bloglisting__teaser">The UK’s digital tech industries are expanding and evolving at a rate that shows no sign of slowing. Between 2011 and 2014 UK digital tech industries had a job creation rate 2.8 times faster than the rest of the economy, with 1.56m people employed in digital tech occupations...</p>
+                <a href="<?php echo $index?>/blog/2016/front-end-in-a-booming-digital-industry.php" class="bloglisting__btn-read">Read post
+                  <span class="visuallyhidden">on 'Front-end in a booming digital industry'</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
           </section><!-- content ends -->
 
         <aside class="sidebar">

@@ -1,0 +1,115 @@
+.blogpost {
+  font-size: 1rem;
+}
+
+.blogpost__title {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: $seriffont;
+  text-shadow: .1em .1em $maincolour;
+}
+
+.blogpost__date {
+  background-color: $tilecolour;
+  padding: .5em 1em;
+  border-left: .1em solid white;
+  display: inline;
+  font-size: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.blogpost__heading {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.blogpost__text {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.blogpost__link {
+  color: lightblue;
+  text-decoration: none;
+  border-bottom: .1em dotted lightblue;
+
+  &:hover {
+    color: white;
+    border-bottom: .1em solid lightblue;;
+  }
+}
+
+.blogpost__figure-wrap {
+  color: white;
+  text-decoration: none;
+}
+
+.blogpost__figure {
+  margin: 2em 0;
+  width: 100%;
+}
+
+.blogpost__image {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blogpost__figcaption {
+  font-weight: 300;
+  padding: 1em;
+  background-color: $tilecolour--hover;
+}
+
+@media screen and (min-width: $mqphonelimit) {
+
+  .blogpost__title {
+    font-size: 2.2em;
+  }
+
+  .blogpost__text {
+    font-size: 1.25em;
+  }
+
+  .blogpost__heading {
+    font-size: 1.7em;
+  }
+
+  .blogpost__figcaption {
+    display: inline-block;
+  }
+
+}
+
+
+@media screen and (min-width: $mqbiglogo) {
+
+  .blogpost {
+    font-size: 1.25rem;
+    max-width: 60ch;
+  }
+
+  .blogpost__date {
+    font-size: .8em;
+  }
+
+  .blogpost__text {
+    font-size: 1em;
+  }
+
+  .blogpost__figcaption {
+    font-size: .8em;
+  }
+
+}
+
+@media screen and (min-width: $mqnavbar) {
+
+  .blogpost__text {
+    line-height: 1.5em;
+  }
+
+}
