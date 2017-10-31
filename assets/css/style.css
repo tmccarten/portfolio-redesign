@@ -693,9 +693,9 @@ body {
 	-ms-flex-direction: column;
 	flex-direction: column;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	margin: 1em 0;
-	background-color: #434873;
+	background-color: #3f446d;
 }
 
 .sidebar__title {
@@ -703,7 +703,7 @@ body {
 	padding: 1em;
 	font-size: 1.125em;
 	margin: 0;
-	background-color: #3b4066;
+	background-color: #373c60;
 }
 
 .blogposts {
@@ -725,7 +725,7 @@ body {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background-color: #484e7d;
+	background-color: #454a77;
 	color: white;
 	text-decoration: none;
 	max-height: 4.25em;
@@ -762,7 +762,7 @@ body {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background-color: #3b4066;
+	background-color: #373c60;
 	min-width: 4.25em;
 	min-height: 4.25em;
 	height: 0;
