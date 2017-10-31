@@ -1,7 +1,7 @@
 <ul class="blogposts">
 
     <li class="blogposts__item">
-      <a href="#" class="blogposts__post">
+      <a href="<?php echo $index?>/blog/2017/getting-started-with-wordpress-theme-development.php" class="blogposts__post">
         <div class="post__date">
           <span>15</span>
           <span>Mar</span>
@@ -13,7 +13,7 @@
     </li>
 
     <li class="blogposts__item">
-      <a href="#" class="blogposts__post">
+      <a href="<?php echo $index?>/blog/2017/getting-to-grips-with-grid.php" class="blogposts__post">
         <div class="post__date">
           <span>09</span>
           <span>Mar</span>
@@ -25,7 +25,7 @@
     </li>
 
     <li class="blogposts__item">
-      <a href="#" class="blogposts__post">
+      <a href="<?php echo $index?>/blog/2017/portfolio-updates-and-improvements.php" class="blogposts__post">
         <div class="post__date">
           <span>25</span>
           <span>Feb</span>
@@ -37,7 +37,7 @@
     </li>
 
     <li class="blogposts__item">
-      <a href="#" class="blogposts__post">
+      <a href="<?php echo $index?>/blog/2016/optimising-for-increased-speed-and-integrity.php" class="blogposts__post">
         <div class="post__date">
           <span>02</span>
           <span>Dec</span>
@@ -49,7 +49,7 @@
     </li>
 
     <li class="blogposts__item">
-      <a href="#" class="blogposts__post">
+      <a href="<?php echo $index?>/blog/2016/building-my-portfolio.php" class="blogposts__post">
         <div class="post__date">
           <span>06</span>
           <span>Nov</span>
@@ -58,6 +58,6 @@
           Building my portfolio
         </h5>
       </a>
-    </li>    
+    </li>
 
 </ul>

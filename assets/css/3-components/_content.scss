@@ -7,7 +7,7 @@
 
 .content__inner {
   padding: 1em;
-  background-color: lighten($maincolour, 8);  
+  background-color: lighten($maincolour, 8);
 }
 
 .content__inner + * {
@@ -23,6 +23,25 @@
   font-weight: 500;
 }
 
+.return-link {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  background-color: lighten($maincolour, 2);
+  width: 100%;
+  padding: 1rem;  
+
+  p {
+    margin: 0;
+  }
+
+  img {
+    margin-right: 1em;
+  }
+}
+
 @media screen and (min-width: $mqbiglogo) {
 
   .content {
@@ -35,6 +54,10 @@
   }
 
   .title {
+    padding: 2rem;
+  }
+
+  .return-link {
     padding: 2rem;
   }
 
