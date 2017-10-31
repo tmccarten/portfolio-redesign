@@ -13,19 +13,17 @@
     <main class="main main--home">
 
         <section class="content">
-          <a href=".." class="return-link"><img src="<?php echo $index?>/assets/img/icons/back.svg" height="20" width="20" alt=""><p>Blog index</p></a>
 
           <div class="content__inner">
 
-            <div class="bloglisting">
-              <h2 class="bloglisting__title">Building my portfolio</h2>
-              <p class="bloglisting__date">6th November, 2016</p>
-              <div class="bloglisting__wrapper">
-                <p class="bloglisting__teaser">I had a vague idea of how I wanted the website to look (more personal than corporate) after experimenting with different ideas over summer. Nonetheless, I sought and found further inspiration in Creative Bloq’s '45 brilliant design portfolios to inspire you' rundown...</p>
-              </div>
+            <div class="blogpost">
+              <h2 class="blogpost__title">Building my portfolio</h2>
+              <p class="bloglisting__date">6th November, 2016</p>              
             </div>
 
           </div>
+
+          <a href=".." class="return-link"><img src="<?php echo $index?>/assets/img/icons/back.svg" height="20" width="20" alt=""><p>Blog index</p></a>
 
           </section><!-- content ends -->
 

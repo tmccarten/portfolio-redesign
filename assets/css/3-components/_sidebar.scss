@@ -15,16 +15,16 @@
   background-color: darken($sidebarcolour, 4);
 }
 
-.blogposts {
+.sidebar-blogposts {
   padding: 1em;
   list-style-type: none;
 }
 
-.blogposts__item + * {
+.sidebar-blogposts__item + * {
   margin-top: 1em;
 }
 
-.blogposts__post {
+.sidebar-blogposts__post {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -64,11 +64,11 @@
 
 @media screen and (min-width: $mqbiglogo) {
 
-  .blogposts {
+  .sidebar-blogposts {
     padding: 2em;
   }
 
-  .blogposts__post {
+  .sidebar-blogposts__post {
     font-size: 1rem;
   }
 
@@ -80,7 +80,7 @@
     border: 2px solid $maincolour;
   }
 
-  .blogposts__item {
+  .sidebar-blogposts__item {
     transition: transform 300ms ease;
 
     &:hover {

@@ -1,7 +1,7 @@
-<ul class="blogposts">
+<ul class="sidebar-blogposts">
 
-    <li class="blogposts__item">
-      <a href="<?php echo $index?>/blog/2017/getting-started-with-wordpress-theme-development.php" class="blogposts__post">
+    <li class="sidebar-blogposts__item">
+      <a href="<?php echo $index?>/blog/2017/getting-started-with-wordpress-theme-development.php" class="sidebar-blogposts__post">
         <div class="post__date">
           <span>15</span>
           <span>Mar</span>
@@ -12,8 +12,8 @@
       </a>
     </li>
 
-    <li class="blogposts__item">
-      <a href="<?php echo $index?>/blog/2017/getting-to-grips-with-grid.php" class="blogposts__post">
+    <li class="sidebar-blogposts__item">
+      <a href="<?php echo $index?>/blog/2017/getting-to-grips-with-grid.php" class="sidebar-blogposts__post">
         <div class="post__date">
           <span>09</span>
           <span>Mar</span>
@@ -24,8 +24,8 @@
       </a>
     </li>
 
-    <li class="blogposts__item">
-      <a href="<?php echo $index?>/blog/2017/portfolio-updates-and-improvements.php" class="blogposts__post">
+    <li class="sidebar-blogposts__item">
+      <a href="<?php echo $index?>/blog/2017/portfolio-updates-and-improvements.php" class="sidebar-blogposts__post">
         <div class="post__date">
           <span>25</span>
           <span>Feb</span>
@@ -36,8 +36,8 @@
       </a>
     </li>
 
-    <li class="blogposts__item">
-      <a href="<?php echo $index?>/blog/2016/optimising-for-increased-speed-and-integrity.php" class="blogposts__post">
+    <li class="sidebar-blogposts__item">
+      <a href="<?php echo $index?>/blog/2016/optimising-for-increased-speed-and-integrity.php" class="sidebar-blogposts__post">
         <div class="post__date">
           <span>02</span>
           <span>Dec</span>
@@ -48,8 +48,8 @@
       </a>
     </li>
 
-    <li class="blogposts__item">
-      <a href="<?php echo $index?>/blog/2016/building-my-portfolio.php" class="blogposts__post">
+    <li class="sidebar-blogposts__item">
+      <a href="<?php echo $index?>/blog/2016/building-my-portfolio.php" class="sidebar-blogposts__post">
         <div class="post__date">
           <span>06</span>
           <span>Nov</span>
