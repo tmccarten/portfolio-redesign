@@ -4,19 +4,19 @@
 @import '1-global/variables';
 @import '1-global/mixins';
 @import '1-global/global';
-
-/* -- UTILITY CLASSES -- */
 @import '1-global/utility';
 
-/* -- BODY -- */
+/* -- BASE -- */
 @import '2-base/body';
 @import '2-base/main';
 
-/* -- COMPONENTS -- */
-@import '3-components/header';
-@import '3-components/menu';
-@import '3-components/tiles';
-@import '3-components/content';
-@import '3-components/sidebar';
-@import '3-components/projects';
-@import '3-components/blogindex';
+/* -- MODULES -- */
+@import '3-modules/header';
+@import '3-modules/menu';
+@import '3-modules/content';
+@import '3-modules/sidebar';
+
+/* -- PAGES -- */
+@import '4-pages/home';
+@import '4-pages/projects';
+@import '4-pages/blogindex';
