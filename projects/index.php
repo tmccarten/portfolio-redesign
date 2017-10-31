@@ -5,10 +5,10 @@
 <?php $description = "Some projects and case studies Thomas McCarten has worked on as a web developer."; ?>
 <?php $keywords = "Thomas McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
 
-<?php include '../assets/includes/head.php';?>
+<?php include $index . '/assets/includes/head.php';?>
 
   <body>
-    <?php include '../assets/includes/header.php';?>
+    <?php include $index . '/assets/includes/header.php';?>
 
     <main class="main main--home">
 
@@ -71,7 +71,7 @@
 
         <aside class="sidebar">
           <h4 class="sidebar__title">Recent blog posts</h4>
-          <?php include '../assets/includes/sidebar.php';?>
+          <?php include $index . '/assets/includes/sidebar.php';?>
         </aside>
 
     </main>

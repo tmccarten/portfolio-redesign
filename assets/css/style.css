@@ -301,7 +301,7 @@ body {
 }
 
 .main {
-	max-width: 1488px;
+	max-width: 93rem;
 	margin: 0 auto;
 	padding: 0 1rem;
 }
@@ -326,7 +326,7 @@ body {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	max-width: 1488px;
+	max-width: 93rem;
 	margin: 0 auto;
 	background-color: inherit;
 }
@@ -1295,7 +1295,7 @@ body::before {
 @media screen and (min-width: 95.1875em) {
 
 .main {
-	max-width: 1488px;
+	max-width: 93rem;
 }
 
 .main--home {
@@ -1309,7 +1309,7 @@ body::before {
 }
 
 .header {
-	max-width: 1488px;
+	max-width: 93rem;
 }
 
 .main-menu__item + * {
