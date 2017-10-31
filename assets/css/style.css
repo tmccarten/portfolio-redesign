@@ -734,11 +734,11 @@ body {
 }
 
 .blogposts__post:hover {
-	background-color: #d65751;
+	background-color: #d66e51;
 }
 
 .blogposts__post:hover .post__date {
-	background-color: #d1443c;
+	background-color: #d15d3c;
 }
 
 .post__title {
@@ -781,10 +781,10 @@ body {
 }
 
 .project__link {
-	color: #db6b65;
+	color: #db7f65;
 	font-weight: 500;
 	text-decoration: none;
-	border-bottom: 0.1em solid #d65751;
+	border-bottom: 0.1em solid #d66e51;
 }
 
 .project + * {
@@ -857,7 +857,7 @@ body {
 }
 
 .tool-tag {
-	background-color: #d65751;
+	background-color: #d66e51;
 	padding: .5em 1em;
 	display: inline-block;
 	margin-bottom: .5em;
@@ -906,12 +906,13 @@ body {
 	padding: 1em;
 	color: white;
 	text-decoration: none;
-	background-color: #d65751;
+	background-color: #d66e51;
 	font-weight: 500;
 	width: auto;
 	margin: 1em 0;
 	-ms-flex-item-align: start;
 	align-self: flex-start;
+	text-shadow: 0.1em 0.1em #d15d3c;
 }
 
 @media screen and (min-width: 26.5625em) {
@@ -1203,7 +1204,7 @@ body {
 	-ms-grid-row-align: center;
 	align-self: center;
 	margin: 0 auto;
-	box-shadow: 0.5em 0.5em 0 #a03f3a;
+	box-shadow: 0.5em 0.5em 0 #ab563e;
 	transition: box-shadow 300ms ease, background-color 300ms ease;
 }
 
@@ -1280,8 +1281,8 @@ body::before {
 .tile--3d:hover {
 	-webkit-transform: rotateY(15deg) scale(0.95);
 	transform: rotateY(15deg) scale(0.95);
-	background-color: rgba(214, 87, 81, 0.8);
-	border-color: #db6b65;
+	background-color: rgba(214, 110, 81, 0.8);
+	border-color: #db7f65;
 }
 
 .tile--3d:hover .tile-inner__main {
