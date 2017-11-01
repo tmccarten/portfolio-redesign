@@ -540,24 +540,23 @@ body {
 }
 
 .blogpost__meta {
-	background-color: #c54f2f;
+	background-color: #d66e51;
 	padding: .5em 2em .5em 1em;
 	border-left: .1em solid white;
 	display: table;
 	font-size: 1em;
 	font-weight: 300;
 	margin: 0;
-	-webkit-clip-path: polygon(100% 0, 85% 100%, 0 100%, 0 0);
-	clip-path: polygon(100% 0, 85% 100%, 0 100%, 0 0);
 }
 
 .blogpost__meta--date {
-	background-color: #d15d3c;
+	background-color: #343859;
 }
 
 .blogpost__heading {
 	font-size: 1.5em;
 	font-weight: bold;
+	font-family: Merriweather, Georgia, Times, serif;
 }
 
 .blogpost__text {
@@ -1092,6 +1091,19 @@ body {
 	display: inline-block;
 }
 
+.blogpost__meta {
+	display: inline-block;
+}
+
+.blogpost__meta--date {
+	-webkit-clip-path: polygon(13.5% 0, 0 100%, 85% 100%, 100% 0);
+	clip-path: polygon(13.5% 0, 0 100%, 85% 100%, 100% 0);
+	border-left: none;
+	padding: .5em 3em .5em 2em;
+	-webkit-transform: translateX(-2.2em);
+	transform: translateX(-2.2em);
+}
+
 .tiles {
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
@@ -1186,7 +1198,7 @@ body {
 }
 
 .blogpost__meta {
-	font-size: .9em;
+	font-size: .8em;
 }
 
 .blogpost__text {
@@ -1349,8 +1361,7 @@ body {
 	align-items: center;
 	font-size: 1em;
 	font-weight: 300;
-	padding: 1rem;
-	border-left: .1em solid white;
+	padding: 1rem 0 0 .08rem;
 }
 
 .breadcrumb__link {
@@ -1500,7 +1511,6 @@ body::before {
 	bottom: 0;
 	left: 0;
 	z-index: -1;
-	background-image: url("../img/body_bg.png");
 	background-size: cover;
 }
 
