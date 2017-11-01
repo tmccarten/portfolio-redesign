@@ -1,0 +1,35 @@
+.breadcrumb {
+  display: none;
+}
+
+@media screen and (min-width: $mqnavbar) {
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  font-weight: 300;
+  padding: 1rem;
+  border-left: .1em solid white;
+}
+
+.breadcrumb__link {
+  display: inline-block;
+  color: white;
+  margin: 0;
+  text-decoration: none;
+}
+
+.breadcrumb__grey {
+  display: inline-block;
+  margin: 0;
+  opacity: .7;
+
+  &::before {
+    content: ">";
+    display: inline;
+    margin: 0 .5em;
+  }
+}
+
+}

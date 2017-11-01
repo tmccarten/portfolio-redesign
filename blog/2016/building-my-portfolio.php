@@ -16,6 +16,11 @@
 
           <div class="content__inner">
 
+            <div class="breadcrumb">
+              <a href=".." class="breadcrumb__link">Blog</a>
+              <p class="breadcrumb__grey">Building my portfolio</p>
+            </div>
+
             <article class="blogpost">
 
               <section class="blogpost__header">
@@ -81,7 +86,7 @@
                 </section><!-- blogpost content ends -->
 
                 <aside class="blogpost__share">
-                  <a href="#" class="btn-share">Share on Facebook</a>
+                  <a href="http://www.facebook.com/share.php?u=http://10.77.251.14:8000/portfolio-redesign/blog/2016/building-my-portfolio.php&title=Building-my-portfolio" class="btn-share">Share on Facebook</a>
                   <a href="#" class="btn-share btn-share--twitter">Share on Twitter</a>
                 </aside>
 

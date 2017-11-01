@@ -657,6 +657,10 @@ body {
 	background-color: #4a64be;
 }
 
+.breadcrumb {
+	display: none;
+}
+
 .sidebar {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1334,6 +1338,38 @@ body {
 
 .btn-share + * {
 	margin-top: 1em;
+}
+
+.breadcrumb {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	font-size: 1em;
+	font-weight: 300;
+	padding: 1rem;
+	border-left: .1em solid white;
+}
+
+.breadcrumb__link {
+	display: inline-block;
+	color: white;
+	margin: 0;
+	text-decoration: none;
+}
+
+.breadcrumb__grey {
+	display: inline-block;
+	margin: 0;
+	opacity: .7;
+}
+
+.breadcrumb__grey::before {
+	content: ">";
+	display: inline;
+	margin: 0 .5em;
 }
 
 .sidebar {
