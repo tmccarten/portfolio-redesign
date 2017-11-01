@@ -536,24 +536,23 @@ body {
 	font-size: 2em;
 	font-weight: bold;
 	font-family: Merriweather, Georgia, Times, serif;
-	text-shadow: 0.1em 0.1em #303453;
+	text-shadow: 0.05em 0.05em #303453;
 }
 
 .blogpost__meta {
-	background-color: #343859;
+	background-color: #c54f2f;
 	padding: .5em 2em .5em 1em;
 	border-left: .1em solid white;
 	display: table;
 	font-size: 1em;
 	font-weight: 300;
-	border-bottom-right-radius: 1em;
 	margin: 0;
 	-webkit-clip-path: polygon(100% 0, 85% 100%, 0 100%, 0 0);
 	clip-path: polygon(100% 0, 85% 100%, 0 100%, 0 0);
 }
 
 .blogpost__meta--date {
-	background-color: #2a2e49;
+	background-color: #d15d3c;
 }
 
 .blogpost__heading {
@@ -1183,7 +1182,7 @@ body {
 }
 
 .blogpost__meta {
-	font-size: .8em;
+	font-size: .9em;
 }
 
 .blogpost__text {

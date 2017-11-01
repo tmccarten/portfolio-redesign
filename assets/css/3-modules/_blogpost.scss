@@ -11,23 +11,23 @@
   font-size: 2em;
   font-weight: bold;
   font-family: $seriffont;
-  text-shadow: .1em .1em $maincolour;
+  text-shadow: .05em .05em $maincolour;
 }
 
 .blogpost__meta {
-  background-color: $tilecolour;
+  background-color: darken($tilecolour--hover, 10);
   padding: .5em 2em .5em 1em;
   border-left: .1em solid white;
   display: table;
   font-size: 1em;
   font-weight: 300;
-  border-bottom-right-radius: 1em;
+  //border-bottom-right-radius: 1em;
   margin: 0;
   clip-path: polygon(100% 0, 85% 100%, 0 100%, 0 0);
 }
 
 .blogpost__meta--date {
-  background-color: darken($tilecolour, 5);
+  background-color: darken($tilecolour--hover, 5);
 }
 
 .blogpost__heading {
@@ -146,7 +146,7 @@
   }
 
   .blogpost__meta {
-    font-size: .8em;
+    font-size: .9em;
   }
 
   .blogpost__text {
