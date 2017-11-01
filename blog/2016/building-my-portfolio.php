@@ -16,9 +16,12 @@
 
           <div class="content__inner">
 
-            <div class="blogpost">
-              <h2 class="blogpost__title">Building my portfolio</h2>
-              <p class="blogpost__date">6th November, 2016</p>
+            <article class="blogpost">
+              <section class="blogpost__header">
+                <h2 class="blogpost__title">Building my portfolio</h2>
+                <p class="blogpost__meta">by Tom McCarten</p>
+                <time datetime="2016-11-06" class="blogpost__meta blogpost__meta--date">6th November, 2016</time>
+              </section>
 
               <h3 class="blogpost__heading">Inspiration</h3>
 
@@ -72,7 +75,7 @@
 
               <h3 class="blogpost__heading">References</h3>
 
-            </div>
+            </article>
 
           </div>
 
