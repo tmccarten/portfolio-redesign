@@ -97,6 +97,10 @@
   list-style-position: inside;
 }
 
+.blogpost__code {
+  font-family: $codefont;
+}
+
 .blogpost__main {
   display: flex;
   flex-direction: column;

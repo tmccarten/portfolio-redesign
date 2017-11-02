@@ -25,7 +25,7 @@
 
               <section class="blogpost__header">
                 <h2 class="blogpost__title">Getting started with WordPress Theme Development</h2>
-                <p class="blogpost__meta">by Tom McCarten</p>
+                <p class="blogpost__meta blogpost__meta--author">by Tom McCarten</p>
                 <time datetime="2016-11-06" class="blogpost__meta blogpost__meta--date">6th November, 2016</time>
               </section>
 
@@ -91,7 +91,7 @@
                   <h3 class="blogpost__heading">Functions.php</h3>
                   <p class="blogpost__text">In order to offer the theme’s user customisable features to be accessed via the WordPress UI, each WordPress theme comes with a PHP file named ‘functions’. It is here where scripts and various aspects of WordPress’ inbuilt functionality can be written or hooked onto. I decided in my theme to provide the user with the option of uploading their own custom logo.</p>
 
-                  <p class="blogpost__text">To enable this functionality, I located the function named <code>mccarten_setup</code>. It is within this (automatically named after the theme name) that the features unique to the theme are generated on page load. Using the guide provided by the <a href="https://codex.wordpress.org/Theme_Logo" class="blogpost__link">WordPress Codex</a> I specified a default height and width for the logo and enabled the user to crop their logo image if they wish.</p>
+                  <p class="blogpost__text">To enable this functionality, I located the function named <code class="blogpost__code">mccarten_setup</code>. It is within this (automatically named after the theme name) that the features unique to the theme are generated on page load. Using the guide provided by the <a href="https://codex.wordpress.org/Theme_Logo" class="blogpost__link">WordPress Codex</a> I specified a default height and width for the logo and enabled the user to crop their logo image if they wish.</p>
 
                   <a href="<?php echo $index?>/assets/img/blog/custom_logo.png" class="blogpost__figure-wrap">
                     <figure class="blogpost__figure">
@@ -103,7 +103,7 @@
                   <h3 class="blogpost__heading">Conditional styling</h3>
                   <p class="blogpost__text">If pages in WordPress all share the same limited number of PHP template files to determine their construction, you may be wondering how we can apply specific and unique styling to a page when required. I discovered that there are various ways of achieving this.</p>
 
-                  <p class="blogpost__text">The first involves the template hierarchy. On the theme's homepage I wanted the sidebar (or the 'widget area') to display to the side of the content above a certain device width, and I only wanted this to occur in this instance, not on every page. The template hierarchy shows how the front-page.php template file has greater specificity than what was initially in use - page.php. By creating a front-page.php file, WordPress automatically detected that my homepage should use front-page.php as the template. This was then reflected in the class names of the body tag - a class name of 'home' was appended to the body tag on this page and nowhere else. This meant I could apply specific styles to the elements on the page by simply prefixing the relevant class names in the SASS with <code>.home </code></p>
+                  <p class="blogpost__text">The first involves the template hierarchy. On the theme's homepage I wanted the sidebar (or the 'widget area') to display to the side of the content above a certain device width, and I only wanted this to occur in this instance, not on every page. The template hierarchy shows how the front-page.php template file has greater specificity than what was initially in use - page.php. By creating a front-page.php file, WordPress automatically detected that my homepage should use front-page.php as the template. This was then reflected in the class names of the body tag - a class name of 'home' was appended to the body tag on this page and nowhere else. This meant I could apply specific styles to the elements on the page by simply prefixing the relevant class names in the SASS with <code class="blogpost__code">.home </code></p>
 
                   <a href="<?php echo $index?>/assets/img/blog/body_class.png" class="blogpost__figure-wrap">
                     <figure class="blogpost__figure">
