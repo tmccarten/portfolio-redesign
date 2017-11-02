@@ -35,7 +35,7 @@
   overflow: hidden;
   font-size: .8125rem;
 
-  &:hover {    
+  &:hover, &:active, &:focus {    
     border-right: .25em solid $tilecolour--hover;
 
     .post__date {

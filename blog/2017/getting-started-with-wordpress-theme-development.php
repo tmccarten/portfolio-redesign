@@ -1,8 +1,8 @@
 <?php $index = "../.."; ?>
 
 <?php $activePage = "Blog"; ?>
-<?php $title = "Building my portfolio | Blog | Thomas McCarten Portfolio"; ?>
-<?php $description = "Blog post detailing the building of a portfolio website by Web Developer Tom McCarten."; ?>
+<?php $title = "Getting started with WordPress Theme Development | Blog | Thomas McCarten Portfolio"; ?>
+<?php $description = "Blog post detailing an introduction to WordPress Theme Development by Web Developer Tom McCarten."; ?>
 <?php $keywords = "Tom McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
 
 <?php include $index . '/assets/includes/head.php';?>
@@ -59,7 +59,7 @@
                   <a href="https://github.com/tmccarten/wp" class="blogpost__link">GitHub repository</a>, <a href="http://06167055.webdevmmu.uk/wp" class="blogpost__link">WordPress theme (demonstrator)</a>
 
                   <h3 class="blogpost__heading">How</h3>
-                  <h4 class="blogpost__heading blogpost__heading--small">The Template Hierarchy</h5>
+                  <h4 class="blogpost__heading blogpost__heading--small">The Template Hierarchy</h4>
                   <p class="blogpost__text">It was necessary for me to become acquainted with how WordPress applies formatting to pages depending on their content. This meant becoming familiar with <a href="https://developer.wordpress.org/themes/basics/template-hierarchy/" class="blogpost__link">The Template Hierarchy</a>.</p>
 
                   <a href="<?php echo $index?>/assets/img/blog/template-hierarchy.png" class="blogpost__figure-wrap">
