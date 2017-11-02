@@ -31,57 +31,103 @@
 
               <div class="blogpost__main">
                 <section class="blogpost__content">
-                  <h3 class="blogpost__heading">Inspiration</h3>
+                  <h3 class="blogpost__heading">Aim</h3>
+                  <p class="blogpost__text">To develop a WordPress Theme loosely based on this website.</p>
 
-                  <p class="blogpost__text">I had a vague idea of how I wanted the website to look (more personal than corporate) after experimenting with different ideas over summer. Nonetheless, I sought and found further inspiration in Creative Bloq’s <a href="http://www.creativebloq.com/portfolios/examples-712368" class="blogpost__link">45 brilliant design portfolios to inspire you</a> rundown. I was especially interested in the layout decisions the designers made in choosing how to best showcase their work. Whilst some solutions were truly unique, the tried and tested method of presenting each case study or category of work as a clickable square or rectangle in a grid layout seemed the most widely used. The <a href="http://strange.wales/" class="blogpost__link">homepage of Gareth Strange</a> is an excellent example of this, combining clean minimalism with sensible responsive breakpoints to let the beauty of the artwork speak for itself.</p>
+                  <h3 class="blogpost__heading">Objectives</h3>
+                  <ol class="blogpost__ordered-list">
+                    <li>To demonstrate understanding of how WordPress Themes work.</li>
+                    <li>To set up a development environment for theme development.</li>
+                    <li>To create and apply a theme to the WordPress version of my website.</li>
+                  </ol>
 
-                  <a href="<?php echo $index?>/assets/img/blog/strangelove.png" class="blogpost__figure-wrap">
+                  <h3 class="blogpost__heading">Definition</h3>
+                  <p class="blogpost__text">What are WordPress Themes? Those new to the term may be forgiven for thinking they’re nothing but a ‘skin’ - a superficial alteration of typefaces and colour palettes. The reality is that themes are responsible for not only the style of the WordPress site but the structure, the functionality and the degree of customisation available to the user.</p>
+
+                  <blockquote class="blogpost__quote">"[Themes remove] the need for a typical WordPress site owner to have to learn CSS, HTML, and PHP in order to have a great-looking website." (<a href="https://codex.wordpress.org/Theme_Development" class="blogpost__link">WordPress Codex</a>, 2017)</blockquote>
+
+                  <p class="blogpost__text">This makes them incredibly powerful, and goes some way to explaining why it’s possible to make a living <a href="https://managewp.com/how-much-wordpress-developers-make" class="blogpost__link">developing and selling them</a>.</p>
+
+                  <p class="blogpost__text">Learning the basics of theme development has been an enlightening and inspiring process. As a beginner to WordPress itself this meant a large chunk of the project was spent simply getting my head around how the platform's architecture works to organise the pages and templates that make up each WordPress site.</p>
+
+                  <h3 class="blogpost__heading">Setup</h3>
+                  <p class="blogpost__text">I used a 'starter theme' called <a href="http://underscores.me/" class="blogpost__link">Underscores</a> to build my theme upon. For development I used <a href="https://netbeans.org/" class="blogpost__link">NetBeans IDE</a> as it incorporates greater functionality than typical text editors when dealing with functions in PHP. I used <a href="http://gulpjs.com/" class="blogpost__link"> Gulp</a> to compile SASS to CSS and provide features like 'Browsersync' for a speedier development workflow. I also used <a href="http://www.wampserver.com/en/" class="blogpost__link">WAMP</a> so I could develop locally before uploading to the live site.</p>
+
+                  <p class="blogpost__text">Morten Rand-Hendriksen's <a href="https://www.lynda.com/WordPress-tutorials/WordPress-Building-Themes-from-Scratch-Using-Underscores/491704-2.html" class="blogpost__link">WordPress: Building Themes from Scratch Using Underscores</a> was an extremely valuable resource and helped me immensely.</p>
+
+                  <h3 class="blogpost__heading">Location</h3>
+                  <a href="https://github.com/tmccarten/wp" class="blogpost__link">GitHub repository</a>, <a href="http://06167055.webdevmmu.uk/wp" class="blogpost__link">WordPress theme (demonstrator)</a>
+
+                  <h3 class="blogpost__heading">How</h3>
+                  <h5>The Template Hierarchy</h5>
+                  <p class="blogpost__text">It was necessary for me to become acquainted with how WordPress applies formatting to pages depending on their content. This meant becoming familiar with <a href="https://developer.wordpress.org/themes/basics/template-hierarchy/" class="blogpost__link">The Template Hierarchy</a>.</p>
+
+                  <a href="<?php echo $index?>/assets/img/blog/template-hierarchy.png" class="blogpost__figure-wrap">
                     <figure class="blogpost__figure">
-                      <img src="<?php echo $index?>/assets/img/blog/strangelove.png" class="blogpost__image" width="575" height="315" alt="Tiled homepage of Gareth Strange">
-                      <figcaption class="blogpost__figcaption">Gareth Strange's homepage.</figcaption>
+                      <img src="<?php echo $index?>/assets/img/blog/template-hierarchy.png" class="blogpost__image" width="674" height="421" alt="Diagram of WordPress Template Hierarchy">
+                      <figcaption class="blogpost__figcaption">WordPress Template Hierarchy</figcaption>
                     </figure>
                   </a>
 
-                  <p class="blogpost__text">I don’t have a portfolio of work anything like Gareth’s, but a similar grid layout is something I wanted to use in my own design. I think it’s useful to browse examples of work that we find particularly attractive. Doing so may subconsciously influence our future work even if we don’t realise the information has been absorbed at the time. Creative Something go over this in more detail in this interesting <a href="http://creativesomething.net/post/66982583259/the-creative-processing-your-brain-wont-tell-you" class="blogpost__link">article on creative processing</a>.</p>
+                  <p class="blogpost__text">To explain how this works, let's imagine someone is viewing a WordPress site, clicks the title of a blog post and is taken to a page containing that single blog post. To determine how that page is generated, looking at the diagram, WordPress will follow the path starting from Singular Page, to Single Post Page, to Blog Post, to single-post.php. The page will be generated from whatever is in the single-post.php file. If this file isn't present within the theme, it will carry on right - to single.php - and generate it from that. This makes index.php the last resort, used only when none of the other templates are appropriate.</p>
 
-                  <h3 class="blogpost__heading">Designing it</h3>
-
-                  <p class="blogpost__text">For the design, I skipped straight into creating a high fidelity concept in Photoshop. Don’t do this. Not only does it run the risk of wasting hours of development time on a website that may prove to be unfeasible in a user experience sense, it limits your thinking. Fortunately, whilst not evidenced on paper, I had roughly considered the organisation of pages and content before I began coding. But if I were to do it again I’d follow the correct procedure of brainstorming and <a href="http://www.experienceux.co.uk/faqs/what-is-wireframing" class="blogpost__link">wireframing</a> different options. The information architecture could be improved - I'd like the homepage to feature teasers of content from other pages. I will rectify that in due course.</p>
-
-                  <a href="<?php echo $index?>/assets/img/blog/wireframes.png" class="blogpost__figure-wrap">
+                  <a href="<?php echo $index?>/assets/img/blog/templates.png" class="blogpost__figure-wrap">
                     <figure class="blogpost__figure">
-                      <img src="<?php echo $index?>/assets/img/blog/wireframes.png" class="blogpost__image" alt="Home and about page wireframes">
-                      <figcaption class="blogpost__figcaption">Wireframes... reverse engineering.</figcaption>
+                      <img src="<?php echo $index?>/assets/img/blog/templates.png" class="blogpost__image" width="674" height="466" alt="Plain WordPress page with templates dropdown menu">
+                      <figcaption class="blogpost__figcaption">The Underscores theme (renamed McCarten) applied with no styling. Here I've installed a plugin that shows the template currently in use (page.php) and the templates included within it that make up the page.</figcaption>
                     </figure>
                   </a>
 
-                  <a href="<?php echo $index?>/assets/img/blog/concept.png" class="blogpost__figure-wrap">
+                  <h3 class="blogpost__heading">Theme Unit Test Data</h3>
+                  <p class="blogpost__text">In order to assess how our theme displays different types of content and all of its possible permutations, WordPress.org provides <a href="https://codex.wordpress.org/Theme_Unit_Test" class="blogpost__link">theme unit test data</a> - posts and pages of dummy content that covers a wide range of scenarios and HTML elements. This means everything can be styled accordingly, and won't cause any nasty surprises for the theme's user.</p>
+
+                  <a href="<?php echo $index?>/assets/img/blog/test_data.png" class="blogpost__figure-wrap">
                     <figure class="blogpost__figure">
-                      <img src="<?php echo $index?>/assets/img/blog/concept.png" class="blogpost__image" alt="Initial homepage concept">
-                      <figcaption class="blogpost__figcaption">My hi-fi mockup in Photoshop.</figcaption>
+                      <img src="<?php echo $index?>/assets/img/blog/test_data.png" class="blogpost__image" width="674" height="433" alt="A blog post showing decreasing header sizes">
+                      <figcaption class="blogpost__figcaption">This particularly useful blog post provided by the Theme Unit Test Data shows how various HTML tags are formatted within the theme. At this stage I've applied some basic styling to the CSS.</figcaption>
                     </figure>
                   </a>
 
-                  <p class="blogpost__text">Despite this, one thing I was highly conscious of from the beginning and let dictate the design of the layout somewhat was line length. Websites with overly long line lengths give off a conspicuous air of amateurism, so it was important to me to keep it within the ideal range of 45 to 75 characters. This Laura Franz <a href="https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design" class="blogpost__link">article on line length and font-size</a> for Smashing Magazine was an excellent resource on the topic, suggesting that it’s the width of the text container that should be altered to preserve line length, not the size of the font. Overly large font sizes have a negative impact on readability.</p>
+                  <h3 class="blogpost__heading">Functions.php</h3>
+                  <p class="blogpost__text">In order to offer the theme’s user customisable features to be accessed via the WordPress UI, each WordPress theme comes with a PHP file named ‘functions’. It is here where scripts and various aspects of WordPress’ inbuilt functionality can be written or hooked onto. I decided in my theme to provide the user with the option of uploading their own custom logo.</p>
 
-                  <h3 class="blogpost__heading">Building it</h3>
+                  <p class="blogpost__text">To enable this functionality, I located the function named <code>mccarten_setup</code>. It is within this (automatically named after the theme name) that the features unique to the theme are generated on page load. Using the guide provided by the <a href="https://codex.wordpress.org/Theme_Logo" class="blogpost__link">WordPress Codex</a> I specified a default height and width for the logo and enabled the user to crop their logo image if they wish.</p>
 
-                  <p class="blogpost__text">Otherwise known as the technical bit. The first step was to setup a folder structure for development. I tend to use the same setup now for all web projects, and the folder structure was something I learned from Travis Neilson of DevTips. His <a href="https://github.com/DevTips/DevTips-Starter-Kit" class="blogpost__link">DevTips Starter Kit</a> was a perfect introduction to thinking about the organisation of the development process more professionally. In doing so I became an advocate of <a href="http://sass-lang.com/" class="blogpost__link">Sass</a>, <a href="http://gulpjs.com/" class="blogpost__link">Gulp</a> and <a href="https://git-scm.com/" class="blogpost__link">Git</a>. Using Sass in conjunction with Gulp greatly improved the ease and speed of my workflow; the former allowing the use of variables, nesting and partials enabled me to write code in a more organised, modular fashion than vanilla CSS. As well as using Gulp to compile my Sass to CSS, I used <a href="https://www.browsersync.io/" class="blogpost__link">Browsersync</a> to allow for instant browser reloading after saving code, <a href="https://autoprefixer.github.io/" class="blogpost__link">Autoprefixer</a> to automatically add the vendor prefixes to CSS properties for older browsers and <a href="https://www.npmjs.com/package/gulp-connect-php" class="blogpost__link">gulp-connect-php</a> to run a local PHP server during development.</p>
-
-                  <a href="<?php echo $index?>/assets/img/blog/sassgulp.png" class="blogpost__figure-wrap">
+                  <a href="<?php echo $index?>/assets/img/blog/custom_logo.png" class="blogpost__figure-wrap">
                     <figure class="blogpost__figure">
-                      <img src="<?php echo $index?>/assets/img/blog/sassgulp.png" class="blogpost__image" alt="Sass code and JavaScript in a gulp file">
-                      <figcaption class="blogpost__figcaption">Variables in Sass and my gulpfile.js</figcaption>
+                      <img src="<?php echo $index?>/assets/img/blog/custom_logo.png" class="blogpost__image" width="674" height="151" alt="WordPress PHP code for custom logo">
+                      <figcaption class="blogpost__figcaption">PHP snippet enabling custom logo functionality.</figcaption>
                     </figure>
                   </a>
 
-                  <p class="blogpost__text">Using Git for version control meant I could experiment to my heart’s content without fear of breaking something past the point of no return. I found having such peace of mind valuable to say the least.</p>
+                  <h3 class="blogpost__heading">Conditional styling</h3>
+                  <p class="blogpost__text">If pages in WordPress all share the same limited number of PHP template files to determine their construction, you may be wondering how we can apply specific and unique styling to a page when required. I discovered that there are various ways of achieving this.</p>
 
-                  <p class="blogpost__text">Thanks to flexbox the overall layout was relatively simple to code, major breakpoints usually entailed simply changing the flex-direction to ‘column’ or ‘row’, depending on the context, and then tweaking. One aspect I found rewarding was figuring out how I could create those boxed headers with the dotted border and horizontal lines either side. My first attempt was almost successful but the horizontal line was visible behind the header text. After experimenting for a while I arrived at the answer by breaking up the header into three distinct parts and applying a negative top margin to the box in the middle. I <a href="https://codepen.io/blackmath/pen/qaGEog" class="blogpost__link">saved the technique on CodePen</a> if this interests you.</p>
+                  <p class="blogpost__text">The first involves the template hierarchy. On the theme's homepage I wanted the sidebar (or the 'widget area') to display to the side of the content above a certain device width, and I only wanted this to occur in this instance, not on every page. The template hierarchy shows how the front-page.php template file has greater specificity than what was initially in use - page.php. By creating a front-page.php file, WordPress automatically detected that my homepage should use front-page.php as the template. This was then reflected in the class names of the body tag - a class name of 'home' was appended to the body tag on this page and nowhere else. This meant I could apply specific styles to the elements on the page by simply prefixing the relevant class names in the SASS with <code>.home </code></p>
 
-                  <p class="blogpost__text">Here’s <a href="https://github.com/tmccarten/agency_ready" class="blogpost__link">my Github repository</a> if you want to see how much blood, sweat and tears went into making this site.</p>
+                  <a href="<?php echo $index?>/assets/img/blog/body_class.png" class="blogpost__figure-wrap">
+                    <figure class="blogpost__figure">
+                      <img src="<?php echo $index?>/assets/img/blog/body_class.png" class="blogpost__image" width="674" height="318" alt="WordPress CSS code">
+                      <figcaption class="blogpost__figcaption">Note the 'home' class at the beginning of the body element which enabled me to style specifically for this page.</figcaption>
+                    </figure>
+                  </a>
 
-                  <h3 class="blogpost__heading">References</h3>
+                  <h3 class="blogpost__heading">Evaluation</h3>
+                  <p class="blogpost__text">I found this a surprisingly difficult project but that has only motivated me to seek further clarity on the workings of theme development and its best practices. It is clear that, if not proficiency, a strong working knowledge of PHP is required to truly reap the rewards.</p>
+
+                  <p class="blogpost__text">I would have liked to have refined the theme and applied more styles as at the moment it's neither here nor there. With that said, I didn't want to run the risk of spending all of my time on design as that may have missed the point of the project.</p>
+
+                  <p class="blogpost__text">Powering <a href="http://venturebeat.com/2015/11/08/wordpress-now-powers-25-of-the-web/" class="blogpost__link">25% of the web</a> as it stands, it seems almost inevitable that WordPress will grow to the point where it becomes as much a standard of web development as are HTML, CSS and JavaScript.</p>
+
+                  <a href="http://06167055.webdevmmu.uk/wp" class="blogpost__link">WordPress theme (demonstrator)</a>
+
+                  <h4 class="blogpost__heading blogpost__heading--small">References</h4>
+
+                  <p class="blogpost__text"><small>Barron, B. (2014) <cite>How Much Do WordPress Developers Make?</cite>. ManageWP. [Online] [Accessed on 13 March 2017] <a href="https://managewp.com/how-much-wordpress-developers-make" class="blogpost__link">https://managewp.com/how-much-wordpress-developers-make</a></small></p>
+
+                  <p class="blogpost__text"><small>Lynda.com, (2017) <cite>WordPress: Building Themes from Scratch Using Underscores.</cite> [video] [Accessed on 13 March 2017] <a href="https://www.lynda.com/WordPress-tutorials/WordPress-Building-Themes-from-Scratch-Using-Underscores/491704-2.html" class="blogpost__link">https://www.lynda.com/WordPress-tutorials/WordPress-Building-Themes-from-Scratch-Using-Underscores/491704-2.html</a></small></p>
+
+                  <p class="blogpost__text"><small>Theme Development. (n.d.) WordPress.org. [Online] [Accessed on 13 March 2017] <a href="https://codex.wordpress.org/Theme_Development" class="blogpost__link">https://codex.wordpress.org/Theme_Development</a></small></p>
 
                 </section><!-- blogpost content ends -->
 
@@ -96,7 +142,7 @@
 
           </div><!-- content inner ends -->
 
-          <a href=".." class="return-link"><img src="<?php echo $index?>/assets/img/icons/back.svg" height="20" width="20" alt=""><p>Blog index</p></a>
+          <a href=".." class="return-link"><img src="<?php echo $index?>/assets/img/icons/back.svg" height="20" width="20" alt=""><p class="blogpost__text">Blog index</p></a>
 
         </section><!-- content ends -->
 
