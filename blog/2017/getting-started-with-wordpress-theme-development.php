@@ -59,7 +59,7 @@
                   <a href="https://github.com/tmccarten/wp" class="blogpost__link">GitHub repository</a>, <a href="http://06167055.webdevmmu.uk/wp" class="blogpost__link">WordPress theme (demonstrator)</a>
 
                   <h3 class="blogpost__heading">How</h3>
-                  <h5>The Template Hierarchy</h5>
+                  <h4 class="blogpost__heading blogpost__heading--small">The Template Hierarchy</h5>
                   <p class="blogpost__text">It was necessary for me to become acquainted with how WordPress applies formatting to pages depending on their content. This meant becoming familiar with <a href="https://developer.wordpress.org/themes/basics/template-hierarchy/" class="blogpost__link">The Template Hierarchy</a>.</p>
 
                   <a href="<?php echo $index?>/assets/img/blog/template-hierarchy.png" class="blogpost__figure-wrap">
