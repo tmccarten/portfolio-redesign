@@ -28,6 +28,7 @@
   color: white;
   text-decoration: none;
   padding: 1em;
+  font-weight: 300;
 
   &:focus, &:hover, &.main-menu__link--current {
     outline: 0;
@@ -51,7 +52,7 @@
   .main-menu {
     flex-direction: row;
     background-color: transparent;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .main-menu__item {
@@ -63,7 +64,7 @@
 
     &:focus, &:hover, &.main-menu__link--current {
       background-color: lighten($tilecolour, 5);
-      //border-bottom: .08125em solid white;
+      border-bottom: .2em solid $tilecolour--hover;      
     }
 
   }

@@ -35,11 +35,11 @@
   overflow: hidden;
   font-size: .8125rem;
 
-  &:hover {
-    background-color: $tilecolour--hover;
+  &:hover {    
+    border-right: .25em solid $tilecolour--hover;
 
     .post__date {
-      background-color: darken($tilecolour--hover, 5);
+      background-color: $tilecolour;
     }
   }
 }

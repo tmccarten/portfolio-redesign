@@ -462,6 +462,7 @@ body {
 	color: white;
 	text-decoration: none;
 	padding: 1em;
+	font-weight: 300;
 }
 
 .main-menu__link:focus,
@@ -735,11 +736,11 @@ body {
 }
 
 .sidebar-blogposts__post:hover {
-	background-color: #d66e51;
+	border-right: 0.25em solid #d66e51;
 }
 
 .sidebar-blogposts__post:hover .post__date {
-	background-color: #d15d3c;
+	background-color: #343859;
 }
 
 .post__title {
@@ -1322,7 +1323,7 @@ body {
 	-ms-flex-direction: row;
 	flex-direction: row;
 	background-color: transparent;
-	font-size: 20px;
+	font-size: 1.25rem;
 }
 
 .main-menu__item {
@@ -1337,6 +1338,7 @@ body {
 .main-menu__link:hover,
 .main-menu__link.main-menu__link--current {
 	background-color: #3d426a;
+	border-bottom: 0.2em solid #d66e51;
 }
 
 .blogpost__main {
@@ -1540,6 +1542,7 @@ body::before {
 	bottom: 0;
 	left: 0;
 	z-index: -1;
+	background-image: url("../img/body_bg.png");
 	background-size: cover;
 }
 
