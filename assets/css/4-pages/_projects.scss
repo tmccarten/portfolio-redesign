@@ -6,10 +6,14 @@
 }
 
 .project__link {
-  color: lighten($tilecolour--hover, 5);
-  font-weight: 500;
+  color: $linkcolour;
   text-decoration: none;
-  border-bottom: .1em solid $tilecolour--hover;
+  border-bottom: .1em dotted $linkcolour;
+
+  &:hover {
+    color: white;
+    border-bottom: .1em solid white;
+  }
 }
 
 .project + * {
@@ -22,9 +26,10 @@
 }
 
 .project__title {
-  font-size: 1em;
+  font-size: 1.25em;
   font-weight: 700;
   font-family: $seriffont;
+  text-shadow: .05em .05em $maincolour;
 }
 
 .project__title--no-mob {
@@ -66,7 +71,8 @@
 .project__text {
   font-size: 0.8em;
   font-weight: 300;
-  line-height: 23px;
+  line-height: 1.4375em;
+  max-width: 60ch;
 
   &:first-of-type {
     margin-top: 0;
@@ -85,7 +91,11 @@
 @media screen and (min-width: $mqphonelimit) {
 
   .project__title {
-    font-size: 1.3em;
+    font-size: 1.5em;
+  }
+
+  .project__text {
+    font-size: .9em;
   }
 
 }
@@ -120,7 +130,7 @@
 
   .project__title--no-mob {
     display: block;
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   .project__info {
@@ -137,7 +147,7 @@
     flex: 1;
     margin-left: 2em;
     height: 100%;
-    border-left: .1em dashed $tilecolour;
+    //border-left: .1em dashed $tilecolour;
     padding-left: 2em;
   }
 

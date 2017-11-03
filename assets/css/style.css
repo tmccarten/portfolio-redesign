@@ -578,12 +578,12 @@ body {
 .blogpost__link {
 	color: lightblue;
 	text-decoration: none;
-	border-bottom: .1em dotted lightblue;
+	border-bottom: 0.1em dotted lightblue;
 }
 
 .blogpost__link:hover {
 	color: white;
-	border-bottom: .1em solid lightblue;
+	border-bottom: 0.1em solid lightblue;
 }
 
 .blogpost__figure-wrap {
@@ -618,8 +618,8 @@ body {
 
 .blogpost__ordered-list {
 	font-weight: 300;
-	padding-left: .2em;
-	list-style-position: inside;
+	padding-left: 1em;
+	line-height: 1.7em;
 }
 
 .blogpost__code {
@@ -998,10 +998,14 @@ body {
 }
 
 .project__link {
-	color: #db7f65;
-	font-weight: 500;
+	color: lightblue;
 	text-decoration: none;
-	border-bottom: 0.1em solid #d66e51;
+	border-bottom: 0.1em dotted lightblue;
+}
+
+.project__link:hover {
+	color: white;
+	border-bottom: .1em solid white;
 }
 
 .project + * {
@@ -1019,9 +1023,10 @@ body {
 }
 
 .project__title {
-	font-size: 1em;
+	font-size: 1.25em;
 	font-weight: 700;
 	font-family: Merriweather, Georgia, Times, serif;
+	text-shadow: 0.05em 0.05em #303453;
 }
 
 .project__title--no-mob {
@@ -1066,7 +1071,8 @@ body {
 .project__text {
 	font-size: 0.8em;
 	font-weight: 300;
-	line-height: 23px;
+	line-height: 1.4375em;
+	max-width: 60ch;
 }
 
 .project__text:first-of-type {
@@ -1211,7 +1217,11 @@ body {
 }
 
 .project__title {
-	font-size: 1.3em;
+	font-size: 1.5em;
+}
+
+.project__text {
+	font-size: .9em;
 }
 
 .bloglisting__title {
@@ -1417,6 +1427,10 @@ body {
 	margin-top: 1em;
 }
 
+.content__inner {
+	padding: 3rem;
+}
+
 .breadcrumb {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1500,7 +1514,7 @@ body {
 
 .project__title--no-mob {
 	display: block;
-	font-size: 2rem;
+	font-size: 2.2rem;
 }
 
 .project__info {
@@ -1525,7 +1539,6 @@ body {
 	flex: 1;
 	margin-left: 2em;
 	height: 100%;
-	border-left: 0.1em dashed #343859;
 	padding-left: 2em;
 }
 

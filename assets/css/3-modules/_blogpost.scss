@@ -51,13 +51,13 @@
 }
 
 .blogpost__link {
-  color: lightblue;
+  color: $linkcolour;
   text-decoration: none;
-  border-bottom: .1em dotted lightblue;
+  border-bottom: .1em dotted $linkcolour;
 
   &:hover {
     color: white;
-    border-bottom: .1em solid lightblue;;
+    border-bottom: .1em solid $linkcolour;
   }
 }
 
@@ -93,8 +93,8 @@
 
 .blogpost__ordered-list {
   font-weight: 300;
-  padding-left: .2em;
-  list-style-position: inside;
+  padding-left: 1em;
+  line-height: 1.7em;
 }
 
 .blogpost__code {
@@ -260,12 +260,14 @@
     margin-top: 1em;
   }
 
+  .content__inner {
+    padding: 3rem;
+  }
+
 }
 
 @media screen and (min-width: $mqthreecol) {
 
-  .blogpost__share {
-    //border-left: .1em dashed rgba($maincolour, .6);
-  }
+
 
 }
