@@ -49,21 +49,19 @@
 .project__btn-view {
   display: block;
   text-align: center;
-  margin: 1em 0;
-  background-color: lighten($maincolour, 5);
-  border: .1em solid $tilecolour;
+  margin: 1em auto;
+  background-color: lighten($maincolour, 12);;
+  border: .1em solid lighten($maincolour, 15);
   font-family: $bodyfont;
   font-weight: bold;
   padding: .5em;
   color: white;
-  width: 100%;
+  width: 50%;
   align-self: center;
   text-decoration: none;
-  transition: background-color 300ms ease;
 
   &:hover, &:active, &:focus {
-    background-color: lighten($maincolour, 10);
-    //border: .1em solid lighten($maincolour, 15);
+    background-color: lighten($maincolour, 10);    
     color: white;
   }
 }

@@ -1046,19 +1046,18 @@ body {
 .project__btn-view {
 	display: block;
 	text-align: center;
-	margin: 1em 0;
-	background-color: #393e63;
-	border: 0.1em solid #343859;
+	margin: 1em auto;
+	background-color: #464c7a;
+	border: 0.1em solid #4c5283;
 	font-family: "Webly Sleek UI", "Segoe UI", Tahoma, Arial, sans-serif;
 	font-weight: bold;
 	padding: .5em;
 	color: white;
-	width: 100%;
+	width: 50%;
 	-ms-flex-item-align: center;
 	-ms-grid-row-align: center;
 	align-self: center;
 	text-decoration: none;
-	transition: background-color 300ms ease;
 }
 
 .project__btn-view:hover,
@@ -1429,10 +1428,6 @@ body {
 
 .btn-share + * {
 	margin-top: 1em;
-}
-
-.content__inner {
-	padding: 3rem;
 }
 
 .breadcrumb {
