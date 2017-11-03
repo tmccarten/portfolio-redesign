@@ -1385,6 +1385,10 @@ body {
 	border-bottom: 0.2em solid #d66e51;
 }
 
+.content__inner {
+	padding: 3rem;
+}
+
 .blogpost__main {
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;

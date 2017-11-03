@@ -62,9 +62,17 @@
 
 }
 
+@media screen and (min-width: $mqnavbar) {
+
+  .content__inner {
+    padding: 3rem;
+  }
+
+}
+
 @media screen and (min-width: $mqthreecol) {
 
   .content {
-    max-width: 62.875rem;    
+    max-width: 62.875rem;
   }
 }
