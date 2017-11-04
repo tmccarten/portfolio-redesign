@@ -64,6 +64,10 @@
 
 @media screen and (min-width: $mqnavbar) {
 
+  .title {
+    display: none;
+  }
+
   .content__inner {
     padding: 3rem;
   }

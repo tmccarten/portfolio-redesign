@@ -1,6 +1,6 @@
 <?php $index = ".."; ?>
 
-<?php $activePage = ""; ?>
+<?php $activePage = "Work"; ?>
 <?php $title = "Projects | Thomas McCarten Portfolio"; ?>
 <?php $description = "Some projects and case studies Thomas McCarten has worked on as a web developer."; ?>
 <?php $keywords = "Thomas McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
