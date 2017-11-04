@@ -22,3 +22,29 @@ btnMenu.addEventListener('click', function() {
     btnMenu.setAttribute('aria-expanded', false);
   }
 }, false);
+
+
+function getDocHeight() {
+    var D = document;
+    return Math.max(
+        D.body.scrollHeight, D.documentElement.scrollHeight,
+        D.body.offsetHeight, D.documentElement.offsetHeight,
+        D.body.clientHeight, D.documentElement.clientHeight
+    );
+}
+
+var winHeight, docHeight, trackLength, throttleScroll;
+
+function getMeasurements(){
+	winHeight = window.innerHeight
+	docHeight = getDocHeight()
+	trackLength = docHeight - winHeight
+}
+
+function amountScrolled(){
+	var scrollTop = window.pageYOffset
+	var pctScrolled = Math.floor(scrollTop/trackLength * 100); // gets percentage scrolled (ie: 80 or NaN if tracklength == 0)
+	return pctScrolled;
+}
+
+getMeasurements();
