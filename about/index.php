@@ -15,16 +15,16 @@
         <section class="content">
           <h2 class="title">About</h2>
 
-          <div class="content__inner">
+          <div class="content__item">
 
-            <section class="project">
-              <h3 class="project__title">Hello.</h3>
+            <section class="about">
+              <h3 class="content__heading content__heading--about">Hello.</h3>
               <div class="about__img-wrapper">
                 <img class="about__img" src="<?php echo $index?>/assets/img/tom_mccarten-about.png" width="300" height="300" alt="Portrait photo of Tom McCarten">
                 <img class="about__img" src="<?php echo $index?>/assets/img/tom_mccarten-beach.jpg" width="300" height="300" alt="Portrait photo of Tom McCarten">
               </div>
-              <div class="project__info">
-                <h3 class="project__title project__title--no-mob">Hello.</h3>
+              <div class="about__info">
+                <h3 class="content__heading content__heading--about content__heading--no-mob">Hello.</h3>
                 <p class="project__text"><span class="project__text--intro">I graduated from Manchester Metropolitan University in July 2017 with First-class Honours and the Programme Leaders Prize for BSc Web Development.</p>
 
                 <p class="project__text">I subsequently moved down south where I now seek front-end roles (or similar) in Medway and the surrounding areas.</p>

@@ -14,7 +14,7 @@
 
         <section class="content">
 
-          <div class="content__inner">
+          <div class="content__item">
 
             <div class="breadcrumb">
               <a href=".." class="breadcrumb__link">Blog</a>

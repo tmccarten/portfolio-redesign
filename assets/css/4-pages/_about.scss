@@ -1,6 +1,12 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
 .about__img-wrapper {
   display: flex;
   flex-direction: row;
+  order: 2;
   margin-bottom: 2rem;
 }
 
@@ -10,11 +16,31 @@
   height: 100%;
 }
 
+.about__info {
+  order: 1;
+  margin-bottom: 2rem;
+}
+
 @media screen and (min-width: $mqnavbar) {
+
+  .about {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .content__heading--about {
+    margin-top: 1.17em;
+  }
+
+  .about__info {
+    order: 1;
+  }
 
   .about__img-wrapper {
     flex-direction: column;
-    margin-right: 2rem;
+    margin-left: 2em;
+    margin-right: 0;
+    order: 2;
   }
 
   .about__img {
