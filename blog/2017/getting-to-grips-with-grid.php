@@ -14,7 +14,7 @@
 
         <section class="content">
 
-          <div class="content__inner">
+          <div class="content__item">
 
             <div class="breadcrumb">
               <a href=".." class="breadcrumb__link">Blog</a>
@@ -60,7 +60,7 @@
                   <p class="blogpost__text">I’ll be using CodePen to demonstrate examples of Grid’s properties and how grids can be made responsive with media queries. For my final demonstrator I’ll be writing the code in Atom, using plain HTML and vanilla CSS. I’ll also create a GitHub repository, both for version control and so you can see the process of the final demonstrator being built.</p>
 
                   <h3 class="blogpost__heading">Location</h3>
-                  <a href="https://github.com/tmccarten/wp" class="blogpost__link">GitHub repository</a> / <a href="http://codepen.io/tommccarten/pens/public/" class="blogpost__link">CodePens</a> / <a href="http://tommccarten.co.uk/work/css_grid_layout/index.html" class="blogpost__link">Demonstrator</a>
+                  <a href="https://github.com/tmccarten/wp" class="content__link">GitHub repository</a> / <a href="http://codepen.io/tommccarten/pens/public/" class="content__link">CodePens</a> / <a href="http://tommccarten.co.uk/work/css_grid_layout/index.html" class="content__link">Demonstrator</a>
 
                   <h3 class="blogpost__heading">How</h3>
                   <p class="blogpost__text">My homepage is a perfect candidate for demonstrating the capabilities of Grid. But before I dive in to that, let’s look at how Grid generally works…</p>
@@ -95,7 +95,7 @@
                     </figure>
                   </a>
 
-                  <p class="blogpost__text">Only <a href="https://rachelandrew.co.uk/archives/2015/06/19/css-grid-layout-solving-the-gutter-problem/" class="blogpost__link">latterly added to the spec</a>, with the <code class="blogpost__code">grid-column-gap</code> and <code class="blogpost__code">grid-row-gap</code> properties we can also specify the size of the gaps we require between our rows or columns, or, if we want them to be the same, the <code class="blogpost__code">grid-gap</code> property. Here’s a pen I created in summary of the above:</p>
+                  <p class="blogpost__text">Only <a href="https://rachelandrew.co.uk/archives/2015/06/19/css-grid-layout-solving-the-gutter-problem/" class="content__link">latterly added to the spec</a>, with the <code class="blogpost__code">grid-column-gap</code> and <code class="blogpost__code">grid-row-gap</code> properties we can also specify the size of the gaps we require between our rows or columns, or, if we want them to be the same, the <code class="blogpost__code">grid-gap</code> property. Here’s a pen I created in summary of the above:</p>
 
                   <div class="blogpost__codepen-wrap">
                     <p data-height="265" data-theme-id="dark" data-slug-hash="pebYPL" data-default-tab="css,result" data-user="tommccarten" data-embed-version="2" data-pen-title="CSS Grid Layout - Basic Grid" class="codepen">See the Pen <a href="http://codepen.io/tommccarten/pen/pebYPL/">CSS Grid Layout - Basic Grid</a> by Tom McCarten (<a href="http://codepen.io/tommccarten">@tommccarten</a>) on <a href="http://codepen.io">CodePen</a>.</p>
@@ -134,7 +134,7 @@
 
                   <h3 class="blogpost__heading">Evaluation</h3>
 
-                  <p class="blogpost__text">To apply the module to a real-world example I applied what I’d learned to a <a href="http://tommccarten.co.uk/work/css_grid_layout/index.html" class="blogpost__link">rebuild of my homepage</a>. For a few reasons, I found Grid a joy to work with:</p>
+                  <p class="blogpost__text">To apply the module to a real-world example I applied what I’d learned to a <a href="http://tommccarten.co.uk/work/css_grid_layout/index.html" class="content__link">rebuild of my homepage</a>. For a few reasons, I found Grid a joy to work with:</p>
 
                   <p class="blogpost__text">• The <code class="blogpost__code">grid-gap</code> property. This eradicated the need for margins, and, in the case of my homepage, the annoyance of applying different margins to nth children as I do currently:</p>
 
@@ -149,9 +149,9 @@
 
                   <p class="blogpost__text">• It behaves like you expect it to. Working on my demonstrator was painless in that there were no head-scratching moments. The consequence of this is reduced development time which is obviously a good thing.</p>
 
-                  <p class="blogpost__text">In review, I’m satisfied that I achieved my aim and all of the objectives I set at the top of the project. Whilst there are other properties like <code class="blogpost__code">grid-auto-flow</code> (dictates how grid children are automatically placed into a grid) I would have liked to demonstrate, I understand how they work due to excellent resources like <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow" class="blogpost__link">MDN</a>.</p>
+                  <p class="blogpost__text">In review, I’m satisfied that I achieved my aim and all of the objectives I set at the top of the project. Whilst there are other properties like <code class="blogpost__code">grid-auto-flow</code> (dictates how grid children are automatically placed into a grid) I would have liked to demonstrate, I understand how they work due to excellent resources like <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow" class="content__link">MDN</a>.</p>
 
-                  <p class="blogpost__text">It is clear in conclusion that Grid is a fantastic addition to the developer’s arsenal and will greatly enhance the development process, both in terms of speed and reduction of code. Whilst there is a <a href="https://rachelandrew.co.uk/archives/2015/07/28/modern-css-layout-power-and-responsibility/" class="blogpost__link">potential accessibility concern</a> due to displacement of source order, I have confidence that the industry will adapt and address these concerns as they become acquainted with Grid going forward.</p>
+                  <p class="blogpost__text">It is clear in conclusion that Grid is a fantastic addition to the developer’s arsenal and will greatly enhance the development process, both in terms of speed and reduction of code. Whilst there is a <a href="https://rachelandrew.co.uk/archives/2015/07/28/modern-css-layout-power-and-responsibility/" class="content__link">potential accessibility concern</a> due to displacement of source order, I have confidence that the industry will adapt and address these concerns as they become acquainted with Grid going forward.</p>
 
                   <h4 class="blogpost__heading blogpost__heading--small">References</h4>
 
@@ -160,17 +160,17 @@
 
                   <p class="blogpost__text">I would have liked to have refined the theme and applied more styles as at the moment it's neither here nor there. With that said, I didn't want to run the risk of spending all of my time on design as that may have missed the point of the project.</p>
 
-                  <p class="blogpost__text">Powering <a href="http://venturebeat.com/2015/11/08/wordpress-now-powers-25-of-the-web/" class="blogpost__link">25% of the web</a> as it stands, it seems almost inevitable that WordPress will grow to the point where it becomes as much a standard of web development as are HTML, CSS and JavaScript.</p>
+                  <p class="blogpost__text">Powering <a href="http://venturebeat.com/2015/11/08/wordpress-now-powers-25-of-the-web/" class="content__link">25% of the web</a> as it stands, it seems almost inevitable that WordPress will grow to the point where it becomes as much a standard of web development as are HTML, CSS and JavaScript.</p>
 
-                  <a href="http://06167055.webdevmmu.uk/wp" class="blogpost__link">WordPress theme (demonstrator)</a>
+                  <a href="http://06167055.webdevmmu.uk/wp" class="content__link">WordPress theme (demonstrator)</a>
 
                   <h4 class="blogpost__heading blogpost__heading--small">References</h4>
 
-                  <p class="blogpost__text"><small>Barron, B. (2014) <cite>How Much Do WordPress Developers Make?</cite>. ManageWP. [Online] [Accessed on 13 March 2017] <a href="https://managewp.com/how-much-wordpress-developers-make" class="blogpost__link">https://managewp.com/how-much-wordpress-developers-make</a></small></p>
+                  <p class="blogpost__text"><small>Barron, B. (2014) <cite>How Much Do WordPress Developers Make?</cite>. ManageWP. [Online] [Accessed on 13 March 2017] <a href="https://managewp.com/how-much-wordpress-developers-make" class="content__link">https://managewp.com/how-much-wordpress-developers-make</a></small></p>
 
-                  <p class="blogpost__text"><small>Lynda.com, (2017) <cite>WordPress: Building Themes from Scratch Using Underscores.</cite> [video] [Accessed on 13 March 2017] <a href="https://www.lynda.com/WordPress-tutorials/WordPress-Building-Themes-from-Scratch-Using-Underscores/491704-2.html" class="blogpost__link">https://www.lynda.com/WordPress-tutorials/WordPress-Building-Themes-from-Scratch-Using-Underscores/491704-2.html</a></small></p>
+                  <p class="blogpost__text"><small>Lynda.com, (2017) <cite>WordPress: Building Themes from Scratch Using Underscores.</cite> [video] [Accessed on 13 March 2017] <a href="https://www.lynda.com/WordPress-tutorials/WordPress-Building-Themes-from-Scratch-Using-Underscores/491704-2.html" class="content__link">https://www.lynda.com/WordPress-tutorials/WordPress-Building-Themes-from-Scratch-Using-Underscores/491704-2.html</a></small></p>
 
-                  <p class="blogpost__text"><small>Theme Development. (n.d.) WordPress.org. [Online] [Accessed on 13 March 2017] <a href="https://codex.wordpress.org/Theme_Development" class="blogpost__link">https://codex.wordpress.org/Theme_Development</a></small></p>
+                  <p class="blogpost__text"><small>Theme Development. (n.d.) WordPress.org. [Online] [Accessed on 13 March 2017] <a href="https://codex.wordpress.org/Theme_Development" class="content__link">https://codex.wordpress.org/Theme_Development</a></small></p>
 
                 </section><!-- blogpost content ends -->
 

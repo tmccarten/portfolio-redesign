@@ -15,7 +15,7 @@
         <section class="content">
           <h2 class="title">Blog</h2>
 
-          <div class="content__inner">
+          <div class="content__item">
 
             <div class="bloglisting">
               <h3 class="bloglisting__title">Getting Started with WordPress Theme Development</h3>
@@ -30,7 +30,7 @@
 
           </div>
 
-          <div class="content__inner">
+          <div class="content__item">
 
             <div class="bloglisting">
               <h3 class="bloglisting__title">Getting to grips with Grid</h3>
@@ -45,7 +45,7 @@
 
           </div>
 
-          <div class="content__inner">
+          <div class="content__item">
 
             <div class="bloglisting">
               <h3 class="bloglisting__title">Portfolio updates and improvements</h3>
@@ -60,7 +60,7 @@
 
           </div>
 
-          <div class="content__inner">
+          <div class="content__item">
 
             <div class="bloglisting">
               <h3 class="bloglisting__title">Optimising for increased speed and integrity</h3>
@@ -75,7 +75,7 @@
 
           </div>
 
-          <div class="content__inner">
+          <div class="content__item">
 
             <div class="bloglisting">
               <h3 class="bloglisting__title">Building my portfolio</h3>
@@ -90,7 +90,7 @@
 
           </div>
 
-          <div class="content__inner">
+          <div class="content__item">
 
             <div class="bloglisting">
               <h3 class="bloglisting__title">Front-end in a booming digital industry</h3>

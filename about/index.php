@@ -15,21 +15,21 @@
         <section class="content">
           <h2 class="title">About</h2>
 
-          <div class="content__inner">
+          <div class="content__item">
 
-            <section class="project">
-              <h3 class="project__title">Hello.</h3>
+            <section class="about">
+              <h3 class="content__heading">Hello.</h3>
               <div class="about__img-wrapper">
                 <img class="about__img" src="<?php echo $index?>/assets/img/tom_mccarten-about.png" width="300" height="300" alt="Portrait photo of Tom McCarten">
                 <img class="about__img" src="<?php echo $index?>/assets/img/tom_mccarten-beach.jpg" width="300" height="300" alt="Portrait photo of Tom McCarten">
               </div>
-              <div class="project__info">
-                <h3 class="project__title project__title--no-mob">Hello.</h3>
-                <p class="project__text"><span class="project__text--intro">I graduated from Manchester Metropolitan University in July 2017 with First-class Honours and the Programme Leaders Prize for BSc Web Development.</p>
+              <div class="about__info">
+                <h3 class="content__heading content__heading--no-mob">Hello.</h3>
+                <p class="about__text">I graduated from Manchester Metropolitan University in July 2017 with First-class Honours and the Programme Leaders Prize in BSc Web Development.</p>
+                <p class="about__text">I subsequently moved down south where I now seek front-end roles (or similar) in Medway and the surrounding areas.</p>
+                <p class="about__text">Fluent in CSS/Sass with a strong working knowledge of JavaScript and PHP, I consider myself equal parts designer/developer.</p>
 
-                <p class="project__text">I subsequently moved down south where I now seek front-end roles (or similar) in Medway and the surrounding areas.</p>
-
-                <p class="project__text">Fluent in CSS/Sass with a strong working knowledge of JavaScript and PHP, I consider myself equal parts designer/developer.</p>
+                <a href="<?php echo $index?>/contact/" class="content__link">Get in touch!</a>
               </div>
             </section>
 

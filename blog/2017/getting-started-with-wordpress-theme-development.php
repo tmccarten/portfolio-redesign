@@ -14,7 +14,7 @@
 
         <section class="content">
 
-          <div class="content__inner">
+          <div class="content__item">
 
             <div class="breadcrumb">
               <a href=".." class="breadcrumb__link">Blog</a>
@@ -44,23 +44,23 @@
                   <h3 class="blogpost__heading">Definition</h3>
                   <p class="blogpost__text">What are WordPress Themes? Those new to the term may be forgiven for thinking they’re nothing but a ‘skin’ - a superficial alteration of typefaces and colour palettes. The reality is that themes are responsible for not only the style of the WordPress site but the structure, the functionality and the degree of customisation available to the user.</p>
 
-                  <blockquote class="blogpost__quote">"[Themes remove] the need for a typical WordPress site owner to have to learn CSS, HTML, and PHP in order to have a great-looking website." (<a href="https://codex.wordpress.org/Theme_Development" class="blogpost__link">WordPress Codex</a>, 2017)</blockquote>
+                  <blockquote class="blogpost__quote">"[Themes remove] the need for a typical WordPress site owner to have to learn CSS, HTML, and PHP in order to have a great-looking website." (<a href="https://codex.wordpress.org/Theme_Development" class="content__link">WordPress Codex</a>, 2017)</blockquote>
 
-                  <p class="blogpost__text">This makes them incredibly powerful, and goes some way to explaining why it’s possible to make a living <a href="https://managewp.com/how-much-wordpress-developers-make" class="blogpost__link">developing and selling them</a>.</p>
+                  <p class="blogpost__text">This makes them incredibly powerful, and goes some way to explaining why it’s possible to make a living <a href="https://managewp.com/how-much-wordpress-developers-make" class="content__link">developing and selling them</a>.</p>
 
                   <p class="blogpost__text">Learning the basics of theme development has been an enlightening and inspiring process. As a beginner to WordPress itself this meant a large chunk of the project was spent simply getting my head around how the platform's architecture works to organise the pages and templates that make up each WordPress site.</p>
 
                   <h3 class="blogpost__heading">Setup</h3>
-                  <p class="blogpost__text">I used a 'starter theme' called <a href="http://underscores.me/" class="blogpost__link">Underscores</a> to build my theme upon. For development I used <a href="https://netbeans.org/" class="blogpost__link">NetBeans IDE</a> as it incorporates greater functionality than typical text editors when dealing with functions in PHP. I used <a href="http://gulpjs.com/" class="blogpost__link"> Gulp</a> to compile SASS to CSS and provide features like 'Browsersync' for a speedier development workflow. I also used <a href="http://www.wampserver.com/en/" class="blogpost__link">WAMP</a> so I could develop locally before uploading to the live site.</p>
+                  <p class="blogpost__text">I used a 'starter theme' called <a href="http://underscores.me/" class="content__link">Underscores</a> to build my theme upon. For development I used <a href="https://netbeans.org/" class="content__link">NetBeans IDE</a> as it incorporates greater functionality than typical text editors when dealing with functions in PHP. I used <a href="http://gulpjs.com/" class="content__link"> Gulp</a> to compile SASS to CSS and provide features like 'Browsersync' for a speedier development workflow. I also used <a href="http://www.wampserver.com/en/" class="content__link">WAMP</a> so I could develop locally before uploading to the live site.</p>
 
-                  <p class="blogpost__text">Morten Rand-Hendriksen's <a href="https://www.lynda.com/WordPress-tutorials/WordPress-Building-Themes-from-Scratch-Using-Underscores/491704-2.html" class="blogpost__link">WordPress: Building Themes from Scratch Using Underscores</a> was an extremely valuable resource and helped me immensely.</p>
+                  <p class="blogpost__text">Morten Rand-Hendriksen's <a href="https://www.lynda.com/WordPress-tutorials/WordPress-Building-Themes-from-Scratch-Using-Underscores/491704-2.html" class="content__link">WordPress: Building Themes from Scratch Using Underscores</a> was an extremely valuable resource and helped me immensely.</p>
 
                   <h3 class="blogpost__heading">Location</h3>
-                  <a href="https://github.com/tmccarten/wp" class="blogpost__link">GitHub repository</a>, <a href="http://06167055.webdevmmu.uk/wp" class="blogpost__link">WordPress theme (demonstrator)</a>
+                  <a href="https://github.com/tmccarten/wp" class="content__link">GitHub repository</a>, <a href="http://06167055.webdevmmu.uk/wp" class="content__link">WordPress theme (demonstrator)</a>
 
                   <h3 class="blogpost__heading">How</h3>
                   <h4 class="blogpost__heading blogpost__heading--small">The Template Hierarchy</h4>
-                  <p class="blogpost__text">It was necessary for me to become acquainted with how WordPress applies formatting to pages depending on their content. This meant becoming familiar with <a href="https://developer.wordpress.org/themes/basics/template-hierarchy/" class="blogpost__link">The Template Hierarchy</a>.</p>
+                  <p class="blogpost__text">It was necessary for me to become acquainted with how WordPress applies formatting to pages depending on their content. This meant becoming familiar with <a href="https://developer.wordpress.org/themes/basics/template-hierarchy/" class="content__link">The Template Hierarchy</a>.</p>
 
                   <a href="<?php echo $index?>/assets/img/blog/template-hierarchy.png" class="blogpost__figure-wrap">
                     <figure class="blogpost__figure">
@@ -79,7 +79,7 @@
                   </a>
 
                   <h3 class="blogpost__heading">Theme Unit Test Data</h3>
-                  <p class="blogpost__text">In order to assess how our theme displays different types of content and all of its possible permutations, WordPress.org provides <a href="https://codex.wordpress.org/Theme_Unit_Test" class="blogpost__link">theme unit test data</a> - posts and pages of dummy content that covers a wide range of scenarios and HTML elements. This means everything can be styled accordingly, and won't cause any nasty surprises for the theme's user.</p>
+                  <p class="blogpost__text">In order to assess how our theme displays different types of content and all of its possible permutations, WordPress.org provides <a href="https://codex.wordpress.org/Theme_Unit_Test" class="content__link">theme unit test data</a> - posts and pages of dummy content that covers a wide range of scenarios and HTML elements. This means everything can be styled accordingly, and won't cause any nasty surprises for the theme's user.</p>
 
                   <a href="<?php echo $index?>/assets/img/blog/test_data.png" class="blogpost__figure-wrap">
                     <figure class="blogpost__figure">
@@ -91,7 +91,7 @@
                   <h3 class="blogpost__heading">Functions.php</h3>
                   <p class="blogpost__text">In order to offer the theme’s user customisable features to be accessed via the WordPress UI, each WordPress theme comes with a PHP file named ‘functions’. It is here where scripts and various aspects of WordPress’ inbuilt functionality can be written or hooked onto. I decided in my theme to provide the user with the option of uploading their own custom logo.</p>
 
-                  <p class="blogpost__text">To enable this functionality, I located the function named <code class="blogpost__code">mccarten_setup</code>. It is within this (automatically named after the theme name) that the features unique to the theme are generated on page load. Using the guide provided by the <a href="https://codex.wordpress.org/Theme_Logo" class="blogpost__link">WordPress Codex</a> I specified a default height and width for the logo and enabled the user to crop their logo image if they wish.</p>
+                  <p class="blogpost__text">To enable this functionality, I located the function named <code class="blogpost__code">mccarten_setup</code>. It is within this (automatically named after the theme name) that the features unique to the theme are generated on page load. Using the guide provided by the <a href="https://codex.wordpress.org/Theme_Logo" class="content__link">WordPress Codex</a> I specified a default height and width for the logo and enabled the user to crop their logo image if they wish.</p>
 
                   <a href="<?php echo $index?>/assets/img/blog/custom_logo.png" class="blogpost__figure-wrap">
                     <figure class="blogpost__figure">
@@ -117,17 +117,17 @@
 
                   <p class="blogpost__text">I would have liked to have refined the theme and applied more styles as at the moment it's neither here nor there. With that said, I didn't want to run the risk of spending all of my time on design as that may have missed the point of the project.</p>
 
-                  <p class="blogpost__text">Powering <a href="http://venturebeat.com/2015/11/08/wordpress-now-powers-25-of-the-web/" class="blogpost__link">25% of the web</a> as it stands, it seems almost inevitable that WordPress will grow to the point where it becomes as much a standard of web development as are HTML, CSS and JavaScript.</p>
+                  <p class="blogpost__text">Powering <a href="http://venturebeat.com/2015/11/08/wordpress-now-powers-25-of-the-web/" class="content__link">25% of the web</a> as it stands, it seems almost inevitable that WordPress will grow to the point where it becomes as much a standard of web development as are HTML, CSS and JavaScript.</p>
 
-                  <a href="http://06167055.webdevmmu.uk/wp" class="blogpost__link">WordPress theme (demonstrator)</a>
+                  <a href="http://06167055.webdevmmu.uk/wp" class="content__link">WordPress theme (demonstrator)</a>
 
                   <h4 class="blogpost__heading blogpost__heading--small">References</h4>
 
-                  <p class="blogpost__text"><small>Barron, B. (2014) <cite>How Much Do WordPress Developers Make?</cite>. ManageWP. [Online] [Accessed on 13 March 2017] <a href="https://managewp.com/how-much-wordpress-developers-make" class="blogpost__link">https://managewp.com/how-much-wordpress-developers-make</a></small></p>
+                  <p class="blogpost__text"><small>Barron, B. (2014) <cite>How Much Do WordPress Developers Make?</cite>. ManageWP. [Online] [Accessed on 13 March 2017] <a href="https://managewp.com/how-much-wordpress-developers-make" class="content__link">https://managewp.com/how-much-wordpress-developers-make</a></small></p>
 
-                  <p class="blogpost__text"><small>Lynda.com, (2017) <cite>WordPress: Building Themes from Scratch Using Underscores.</cite> [video] [Accessed on 13 March 2017] <a href="https://www.lynda.com/WordPress-tutorials/WordPress-Building-Themes-from-Scratch-Using-Underscores/491704-2.html" class="blogpost__link">https://www.lynda.com/WordPress-tutorials/WordPress-Building-Themes-from-Scratch-Using-Underscores/491704-2.html</a></small></p>
+                  <p class="blogpost__text"><small>Lynda.com, (2017) <cite>WordPress: Building Themes from Scratch Using Underscores.</cite> [video] [Accessed on 13 March 2017] <a href="https://www.lynda.com/WordPress-tutorials/WordPress-Building-Themes-from-Scratch-Using-Underscores/491704-2.html" class="content__link">https://www.lynda.com/WordPress-tutorials/WordPress-Building-Themes-from-Scratch-Using-Underscores/491704-2.html</a></small></p>
 
-                  <p class="blogpost__text"><small>Theme Development. (n.d.) WordPress.org. [Online] [Accessed on 13 March 2017] <a href="https://codex.wordpress.org/Theme_Development" class="blogpost__link">https://codex.wordpress.org/Theme_Development</a></small></p>
+                  <p class="blogpost__text"><small>Theme Development. (n.d.) WordPress.org. [Online] [Accessed on 13 March 2017] <a href="https://codex.wordpress.org/Theme_Development" class="content__link">https://codex.wordpress.org/Theme_Development</a></small></p>
 
                 </section><!-- blogpost content ends -->
 

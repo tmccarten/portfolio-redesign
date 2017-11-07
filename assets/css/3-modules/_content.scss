@@ -4,13 +4,37 @@
   margin-bottom: 1em;
 }
 
-.content__inner {
+.content__item {
   padding: 1em;
-  background-color: lighten($maincolour, 8);
+  background-color: $contentcolour;
+  font-size: 1.25rem;
+  //border: 2px solid $maincolour;
 }
 
-.content__inner + * {
+.content__item + * {
   margin-top: 1em;
+}
+
+.content__heading {
+  font-size: 1.875rem;
+  font-weight: 700;
+  font-family: $seriffont;
+  text-shadow: .05em .05em $maincolour;
+}
+
+.content__heading--no-mob {
+  display: none;
+}
+
+.content__link {
+  color: $linkcolour;
+  text-decoration: none;
+  border-bottom: .1em dotted $linkcolour;
+
+  &:hover {
+    color: white;
+    border-bottom: .1em solid $linkcolour;
+  }
 }
 
 .title {
@@ -41,6 +65,14 @@
   }
 }
 
+@media screen and (min-width: $mqphonelimit) {
+
+  .content__heading {
+    font-size: 1.9375rem;
+  }
+
+}
+
 @media screen and (min-width: $mqbiglogo) {
 
   .content {
@@ -48,8 +80,13 @@
     margin-left: 0;
   }
 
-  .content__inner {
+  .content__item {
     padding: 2rem;
+    font-size: 1.375rem;
+  }
+
+  .content__heading {
+    font-size: 2rem;
   }
 
   .title {
@@ -68,8 +105,18 @@
     display: none;
   }
 
-  .content__inner {
+  .content__item {
     padding: 3rem;
+  }
+
+  .content__heading {
+    display: none;
+    margin-top: 0;
+  }
+
+  .content__heading--no-mob {
+    display: block;
+    font-size: 2.1875rem;
   }
 
 }
