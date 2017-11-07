@@ -1749,6 +1749,10 @@ body::before {
 	margin-top: 0;
 }
 
+.sidebar-blogposts {
+	margin: 0;
+}
+
 }
 
 
