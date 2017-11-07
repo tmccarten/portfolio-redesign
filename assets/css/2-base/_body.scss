@@ -12,7 +12,7 @@ body {
     }
   }
 
-  @media screen and (min-width: $mqthreecol) {
+  @media screen and (min-width: $mqnavbar) {
 
     body::before {
       content: "";

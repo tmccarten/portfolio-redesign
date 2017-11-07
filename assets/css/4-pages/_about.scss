@@ -28,6 +28,10 @@
   max-width: 60ch;
 }
 
+.about__btn-contact {
+
+}
+
 @media screen and (min-width: $mqphonelimit) {
 
   .about__text {
@@ -45,11 +49,12 @@
 
   .about__info {
     order: 1;
+    margin-bottom: 0;
   }
 
   .about__img-wrapper {
     flex-direction: column;
-    order: 2;    
+    order: 2;
     box-shadow: .5em .5em  0 $tilecolour--hover;
     margin: 0 0 0 2em;
   }

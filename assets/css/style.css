@@ -1353,6 +1353,19 @@ body {
 	background: linear-gradient(to bottom, #2d304d 0%, #464c7a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
+body::before {
+	content: "";
+	opacity: .25;
+	position: fixed;
+	height: 600px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background-image: url("../img/body_bg.png");
+	background-size: cover;
+}
+
 .header-container {
 	background-color: transparent;
 }
@@ -1422,6 +1435,7 @@ body {
 
 .content__item {
 	padding: 3rem;
+	background-color: rgba(63, 68, 109, 0.5);
 }
 
 .content__heading {
@@ -1587,6 +1601,7 @@ body {
 	-webkit-box-ordinal-group: 2;
 	-ms-flex-order: 1;
 	order: 1;
+	margin-bottom: 0;
 }
 
 .about__img-wrapper {
@@ -1643,19 +1658,6 @@ body {
 }
 
 @media screen and (min-width: 68.9125em) {
-
-body::before {
-	content: "";
-	opacity: .25;
-	position: fixed;
-	height: 600px;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: -1;
-	background-image: url("../img/body_bg.png");
-	background-size: cover;
-}
 
 .main {
 	max-width: 1066px;
