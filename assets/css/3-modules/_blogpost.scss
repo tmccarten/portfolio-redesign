@@ -50,17 +50,6 @@
   max-width: 60ch;
 }
 
-.blogpost__link {
-  color: $linkcolour;
-  text-decoration: none;
-  border-bottom: .1em dotted $linkcolour;
-
-  &:hover {
-    color: white;
-    border-bottom: .1em solid $linkcolour;
-  }
-}
-
 .blogpost__figure-wrap {
   color: white;
   text-decoration: none;
@@ -246,7 +235,7 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    width: 30%;    
+    width: 30%;
   }
 
   .btn-share {

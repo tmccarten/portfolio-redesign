@@ -6,8 +6,9 @@
 
 .content__item {
   padding: 1em;
-  background-color: lighten($maincolour, 8);
+  background-color: $contentcolour;
   font-size: 1.25rem;
+  //border: 2px solid $maincolour;
 }
 
 .content__item + * {
@@ -23,6 +24,17 @@
 
 .content__heading--no-mob {
   display: none;
+}
+
+.content__link {
+  color: $linkcolour;
+  text-decoration: none;
+  border-bottom: .1em dotted $linkcolour;
+
+  &:hover {
+    color: white;
+    border-bottom: .1em solid $linkcolour;
+  }
 }
 
 .title {
