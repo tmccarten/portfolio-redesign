@@ -18,13 +18,12 @@
           <div class="content__item">
 
             <section class="about">
-              <h3 class="content__heading">Hello.</h3>
               <div class="about__img-wrapper">
                 <img class="about__img" src="<?php echo $index?>/assets/img/tom_mccarten-about.png" width="300" height="300" alt="Portrait photo of Tom McCarten">
                 <img class="about__img" src="<?php echo $index?>/assets/img/tom_mccarten-beach.jpg" width="300" height="300" alt="Portrait photo of Tom McCarten">
               </div>
               <div class="about__info">
-                <h3 class="content__heading content__heading--no-mob">Hello.</h3>
+                <h3 class="content__heading">Hello.</h3>
                 <p class="about__text">I graduated from Manchester Metropolitan University in July 2017 with First-class Honours and the Programme Leaders Prize in BSc Web Development.</p>
                 <p class="about__text">I subsequently moved down south where I now seek front-end roles (or similar) in Medway and the surrounding areas.</p>
                 <p class="about__text">Fluent in CSS/Sass with a strong working knowledge of JavaScript and PHP, I consider myself equal parts designer/developer.</p>

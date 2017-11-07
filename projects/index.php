@@ -18,7 +18,7 @@
           <div class="content__item">
 
             <section class="project">
-              <h3 class="content__heading">Living Lines: Birley Archive Project</h3>
+              <h3 class="content__heading content__heading--no-desktop">Living Lines: Birley Archive Project</h3>
               <div class="project__imgbtn-wrapper">
                 <img class="project__img" src="<?php echo $index?>/assets/img/project_birley.png" width="575" height="334" alt="Birley Archive Project Screenshot">
                 <a href="#" class="project__btn-view">View site</a>
@@ -44,7 +44,7 @@
           <div class="content__item">
 
             <section class="project">
-              <h3 class="content__heading">Liverpool, Pembroke & Sefton Athletics</h3>
+              <h3 class="content__heading content__heading--no-desktop">Liverpool, Pembroke & Sefton Athletics</h3>
               <div class="project__imgbtn-wrapper">
                 <img class="project__img" src="<?php echo $index?>/assets/img/project_lps.png" width="575" height="334" alt="LPS Website Screenshot">
                 <a href="#" class="project__btn-view">View site</a>

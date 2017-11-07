@@ -22,6 +22,10 @@
   text-shadow: .05em .05em $maincolour;
 }
 
+.content__heading--no-desktop {
+  display: block;
+}
+
 .content__heading--no-mob {
   display: none;
 }
@@ -111,8 +115,11 @@
   }
 
   .content__heading {
-    display: none;
     margin-top: 0;
+  }
+
+  .content__heading--no-desktop {
+    display: none;
   }
 
   .content__heading--no-mob {

@@ -1,0 +1,67 @@
+.contactform {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform__label:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.contactform__label {
+  font-size: .8em;
+}
+
+.contactform__input {
+  border: 0;
+  height: 3rem;
+  padding: 1rem;
+  margin-top: .5em;
+  border-left: .1em solid $tilecolour--hover;
+  background-color: $tilecolour;
+  caret-color: white;
+  color: white;
+
+  &:focus, &:active {
+
+  }
+}
+
+.contactform__textarea {
+  border-left: .1em solid $tilecolour--hover;
+  background-color: $tilecolour;
+  border: 0;
+  height: 25vh;
+  margin-top: 1rem;
+  padding: 1rem;
+  caret-color: white;
+  color: white;
+}
+
+.contactform__submit {
+  margin-top: 2rem;
+  border: 0;
+  background-color: $tilecolour--hover;
+  padding: 1rem;
+  max-width: 30%;
+  color: white;
+  font-weight: 500;
+  width: auto;
+  text-shadow: .1em .1em darken($tilecolour--hover, 5);
+  cursor: pointer;
+}
+
+@media screen and (min-width: $mqnavbar) {
+
+  .contactform {
+    max-width: 75%;
+  }
+
+  .contactform__submit {
+    box-shadow: .5em .5em 0 desaturate(darken($tilecolour--hover, 12), 15);
+    transition: box-shadow 300ms ease;
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+}
