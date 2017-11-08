@@ -18,7 +18,7 @@
           <div class="content__item">
 
             <section class="contact">
-              <h3 class="content__heading">Success!</h3>
+              <h3 class="content__heading">Thanks!</h3>
 
               <p class="about__text">I look forward to reading your email.</p>
 

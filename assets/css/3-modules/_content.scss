@@ -22,6 +22,10 @@
   text-shadow: .05em .05em $maincolour;
 }
 
+.content__heading--smaller {
+  font-size: 1.575rem;
+}
+
 .content__heading--no-desktop {
   display: block;
 }
@@ -75,6 +79,10 @@
     font-size: 1.9375rem;
   }
 
+  .content__heading--smaller {
+    font-size: 1.5375rem;
+  }
+
 }
 
 @media screen and (min-width: $mqbiglogo) {
@@ -91,6 +99,10 @@
 
   .content__heading {
     font-size: 2rem;
+  }
+
+  .content__heading--smaller {
+    font-size: 1.5rem;
   }
 
   .title {

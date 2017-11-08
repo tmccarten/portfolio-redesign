@@ -1,0 +1,124 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform__label:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.contactform__label {
+  font-size: .8em;
+}
+
+.contactform__input {
+  border: 0;
+  height: 3rem;
+  padding: 1rem;
+  margin-top: .5em;
+  border-left: .1em solid $altcolour;
+  background-color: $tilecolour;
+  caret-color: white;
+  color: white;
+  transition: transform 300ms ease;
+
+  &:focus, &:active {
+    outline-color: $altcolour;
+    transform: translateX(.5em);
+  }
+}
+
+.contactform__textarea {
+  border-left: .1em solid $altcolour;
+  background-color: $tilecolour;
+  border: 0;
+  height: 20vh;
+  margin-top: 1rem;
+  padding: 1rem;
+  caret-color: white;
+  color: white;
+  transition: height 300ms ease;
+
+  &:focus, &:active {
+    outline-color: $altcolour;
+    height: 35vh;
+  }
+}
+
+.contactform__submit {
+  margin-top: 2rem;
+  border: 0;
+  background-color: $altcolour;
+  padding: 1rem;
+  max-width: 30%;
+  color: white;
+  font-weight: 500;
+  width: auto;
+  text-shadow: .1em .1em darken($altcolour, 5);
+  cursor: pointer;
+
+  &:focus, &:active {
+    outline-color: white;
+  }
+}
+
+.socialmedia-link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  background-color: lighten($tilecolour, 6);
+  //border: .1em solid $tilecolour;
+  padding: .5em 1em;
+  font-size: .8em;
+
+  img {
+    margin-right: 1em;
+  }
+
+}
+
+.socialmedia-link + * {
+  margin-top: 1em;
+}
+
+@media screen and (min-width: $mqnavbar) {
+
+  .contact {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .contact__wrapper-form {
+    width: 70%;
+    padding-right: 3rem;
+  }
+
+  .contact__wrapper-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    border-left: .1em dashed $maincolour;
+    padding-left: 3rem;
+  }
+
+  .contactform__submit {
+    box-shadow: .5em .5em 0 desaturate(darken($altcolour, 12), 15);
+    transition: box-shadow 300ms ease;
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+
+  .socialmedia-link {
+    width: 100%;
+  }
+}

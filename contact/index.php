@@ -18,17 +18,34 @@
           <div class="content__item">
 
             <section class="contact">
-              <h3 class="content__heading">Get in touch...</h3>
+              <div class="contact__wrapper-form">
+                <h3 class="content__heading">Get in touch...</h3>
 
-              <form method="POST" action="../assets/includes/form-to-email.php" class="contactform">
-                <label for="name" class="contactform__label">Name</label>
-                <input type="text" name="name" class="contactform__input">
-                <label for="email" class="contactform__label">Email</label>
-                <input type="email" name="email" class="contactform__input">
-                <label for="message" class="contactform__label">Message</label>
-                <textarea name="message" class="contactform__textarea"></textarea>
-                <button type="submit" class="contactform__submit">Send</button>
-              </form>
+                <form method="POST" action="../assets/includes/form-to-email.php" class="contactform">
+                  <label for="name" class="contactform__label">Name</label>
+                  <input type="text" name="name" class="contactform__input">
+                  <label for="email" class="contactform__label">Email</label>
+                  <input type="email" name="email" class="contactform__input">
+                  <label for="message" class="contactform__label">Message</label>
+                  <textarea name="message" class="contactform__textarea"></textarea>
+                  <button type="submit" class="contactform__submit">Send</button>
+                </form>
+              </div>
+
+              <div class="contact__wrapper-social">
+                <h4 class="content__heading content__heading--smaller">Social</h4>                
+                <a href="#" class="socialmedia-link">
+                  <img src="../assets/img/icons/github.svg" height="36" width="36" alt="">GitHub
+                </a>
+                <a href="#" class="socialmedia-link">
+                  <img src="../assets/img/icons/twitter.svg" height="36" width="36" alt="">Twitter
+                </a>
+                <a href="#" class="socialmedia-link">
+                  <img src="../assets/img/icons/facebook.svg" height="36" width="36" alt="">Facebook
+                </a>
+
+              </div>
+
 
             </section>
 
