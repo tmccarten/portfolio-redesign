@@ -33,16 +33,33 @@
               </div>
 
               <div class="contact__wrapper-social">
-                <h4 class="content__heading content__heading--smaller">Social</h4>                
-                <a href="#" class="socialmedia-link">
-                  <img src="../assets/img/icons/github.svg" height="36" width="36" alt="">GitHub
-                </a>
-                <a href="#" class="socialmedia-link">
-                  <img src="../assets/img/icons/twitter.svg" height="36" width="36" alt="">Twitter
-                </a>
-                <a href="#" class="socialmedia-link">
-                  <img src="../assets/img/icons/facebook.svg" height="36" width="36" alt="">Facebook
-                </a>
+                <h4 class="content__heading content__heading--smaller content__heading--contact">Social</h4>
+
+                <div class="socialmedia-link-wrapper">
+                  <a href="#" class="socialmedia-link">
+                    <img src="../assets/img/icons/github.svg" height="44" width="44" alt="">GitHub
+                  </a>
+                </div>
+                <div class="socialmedia-link-wrapper">
+                  <a href="#" class="socialmedia-link">
+                    <img src="../assets/img/icons/twitter.svg" height="44" width="44" alt="">Twitter
+                  </a>
+                </div>
+                <div class="socialmedia-link-wrapper">
+                  <a href="#" class="socialmedia-link">
+                    <img src="../assets/img/icons/facebook.svg" height="44" width="44" alt="">Facebook
+                  </a>
+                </div>
+                <div class="socialmedia-link-wrapper socialmedia-link-wrapper--email">
+                  <a href="#" class="socialmedia-link">
+                    <img src="../assets/img/icons/contact2.svg" height="44" width="44" alt="">Email me
+                  </a>
+                </div>
+                <div class="socialmedia-link-wrapper">
+                  <a href="#" class="socialmedia-link">
+                    <img src="../assets/img/icons/download.svg" height="44" width="44" alt="">View my CV
+                  </a>
+                </div>
 
               </div>
 
