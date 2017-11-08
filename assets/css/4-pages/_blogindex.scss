@@ -35,13 +35,13 @@
   color: white;
   text-decoration: none;
   //background-color: lighten($maincolour, 5);
-  background-color: $tilecolour--hover;
+  background-color: $altcolour;
   //border: .1em solid $tilecolour;
   font-weight: 500;
   width: auto;
   margin: 1em 0;
   align-self: flex-start;
-  text-shadow: .1em .1em darken($tilecolour--hover, 5);
+  text-shadow: .1em .1em darken($altcolour, 5);
 }
 
 @media screen and (min-width: $mqphonelimit) {
@@ -76,7 +76,7 @@
   .bloglisting__btn-read {
     align-self: center;
     margin: 0 auto;
-    box-shadow: .5em .5em 0 desaturate(darken($tilecolour--hover, 12), 15);
+    box-shadow: .5em .5em 0 desaturate(darken($altcolour, 12), 15);
     //background-color: transparent;
     transition: box-shadow 300ms ease, background-color 300ms ease;
 

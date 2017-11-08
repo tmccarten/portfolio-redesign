@@ -245,8 +245,8 @@
 
     &:hover {
       transform: rotateY(15deg) scale(0.95);
-      background-color: rgba($tilecolour--hover, 0.8);
-      border-color: lighten($tilecolour--hover, 5);
+      background-color: rgba($altcolour, 0.8);
+      border-color: lighten($altcolour, 5);
 
       .tile-inner__main {
         box-shadow: none;

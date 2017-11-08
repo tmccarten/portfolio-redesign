@@ -15,7 +15,7 @@
 }
 
 .blogpost__meta {
-  background-color: $tilecolour--hover;
+  background-color: $altcolour;
   padding: .5em 2em .5em 1em;
   border-left: .1em solid white;
   display: table;
@@ -26,7 +26,7 @@
 }
 
 .blogpost__meta--author {
-  text-shadow: .1em .1em darken($tilecolour--hover, 6);
+  text-shadow: .1em .1em darken($altcolour, 6);
 }
 
 .blogpost__meta--date {
@@ -71,7 +71,7 @@
 .blogpost__figcaption {
   font-weight: 300;
   padding: 1em;
-  background-color: $tilecolour--hover;
+  background-color: $altcolour;
 }
 
 .blogpost__quote {

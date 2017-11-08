@@ -2,7 +2,7 @@
 $linkcolour: lightblue;
 $maincolour: #303453;
 $tilecolour: lighten($maincolour, 2);
-$tilecolour--hover: lighten(saturate(adjust-hue($maincolour, -220), 35), 32);
+$altcolour: lighten(saturate(adjust-hue($maincolour, -220), 35), 32);
 $sidebarcolour: lighten($maincolour, 8);
 $contentcolour: lighten($maincolour, 8);
 

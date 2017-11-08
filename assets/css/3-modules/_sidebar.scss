@@ -36,7 +36,7 @@
   font-size: .8125rem;
 
   &:hover, &:active, &:focus {
-    border-right: .25em solid $tilecolour--hover;
+    border-right: .25em solid $altcolour;
 
     .post__date {
       background-color: $tilecolour;

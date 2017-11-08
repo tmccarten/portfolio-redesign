@@ -16,7 +16,7 @@
   height: 3rem;
   padding: 1rem;
   margin-top: .5em;
-  border-left: .1em solid $tilecolour--hover;
+  border-left: .1em solid $altcolour;
   background-color: $tilecolour;
   caret-color: white;
   color: white;
@@ -27,7 +27,7 @@
 }
 
 .contactform__textarea {
-  border-left: .1em solid $tilecolour--hover;
+  border-left: .1em solid $altcolour;
   background-color: $tilecolour;
   border: 0;
   height: 25vh;
@@ -40,13 +40,13 @@
 .contactform__submit {
   margin-top: 2rem;
   border: 0;
-  background-color: $tilecolour--hover;
+  background-color: $altcolour;
   padding: 1rem;
   max-width: 30%;
   color: white;
   font-weight: 500;
   width: auto;
-  text-shadow: .1em .1em darken($tilecolour--hover, 5);
+  text-shadow: .1em .1em darken($altcolour, 5);
   cursor: pointer;
 }
 
@@ -57,7 +57,7 @@
   }
 
   .contactform__submit {
-    box-shadow: .5em .5em 0 desaturate(darken($tilecolour--hover, 12), 15);
+    box-shadow: .5em .5em 0 desaturate(darken($altcolour, 12), 15);
     transition: box-shadow 300ms ease;
 
     &:hover {

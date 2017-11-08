@@ -65,7 +65,7 @@
 
     &:focus, &:hover, &.main-menu__link--current {
       background-color: lighten($tilecolour, 5);
-      border-bottom: .2em solid $tilecolour--hover;
+      border-bottom: .2em solid $altcolour;
     }
 
   }
