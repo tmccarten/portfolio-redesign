@@ -13,6 +13,7 @@
     <link rel="icon" href="favicon.svg">
 
     <link rel="stylesheet" href="<?php echo $index?>/assets/css/normalize.css">
+    <link rel="stylesheet" href="<?php echo $index?>/assets/fonts/fonts.css">
     <link rel="stylesheet" href="<?php echo $index?>/assets/css/style.css">
 
   </head>

@@ -3,8 +3,8 @@
 
 @font-face {
     font-family: 'Droid Sans';
-    src: url('../fonts/droidsans-bold-webfont.woff2') format('woff2'),
-         url('../fonts/droidsans-bold-webfont.woff') format('woff');
+    src: url('droidsans-bold-webfont.woff2') format('woff2'),
+         url('droidsans-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
@@ -15,8 +15,8 @@
 
 @font-face {
     font-family: 'Droid Sans';
-    src: url('../fonts/droidsans-regular-webfont.woff2') format('woff2'),
-         url('../fonts/droidsans-regular-webfont.woff') format('woff');
+    src: url('droidsans-regular-webfont.woff2') format('woff2'),
+         url('droidsans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -27,8 +27,8 @@
 
 @font-face {
     font-family: 'Webly Sleek UI';
-    src: url('../fonts/weblysleek_ui_italic-webfont.woff2') format('woff2'),
-         url('../fonts/weblysleek_ui_italic-webfont.woff') format('woff');
+    src: url('weblysleek_ui_italic-webfont.woff2') format('woff2'),
+         url('weblysleek_ui_italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -39,8 +39,8 @@
 
 @font-face {
     font-family: 'Webly Sleek UI';
-    src: url('..fonts/weblysleek_ui_normal-webfont.woff2') format('woff2'),
-         url('..fonts/weblysleek_ui_normal-webfont.woff') format('woff');
+    src: url('weblysleek_ui_normal-webfont.woff2') format('woff2'),
+         url('weblysleek_ui_normal-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -52,8 +52,8 @@
 
 @font-face {
     font-family: 'Webly Sleek UI';
-    src: url('../fonts/weblysleekuisb-webfont.woff2') format('woff2'),
-         url('../fonts/weblysleekuisb-webfont.woff') format('woff');
+    src: url('weblysleekuisb-webfont.woff2') format('woff2'),
+         url('weblysleekuisb-webfont.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 
@@ -64,8 +64,8 @@
 
 @font-face {
     font-family: 'Webly Sleek UI';
-    src: url('../fonts/weblysleekuisl-webfont.woff2') format('woff2'),
-         url('../fonts/weblysleekuisl-webfont.woff') format('woff');
+    src: url('weblysleekuisl-webfont.woff2') format('woff2'),
+         url('weblysleekuisl-webfont.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 
