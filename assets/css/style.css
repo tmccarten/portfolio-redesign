@@ -1342,7 +1342,6 @@ body {
 
 .main-nav {
 	height: auto;
-	background-color: #343859;
 }
 
 .main-menu {
@@ -1366,7 +1365,7 @@ body {
 .main-menu__link:focus,
 .main-menu__link:hover,
 .main-menu__link.main-menu__link--current {
-	background-color: #3d426a;
+	background-color: #343859;
 	border-bottom: 0.2em solid #d66e51;
 }
 
@@ -1685,10 +1684,6 @@ body {
 
 .header {
 	max-width: 1066px;
-}
-
-.main-menu__link {
-	padding: 1.5em 2em;
 }
 
 .content {

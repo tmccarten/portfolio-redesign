@@ -46,7 +46,7 @@
 
   .main-nav {
     height: auto;
-    background-color: $tilecolour;
+    //background-color: $tilecolour;
   }
 
   .main-menu {
@@ -61,21 +61,13 @@
 
   .main-menu__link {
     color: white;
-    border-bottom: .2em solid transparent;    
+    border-bottom: .2em solid transparent;
 
     &:focus, &:hover, &.main-menu__link--current {
-      background-color: lighten($tilecolour, 5);
+      background-color: $tilecolour;
       border-bottom: .2em solid $altcolour;
     }
 
-  }
-
-}
-
-@media screen and (min-width: $mqthreecol) {
-
-  .main-menu__link {
-    padding: 1.5em 2em;
   }
 
 }
