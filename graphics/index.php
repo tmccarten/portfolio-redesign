@@ -20,24 +20,16 @@
               <a href=".." class="breadcrumb__link">Work</a><p class="breadcrumb__grey">Graphics</p>
             </div>
 
-            <section class="project">
-              <h3 class="content__heading content__heading--no-desktop">Living Lines: Birley Archive Project</h3>
-              <div class="project__imgbtn-wrapper">
-                <img class="project__img" src="<?php echo $index?>/assets/img/project_birley.png" width="575" height="334" alt="Birley Archive Project Screenshot">                
+            <section class="work">
+              <h3 class="content__heading content__heading--no-desktop">Personas</h3>
+              <div class="work__imgbtn-wrapper work__imgbtn-wrapper--graphics">
+                <img class="work__img" src="<?php echo $index?>/assets/img/graphics/personas.png" width="575" height="404" alt="Illustrated colourful depictions of boy and girl portraits">
               </div>
-              <div class="project__info">
-                <h3 class="content__heading content__heading--no-mob">Living Lines: Birley Archive Project</h3>
-                <h4 class="project__header">Overview</h4>
-                <p class="project__text"><span class="project__text--intro">Living Lines is a project documenting the changes that have occurred around the Hulme area of Manchester since the 1800s, with a particular focus on Birley, the site of Manchester Metropolitan University's newest campus.</span> A challenging project, as the sole web developer I was responsible for the design and development of the website, collating various media and content types to produce an accessible and responsive solution. The client had a concept based around illustrated (illustrations and handwritten titles by <a href="https://katedunstone.co.uk/" class="content__link">Kate Dunstone</a>), interactive maps to demonstrate the different 'layers' of history at the Birley site. Creating these and ensuring a sound mobile user experience was challenging but something from which I learned a great deal.</p>
-                <h4 class="project__header">Tools/Tech</h4>
-                <p class="project__text">
-                  <span class="tool-tag">HTML5</span>
-                  <span class="tool-tag">CSS3</span>
-                  <span class="tool-tag">Sass</span>
-                  <span class="tool-tag">jQuery</span>
-                  <span class="tool-tag">JavaScript</span>
-                  <span class="tool-tag">PHP</span>
-                </p>
+              <div class="work__info">
+                <h3 class="content__heading content__heading--no-mob">Personas</h3>
+                <h4 class="work__header">Overview</h4>
+                <p class="work__text">Personas help keep in mind different types of users and their needs during the development phase of a project.</p>
+
               </div>
             </section>
 
@@ -45,31 +37,40 @@
 
           <div class="content__item">
 
-            <section class="project">
-              <h3 class="content__heading content__heading--no-desktop">Liverpool, Pembroke & Sefton Athletics</h3>
-              <div class="project__imgbtn-wrapper">
-                <img class="project__img" src="<?php echo $index?>/assets/img/project_lps.png" width="575" height="334" alt="LPS Website Screenshot">
-                <a href="#" class="project__btn-view">View site</a>
+            <section class="work">
+              <h3 class="content__heading content__heading--no-desktop">Logos</h3>
+              <div class="work__imgbtn-wrapper work__imgbtn-wrapper--graphics">
+                <img class="work__img" src="<?php echo $index?>/assets/img/graphics/logos.png" width="575" height="334" alt="Collection of logos">
               </div>
-              <div class="project__info">
-                <h3 class="content__heading content__heading--no-mob">Liverpool, Pembroke & Sefton Athletics</h3>
-                <h4 class="project__header">Overview</h4>
-                <p class="project__text"><span class="project__text--intro">Liverpool, Pembroke and Sefton Harriers and Athletics Club is based at Edge Hill University in the North West of England. Their official website whilst fully functional was lacking any sort of responsiveness, ensuring a poor user experience for all mobile users. I identified this as an opportunity for which to base my final year university project on, and, working with the website editor as my client gave the website a contemporary and responsive overhaul.</p>
-                <h4 class="project__header">Tools/Tech</h4>
-                <p class="project__text">
-                  <span class="tool-tag">HTML5</span>
-                  <span class="tool-tag">CSS3</span>
-                  <span class="tool-tag">Sass</span>
-                  <span class="tool-tag">JavaScript</span>
-                  <span class="tool-tag">PHP</span>
-                </p>
+              <div class="work__info">
+                <h3 class="content__heading content__heading--no-mob">Logos</h3>
+                <h4 class="work__header">Overview</h4>
+                <p class="work__text">A collection of logos I produced whilst trying my hand at speculative design work. No winners here sadly but it's the taking part that counts.</p>
+
               </div>
             </section>
 
           </div>
 
-            </div><!-- content inner ends -->
-          </section><!-- content ends -->
+          <div class="content__item">
+
+            <section class="work">
+              <h3 class="content__heading content__heading--no-desktop">Posters</h3>
+              <div class="work__imgbtn-wrapper work__imgbtn-wrapper--graphics">
+                <img class="work__img" src="<?php echo $index?>/assets/img/graphics/other_docposter.jpg" width="575" height="813" alt="Documentary poster for Manchester IRA Bomb with a postbox broken up into pieces.">
+                <img class="work__img" src="<?php echo $index?>/assets/img/graphics/other_productposter.jpg" width="575" height="407" alt="Poster advertising a tour of Manchester IRA Bomb location with postbox and shattered glass appearance.">
+              </div>
+              <div class="work__info">
+                <h3 class="content__heading content__heading--no-mob">Posters</h3>
+                <h4 class="work__header">Overview</h4>
+                <p class="work__text">Posters made for the Creative Digital Media Production unit of BSc Web Development at university. The brief involved the production of a short film based on a subject of our choosing. The first poster advertises the film whilst the second is based around the idea of an associated 'product'. Both posters were to be inspired by a chosen art movement. I decided on cubism, although the link is rather tenuous.</p>
+
+              </div>
+            </section>
+
+          </div>
+
+        </section><!-- content ends -->
 
         <aside class="sidebar">
           <h4 class="sidebar__title">Recent blog posts</h4>

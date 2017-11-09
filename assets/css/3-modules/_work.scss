@@ -1,29 +1,29 @@
-.project {
+.work {
   display: flex;
   flex-direction: column;
   color: white;
 }
 
-.project + * {
+.work + * {
   margin-top: 1em;
 }
 
-.project__wrapper {
+.work__wrapper {
   display: flex;
   flex-direction: column;
 }
 
-.project__img {
+.work__img {
   max-width: 100%;
   width: 100%;
   height: auto;
 }
 
-.project__header {
+.work__header {
   font-weight: bold;
 }
 
-.project__btn-view {
+.work__btn-view {
   display: block;
   text-align: center;
   margin: 1em auto;
@@ -43,11 +43,12 @@
   }
 }
 
-.project__text {
+.work__text {
   font-size: 0.8em;
   font-weight: 300;
   line-height: 1.4375em;
   max-width: 60ch;
+  margin: 3em 0;
 
   &:first-of-type {
     margin-top: 0;
@@ -65,11 +66,11 @@
 
 @media screen and (min-width: $mqphonelimit) {
 
-  .project__text {
+  .work__text {
     font-size: .9em;
   }
 
-  .project__imgbtn-wrapper {
+  .work__imgbtn-wrapper {
     margin: 1rem 0;
   }
 
@@ -77,25 +78,29 @@
 
 @media screen and (min-width: $mqnavbar) {
 
-  .project {
+  .work {
     flex-direction: row;
   }
 
-  .project__info {
+  .work__info {
     order: 2;
     flex: 1.25;
   }
 
-  .project__text {
+  .work__text {
     line-height: 1.6em;
   }
 
-  .project__imgbtn-wrapper {
+  .work__imgbtn-wrapper {
     order: 3;
     flex: 1;
     height: 100%;
     padding-left: 2em;
     margin: 0 0 0 2em;
+  }
+
+  .work__imgbtn-wrapper--graphics {
+    align-self: center;
   }
 
 }
