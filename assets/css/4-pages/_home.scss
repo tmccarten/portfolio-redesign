@@ -272,7 +272,7 @@
 
     &:hover {
       transform: rotateY(15deg) scale(0.95);
-      background: radial-gradient(ellipse at center, $altcolour 0%, darken($altcolour, 15) 100%);
+      background: radial-gradient(ellipse at center, $altcolour 0%, desaturate(darken($altcolour, 15), 15) 100%);
       border-color: lighten($altcolour, 5);
 
       .tile-inner__main {
