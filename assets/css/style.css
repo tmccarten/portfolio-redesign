@@ -702,9 +702,9 @@ body {
 	-ms-flex-align: center;
 	align-items: center;
 	padding: 1em;
-	border-top: 0.08em dashed rgba(255, 255, 255, 0.5);
-	border-bottom: 0.08em dashed rgba(255, 255, 255, 0.5);
-	transition: border-color 500ms ease;
+	transition: background-color 500ms ease;
+	background-color: #d36344;
+	border-radius: 2em;
 }
 
 .tile-inner--contact img {
@@ -714,8 +714,7 @@ body {
 }
 
 .tile-inner--contact:hover {
-	border-top-color: transparent;
-	border-bottom-color: transparent;
+	background-color: #d15d3c;
 }
 
 .tile-inner--contact:hover img {
@@ -1092,6 +1091,19 @@ body {
 
 @media screen and (min-width: 26.5625em) {
 
+body::before {
+	content: "";
+	opacity: .25;
+	position: fixed;
+	height: 600px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background-image: url("../img/body_bg.png");
+	background-size: cover;
+}
+
 .content__heading {
 	font-size: 1.9375rem;
 }
@@ -1146,10 +1158,24 @@ body {
 }
 
 .tile {
-	width: 50%;
+	width: 49.5%;
 	height: 46.235294117647058823529411764706vw;
-	margin-top: 0;
+	margin: .25em .25em 0 0;
 	font-size: .85185rem;
+}
+
+.tile:nth-child(1),
+.tile:nth-child(2) {
+	margin-top: 0;
+}
+
+.tile:nth-child(odd) {
+	margin-left: 0;
+}
+
+.tile:nth-child(even) {
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .tile-inner {
@@ -1279,19 +1305,6 @@ body {
 
 body {
 	background: linear-gradient(to bottom, #2d304d 0%, #464c7a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
-
-body::before {
-	content: "";
-	opacity: .25;
-	position: fixed;
-	height: 600px;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: -1;
-	background-image: url("../img/body_bg.png");
-	background-size: cover;
 }
 
 .header-container {
@@ -1465,6 +1478,7 @@ body::before {
 .tile {
 	width: 33.33333333333333333333333333333333%;
 	height: 30.769230769230769230769230769231vw;
+	margin: 0;
 }
 
 .tile-inner {
@@ -1484,6 +1498,14 @@ body::before {
 .tile__img {
 	border: 0.2em solid #2c304d;
 	box-sizing: content-box;
+}
+
+.tile--3d {
+	background: radial-gradient(ellipse at center, #464c7a 0%, #343859 100%);
+}
+
+.tile--contact {
+	background-color: rgba(52, 56, 89, 0.5);
 }
 
 .project {
@@ -1677,7 +1699,7 @@ body::before {
 	width: 1006px;
 	-webkit-perspective: 1000px;
 	perspective: 1000px;
-	border: 2px solid #303453;
+	border: 0.125em solid #303453;
 }
 
 .tile {
@@ -1704,7 +1726,7 @@ body::before {
 .tile--3d:hover {
 	-webkit-transform: rotateY(15deg) scale(0.95);
 	transform: rotateY(15deg) scale(0.95);
-	background-color: rgba(214, 110, 81, 0.8);
+	background: radial-gradient(ellipse at center, #db7f65 0%, #d66e51 100%);
 	border-color: #db7f65;
 }
 

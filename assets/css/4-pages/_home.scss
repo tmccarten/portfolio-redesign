@@ -85,17 +85,21 @@
   justify-content: space-around;
   align-items: center;
   padding: 1em;
-  border-top: .08em dashed rgba(white, .5);
-  border-bottom: .08em dashed rgba(white, .5);
-  transition: border-color 500ms ease;
+  //border-top: .08em dashed rgba(white, .5);
+  //border-bottom: .08em dashed rgba(white, .5);
+  //transition: border-color 500ms ease;
+  transition: background-color 500ms ease;
+  background-color: darken($altcolour, 3);
+  border-radius: 2em;
 
   img {
     transition: transform 500ms ease;
   }
 
   &:hover {
-    border-top-color: transparent;
-    border-bottom-color: transparent;
+    //border-top-color: transparent;
+    //border-bottom-color: transparent;
+    background-color: darken($altcolour, 5);
 
     img {
       transform: translateY(-.25em);
@@ -149,10 +153,23 @@
   }
 
   .tile {
-    width: 50%;
+    width: 49.5%;
     height: 46.235294117647058823529411764706vw;
-    margin-top: 0;
+    margin: .25em .25em 0 0;
     font-size: .85185rem;
+  }
+
+  .tile:nth-child(1), .tile:nth-child(2) {
+    margin-top: 0;
+  }
+
+  .tile:nth-child(odd) {
+    margin-left: 0;
+  }
+
+  .tile:nth-child(even) {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .tile-inner {
@@ -196,6 +213,7 @@
   .tile {
     width: 33.33333333333333333333333333333333%;
     height: 30.769230769230769230769230769231vw;
+    margin: 0;
   }
 
   .tile-inner {
@@ -215,6 +233,14 @@
     box-sizing: content-box;
   }
 
+  .tile--3d {
+    background: radial-gradient(ellipse at center, lighten($tilecolour, 10) 0%, $tilecolour 100%);
+  }
+
+  .tile--contact {
+    background-color: rgba($tilecolour, .5);
+  }
+
 }
 
 @media screen and (min-width: $mqthreecol) {
@@ -223,7 +249,7 @@
     justify-content: flex-start;
     width: 1006px;
     perspective: 1000px;
-    border: 2px solid $maincolour;
+    border: .125em solid $maincolour;
   }
 
   .tile {
@@ -245,7 +271,7 @@
 
     &:hover {
       transform: rotateY(15deg) scale(0.95);
-      background-color: rgba($altcolour, 0.8);
+      background: radial-gradient(ellipse at center, lighten($altcolour, 5) 0%, $altcolour 100%);
       border-color: lighten($altcolour, 5);
 
       .tile-inner__main {

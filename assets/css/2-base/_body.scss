@@ -12,7 +12,7 @@ body {
     }
   }
 
-  @media screen and (min-width: $mqnavbar) {
+  @media screen and (min-width: $mqphonelimit) {
 
     body::before {
       content: "";
