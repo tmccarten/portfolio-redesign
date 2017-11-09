@@ -32,7 +32,7 @@
 
           <a href="#" class="tile tile--graphics tile--3d">
             <div class="tile-inner tile-inner--border">
-              <h3 class="tile-inner__main">Graphic Design</h3>
+              <h3 class="tile-inner__main">Graphics</h3>
             </div>
           </a>
 
