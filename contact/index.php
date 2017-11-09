@@ -57,7 +57,7 @@
                 </div>
                 <div class="socialmedia-link-wrapper">
                   <a href="#" class="socialmedia-link">
-                    <img src="../assets/img/icons/download.svg" height="44" width="44" alt="">View my CV
+                    <img src="../assets/img/icons/download.svg" height="44" width="44" alt="">View CV
                   </a>
                 </div>
 

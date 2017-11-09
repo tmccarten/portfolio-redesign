@@ -1053,8 +1053,8 @@ body {
 
 .socialmedia-link img {
 	margin-right: 1em;
-	max-width: 44px;
-	max-height: 44px;
+	width: 44px;
+	height: 44px;
 }
 
 @media screen and (min-width: 26.5625em) {
