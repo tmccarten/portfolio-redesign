@@ -1000,7 +1000,7 @@ body {
 .contactform__textarea:focus,
 .contactform__textarea:active {
 	outline-color: #d66e51;
-	height: 35vh;
+	height: 15em;
 }
 
 .contactform__submit {
