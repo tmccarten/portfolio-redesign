@@ -51,13 +51,17 @@
   .about__img-wrapper {
     flex-direction: column;
     order: 2;
-    box-shadow: .5em .5em  0 $altcolour;
+    //box-shadow: .5em .5em  0 $altcolour;
     margin: 0 0 0 2em;
   }
 
   .about__img {
-    max-width: 300px;
+    max-width: 200px;
     height: auto;
+  }
+
+  .about__img + * {
+    margin-top: 1em;
   }
 
 }
