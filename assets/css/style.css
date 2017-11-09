@@ -1728,7 +1728,7 @@ body {
 .tile--3d:hover {
 	-webkit-transform: rotateY(15deg) scale(0.95);
 	transform: rotateY(15deg) scale(0.95);
-	background: radial-gradient(ellipse at center, #db7f65 0%, #d66e51 100%);
+	background: radial-gradient(ellipse at center, #d66e51 0%, #b0472a 100%);
 	border-color: #db7f65;
 }
 
