@@ -1,8 +1,8 @@
 <?php $index = ".."; ?>
 
 <?php $activePage = "Work"; ?>
-<?php $title = "Projects | Thomas McCarten Portfolio"; ?>
-<?php $description = "Projects and case studies Thomas McCarten has worked on as a web developer."; ?>
+<?php $title = "Graphics | Thomas McCarten Portfolio"; ?>
+<?php $description = "Illustrations and graphic design by web developer Thomas McCarten."; ?>
 <?php $keywords = "Thomas McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
 
 <?php include $index . '/assets/includes/head.php';?>
@@ -13,18 +13,17 @@
     <main class="main main--home">
 
         <section class="content">
-          <h2 class="title">Projects</h2>
+          <h2 class="title">Graphics</h2>
 
           <div class="content__item">
             <div class="breadcrumb">
-              <a href=".." class="breadcrumb__link">Work</a><p class="breadcrumb__grey">Projects</p>
+              <a href=".." class="breadcrumb__link">Work</a><p class="breadcrumb__grey">Graphics</p>
             </div>
 
             <section class="project">
               <h3 class="content__heading content__heading--no-desktop">Living Lines: Birley Archive Project</h3>
               <div class="project__imgbtn-wrapper">
-                <img class="project__img" src="<?php echo $index?>/assets/img/project_birley.png" width="575" height="334" alt="Birley Archive Project Screenshot">
-                <a href="#" class="project__btn-view">View site</a>
+                <img class="project__img" src="<?php echo $index?>/assets/img/project_birley.png" width="575" height="334" alt="Birley Archive Project Screenshot">                
               </div>
               <div class="project__info">
                 <h3 class="content__heading content__heading--no-mob">Living Lines: Birley Archive Project</h3>

@@ -228,11 +228,6 @@
     order: 0;
   }
 
-  .tile__img {
-    border: .2em solid darken($maincolour, 2);
-    box-sizing: content-box;
-  }
-
   .tile--3d {
     background: radial-gradient(ellipse at center, lighten($tilecolour, 10) 0%, $tilecolour 100%);
   }
@@ -255,6 +250,12 @@
   .tile {
     width: 334px;
     height: 334px;
+  }
+
+  .tile__img {
+    width: 267px;
+    height: auto;
+    max-width: none;
   }
 
   .tile__img--tint {
