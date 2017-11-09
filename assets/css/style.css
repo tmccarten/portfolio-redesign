@@ -1304,7 +1304,7 @@ body::before {
 @media screen and (min-width: 53.125em) {
 
 body {
-	background: linear-gradient(to bottom, #2d304d 0%, #464c7a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: linear-gradient(to bottom, #303453 0%, #434873 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .header-container {
@@ -1365,7 +1365,7 @@ body {
 .main-menu__link:focus,
 .main-menu__link:hover,
 .main-menu__link.main-menu__link--current {
-	background-color: #343859;
+	background-color: #363a5d;
 	border-bottom: 0.2em solid #d66e51;
 }
 

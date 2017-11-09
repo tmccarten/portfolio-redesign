@@ -8,7 +8,7 @@ body {
   @media screen and (min-width: $mqnavbar) {
 
     body {
-      background: linear-gradient(to bottom,  #2d304d 0%, #464c7a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      background: linear-gradient(to bottom,  $maincolour 0%, lighten($maincolour, 10) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     }
   }
 

@@ -64,7 +64,7 @@
     border-bottom: .2em solid transparent;
 
     &:focus, &:hover, &.main-menu__link--current {
-      background-color: $tilecolour;
+      background-color: lighten($maincolour, 3);
       border-bottom: .2em solid $altcolour;
     }
 
