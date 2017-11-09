@@ -952,6 +952,8 @@ body {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
+	padding-bottom: 2rem;
+	border-bottom: 0.1em dashed #303453;
 }
 
 .contactform__label:not(:first-child) {
@@ -1019,14 +1021,45 @@ body {
 	outline-color: white;
 }
 
+.content__heading--contact {
+	-ms-flex-item-align: start;
+	align-self: flex-start;
+}
+
+.contact__wrapper-aside {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	margin-top: 2rem;
+}
+
+.contact__wrapper-social {
+	width: 46%;
+}
+
+.contact__wrapper-other {
+	width: 46%;
+}
+
 .socialmedia-link-wrapper {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
 	border-bottom: 0.1em dashed #343859;
+	width: 100%;
 }
 
 .socialmedia-link-wrapper:hover {
@@ -1529,12 +1562,16 @@ body::before {
 	justify-content: space-between;
 }
 
+.contactform {
+	border-bottom: none;
+}
+
 .contact__wrapper-form {
 	width: 70%;
 	padding-right: 3rem;
 }
 
-.contact__wrapper-social {
+.contact__wrapper-aside {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1542,12 +1579,24 @@ body::before {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
 	width: 30%;
 	border-left: 0.1em dashed #303453;
 	padding-left: 3rem;
+}
+
+.contact__wrapper-social {
+	width: 100%;
+}
+
+.contact__wrapper-other {
+	margin-top: 2rem;
+	width: 100%;
 }
 
 .content__heading--contact {
@@ -1565,14 +1614,6 @@ body::before {
 
 .socialmedia-link {
 	width: 100%;
-}
-
-.socialmedia-link-wrapper {
-	width: 100%;
-}
-
-.socialmedia-link-wrapper--email {
-	margin-top: 2rem;
 }
 
 }

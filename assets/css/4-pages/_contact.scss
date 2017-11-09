@@ -6,6 +6,8 @@
 .contactform {
   display: flex;
   flex-direction: column;
+  padding-bottom: 2rem;
+  border-bottom: .1em dashed $maincolour;
 }
 
 .contactform__label:not(:first-child) {
@@ -67,12 +69,31 @@
   }
 }
 
+.content__heading--contact {
+  align-self: flex-start;
+}
+
+.contact__wrapper-aside {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.contact__wrapper-social {
+  width: 46%;
+}
+
+.contact__wrapper-other {
+  width: 46%;
+}
+
 .socialmedia-link-wrapper {
   display: flex;
-  justify-content: center;
-  //background-color: lighten($tilecolour, 6);
+  justify-content: flex-start;
   border-bottom: .1em dashed $tilecolour;
-  //transition: transform 300ms ease;
+  width: 100%;
 
   &:hover {
     border-right: .1em solid $altcolour;
@@ -106,18 +127,32 @@
     justify-content: space-between;
   }
 
+  .contactform {
+    border-bottom: none;
+  }
+
   .contact__wrapper-form {
     width: 70%;
     padding-right: 3rem;
   }
 
-  .contact__wrapper-social {
+  .contact__wrapper-aside {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     width: 30%;
     border-left: .1em dashed $maincolour;
     padding-left: 3rem;
+  }
+
+  .contact__wrapper-social {
+    width: 100%;
+  }
+
+  .contact__wrapper-other {
+    margin-top: 2rem;
+    width: 100%;
   }
 
   .content__heading--contact {
@@ -137,11 +172,4 @@
     width: 100%;
   }
 
-  .socialmedia-link-wrapper {
-    width: 100%;
-  }
-
-  .socialmedia-link-wrapper--email {
-    margin-top: 2rem;
-  }
 }
