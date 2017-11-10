@@ -41,9 +41,9 @@ function getDocHeight() {
 var winHeight, docHeight, trackLength, throttleScroll;
 
 function getMeasurements(){
-	winHeight = window.innerHeight
-	docHeight = getDocHeight()
-	trackLength = docHeight - winHeight
+	winHeight = window.innerHeight;
+	docHeight = getDocHeight();
+	trackLength = docHeight - winHeight;
 }
 
 function amountScrolled(){
@@ -55,17 +55,17 @@ function amountScrolled(){
 getMeasurements();
 
 window.addEventListener("resize", function(){
-	getMeasurements()
+	getMeasurements();
 }, false);
 
 
 
 window.addEventListener("scroll", function(){
-	clearTimeout(throttleScroll)
+	clearTimeout(throttleScroll);
 
 	throttleScroll = setTimeout(function(){ // throttle code inside scroll to once every 50 milliseconds
-		amountScrolled()
-	}, 500)
+		amountScrolled();
+	}, 500);
 
   // Fixed header on scroll //
 
@@ -88,7 +88,7 @@ window.addEventListener("scroll", function(){
         share = document.getElementsByClassName('blogpost__share')[0];
 
       if (share === undefined) {
-        return
+        return;
       } else {
         if (mq.matches === false) {
           share.style.justifyContent = "space-around";

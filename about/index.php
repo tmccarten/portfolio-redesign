@@ -43,7 +43,7 @@
     </main>
 
 
-    <script src="<?php echo $index?>/assets/js/script.js"></script>
+    <script src="<?php echo $index?>/assets/js/script.js?v=2"></script>
   </body>
 
 </html>
