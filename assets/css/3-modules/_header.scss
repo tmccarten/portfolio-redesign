@@ -1,11 +1,10 @@
 .header-container {
   width: 100%;
-  //background-color: darken($maincolour, 2);
 }
 
 .header-container--fixed {
   position: fixed;
-  background-color: $altcolour;
+  background: linear-gradient(darken($altcolour, 5), $altcolour);
   z-index: 2;
 
   .header__top {
