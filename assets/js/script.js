@@ -1,3 +1,6 @@
+// Get initial header height //
+var headerHeight = document.querySelector('.header-container').offsetHeight;
+
 // Menu //
 
 var btnMenu = document.getElementById('btnMenu');
@@ -24,6 +27,8 @@ btnMenu.addEventListener('click', function() {
 }, false);
 
 
+// Scroll calculations //
+
 function getDocHeight() {
     var D = document;
     return Math.max(
@@ -42,9 +47,55 @@ function getMeasurements(){
 }
 
 function amountScrolled(){
-	var scrollTop = window.pageYOffset
+	var scrollTop = window.pageYOffset;
 	var pctScrolled = Math.floor(scrollTop/trackLength * 100); // gets percentage scrolled (ie: 80 or NaN if tracklength == 0)
 	return pctScrolled;
 }
 
 getMeasurements();
+
+window.addEventListener("resize", function(){
+	getMeasurements()
+}, false);
+
+
+
+window.addEventListener("scroll", function(){
+	clearTimeout(throttleScroll)
+
+	throttleScroll = setTimeout(function(){ // throttle code inside scroll to once every 50 milliseconds
+		amountScrolled()
+	}, 500)
+
+  // Fixed header on scroll //
+
+  var header = document.querySelector('.header-container'),
+      main = document.getElementsByClassName('main')[0];
+
+  if (window.pageYOffset > 500) {
+    main.style.paddingTop = headerHeight + "px";
+    header.className = "header-container header-container--fixed header-container--fade";
+  } else if (window.pageYOffset < 500 && header.className === "header-container header-container--fixed header-container--fade") {
+    header.className = "header-container header-container--fixed header-container--fade header-container--fadeout";
+  } else if (window.pageYOffset < 300 && header.className === "header-container header-container--fixed header-container--fade header-container--fadeout") {
+    header.className = "header-container";
+    main.style.paddingTop = 0;
+  }
+
+  // Move share buttons on scroll //
+
+    var mq = window.matchMedia( "(min-width: 52em)" ),
+        share = document.getElementsByClassName('blogpost__share')[0];
+
+      if (share === undefined) {
+        return
+      } else {
+        if (mq.matches === false) {
+          share.style.justifyContent = "space-around";
+        } else if (mq.matches && amountScrolled() > 50) {
+            share.style.justifyContent = "flex-end";
+          } else {
+            share.style.justifyContent = "flex-start";
+          }
+      }
+}, false);
