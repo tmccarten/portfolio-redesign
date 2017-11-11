@@ -702,8 +702,8 @@ body {
 	position: fixed;
 	bottom: 0;
 	right: 0;
-	height: 46px;
-	width: 44px;
+	height: 45px;
+	width: 45px;
 	margin-bottom: 1rem;
 	cursor: pointer;
 }
@@ -1765,6 +1765,12 @@ body {
 	max-width: 62.875rem;
 }
 
+.scroll-up--visible {
+	margin-bottom: 2rem;
+	-webkit-animation: fadeIn 300ms ease-out forwards, rightInLarge 300ms ease-out forwards;
+	animation: fadeIn 300ms ease-out forwards, rightInLarge 300ms ease-out forwards;
+}
+
 .tiles {
 	-webkit-box-pack: start;
 	-ms-flex-pack: start;
@@ -1906,7 +1912,7 @@ body {
 }
 
 100% {
-	margin-right: 2rem;
+	margin-right: 1rem;
 }
 
 }
@@ -1918,31 +1924,31 @@ body {
 }
 
 100% {
-	margin-right: 2rem;
+	margin-right: 1rem;
 }
 
 }
 
-@-webkit-keyframes rightOut {
+@-webkit-keyframes rightInLarge {
 
 0% {
-	margin-right: 2rem;
-}
-
-100% {
 	margin-right: 0;
 }
 
-}
-
-@keyframes rightOut {
-
-0% {
+100% {
 	margin-right: 2rem;
 }
 
-100% {
+}
+
+@keyframes rightInLarge {
+
+0% {
 	margin-right: 0;
+}
+
+100% {
+	margin-right: 2rem;
 }
 
 }

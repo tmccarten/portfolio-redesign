@@ -5,13 +5,18 @@
   position: fixed;
   bottom: 0;
   right: 0;
-  height: 46px;
-  width: 44px;
+  height: 45px;
+  width: 45px;
   margin-bottom: 1rem;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .scroll-up--visible {
   display: block;
   animation: fadeIn 300ms ease-out forwards, rightIn 300ms ease-out forwards;
+
+  @media screen and (min-width: $mqthreecol) {
+    margin-bottom: 2rem;
+    animation: fadeIn 300ms ease-out forwards, rightInLarge 300ms ease-out forwards;
+  }
 }

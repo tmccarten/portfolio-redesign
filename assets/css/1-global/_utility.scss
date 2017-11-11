@@ -17,39 +17,3 @@
   margin-left: -50vw;
   margin-right: -50vw;
 }
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 100%;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes rightIn {
-  0% {
-    margin-right: 0;
-  }
-  100% {
-    margin-right: 2rem;
-  }
-}
-
-@keyframes rightOut {
-  0% {
-    margin-right: 2rem;
-  }
-  100% {
-    margin-right: 0;
-  }
-}

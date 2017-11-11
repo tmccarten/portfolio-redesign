@@ -1,0 +1,35 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rightIn {
+  0% {
+    margin-right: 0;
+  }
+  100% {
+    margin-right: 1rem;
+  }
+}
+
+@keyframes rightInLarge {
+  0% {
+    margin-right: 0;
+  }
+  100% {
+    margin-right: 2rem;
+  }
+}
