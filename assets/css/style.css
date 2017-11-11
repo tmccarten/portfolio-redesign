@@ -58,6 +58,7 @@ body {
 	max-width: 93rem;
 	margin: 0 auto;
 	padding: 0 1rem;
+	position: relative;
 }
 
 .main--home {
@@ -78,7 +79,7 @@ body {
 
 .header-container--fixed {
 	position: fixed;
-	background: linear-gradient(#d15d3c, #d66e51);
+	background: linear-gradient(#c75637, #d66e51);
 	z-index: 2;
 }
 
@@ -692,6 +693,25 @@ body {
 	min-width: 4.25em;
 	min-height: 4.25em;
 	height: 0;
+}
+
+.scroll-up {
+	display: none;
+	background-color: #303453;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	height: 46px;
+	width: 44px;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+
+.scroll-up--visible {
+	display: block;
+	-webkit-animation: fadeIn 300ms ease-out forwards, rightIn 300ms ease-out forwards;
+	animation: fadeIn 300ms ease-out forwards, rightIn 300ms ease-out forwards;
 }
 
 /* -- PAGES -- */
@@ -1359,6 +1379,16 @@ body {
 	border-bottom: 0;
 }
 
+.header-container--fixed .header .main-nav .main-menu .main-menu__item .main-menu__link:hover,
+.header-container--fixed .header .main-nav .main-menu .main-menu__item .main-menu__link:focus,
+.header-container--fixed .header .main-nav .main-menu .main-menu__item .main-menu__link:active {
+	background-color: #d66e51;
+}
+
+.header-container--fixed .header .main-nav .main-menu .main-menu__item .main-menu__link--current {
+	background-color: #d66e51;
+}
+
 .header {
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
@@ -1865,6 +1895,54 @@ body {
 
 100% {
 	opacity: 0;
+}
+
+}
+
+@-webkit-keyframes rightIn {
+
+0% {
+	margin-right: 0;
+}
+
+100% {
+	margin-right: 2rem;
+}
+
+}
+
+@keyframes rightIn {
+
+0% {
+	margin-right: 0;
+}
+
+100% {
+	margin-right: 2rem;
+}
+
+}
+
+@-webkit-keyframes rightOut {
+
+0% {
+	margin-right: 2rem;
+}
+
+100% {
+	margin-right: 0;
+}
+
+}
+
+@keyframes rightOut {
+
+0% {
+	margin-right: 2rem;
+}
+
+100% {
+	margin-right: 0;
 }
 
 }

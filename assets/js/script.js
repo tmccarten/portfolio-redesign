@@ -1,7 +1,20 @@
 // Get initial header height //
 var headerHeight = document.querySelector('.header-container').offsetHeight;
 
-// Menu //
+// ----- Scroll up button ----- //
+var scrollUp = document.getElementsByClassName('scroll-up')[0];
+
+scrollUp.addEventListener('click', function() {
+  window.scroll ({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
+});
+
+// ----- //
+
+// ----- Menu ----- //
 
 var btnMenu = document.getElementById('btnMenu');
 
@@ -26,8 +39,10 @@ btnMenu.addEventListener('click', function() {
   }
 }, false);
 
+// ----- //
 
-// Scroll calculations //
+
+// ----- Scroll calculations ----- //
 
 function getDocHeight() {
     var D = document;
@@ -58,7 +73,9 @@ window.addEventListener("resize", function(){
 	getMeasurements();
 }, false);
 
+// ----- //
 
+// ----- Scroll events ----- //
 
 window.addEventListener("scroll", function(){
 	clearTimeout(throttleScroll);
@@ -75,11 +92,14 @@ window.addEventListener("scroll", function(){
   if (window.pageYOffset > 500) {
     main.style.paddingTop = headerHeight + "px";
     header.className = "header-container header-container--fixed header-container--fade";
+    scrollUp.className = "scroll-up scroll-up--visible" // make scroll-up button visible
   } else if (window.pageYOffset < 500 && header.className === "header-container header-container--fixed header-container--fade") {
     header.className = "header-container header-container--fixed header-container--fade header-container--fadeout";
   } else if (window.pageYOffset < 300 && header.className === "header-container header-container--fixed header-container--fade header-container--fadeout") {
     header.className = "header-container";
     main.style.paddingTop = 0;
+  } else {
+    scrollUp.className = "scroll-up";
   }
 
   // Move share buttons on scroll //

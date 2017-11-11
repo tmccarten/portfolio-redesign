@@ -4,7 +4,7 @@
 
 .header-container--fixed {
   position: fixed;
-  background: linear-gradient(darken($altcolour, 5), $altcolour);
+  background: linear-gradient(desaturate(darken($altcolour, 8), 5), $altcolour);
   z-index: 2;
 
   .header__top {
@@ -139,15 +139,17 @@
           .main-menu__item {
             .main-menu__link {
               border-bottom: 0;
+              &:hover, &:focus, &:active {
+                background-color: $altcolour;
+              }
+            }
+            .main-menu__link--current {
+              background-color: $altcolour;
             }
           }
         }
       }
     }
-
-
-
-
   }
 
   .header {

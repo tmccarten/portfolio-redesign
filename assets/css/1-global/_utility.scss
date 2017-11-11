@@ -35,3 +35,21 @@
     opacity: 0;
   }
 }
+
+@keyframes rightIn {
+  0% {
+    margin-right: 0;
+  }
+  100% {
+    margin-right: 2rem;
+  }
+}
+
+@keyframes rightOut {
+  0% {
+    margin-right: 2rem;
+  }
+  100% {
+    margin-right: 0;
+  }
+}

@@ -108,7 +108,7 @@
     </main>
 
 
-    <script src="<?php echo $index?>/assets/js/script.js?v=2"></script>
+    <script src="<?php echo $index?>/assets/js/script.js?v=4"></script>
   </body>
 
 </html>

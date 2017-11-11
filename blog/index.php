@@ -112,10 +112,14 @@
           <?php include $index . '/assets/includes/sidebar.php';?>
         </aside>
 
+        <div class="scroll-up">
+          <img src="<?php echo $index?>/assets/img/icons/arrow-up.svg" class="scroll-up__icon" alt="Scroll-up" width="44" height="44">
+        </div>
+
     </main>
 
 
-    <script src="<?php echo $index?>/assets/js/script.js?v=2"></script>
+    <script src="<?php echo $index?>/assets/js/script.js?v=4"></script>
   </body>
 
 </html>
