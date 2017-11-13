@@ -1,7 +1,6 @@
 .content {
   width: 100vw;
   margin-left: -1em;
-  margin-bottom: 1em;
 }
 
 .content__item {
@@ -147,3 +146,9 @@
     max-width: 62.875rem;
   }
 }
+
+@media screen and (min-width: $mqfourcol) {
+
+  .content {
+    margin-bottom: 1em;
+  }
