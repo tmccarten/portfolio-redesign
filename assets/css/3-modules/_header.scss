@@ -4,7 +4,7 @@
 
 .header-container--fixed {
   position: fixed;
-  //background: linear-gradient(desaturate(darken($altcolour, 8), 5), $altcolour);
+  background: linear-gradient($altcolour, darken($altcolour, 5));
   z-index: 2;
 
   .header__top {

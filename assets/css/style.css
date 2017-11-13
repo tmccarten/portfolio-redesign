@@ -79,6 +79,7 @@ body {
 
 .header-container--fixed {
 	position: fixed;
+	background: linear-gradient(#d66e51, #d15d3c);
 	z-index: 2;
 }
 
