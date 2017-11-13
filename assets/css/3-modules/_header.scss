@@ -106,7 +106,7 @@
 @media screen and (min-width: $mqbiglogo) {
 
   .header__top {
-    padding: 2rem;
+    padding: 2em 1rem;
   }
 
   .logo__img {
@@ -117,7 +117,7 @@
   .header-container--fixed {
 
     .header__top {
-      padding: 0 2rem;
+      padding: 0 1rem;
     }
 
     .logo__img {
@@ -132,7 +132,11 @@
   .header-container--fixed {
 
     .header {
-      padding: 0 3rem;
+      padding: 0 1rem 0 4rem;
+
+    .header__top {
+      padding: 0;
+    }
 
       .main-nav {
         .main-menu {
@@ -156,7 +160,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 2rem;
+    padding: 4em 1rem;
   }
 
   .header__top {
@@ -180,6 +184,14 @@
 
   .header {
     max-width: 1066px;
+    padding: 4em 2rem;
+  }
+
+  .header-container--fixed {
+
+    .header {
+      padding: 0 2rem 0 5rem;
+    }
   }
 
 }
