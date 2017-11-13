@@ -79,7 +79,6 @@ body {
 
 .header-container--fixed {
 	position: fixed;
-	background: linear-gradient(#c75637, #d66e51);
 	z-index: 2;
 }
 
@@ -273,7 +272,6 @@ body {
 .content {
 	width: 100vw;
 	margin-left: -1em;
-	margin-bottom: 1em;
 }
 
 .content__item {
@@ -1851,6 +1849,10 @@ body {
 
 .main-menu__item + * {
 	margin-left: 4rem;
+}
+
+.content {
+	margin-bottom: 1em;
 }
 
 .sidebar {
