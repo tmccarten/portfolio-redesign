@@ -110,11 +110,7 @@
         <aside class="sidebar">
           <h4 class="sidebar__title">Recent blog posts</h4>
           <?php include $index . '/assets/includes/sidebar.php';?>
-        </aside>
-
-        <div class="scroll-up">
-          <img src="<?php echo $index?>/assets/img/icons/arrow-up.svg" class="scroll-up__icon" alt="Scroll-up" width="44" height="44">
-        </div>
+        </aside>        
 
     </main>
 

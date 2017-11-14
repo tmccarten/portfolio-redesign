@@ -1147,19 +1147,6 @@ body {
 
 @media screen and (min-width: 26.5625em) {
 
-body::before {
-	content: "";
-	opacity: .25;
-	position: fixed;
-	height: 600px;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: -1;
-	background-image: url("../img/body_bg.png");
-	background-size: cover;
-}
-
 .content__heading {
 	font-size: 1.9375rem;
 }
@@ -1365,6 +1352,19 @@ body::before {
 
 body {
 	background: linear-gradient(to bottom, #303453 0%, #434873 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+body::before {
+	content: "";
+	opacity: .25;
+	position: fixed;
+	height: 600px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background-image: url("../img/body_bg.png");
+	background-size: cover;
 }
 
 .header-container--fixed .header {

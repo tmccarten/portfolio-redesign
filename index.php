@@ -64,7 +64,7 @@
 
           <?php include 'assets/includes/sidebar.php';?>
 
-        </aside>        
+        </aside>
 
     </main>
 
