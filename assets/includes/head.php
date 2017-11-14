@@ -40,6 +40,9 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
 
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@thomasmccarten">    
+
     <link rel="icon" type="image/png" href="<?php echo $index?>/favicon.png">
     <link rel="apple-touch-icon" href="<?php echo $index?>/favicon-apple.png">
 
