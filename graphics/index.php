@@ -4,6 +4,7 @@
 <?php $title = "Graphics | Thomas McCarten Portfolio"; ?>
 <?php $description = "Illustrations and graphic design by web developer Thomas McCarten."; ?>
 <?php $keywords = "Thomas McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
+<?php $ogimage = $index . "/assets/img/meta/ogimage.jpg"; ?>
 
 <?php include $index . '/assets/includes/head.php';?>
 
@@ -75,7 +76,7 @@
         <aside class="sidebar">
           <h4 class="sidebar__title">Recent blog posts</h4>
           <?php include $index . '/assets/includes/sidebar.php';?>
-        </aside>        
+        </aside>
 
     </main>
 

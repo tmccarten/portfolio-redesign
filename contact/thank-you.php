@@ -4,6 +4,7 @@
 <?php $title = "Contact | Thomas McCarten Portfolio"; ?>
 <?php $description = "Contact details for Thomas McCarten Web Developer."; ?>
 <?php $keywords = "Thomas McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
+<?php $ogimage = $index . "/assets/img/meta/ogimage.jpg"; ?>
 
 <?php include $index . '/assets/includes/head.php';?>
 

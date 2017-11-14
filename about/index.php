@@ -4,6 +4,7 @@
 <?php $title = "About | Thomas McCarten Portfolio"; ?>
 <?php $description = "Thomas McCarten is a front-end web developer based in Medway, Kent."; ?>
 <?php $keywords = "Thomas McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
+<?php $ogimage = $index . "/assets/img/meta/ogimage.jpg"; ?>
 
 <?php include $index . '/assets/includes/head.php';?>
 

@@ -4,6 +4,7 @@
 <?php $title = "Getting started with WordPress Theme Development | Blog | Thomas McCarten Portfolio"; ?>
 <?php $description = "Blog post detailing an introduction to WordPress Theme Development by Web Developer Tom McCarten."; ?>
 <?php $keywords = "Tom McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
+<?php $ogimage = $index . "/assets/img/meta/ogimage.jpg"; ?>
 
 <?php include $index . '/assets/includes/head.php';?>
 
@@ -149,7 +150,7 @@
         <aside class="sidebar">
           <h4 class="sidebar__title">Recent blog posts</h4>
           <?php include $index . '/assets/includes/sidebar.php';?>
-        </aside>        
+        </aside>
 
     </main>
 
