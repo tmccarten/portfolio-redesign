@@ -67,7 +67,7 @@ function addScrollButton() {
 
 // Small header on landscape orientation //
 
-var mqLandscape = window.matchMedia("(max-width: 53.125em) and (orientation: landscape)");
+var mqLandscape = window.matchMedia("(max-width: 53.125em) and (max-height: 31.25em) and (orientation: landscape)");
 
 if (mqLandscape.matches) {
   fixedHeaderLandscape();
