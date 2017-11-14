@@ -50,18 +50,20 @@
 
   .about__img-wrapper {
     flex-direction: column;
-    order: 2;
-    //box-shadow: .5em .5em  0 $altcolour;
-    margin: 0 0 0 2em;
+    order: 2;    
+    margin: 1em 0 0 2em;
   }
 
   .about__img {
     max-width: 200px;
     height: auto;
+    transform: rotate(-5deg);
+    box-shadow: 1em 1em 0 $altcolour;
   }
 
   .about__img + * {
-    margin-top: 1em;
+    //margin-top: 1em;
+    transform: rotate(3deg) translateY(-2em);
   }
 
 }

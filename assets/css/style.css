@@ -1657,16 +1657,20 @@ body::before {
 	-webkit-box-ordinal-group: 3;
 	-ms-flex-order: 2;
 	order: 2;
-	margin: 0 0 0 2em;
+	margin: 1em 0 0 2em;
 }
 
 .about__img {
 	max-width: 200px;
 	height: auto;
+	-webkit-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+	box-shadow: 1em 1em 0 #d66e51;
 }
 
 .about__img + * {
-	margin-top: 1em;
+	-webkit-transform: rotate(3deg) translateY(-2em);
+	transform: rotate(3deg) translateY(-2em);
 }
 
 .contact {
