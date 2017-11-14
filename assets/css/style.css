@@ -1432,8 +1432,7 @@ body::before {
 .logo {
 	display: block;
 	margin: 0 1rem 0 0;
-	width: 300px;
-	padding: 0 1rem;
+	width: 250px;
 }
 
 .main-nav {
