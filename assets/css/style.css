@@ -1286,6 +1286,10 @@ body {
 	height: auto;
 }
 
+.header-container--fixed .header {
+	padding: 0;
+}
+
 .header-container--fixed .header__top {
 	padding: 0 1rem;
 }
@@ -1376,10 +1380,15 @@ body::before {
 }
 
 .header-container--fixed .header {
-	padding: 0 1rem 0 4rem;
+	padding: 0 1rem;
 }
 
 .header-container--fixed .header .header__top {
+	padding: 0;
+}
+
+.header-container--fixed .header .header__top .logo {
+	width: 50%;
 	padding: 0;
 }
 
@@ -1778,7 +1787,7 @@ body::before {
 }
 
 .header-container--fixed .header {
-	padding: 0 2rem 0 5rem;
+	padding: 0 2rem;
 }
 
 .content {

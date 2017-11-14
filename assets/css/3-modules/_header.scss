@@ -124,6 +124,10 @@
 
   .header-container--fixed {
 
+    .header {
+      padding: 0;
+    }
+
     .header__top {
       padding: 0 1rem;
     }
@@ -140,10 +144,15 @@
   .header-container--fixed {
 
     .header {
-      padding: 0 1rem 0 4rem;
+      padding: 0 1rem;
 
     .header__top {
       padding: 0;
+
+      .logo {
+        width: 50%;
+        padding: 0;
+      }
     }
 
       .main-nav {
@@ -204,7 +213,7 @@
   .header-container--fixed {
 
     .header {
-      padding: 0 2rem 0 5rem;
+      padding: 0 2rem;
     }
   }
 

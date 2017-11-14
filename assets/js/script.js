@@ -31,8 +31,9 @@ btnMenu.addEventListener('click', function() {
 // ------ Dynamically add scroll-to-top button ------ //
 
 window.onload = function() {
-  addScrollButton();
+  fixedHeaderLandscape();
   getMeasurements();
+  addScrollButton();
 };
 
 function addScrollButton() {
@@ -63,14 +64,6 @@ function addScrollButton() {
       });
     });
   }
-}
-
-// Small header on landscape orientation //
-
-var mqLandscape = window.matchMedia("(max-width: 53.125em) and (max-height: 31.25em) and (orientation: landscape)");
-
-if (mqLandscape.matches) {
-  fixedHeaderLandscape();
 }
 
 // ----- Make scroll-to-top visible ----- //
@@ -146,13 +139,15 @@ function fixedHeader() {
 
 function fixedHeaderLandscape() {
 
+  var mqLandscape = window.matchMedia("(max-width: 53.125em) and (max-height: 31.25em) and (orientation: landscape)");
+
   var main = document.getElementsByClassName('main')[0],
       header = document.querySelector('.header-container');
 
   if (mqLandscape.matches) {
   main.style.paddingTop = "4.6875rem";
   header.className = "header-container header-container--fixed";
-} else {
+} else if (header.className === "header-container header-container--fixed" && mqLandscape.matches === false) {
   main.style.paddingTop = 0;
   header.className = "header-container";
 }
