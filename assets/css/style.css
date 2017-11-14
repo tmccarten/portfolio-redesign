@@ -1269,12 +1269,20 @@ body {
 
 @media screen and (min-width: 39.5em) {
 
+.header {
+	padding: 1rem 0;
+}
+
 .header__top {
 	padding: 2em 1rem;
 }
 
+.logo {
+	width: 40%;
+}
+
 .logo__img {
-	width: 330px;
+	width: 100%;
 	height: auto;
 }
 
@@ -1415,7 +1423,8 @@ body::before {
 .logo {
 	display: block;
 	margin: 0 1rem 0 0;
-	width: auto;
+	width: 300px;
+	padding: 0 1rem;
 }
 
 .main-nav {
@@ -1756,6 +1765,11 @@ body::before {
 .main {
 	max-width: 1066px;
 	padding: 0 2rem;
+}
+
+.logo {
+	padding: 0;
+	width: 330px;
 }
 
 .header {

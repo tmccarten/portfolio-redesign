@@ -105,12 +105,20 @@
 
 @media screen and (min-width: $mqbiglogo) {
 
+  .header {
+    padding: 1rem 0;
+  }
+
   .header__top {
     padding: 2em 1rem;
   }
 
+  .logo {
+    width: 40%;
+  }
+
   .logo__img {
-    width: 330px;
+    width: 100%;
     height: auto;
   }
 
@@ -175,12 +183,18 @@
   .logo {
     display: block;
     margin: 0 1rem 0 0;
-    width: auto;
+    width: 300px;
+    padding: 0 1rem;
   }
 
 }
 
 @media screen and (min-width: $mqthreecol) {
+
+  .logo {
+    padding: 0;
+    width: 330px;
+  }
 
   .header {
     max-width: 1066px;
