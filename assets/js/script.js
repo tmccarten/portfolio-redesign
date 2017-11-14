@@ -32,6 +32,7 @@ btnMenu.addEventListener('click', function() {
 
 window.onload = function() {
   addScrollButton();
+  getMeasurements();
 };
 
 function addScrollButton() {
@@ -49,6 +50,7 @@ function addScrollButton() {
     img.className = "scroll-up__icon";
     img.setAttribute("width", 44);
     img.setAttribute("height", 44);
+    img.setAttribute("alt", "Scroll to top");
 
     scrollUpDiv.appendChild(img);
     main.appendChild(scrollUpDiv);
@@ -116,8 +118,6 @@ function amountScrolled() {
 	return pctScrolled;
 }
 
-getMeasurements();
-
 window.addEventListener("resize", function(){
 	getMeasurements();
   fixedHeaderLandscape();
@@ -145,8 +145,10 @@ function fixedHeader() {
 }
 
 function fixedHeaderLandscape() {
+
   var main = document.getElementsByClassName('main')[0],
       header = document.querySelector('.header-container');
+
   if (mqLandscape.matches) {
   main.style.paddingTop = "4.6875rem";
   header.className = "header-container header-container--fixed";
