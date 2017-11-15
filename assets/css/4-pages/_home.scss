@@ -16,98 +16,13 @@
   background-color: $tilecolour;
   text-decoration: none;
   color: white;
+  animation: fadeIn 2s ease 1s forwards;
+  animation-iteration-count: 1;
+  opacity: 0;
 
   a {
     color: white;
     text-decoration: none;
-  }
-}
-
-.tile--image {
-  background-color: $tilecolour;
-  height: auto;
-  order: 2;
-}
-
-.tile__img {
-  max-width: 100%;
-  width: 100%;
-  max-height: 100%;
-  min-height: 1px;
-}
-
-.tile--intro {
-  background-color: lighten($tilecolour, 2);
-  height: 90vw;
-  order: 1;
-}
-
-.tile--projects {
-  background-color: lighten($tilecolour, 4);
-  order: 3;
-  position: relative;
-
-  &::after {
-    content: "";
-    background: url('../img/home/projects-tile.png') no-repeat;
-    background-size: cover;
-    opacity: .075;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    z-index: 1;
-    transition: opacity 300ms ease;
-  }
-
-  &:hover {
-    &::after {
-      opacity: 0;
-    }
-  }
-}
-
-.tile--graphics {
-  background-color: lighten($tilecolour, 6);
-  order: 4;
-  position: relative;
-
-  &::after {
-    content: "";
-    background: url('../img/home/graphics-tile.png') no-repeat;
-    background-size: cover;
-    opacity: .075;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    z-index: 1;
-    transition: opacity 300ms ease;
-  }
-
-  &:hover {
-    &::after {
-      opacity: 0;
-    }
-  }
-}
-
-.tile--contact {
-  background-color: lighten($tilecolour, 8);
-  order: 5;
-}
-
-.tile--icons {
-  background-color: lighten($tilecolour, 10);
-  order: 6;
-}
-
-.tile--3d {
-
-  &:hover {
-    background-color: $altcolour;
   }
 }
 
@@ -124,55 +39,117 @@
   margin-top: 0;
 }
 
-.tile-inner--intro {
-  text-align: center;
-  font-weight: 500;
+.tile--image {
+  background-color: $tilecolour;
+  height: auto;
+  order: 2;
+  animation-delay: 1500ms;
 }
 
-.tile-inner--contact {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 1em;
-  transition: background-color 500ms ease;
-  background-color: darken($altcolour, 3);
-  border-radius: 2em;
+.tile__img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
+  min-height: 1px;
+}
 
-  img {
-    transition: transform 500ms ease;
-  }
+.tile--intro {
+  background-color: lighten($tilecolour, 2);
+  height: 90vw;
+  order: 1;
+  animation-delay: 1s;
 
-  &:hover {
-    background-color: darken(saturate($altcolour, 3), 5);
+  .tile-inner {
+    padding: 0 1em;
 
-    img {
-      transform: translateY(-.25em);
+    .tile-inner__main {
+      font-size: 1.5em;
+      padding: 0;
+      font-weight: 500;
+      max-width: 241px;
+    }
+
+    .tile-inner__sub {
+      font-weight: 400;
     }
   }
 }
 
-.tile-inner__main {
-  padding: 1em;
+.tile--projects {
+  background-color: lighten($tilecolour, 4);
+  order: 3;
+  animation-delay: 2000ms;
 }
 
-.tile-inner--border {
-  border-radius: 2em;
-  border: .1em solid rgba(255,255,255,1);
+.tile--graphics {
+  background-color: lighten($tilecolour, 6);
+  order: 4;
+  animation-delay: 2500ms;
 }
 
-.tile-inner__main--contact {
-  padding: 0;
-  margin-right: .5em;
+.tile--contact {
+  background-color: lighten($tilecolour, 8);
+  order: 5;
+  animation-delay: 3000ms;
+
+  .tile-inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    transition: background-color 500ms ease;
+    background-color: darken($altcolour, 3);
+    border-radius: 2em;
+
+    .tile-inner__main {
+      padding: 0;
+      margin-right: .5em;
+    }
+
+    img {
+      transition: transform 500ms ease;
+    }
+
+    &:hover {
+      background-color: darken(saturate($altcolour, 3), 5);
+
+      img {
+        transform: translateY(-.25em);
+      }
+    }
+  }
 }
 
-.tile-inner__main--intro {
-  font-size: 1.5em;
-  padding: 0 1em;
-  font-weight: 500;
+.tile--icons {
+  background-color: lighten($tilecolour, 10);
+  order: 6;
+  animation-delay: 3500ms;
 }
 
-.tile-inner__sub--intro {
-  font-weight: 400;
+.tile--interact {
+
+  .tile-inner {
+    border-radius: 2em;
+    border: .125em solid rgba(255,255,255,.1);
+    font-family: $seriffont;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-shadow: .125em .125em $maincolour;
+    transition: border-color 300ms ease, text-shadow 300ms ease;
+
+    .tile-inner__main {
+      padding: 1em;
+    }
+  }
+
+  &:hover {
+    background-color: $altcolour;
+
+    .tile-inner {
+      text-shadow: none;
+      border-color: transparent;
+    }
+  }
 }
 
 .tile-inner__icon {
@@ -181,11 +158,6 @@
   & img:hover {
     transform: scale(1.1);
   }
-}
-
-.tile-inner__link {
-  text-decoration: none;
-  color: white;
 }
 
 @media screen and (min-width: $mqphonelimit) {
@@ -216,12 +188,19 @@
     margin-right: 0;
   }
 
-  .tile-inner {
-    max-width: 15em;
-  }
-
   .tile--intro {
-    padding: 0 1em;
+
+    .tile-inner {
+      max-width: 15em;
+
+      .tile-inner__main {
+        font-size: calc(1.3em + .25vw);
+      }
+
+      .tile-inner__sub {
+        font-size: calc(1em + .25vw);
+      }
+    }
   }
 
   .tile--image {
@@ -230,14 +209,6 @@
 
   .tile__img {
     max-width: 80%;
-  }
-
-  .tile-inner__main--intro {
-    font-size: 1.4em;
-  }
-
-  .tile-inner__sub--intro {
-    font-size: 1rem;
   }
 
 }
@@ -249,6 +220,20 @@
     font-size: 1rem;
   }
 
+  .tile--intro {
+
+    .tile-inner {
+
+      .tile-inner__main {
+        font-size: 1.5em;
+      }
+
+      .tile-inner__sub {
+        font-size: 1.125em;
+      }
+    }
+  }
+
 }
 
 
@@ -256,24 +241,19 @@
 
   .tile {
     width: 33.33333333333333333333333333333333%;
-    height: 30.769230769230769230769230769231vw;
+    height: 33.3333333333333333333333333333333vw;
     margin: 0;
   }
 
-  .tile-inner {
-    max-width: 12.875em;
-  }
+  .tile--intro {
 
-  .tile-inner__main--intro {
-    padding: 0;
+    .tile-inner {
+      padding: 0;
+    }
   }
 
   .tile--image {
     order: 0;
-  }
-
-  .tile--contact {
-    //background-color: rgba($tilecolour, .5);
   }
 
 }
@@ -285,10 +265,11 @@
     width: 1006px;
     perspective: 1000px;
     border-top: .125em solid $maincolour;
+    border-bottom: .125em solid $maincolour;
   }
 
   .tile {
-    //width: 334px;
+    width: 334px;
     height: 334px;
   }
 
@@ -298,15 +279,7 @@
     max-width: none;
   }
 
-  .tile__img--tint {
-    display: block;
-    width: 267px;
-    height: 267px;
-    border: .1em solid darken($maincolour, 5);
-    box-sizing: content-box;
-  }
-
-  .tile--3d {
+  .tile--interact {
     transform: rotateY(0);
     transition: transform 300ms ease, background-color 500ms ease, border-color 500ms ease, box-shadow 500ms ease;
 

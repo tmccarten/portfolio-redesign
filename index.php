@@ -15,31 +15,31 @@
         <section class="tiles">
 
           <div class="tile tile--intro">
-            <div class="tile-inner tile-inner--intro">
-              <p class="tile-inner__sub tile-inner__sub--intro">Hello!</p>
-              <h2 class="tile-inner__main tile-inner__main--intro">I'm a front-end developer/designer based in Medway, Kent.</h2>
+            <div class="tile-inner">
+              <p class="tile-inner__sub">Hello!</p>
+              <h2 class="tile-inner__main">I'm a front-end developer/designer based in Medway, Kent.</h2>
             </div>
           </div>
 
-          <!-- <div class="tile tile--image">
+          <div class="tile tile--image">
             <img class="tile__img" src="<?php echo $index?>/assets/img/tom_mccarten2.png" alt="Tom McCarten">
-          </div> -->
+          </div>
 
-          <a href="projects/" class="tile tile--projects tile--3d">
-            <div class="tile-inner tile-inner--border">
+          <a href="projects/" class="tile tile--projects tile--interact">
+            <div class="tile-inner">
               <h3 class="tile-inner__main">Projects</h3>
             </div>
           </a>
 
-          <a href="graphics/" class="tile tile--graphics tile--3d">
-            <div class="tile-inner tile-inner--border">
+          <a href="graphics/" class="tile tile--graphics tile--interact">
+            <div class="tile-inner">
               <h3 class="tile-inner__main">Graphics</h3>
             </div>
           </a>
 
           <div class="tile tile--contact">
-            <a href="#" class="tile-inner tile-inner--contact">
-              <h3 class="tile-inner__main tile-inner__main--contact">Get in touch</h3>
+            <a href="#" class="tile-inner">
+              <h3 class="tile-inner__main">Get in touch</h3>
               <img src="<?php echo $index?>/assets/img/icons/contact.svg" alt="Email icon" width="22" height="22">
             </a>
           </div>
