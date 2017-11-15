@@ -21,9 +21,9 @@
             </div>
           </div>
 
-          <div class="tile tile--image">
+          <!-- <div class="tile tile--image">
             <img class="tile__img" src="<?php echo $index?>/assets/img/tom_mccarten2.png" alt="Tom McCarten">
-          </div>
+          </div> -->
 
           <a href="projects/" class="tile tile--projects tile--3d">
             <div class="tile-inner tile-inner--border">

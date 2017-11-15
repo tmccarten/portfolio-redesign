@@ -28,13 +28,13 @@ btnMenu.addEventListener('click', function() {
 
 // ----- //
 
-// ------ Dynamically add scroll-to-top button ------ //
-
 window.onload = function() {
   fixedHeaderLandscape();
   getMeasurements();
   addScrollButton();
 };
+
+// ------ Dynamically add scroll-to-top button ------ //
 
 function addScrollButton() {
   if (getDocHeight() > 2000 ) {
@@ -45,7 +45,7 @@ function addScrollButton() {
         img = document.createElement('img');
 
     scrollUpDiv.className = "scroll-up";
-    logoSrc = logo.href;
+    logoSrc = logo.href; //get root location
 
     img.src = logoSrc + "assets/img/icons/arrow-up.svg";
     img.className = "scroll-up__icon";
@@ -65,6 +65,8 @@ function addScrollButton() {
     });
   }
 }
+
+// ----- //
 
 // ----- Make scroll-to-top visible ----- //
 

@@ -839,6 +839,10 @@ body {
 	order: 6;
 }
 
+.tile--3d:hover {
+	background-color: #d66e51;
+}
+
 .tile-inner {
 	max-width: 100%;
 	text-align: center;
@@ -879,7 +883,7 @@ body {
 }
 
 .tile-inner--contact:hover {
-	background-color: #d15d3c;
+	background-color: #d45a38;
 }
 
 .tile-inner--contact:hover img {
@@ -1653,14 +1657,6 @@ body::before {
 	order: 0;
 }
 
-.tile--3d {
-	background: radial-gradient(ellipse at center, #464c7a 0%, #343859 100%);
-}
-
-.tile--contact {
-	background-color: rgba(52, 56, 89, 0.5);
-}
-
 .about {
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
@@ -1840,11 +1836,10 @@ body::before {
 	width: 1006px;
 	-webkit-perspective: 1000px;
 	perspective: 1000px;
-	border: 0.125em solid #303453;
+	border-top: 0.125em solid #303453;
 }
 
 .tile {
-	width: 334px;
 	height: 334px;
 }
 
@@ -1873,7 +1868,6 @@ body::before {
 .tile--3d:hover {
 	-webkit-transform: rotateY(15deg) scale(0.95);
 	transform: rotateY(15deg) scale(0.95);
-	background: radial-gradient(ellipse at center, #d66e51 0%, #a0503a 100%);
 	border-color: #db7f65;
 }
 

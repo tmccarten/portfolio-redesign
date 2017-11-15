@@ -62,6 +62,13 @@
   order: 6;
 }
 
+.tile--3d {
+
+  &:hover {
+    background-color: $altcolour;
+  }
+}
+
 .tile-inner {
   max-width: 100%;
   text-align: center;
@@ -85,9 +92,6 @@
   justify-content: space-around;
   align-items: center;
   padding: 1em;
-  //border-top: .08em dashed rgba(white, .5);
-  //border-bottom: .08em dashed rgba(white, .5);
-  //transition: border-color 500ms ease;
   transition: background-color 500ms ease;
   background-color: darken($altcolour, 3);
   border-radius: 2em;
@@ -97,9 +101,7 @@
   }
 
   &:hover {
-    //border-top-color: transparent;
-    //border-bottom-color: transparent;
-    background-color: darken($altcolour, 5);
+    background-color: darken(saturate($altcolour, 3), 5);
 
     img {
       transform: translateY(-.25em);
@@ -228,12 +230,8 @@
     order: 0;
   }
 
-  .tile--3d {
-    background: radial-gradient(ellipse at center, lighten($tilecolour, 10) 0%, $tilecolour 100%);
-  }
-
   .tile--contact {
-    background-color: rgba($tilecolour, .5);
+    //background-color: rgba($tilecolour, .5);
   }
 
 }
@@ -244,11 +242,11 @@
     justify-content: flex-start;
     width: 1006px;
     perspective: 1000px;
-    border: .125em solid $maincolour;
+    border-top: .125em solid $maincolour;
   }
 
   .tile {
-    width: 334px;
+    //width: 334px;
     height: 334px;
   }
 
@@ -272,7 +270,6 @@
 
     &:hover {
       transform: rotateY(15deg) scale(0.95);
-      background: radial-gradient(ellipse at center, $altcolour 0%, desaturate(darken($altcolour, 15), 15) 100%);
       border-color: lighten($altcolour, 5);
 
       .tile-inner__main {
