@@ -789,11 +789,6 @@ body {
 	background-color: #343859;
 	text-decoration: none;
 	color: white;
-	-webkit-animation: fadeIn 2s ease 1s forwards;
-	animation: fadeIn 2s ease 1s forwards;
-	-webkit-animation-iteration-count: 1;
-	animation-iteration-count: 1;
-	opacity: 0;
 }
 
 .tile a {
@@ -804,6 +799,7 @@ body {
 .tile-inner {
 	max-width: 100%;
 	text-align: center;
+	opacity: 0;
 }
 
 .tile-inner > * {
@@ -820,8 +816,6 @@ body {
 	-webkit-box-ordinal-group: 3;
 	-ms-flex-order: 2;
 	order: 2;
-	-webkit-animation-delay: 1500ms;
-	animation-delay: 1500ms;
 }
 
 .tile__img {
@@ -829,6 +823,9 @@ body {
 	width: 100%;
 	max-height: 100%;
 	min-height: 1px;
+	opacity: 0;
+	-webkit-animation: fadeIn 2s ease 1s forwards;
+	animation: fadeIn 2s ease 1s forwards;
 }
 
 .tile--intro {
@@ -837,12 +834,12 @@ body {
 	-webkit-box-ordinal-group: 2;
 	-ms-flex-order: 1;
 	order: 1;
-	-webkit-animation-delay: 1s;
-	animation-delay: 1s;
 }
 
 .tile--intro .tile-inner {
 	padding: 0 1em;
+	-webkit-animation: fadeIn 2s ease 1500ms forwards;
+	animation: fadeIn 2s ease 1500ms forwards;
 }
 
 .tile--intro .tile-inner .tile-inner__main {
@@ -865,6 +862,11 @@ body {
 	animation-delay: 2000ms;
 }
 
+.tile--projects .tile-inner {
+	-webkit-animation: fadeIn 2s ease 2s forwards;
+	animation: fadeIn 2s ease 2s forwards;
+}
+
 .tile--graphics {
 	background-color: #3f446d;
 	-webkit-box-ordinal-group: 5;
@@ -874,13 +876,16 @@ body {
 	animation-delay: 2500ms;
 }
 
+.tile--graphics .tile-inner {
+	-webkit-animation: fadeIn 2s ease 2500ms forwards;
+	animation: fadeIn 2s ease 2500ms forwards;
+}
+
 .tile--contact {
 	background-color: #434873;
 	-webkit-box-ordinal-group: 6;
 	-ms-flex-order: 5;
 	order: 5;
-	-webkit-animation-delay: 3000ms;
-	animation-delay: 3000ms;
 }
 
 .tile--contact .tile-inner {
@@ -896,6 +901,8 @@ body {
 	transition: background-color 500ms ease;
 	background-color: #d36344;
 	border-radius: 2em;
+	-webkit-animation: fadeIn 2s ease 3s forwards;
+	animation: fadeIn 2s ease 3s forwards;
 }
 
 .tile--contact .tile-inner .tile-inner__main {
@@ -923,8 +930,11 @@ body {
 	-webkit-box-ordinal-group: 7;
 	-ms-flex-order: 6;
 	order: 6;
-	-webkit-animation-delay: 3500ms;
-	animation-delay: 3500ms;
+}
+
+.tile--icons .tile-inner {
+	-webkit-animation: fadeIn 2s ease 3500ms forwards;
+	animation: fadeIn 2s ease 3500ms forwards;
 }
 
 .tile--interact .tile-inner {

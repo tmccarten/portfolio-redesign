@@ -16,9 +16,7 @@
   background-color: $tilecolour;
   text-decoration: none;
   color: white;
-  animation: fadeIn 2s ease 1s forwards;
-  animation-iteration-count: 1;
-  opacity: 0;
+  //opacity: 0;
 
   a {
     color: white;
@@ -29,6 +27,7 @@
 .tile-inner {
   max-width: 100%;
   text-align: center;
+  opacity: 0;
 }
 
 .tile-inner > * {
@@ -43,7 +42,6 @@
   background-color: $tilecolour;
   height: auto;
   order: 2;
-  animation-delay: 1500ms;
 }
 
 .tile__img {
@@ -51,16 +49,18 @@
   width: 100%;
   max-height: 100%;
   min-height: 1px;
+  opacity: 0;
+  animation: fadeIn 2s ease 1s forwards;
 }
 
 .tile--intro {
   background-color: lighten($tilecolour, 2);
   height: 90vw;
   order: 1;
-  animation-delay: 1s;
 
   .tile-inner {
     padding: 0 1em;
+    animation: fadeIn 2s ease 1500ms forwards;
 
     .tile-inner__main {
       font-size: 1.5em;
@@ -79,18 +79,25 @@
   background-color: lighten($tilecolour, 4);
   order: 3;
   animation-delay: 2000ms;
+
+  .tile-inner {
+    animation: fadeIn 2s ease 2s forwards;
+  }
 }
 
 .tile--graphics {
   background-color: lighten($tilecolour, 6);
   order: 4;
   animation-delay: 2500ms;
+
+  .tile-inner {
+    animation: fadeIn 2s ease 2500ms forwards;
+  }
 }
 
 .tile--contact {
   background-color: lighten($tilecolour, 8);
   order: 5;
-  animation-delay: 3000ms;
 
   .tile-inner {
     display: flex;
@@ -100,6 +107,7 @@
     transition: background-color 500ms ease;
     background-color: darken($altcolour, 3);
     border-radius: 2em;
+    animation: fadeIn 2s ease 3s forwards;
 
     .tile-inner__main {
       padding: 0;
@@ -123,7 +131,10 @@
 .tile--icons {
   background-color: lighten($tilecolour, 10);
   order: 6;
-  animation-delay: 3500ms;
+
+  .tile-inner {
+    animation: fadeIn 2s ease 3500ms forwards;
+  }
 }
 
 .tile--interact {
