@@ -827,11 +827,48 @@ body {
 	position: relative;
 }
 
+.tile--projects::after {
+	content: "";
+	background: url("../img/home/projects-tile.png") no-repeat;
+	background-size: cover;
+	opacity: .075;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	z-index: 1;
+	transition: opacity 300ms ease;
+}
+
+.tile--projects:hover::after {
+	opacity: 0;
+}
+
 .tile--graphics {
 	background-color: #3f446d;
 	-webkit-box-ordinal-group: 5;
 	-ms-flex-order: 4;
 	order: 4;
+	position: relative;
+}
+
+.tile--graphics::after {
+	content: "";
+	background: url("../img/home/graphics-tile.png") no-repeat;
+	background-size: cover;
+	opacity: .075;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	z-index: 1;
+	transition: opacity 300ms ease;
+}
+
+.tile--graphics:hover::after {
+	opacity: 0;
 }
 
 .tile--contact {
@@ -1411,7 +1448,7 @@ body {
 
 body::before {
 	content: "";
-	opacity: .25;
+	opacity: .2;
 	position: fixed;
 	height: 600px;
 	right: 0;

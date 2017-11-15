@@ -46,11 +46,52 @@
   background-color: lighten($tilecolour, 4);
   order: 3;
   position: relative;
+
+  &::after {
+    content: "";
+    background: url('../img/home/projects-tile.png') no-repeat;
+    background-size: cover;
+    opacity: .075;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    transition: opacity 300ms ease;
+  }
+
+  &:hover {
+    &::after {
+      opacity: 0;
+    }
+  }
 }
 
 .tile--graphics {
   background-color: lighten($tilecolour, 6);
-  order: 4;    
+  order: 4;
+  position: relative;
+
+  &::after {
+    content: "";
+    background: url('../img/home/graphics-tile.png') no-repeat;
+    background-size: cover;
+    opacity: .075;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    transition: opacity 300ms ease;
+  }
+
+  &:hover {
+    &::after {
+      opacity: 0;
+    }
+  }
 }
 
 .tile--contact {
