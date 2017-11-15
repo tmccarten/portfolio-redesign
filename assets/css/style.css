@@ -25,6 +25,10 @@ h6 {
 	font-weight: normal;
 }
 
+a {
+	color: white;
+}
+
 .visuallyhidden {
 	position: absolute;
 	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -427,6 +431,10 @@ body {
 	max-width: 60ch;
 }
 
+.blogpost__text--intro {
+	font-weight: bold;
+}
+
 .blogpost__figure-wrap {
 	color: white;
 	text-decoration: none;
@@ -816,6 +824,7 @@ body {
 	-webkit-box-ordinal-group: 4;
 	-ms-flex-order: 3;
 	order: 3;
+	position: relative;
 }
 
 .tile--graphics {

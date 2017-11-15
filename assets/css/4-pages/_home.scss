@@ -45,11 +45,12 @@
 .tile--projects {
   background-color: lighten($tilecolour, 4);
   order: 3;
+  position: relative;
 }
 
 .tile--graphics {
   background-color: lighten($tilecolour, 6);
-  order: 4;
+  order: 4;    
 }
 
 .tile--contact {
