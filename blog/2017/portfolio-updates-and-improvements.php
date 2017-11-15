@@ -27,7 +27,7 @@
               <section class="blogpost__header">
                 <h2 class="blogpost__title">Portfolio updates and improvements</h2>
                 <p class="blogpost__meta blogpost__meta--author">by Tom McCarten</p>
-                <time datetime="2016-11-06" class="blogpost__meta blogpost__meta--date">25th February, 2017</time>
+                <time datetime="2017-02-25" class="blogpost__meta blogpost__meta--date">25th February, 2017</time>
               </section>
 
               <div class="blogpost__main">
