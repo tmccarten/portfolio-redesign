@@ -789,8 +789,6 @@ body {
 	background-color: #343859;
 	text-decoration: none;
 	color: white;
-	border-bottom: 0.0625em solid #343859;
-	border-right: 0.0625em solid #343859;
 	transition: -webkit-transform 300ms ease;
 	transition: transform 300ms ease;
 	transition: transform 300ms ease, -webkit-transform 300ms ease;
@@ -969,7 +967,7 @@ body {
 	padding: 1em;
 	font-family: Merriweather, Georgia, Times, serif;
 	font-weight: bold;
-	font-size: 1.75em;
+	font-size: 1.5em;
 }
 
 .tile--interact:hover {
@@ -1730,11 +1728,35 @@ body::before {
 }
 
 .tile {
-	width: 33.33333333333333333333333333333333%;
-	height: 33.3333333333333333333333333333333vw;
-	margin: 0;
+	-webkit-box-flex: 25%;
+	-ms-flex: 25%;
+	flex: 25%;
+	height: 32vw;
+	margin: .5em;
+	margin-bottom: 0;
 	-webkit-transform: rotate(0deg);
 	transform: rotate(0deg);
+	border: 0.01em solid #343859;
+}
+
+.tile:nth-child(1),
+.tile:nth-child(2),
+.tile:nth-child(3) {
+	margin-top: 0;
+}
+
+.tile:nth-child(odd) {
+	margin-left: 0;
+}
+
+.tile:nth-child(even) {
+	margin-left: 0;
+	margin-right: .5em;
+}
+
+.tile:nth-child(3),
+.tile:nth-child(6) {
+	margin-right: 0;
 }
 
 .tile--intro .tile-inner {
@@ -1950,7 +1972,7 @@ body::before {
 .tile--interact:hover {
 	-webkit-transform: rotateY(15deg) scale(0.95);
 	transform: rotateY(15deg) scale(0.95);
-	border-color: #db7f65;
+	border-color: #e4a18e;
 }
 
 .tile--interact:hover .tile-inner__main {
