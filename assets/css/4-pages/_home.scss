@@ -16,8 +16,8 @@
   background-color: $tilecolour;
   text-decoration: none;
   color: white;
-  border-bottom: .0625em solid $maincolour;
-  border-right: .0625em solid $maincolour;
+  border-bottom: .0625em solid $tilecolour;
+  border-right: .0625em solid $tilecolour;
   transition: transform 300ms ease;
   //opacity: 0;
 
@@ -45,8 +45,8 @@
   background-color: $tilecolour;
   height: auto;
   order: 2;
-  border-top: .0625em solid $maincolour;
-  border-left: .0625em solid $maincolour;
+  border-top: .0625em solid $tilecolour;
+  border-left: .0625em solid $tilecolour;
   transform: rotate(2deg);
 }
 
@@ -63,7 +63,7 @@
   background-color: lighten($tilecolour, 2);
   height: 90vw;
   order: 1;
-  border-top: .0625em solid $maincolour;
+  border-top: .0625em solid $tilecolour;
   transform: rotate(-3deg);
 
   .tile-inner {
@@ -87,7 +87,7 @@
   background-color: lighten($tilecolour, 4);
   order: 3;
   animation-delay: 2000ms;
-  border-top: .0625em solid $maincolour;
+  border-top: .0625em solid $tilecolour;
   transform: rotate(-2deg) translateY(-1em);
 
   .tile-inner {
@@ -99,7 +99,7 @@
   background-color: lighten($tilecolour, 6);
   order: 4;
   animation-delay: 2500ms;
-  border-left: .0625em solid $maincolour;
+  border-left: .0625em solid $tilecolour;
   transform: rotate(2deg) translateY(-1.2em);
 
   .tile-inner {

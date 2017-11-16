@@ -789,8 +789,8 @@ body {
 	background-color: #343859;
 	text-decoration: none;
 	color: white;
-	border-bottom: 0.0625em solid #303453;
-	border-right: 0.0625em solid #303453;
+	border-bottom: 0.0625em solid #343859;
+	border-right: 0.0625em solid #343859;
 	transition: -webkit-transform 300ms ease;
 	transition: transform 300ms ease;
 	transition: transform 300ms ease, -webkit-transform 300ms ease;
@@ -821,8 +821,8 @@ body {
 	-webkit-box-ordinal-group: 3;
 	-ms-flex-order: 2;
 	order: 2;
-	border-top: 0.0625em solid #303453;
-	border-left: 0.0625em solid #303453;
+	border-top: 0.0625em solid #343859;
+	border-left: 0.0625em solid #343859;
 	-webkit-transform: rotate(2deg);
 	transform: rotate(2deg);
 }
@@ -843,7 +843,7 @@ body {
 	-webkit-box-ordinal-group: 2;
 	-ms-flex-order: 1;
 	order: 1;
-	border-top: 0.0625em solid #303453;
+	border-top: 0.0625em solid #343859;
 	-webkit-transform: rotate(-3deg);
 	transform: rotate(-3deg);
 }
@@ -872,7 +872,7 @@ body {
 	order: 3;
 	-webkit-animation-delay: 2000ms;
 	animation-delay: 2000ms;
-	border-top: 0.0625em solid #303453;
+	border-top: 0.0625em solid #343859;
 	-webkit-transform: rotate(-2deg) translateY(-1em);
 	transform: rotate(-2deg) translateY(-1em);
 }
@@ -889,7 +889,7 @@ body {
 	order: 4;
 	-webkit-animation-delay: 2500ms;
 	animation-delay: 2500ms;
-	border-left: 0.0625em solid #303453;
+	border-left: 0.0625em solid #343859;
 	-webkit-transform: rotate(2deg) translateY(-1.2em);
 	transform: rotate(2deg) translateY(-1.2em);
 }
