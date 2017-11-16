@@ -10,6 +10,7 @@
     <meta name="description" content="<?php echo $description ?>">
     <meta name="keywords" content="<?php echo $keywords ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="theme-color" content="#303453">
 
     <!-- get page URL -- >
 
