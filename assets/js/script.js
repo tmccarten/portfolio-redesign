@@ -116,7 +116,6 @@ function amountScrolled() {
 window.addEventListener("resize", function(){
 	getMeasurements();
   fixedHeaderLandscape();
-  fixedHeader();
 }, false);
 
 // ----- //
@@ -131,7 +130,6 @@ function fixedHeader() {
   if (window.pageYOffset > 500 && header.className !== "header-container header-container--fixed" ) {
     main.style.paddingTop = headerHeight + "px";
     header.className = "header-container header-container--fixed header-container--fade";
-    //scrollUp.className = "scroll-up scroll-up--visible" // make scroll-up button visible
   } else if (window.pageYOffset < 500 && header.className === "header-container header-container--fixed header-container--fade") {
     header.className = "header-container header-container--fixed header-container--fadeout";
   } else if (window.pageYOffset < 300 && header.className === "header-container header-container--fixed header-container--fadeout") {
@@ -147,7 +145,7 @@ function fixedHeaderLandscape() {
   var main = document.getElementsByClassName('main')[0],
       header = document.querySelector('.header-container');
 
-  if (mqLandscape.matches) {
+  if (mqLandscape.matches && header.className != "header-container header-container--fixed") {
   main.style.paddingTop = "4.6875rem";
   header.className = "header-container header-container--fixed";
 } else if (header.className === "header-container header-container--fixed" && mqLandscape.matches === false || header.className === "header-container header-container--fixed header-container--fade") {

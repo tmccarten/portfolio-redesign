@@ -591,14 +591,30 @@ body {
 	height: auto;
 }
 
+.work__img--landscape {
+	display: block;
+}
+
+.work__img--portrait {
+	display: none;
+}
+
 .work__header {
 	font-weight: bold;
 }
 
+.work__imgbtn-wrapper {
+	position: relative;
+}
+
 .work__btn-view {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 	display: block;
 	text-align: center;
-	margin: 1em auto;
 	background-color: #464c7a;
 	border: 0.1em solid #4c5283;
 	font-family: "Webly Sleek UI", "Segoe UI", Tahoma, Arial, sans-serif;
@@ -606,9 +622,6 @@ body {
 	padding: .5em;
 	color: white;
 	width: 50%;
-	-ms-flex-item-align: center;
-	-ms-grid-row-align: center;
-	align-self: center;
 	text-decoration: none;
 }
 
@@ -1424,6 +1437,23 @@ body {
 	font-size: 1.375rem;
 }
 
+.content__item--project {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.content__item--project .content__heading {
+	text-align: center;
+}
+
 .content__heading {
 	font-size: 2rem;
 }
@@ -1594,7 +1624,21 @@ body::before {
 
 .content__item {
 	padding: 3rem;
-	background-color: rgba(63, 68, 109, 0.5);
+}
+
+.content__item--project {
+	display: block;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: none;
+	flex-direction: none;
+	-webkit-box-align: none;
+	-ms-flex-align: none;
+	align-items: none;
+}
+
+.content__item--project .content__heading {
+	text-align: left;
 }
 
 .content__heading--no-desktop {
@@ -1665,6 +1709,14 @@ body::before {
 
 .work__text {
 	line-height: 1.6em;
+}
+
+.work__img--landscape {
+	display: none;
+}
+
+.work__img--portrait {
+	display: block;
 }
 
 .work__imgbtn-wrapper {

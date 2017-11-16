@@ -16,7 +16,7 @@
         <section class="content">
           <h2 class="title">Projects</h2>
 
-          <div class="content__item">
+          <div class="content__item content__item--project">
             <div class="breadcrumb">
               <a href=".." class="breadcrumb__link">Work</a><p class="breadcrumb__grey">Projects</p>
             </div>
@@ -24,7 +24,8 @@
             <section class="work">
               <h3 class="content__heading content__heading--no-desktop">Living Lines: Birley Archive Project</h3>
               <div class="work__imgbtn-wrapper">
-                <img class="work__img" src="<?php echo $index?>/assets/img/project_birley.png" width="575" height="334" alt="Birley Archive Project Screenshot">
+                <img class="work__img work__img--landscape" src="<?php echo $index?>/assets/img/projects/project-birley--landscape.png" width="625" height="364" alt="Birley Archive Project Screenshot">
+                <img class="work__img work__img--portrait" src="<?php echo $index?>/assets/img/projects/project-birley--portrait.png" width="402" height="835" alt="Birley Archive Project Screenshot">
                 <a href="#" class="work__btn-view">View site</a>
               </div>
               <div class="work__info">
@@ -45,12 +46,13 @@
 
           </div>
 
-          <div class="content__item">
+          <div class="content__item content__item--project">
 
             <section class="work">
               <h3 class="content__heading content__heading--no-desktop">Liverpool, Pembroke & Sefton Athletics</h3>
               <div class="work__imgbtn-wrapper">
-                <img class="work__img" src="<?php echo $index?>/assets/img/project_lps.png" width="575" height="334" alt="LPS Website Screenshot">
+                <img class="work__img work__img--landscape" src="<?php echo $index?>/assets/img/projects/project-lps--landscape.png" width="625" height="364" alt="LPS Website Screenshot">
+                <img class="work__img work__img--portrait" src="<?php echo $index?>/assets/img/projects/project-lps--portrait.png" width="402" height="835" alt="LPS Website Screenshot">
                 <a href="#" class="work__btn-view">View site</a>
               </div>
               <div class="work__info">
@@ -70,16 +72,69 @@
 
           </div>
 
-          <div class="content__item">
+          <div class="content__item content__item--project">
 
             <section class="work">
               <h3 class="content__heading content__heading--no-desktop">myLibrary App Invision Prototype</h3>
               <div class="work__imgbtn-wrapper">
-                <img class="work__img" src="<?php echo $index?>/assets/img/projects/project-mylibrary.png" width="418" height="857" alt="Invision library app screenshot">
+                <img class="work__img work__img--landscape" src="<?php echo $index?>/assets/img/projects/project-mylibrary--landscape.png" width="625" height="364" alt="Invision library app screenshot">
+                <img class="work__img work__img--portrait" src="<?php echo $index?>/assets/img/projects/project-mylibrary--portrait.png" width="402" height="835" alt="Invision library app screenshot">
                 <a href="#" class="work__btn-view">View site</a>
               </div>
               <div class="work__info">
                 <h3 class="content__heading content__heading--no-mob">myLibrary App Invision Prototype</h3>
+                <h4 class="work__header">Overview</h4>
+                <p class="work__text"><span class="work__text--intro">Liverpool, Pembroke and Sefton Harriers and Athletics Club is based at Edge Hill University in the North West of England. Their official website whilst fully functional was lacking any sort of responsiveness, ensuring a poor user experience for all mobile users. I identified this as an opportunity for which to base my final year university project on, and, working with the website editor as my client gave the website a contemporary and responsive overhaul.</p>
+                <h4 class="work__header">Tools/Tech</h4>
+                <p class="work__text">
+                  <span class="tool-tag">HTML5</span>
+                  <span class="tool-tag">CSS3</span>
+                  <span class="tool-tag">Sass</span>
+                  <span class="tool-tag">JavaScript</span>
+                  <span class="tool-tag">PHP</span>
+                </p>
+              </div>
+            </section>
+
+          </div>
+
+          <div class="content__item content__item--project">
+
+            <section class="work">
+              <h3 class="content__heading content__heading--no-desktop">The Munchies</h3>
+              <div class="work__imgbtn-wrapper">
+                <img class="work__img work__img--landscape" src="<?php echo $index?>/assets/img/projects/project-munchies--landscape.png" width="625" height="364" alt="Student recipes website screenshot">
+                <img class="work__img work__img--portrait" src="<?php echo $index?>/assets/img/projects/project-munchies--portrait.png" width="402" height="835" alt="Student recipes website screenshot">
+                <a href="#" class="work__btn-view">View site</a>
+              </div>
+              <div class="work__info">
+                <h3 class="content__heading content__heading--no-mob">The Munchies</h3>
+                <h4 class="work__header">Overview</h4>
+                <p class="work__text"><span class="work__text--intro">Liverpool, Pembroke and Sefton Harriers and Athletics Club is based at Edge Hill University in the North West of England. Their official website whilst fully functional was lacking any sort of responsiveness, ensuring a poor user experience for all mobile users. I identified this as an opportunity for which to base my final year university project on, and, working with the website editor as my client gave the website a contemporary and responsive overhaul.</p>
+                <h4 class="work__header">Tools/Tech</h4>
+                <p class="work__text">
+                  <span class="tool-tag">HTML5</span>
+                  <span class="tool-tag">CSS3</span>
+                  <span class="tool-tag">Sass</span>
+                  <span class="tool-tag">JavaScript</span>
+                  <span class="tool-tag">PHP</span>
+                </p>
+              </div>
+            </section>
+
+          </div>
+
+          <div class="content__item content__item--project">
+
+            <section class="work">
+              <h3 class="content__heading content__heading--no-desktop">iSongs Database</h3>
+              <div class="work__imgbtn-wrapper">
+                <img class="work__img work__img--landscape" src="<?php echo $index?>/assets/img/projects/project-isongs--landscape.png" width="625" height="364" alt="iSongs database screenshot">
+                <img class="work__img work__img--portrait" src="<?php echo $index?>/assets/img/projects/project-isongs--portrait.png" width="402" height="835" alt="iSongs database screenshot">
+                <a href="#" class="work__btn-view">View site</a>
+              </div>
+              <div class="work__info">
+                <h3 class="content__heading content__heading--no-mob">iSongs Database</h3>
                 <h4 class="work__header">Overview</h4>
                 <p class="work__text"><span class="work__text--intro">Liverpool, Pembroke and Sefton Harriers and Athletics Club is based at Edge Hill University in the North West of England. Their official website whilst fully functional was lacking any sort of responsiveness, ensuring a poor user experience for all mobile users. I identified this as an opportunity for which to base my final year university project on, and, working with the website editor as my client gave the website a contemporary and responsive overhaul.</p>
                 <h4 class="work__header">Tools/Tech</h4>
