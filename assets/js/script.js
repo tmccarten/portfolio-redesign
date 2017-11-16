@@ -116,6 +116,7 @@ function amountScrolled() {
 window.addEventListener("resize", function(){
 	getMeasurements();
   fixedHeaderLandscape();
+  fixedHeader();
 }, false);
 
 // ----- //
@@ -149,7 +150,7 @@ function fixedHeaderLandscape() {
   if (mqLandscape.matches) {
   main.style.paddingTop = "4.6875rem";
   header.className = "header-container header-container--fixed";
-} else if (header.className === "header-container header-container--fixed" && mqLandscape.matches === false) {
+} else if (header.className === "header-container header-container--fixed" && mqLandscape.matches === false || header.className === "header-container header-container--fixed header-container--fade") {
   main.style.paddingTop = 0;
   header.className = "header-container";
 }
