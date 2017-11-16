@@ -31,18 +31,10 @@
   font-weight: bold;
 }
 
-.work__imgbtn-wrapper {
-  position: relative;
-}
-
 .work__btn-view {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
   display: block;
   text-align: center;
+  margin: 1em auto;
   background-color: lighten($maincolour, 12);;
   border: .1em solid lighten($maincolour, 15);
   font-family: $bodyfont;
@@ -50,6 +42,7 @@
   padding: .5em;
   color: white;
   width: 50%;
+  align-self: center;
   text-decoration: none;
 
   &:hover, &:active, &:focus {

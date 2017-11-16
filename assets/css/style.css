@@ -603,18 +603,10 @@ body {
 	font-weight: bold;
 }
 
-.work__imgbtn-wrapper {
-	position: relative;
-}
-
 .work__btn-view {
-	position: absolute;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
 	display: block;
 	text-align: center;
+	margin: 1em auto;
 	background-color: #464c7a;
 	border: 0.1em solid #4c5283;
 	font-family: "Webly Sleek UI", "Segoe UI", Tahoma, Arial, sans-serif;
@@ -622,6 +614,9 @@ body {
 	padding: .5em;
 	color: white;
 	width: 50%;
+	-ms-flex-item-align: center;
+	-ms-grid-row-align: center;
+	align-self: center;
 	text-decoration: none;
 }
 
