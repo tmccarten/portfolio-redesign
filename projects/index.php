@@ -70,6 +70,31 @@
 
           </div>
 
+          <div class="content__item">
+
+            <section class="work">
+              <h3 class="content__heading content__heading--no-desktop">myLibrary App Invision Prototype</h3>
+              <div class="work__imgbtn-wrapper">
+                <img class="work__img" src="<?php echo $index?>/assets/img/projects/project-mylibrary.png" width="418" height="857" alt="Invision library app screenshot">
+                <a href="#" class="work__btn-view">View site</a>
+              </div>
+              <div class="work__info">
+                <h3 class="content__heading content__heading--no-mob">myLibrary App Invision Prototype</h3>
+                <h4 class="work__header">Overview</h4>
+                <p class="work__text"><span class="work__text--intro">Liverpool, Pembroke and Sefton Harriers and Athletics Club is based at Edge Hill University in the North West of England. Their official website whilst fully functional was lacking any sort of responsiveness, ensuring a poor user experience for all mobile users. I identified this as an opportunity for which to base my final year university project on, and, working with the website editor as my client gave the website a contemporary and responsive overhaul.</p>
+                <h4 class="work__header">Tools/Tech</h4>
+                <p class="work__text">
+                  <span class="tool-tag">HTML5</span>
+                  <span class="tool-tag">CSS3</span>
+                  <span class="tool-tag">Sass</span>
+                  <span class="tool-tag">JavaScript</span>
+                  <span class="tool-tag">PHP</span>
+                </p>
+              </div>
+            </section>
+
+          </div>
+
             </div><!-- content inner ends -->
           </section><!-- content ends -->
 
