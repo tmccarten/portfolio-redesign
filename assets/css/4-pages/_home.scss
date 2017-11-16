@@ -16,6 +16,9 @@
   background-color: $tilecolour;
   text-decoration: none;
   color: white;
+  border-bottom: .0625em solid $maincolour;
+  border-right: .0625em solid $maincolour;
+  transition: transform 300ms ease;
   //opacity: 0;
 
   a {
@@ -42,13 +45,16 @@
   background-color: $tilecolour;
   height: auto;
   order: 2;
+  border-top: .0625em solid $maincolour;
+  border-left: .0625em solid $maincolour;
+  transform: rotate(2deg);
 }
 
 .tile__img {
   max-width: 100%;
   width: 100%;
   max-height: 100%;
-  min-height: 1px;
+  min-height: .125em;;
   opacity: 0;
   animation: fadeIn 2s ease 1s forwards;
 }
@@ -57,6 +63,8 @@
   background-color: lighten($tilecolour, 2);
   height: 90vw;
   order: 1;
+  border-top: .0625em solid $maincolour;
+  transform: rotate(-3deg);
 
   .tile-inner {
     padding: 0 1em;
@@ -66,7 +74,7 @@
       font-size: 1.5em;
       padding: 0;
       font-weight: 500;
-      max-width: 241px;
+      max-width: 24.125em;;
     }
 
     .tile-inner__sub {
@@ -79,6 +87,8 @@
   background-color: lighten($tilecolour, 4);
   order: 3;
   animation-delay: 2000ms;
+  border-top: .0625em solid $maincolour;
+  transform: rotate(-2deg) translateY(-1em);
 
   .tile-inner {
     animation: fadeIn 2s ease 2s forwards;
@@ -89,6 +99,8 @@
   background-color: lighten($tilecolour, 6);
   order: 4;
   animation-delay: 2500ms;
+  border-left: .0625em solid $maincolour;
+  transform: rotate(2deg) translateY(-1.2em);
 
   .tile-inner {
     animation: fadeIn 2s ease 2500ms forwards;
@@ -98,6 +110,7 @@
 .tile--contact {
   background-color: lighten($tilecolour, 8);
   order: 5;
+  transform: rotate(-2deg) translateY(-1.5em) scale(1.1);
 
   .tile-inner {
     display: flex;
@@ -131,6 +144,7 @@
 .tile--icons {
   background-color: lighten($tilecolour, 10);
   order: 6;
+  transform: rotate(-2deg) translateY(-1em);
 
   .tile-inner {
     animation: fadeIn 2s ease 3500ms forwards;
@@ -138,25 +152,25 @@
 }
 
 .tile--interact {
+  background: radial-gradient(lighten($tilecolour, 13) 0, lighten($tilecolour, 3) 100%);
 
   .tile-inner {
-    border-radius: 2em;
-    border: .125em solid rgba(255,255,255,.1);
-    font-family: $seriffont;
-    font-weight: bold;
-    font-size: 1.25rem;
-    text-shadow: .125em .125em $maincolour;
-    transition: border-color 300ms ease, text-shadow 300ms ease;
 
     .tile-inner__main {
+      border-radius: 3em;
+      border: .0625em solid rgba(255,255,255,.1);
       padding: 1em;
+      font-family: $seriffont;
+      font-weight: bold;
+      font-size: 1.75em;
+      //text-shadow: .1em .1em $tilecolour;
     }
   }
 
   &:hover {
-    background-color: $altcolour;
+    background: radial-gradient($altcolour, $altcolour);
 
-    .tile-inner {
+    .tile-inner__main {
       text-shadow: none;
       border-color: transparent;
     }
@@ -180,9 +194,10 @@
   }
 
   .tile {
-    width: 49.5%;
+    width: 50%;
     height: 46.235294117647058823529411764706vw;
-    margin: .25em .25em 0 0;
+    //margin: .25em .25em 0 0;
+    margin: 0;
     font-size: .85185rem;
   }
 
@@ -200,6 +215,7 @@
   }
 
   .tile--intro {
+    transform: rotate(0deg);
 
     .tile-inner {
       max-width: 15em;
@@ -216,10 +232,27 @@
 
   .tile--image {
     height: 46.235294117647058823529411764706vw;
+    transform: rotate(0deg) translateY(-2.3em);
   }
 
   .tile__img {
     max-width: 80%;
+  }
+
+  .tile--contact {
+    transform: scale(1);
+  }
+
+  .tile--projects {
+    transform: rotate(0deg);
+  }
+
+  .tile--graphics {
+    transform: rotate(0deg) translateY(-2.2em);
+  }
+
+  .tile--icons {
+    transform: rotate(0deg) translateY(-2.2em);
   }
 
 }
@@ -254,6 +287,7 @@
     width: 33.33333333333333333333333333333333%;
     height: 33.3333333333333333333333333333333vw;
     margin: 0;
+    transform: rotate(0deg);
   }
 
   .tile--intro {
@@ -273,10 +307,10 @@
 
   .tiles {
     justify-content: flex-start;
-    width: 1006px;
+    width: 1002px;
     perspective: 1000px;
-    border-top: .125em solid $maincolour;
-    border-bottom: .125em solid $maincolour;
+    //border-top: .0625em solid $maincolour;
+    //border-bottom: .0625em solid $maincolour;
   }
 
   .tile {
