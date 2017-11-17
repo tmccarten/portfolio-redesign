@@ -115,6 +115,8 @@ body {
 	position: fixed;
 	background: linear-gradient(#d66e51, #d15d3c);
 	z-index: 2;
+	-webkit-animation: fadeIn 300ms ease;
+	animation: fadeIn 300ms ease;
 }
 
 .header-container--fixed .header__top {

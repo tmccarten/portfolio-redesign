@@ -10,7 +10,7 @@
   <body>
     <?php include $index . '/assets/includes/header.php';?>
 
-    <main class="main main--home">
+    <main id="main" class="main main--home">
 
         <section class="content">
           <h2 class="title">Contact</h2>

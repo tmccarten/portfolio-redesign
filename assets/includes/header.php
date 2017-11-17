@@ -1,4 +1,4 @@
-<div class="header-container">
+<div id="header" class="header-container">
   <header class="header">
     <div class="header__top">
 

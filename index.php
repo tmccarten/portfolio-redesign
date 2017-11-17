@@ -11,7 +11,7 @@
   <body>
     <?php include 'assets/includes/header.php';?>
 
-    <main class="main main--home">
+    <main id="main" class="main main--home">
         <section class="tiles">
 
           <div class="tile tile--intro">

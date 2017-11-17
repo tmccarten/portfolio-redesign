@@ -11,7 +11,7 @@
   <body>
     <?php include 'assets/includes/header.php';?>
 
-    <main class="main main--404">
+    <main id="main" class="main main--404">
 
       <div>
         <h2>Oops! Sorry, that page doesn't exist.</h2>

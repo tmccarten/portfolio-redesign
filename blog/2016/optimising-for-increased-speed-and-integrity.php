@@ -11,7 +11,7 @@
   <body>
     <?php include $index . '/assets/includes/header.php';?>
 
-    <main class="main main--home">
+    <main id="main" class="main main--home">
 
         <section class="content">
 
@@ -48,7 +48,7 @@
                   </a>
 
                   <h3 class="blogpost__heading">SEO integration</h3>
-                  <p class="blogpost__text">Ensured that all pages had a present and appropriate page title. Page titles appear on Google as the blue text atop each search result, so it’s necessary to make these relevant. Not just for the user, but to satisfy the algorithms Google use behind the scenes. By the same token I gave each page a suitable page description via the meta tag and added a few keywords that I’d like to be associated with via search terms. The latter is somewhat outdated but does no harm. Backlinks are crucial for improving page ranking on Google so I’ll be sure to link to my portfolio on social media when it goes live. Similarly, I chose to embed the tweets within this blog post. The navigation structure, semantic HTML and none of the pages being broken are all good things for SEO.</p>                  
+                  <p class="blogpost__text">Ensured that all pages had a present and appropriate page title. Page titles appear on Google as the blue text atop each search result, so it’s necessary to make these relevant. Not just for the user, but to satisfy the algorithms Google use behind the scenes. By the same token I gave each page a suitable page description via the meta tag and added a few keywords that I’d like to be associated with via search terms. The latter is somewhat outdated but does no harm. Backlinks are crucial for improving page ranking on Google so I’ll be sure to link to my portfolio on social media when it goes live. Similarly, I chose to embed the tweets within this blog post. The navigation structure, semantic HTML and none of the pages being broken are all good things for SEO.</p>
 
                 </section><!-- blogpost content ends -->
 

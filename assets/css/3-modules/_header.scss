@@ -6,6 +6,7 @@
   position: fixed;
   background: linear-gradient($altcolour, darken($altcolour, 5));
   z-index: 2;
+  animation: fadeIn 300ms ease;
 
   .header__top {
     transition: padding 400ms ease;
