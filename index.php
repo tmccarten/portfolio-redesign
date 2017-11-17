@@ -11,6 +11,13 @@
   <body>
     <?php include 'assets/includes/header.php';?>
 
+    <script> // script to make animation run once?
+      if(false == /(^|;)\s?tile-inner=1\s?($|;)/i.test(document.cookie)) {
+        document.body.id = "tile-inner";
+        document.cookie = "tile-inner=1; expire= path=/";
+    }
+    </script>
+
     <main id="main" class="main main--home">
         <section class="tiles">
 

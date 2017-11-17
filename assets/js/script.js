@@ -114,6 +114,9 @@ function amountScrolled() {
 
 window.addEventListener("resize", function(){
 	getMeasurements();
+  setTimeout(function(){ // throttle code inside scroll to once every 50 milliseconds
+		fixedHeader();
+	}, 50);
 }, false);
 
 // ----- //
@@ -123,12 +126,13 @@ window.addEventListener("resize", function(){
 function fixedHeader() {
 
   var header = document.getElementById('header'),
-      main = document.getElementById('main');
+      main = document.getElementById('main'),
+      mqLandscape = window.matchMedia("(max-width: 53.125em) and (orientation: landscape)");
 
-  if (window.pageYOffset > headerHeight) {
+  if (window.pageYOffset > headerHeight && !mqLandscape.matches) {
     header.classList.add('header-container--fixed');
     main.style.paddingTop = headerHeight + "px";
-  } else if (window.pageYOffset < 500 && header.classList.contains('header-container--fixed')) {
+  } else if (window.pageYOffset < 500 && header.classList.contains('header-container--fixed') && !mqLandscape.matches) {
     header.classList.add('header-container--fadeout');
     header.classList.add('header-container--fade');
 
@@ -136,7 +140,10 @@ function fixedHeader() {
   		header.classList.remove('header-container--fadeout');
       header.classList.remove('header-container--fixed');
       main.style.paddingTop = 0;
-  	}, 200);
+  	}, 300);
+  } else if (mqLandscape.matches) {
+    header.classList.add('header-container--fixed');
+    main.style.paddingTop = "4.6875rem";    
   }
 }
 

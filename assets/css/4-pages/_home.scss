@@ -145,6 +145,7 @@
 
   .tile-inner {
     animation: fadeIn 2s ease 3500ms forwards;
+    animation-iteration-count: 1;
   }
 }
 

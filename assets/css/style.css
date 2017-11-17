@@ -965,6 +965,8 @@ body {
 .tile--icons .tile-inner {
 	-webkit-animation: fadeIn 2s ease 3500ms forwards;
 	animation: fadeIn 2s ease 3500ms forwards;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
 }
 
 .tile--interact {
