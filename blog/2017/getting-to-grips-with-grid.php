@@ -20,7 +20,7 @@
             <p class="breadcrumb__grey">Getting to grips with Grid</p>
           </div>
 
-          <div class="content__item">            
+          <div class="content__item">
 
             <article class="blogpost">
 
@@ -61,7 +61,7 @@
                   <p class="blogpost__text">I’ll be using CodePen to demonstrate examples of Grid’s properties and how grids can be made responsive with media queries. For my final demonstrator I’ll be writing the code in Atom, using plain HTML and vanilla CSS. I’ll also create a GitHub repository, both for version control and so you can see the process of the final demonstrator being built.</p>
 
                   <h3 class="blogpost__heading">Location</h3>
-                  <a href="https://github.com/tmccarten/wp" class="content__link">GitHub repository</a> / <a href="http://codepen.io/tommccarten/pens/public/" class="content__link">CodePens</a> / <a href="http://tommccarten.co.uk/work/css_grid_layout/index.html" class="content__link">Demonstrator</a>
+                  <p class="blogpost__text"><a href="https://github.com/tmccarten/wp" class="content__link">GitHub repository</a> / <a href="http://codepen.io/tommccarten/pens/public/" class="content__link">CodePens</a> / <a href="http://tommccarten.co.uk/work/css_grid_layout/index.html" class="content__link">Demonstrator</a></p>
 
                   <h3 class="blogpost__heading">How</h3>
                   <p class="blogpost__text">My homepage is a perfect candidate for demonstrating the capabilities of Grid. But before I dive in to that, let’s look at how Grid generally works…</p>
@@ -146,7 +146,7 @@
                     </figure>
                   </a>
 
-                  <p class="blogpost__text">• • The <code class="blogpost__code">grid-template-areas</code> property made making major layout changes incredibly simple. The intuitive nature of simulating the layout with the named grid areas made me feel like I had greater control of what I wanted to achieve, e.g. the sidebar switching from underneath the tiles to the side of them and making the footer span the width of both.</p>
+                  <p class="blogpost__text">• The <code class="blogpost__code">grid-template-areas</code> property made making major layout changes incredibly simple. The intuitive nature of simulating the layout with the named grid areas made me feel like I had greater control of what I wanted to achieve, e.g. the sidebar switching from underneath the tiles to the side of them and making the footer span the width of both.</p>
 
                   <p class="blogpost__text">• It behaves like you expect it to. Working on my demonstrator was painless in that there were no head-scratching moments. The consequence of this is reduced development time which is obviously a good thing.</p>
 
@@ -155,23 +155,6 @@
                   <p class="blogpost__text">It is clear in conclusion that Grid is a fantastic addition to the developer’s arsenal and will greatly enhance the development process, both in terms of speed and reduction of code. Whilst there is a <a href="https://rachelandrew.co.uk/archives/2015/07/28/modern-css-layout-power-and-responsibility/" class="content__link">potential accessibility concern</a> due to displacement of source order, I have confidence that the industry will adapt and address these concerns as they become acquainted with Grid going forward.</p>
 
                   <h4 class="blogpost__heading blogpost__heading--small">References</h4>
-
-                  <h3 class="blogpost__heading">Evaluation</h3>
-                  <p class="blogpost__text">I found this a surprisingly difficult project but that has only motivated me to seek further clarity on the workings of theme development and its best practices. It is clear that, if not proficiency, a strong working knowledge of PHP is required to truly reap the rewards.</p>
-
-                  <p class="blogpost__text">I would have liked to have refined the theme and applied more styles as at the moment it's neither here nor there. With that said, I didn't want to run the risk of spending all of my time on design as that may have missed the point of the project.</p>
-
-                  <p class="blogpost__text">Powering <a href="http://venturebeat.com/2015/11/08/wordpress-now-powers-25-of-the-web/" class="content__link">25% of the web</a> as it stands, it seems almost inevitable that WordPress will grow to the point where it becomes as much a standard of web development as are HTML, CSS and JavaScript.</p>
-
-                  <a href="http://06167055.webdevmmu.uk/wp" class="content__link">WordPress theme (demonstrator)</a>
-
-                  <h4 class="blogpost__heading blogpost__heading--small">References</h4>
-
-                  <p class="blogpost__text"><small>Barron, B. (2014) <cite>How Much Do WordPress Developers Make?</cite>. ManageWP. [Online] [Accessed on 13 March 2017] <a href="https://managewp.com/how-much-wordpress-developers-make" class="content__link">https://managewp.com/how-much-wordpress-developers-make</a></small></p>
-
-                  <p class="blogpost__text"><small>Lynda.com, (2017) <cite>WordPress: Building Themes from Scratch Using Underscores.</cite> [video] [Accessed on 13 March 2017] <a href="https://www.lynda.com/WordPress-tutorials/WordPress-Building-Themes-from-Scratch-Using-Underscores/491704-2.html" class="content__link">https://www.lynda.com/WordPress-tutorials/WordPress-Building-Themes-from-Scratch-Using-Underscores/491704-2.html</a></small></p>
-
-                  <p class="blogpost__text"><small>Theme Development. (n.d.) WordPress.org. [Online] [Accessed on 13 March 2017] <a href="https://codex.wordpress.org/Theme_Development" class="content__link">https://codex.wordpress.org/Theme_Development</a></small></p>
 
                 </section><!-- blogpost content ends -->
 

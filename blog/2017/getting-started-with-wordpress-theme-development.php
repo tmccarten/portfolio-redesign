@@ -57,7 +57,7 @@
                   <p class="blogpost__text">Morten Rand-Hendriksen's <a href="https://www.lynda.com/WordPress-tutorials/WordPress-Building-Themes-from-Scratch-Using-Underscores/491704-2.html" class="content__link">WordPress: Building Themes from Scratch Using Underscores</a> was an extremely valuable resource and helped me immensely.</p>
 
                   <h3 class="blogpost__heading">Location</h3>
-                  <a href="https://github.com/tmccarten/wp" class="content__link">GitHub repository</a>, <a href="http://06167055.webdevmmu.uk/wp" class="content__link">WordPress theme (demonstrator)</a>
+                  <p class="blogpost__text"><a href="https://github.com/tmccarten/wp" class="content__link">GitHub repository</a>, <a href="http://06167055.webdevmmu.uk/wp" class="content__link">WordPress theme (demonstrator)</a></p>
 
                   <h3 class="blogpost__heading">How</h3>
                   <h4 class="blogpost__heading blogpost__heading--small">The Template Hierarchy</h4>
@@ -120,7 +120,7 @@
 
                   <p class="blogpost__text">Powering <a href="http://venturebeat.com/2015/11/08/wordpress-now-powers-25-of-the-web/" class="content__link">25% of the web</a> as it stands, it seems almost inevitable that WordPress will grow to the point where it becomes as much a standard of web development as are HTML, CSS and JavaScript.</p>
 
-                  <a href="http://06167055.webdevmmu.uk/wp" class="content__link">WordPress theme (demonstrator)</a>
+                  <p class="blogpost__text"><a href="http://06167055.webdevmmu.uk/wp" class="content__link">WordPress theme (demonstrator)</a></p>
 
                   <h4 class="blogpost__heading blogpost__heading--small">References</h4>
 

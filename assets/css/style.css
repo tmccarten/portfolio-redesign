@@ -341,7 +341,12 @@ body {
 }
 
 .content__heading--smaller {
-	font-size: 1.575rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: .8125em;
+	letter-spacing: .15em;
+	margin: 2em 0;
+	color: #babdd7;
 }
 
 .content__heading--no-desktop {
@@ -431,7 +436,7 @@ body {
 }
 
 .blogpost__heading--small {
-	font-size: 1.25em;
+	font-size: 1.125em;
 }
 
 .blogpost__text {
@@ -1301,7 +1306,7 @@ body {
 }
 
 .blogpost__heading--small {
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 
 .blogpost__figcaption {
