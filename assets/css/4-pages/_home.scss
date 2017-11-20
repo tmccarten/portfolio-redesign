@@ -107,12 +107,15 @@
 .tile--contact {
   background-color: lighten($tilecolour, 8);
   order: 5;
-  transform: rotate(-2deg) translateY(-1.5em) scale(1.1);
+  transform: translateY(-1em) scaleY(1.2);
+  width: 100vw;
+  z-index: 2;
 
   .tile-inner {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transform: scaleX(1.05) scaleY(.9);
     padding: 1em;
     transition: background-color 500ms ease;
     background-color: darken($altcolour, 3);
@@ -141,7 +144,7 @@
 .tile--icons {
   background-color: lighten($tilecolour, 10);
   order: 6;
-  transform: rotate(-2deg) translateY(-1em);
+  transform: rotate(0deg) translateY(-.3em);
 
   .tile-inner {
     animation: fadeIn 2s ease 3500ms forwards;
@@ -189,12 +192,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
+    margin-top: 2.3em;
   }
 
   .tile {
     width: 50%;
     height: 46.235294117647058823529411764706vw;
-    //margin: .25em .25em 0 0;
     margin: 0;
     font-size: .85185rem;
   }
@@ -239,6 +242,10 @@
 
   .tile--contact {
     transform: scale(1);
+
+    .tile-inner {
+      transform: scale(1);
+    }
   }
 
   .tile--projects {
@@ -280,6 +287,10 @@
 
 
 @media screen and (min-width: $mqnavbar) {
+
+  .tiles {
+    margin-top: 0;
+  }
 
   .tile {
     flex: 25%;

@@ -15,7 +15,7 @@
   margin: 0;
   list-style-type: none;
   font-size: 2rem;
-  background-color: lighten($maincolour, 7);
+  background-color: darken($altcolour, 2);
 }
 
 .main-menu__item {
@@ -33,13 +33,36 @@
   &:focus, &:hover, &.main-menu__link--current {
     outline: 0;
     color: white;
-    background-color: lighten($maincolour, 12);
+    background-color: darken($altcolour, 6);
   }
 }
 
 .main-nav--expanded {
   height: 26.25rem;
   transition: height 500ms ease-out;
+  z-index: 10;
+}
+
+@media screen and (max-width: $mqnavbar) and (orientation:landscape) {
+
+  .btn-menu {
+    background-color: darken($altcolour, 10);
+
+    &:focus, &:hover {
+      background-color: darken($altcolour, 10);
+    }
+  }
+
+  .main-nav--expanded {
+    height: auto;
+    overflow-Y: scroll;
+    z-index: 5;
+
+    .main-menu__link {
+      padding: 2.625vh;
+    }
+  }
+
 }
 
 @media screen and (min-width: $mqnavbar) {

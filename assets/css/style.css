@@ -114,7 +114,7 @@ body {
 .header-container--fixed {
 	position: fixed;
 	background: linear-gradient(#d66e51, #d15d3c);
-	z-index: 2;
+	z-index: 10;
 	-webkit-animation: fadeIn 300ms ease;
 	animation: fadeIn 300ms ease;
 }
@@ -277,7 +277,7 @@ body {
 	margin: 0;
 	list-style-type: none;
 	font-size: 2rem;
-	background-color: #3d426a;
+	background-color: #d46748;
 }
 
 .main-menu__item {
@@ -298,12 +298,13 @@ body {
 .main-menu__link.main-menu__link--current {
 	outline: 0;
 	color: white;
-	background-color: #464c7a;
+	background-color: #d05938;
 }
 
 .main-nav--expanded {
 	height: 26.25rem;
 	transition: height 500ms ease-out;
+	z-index: 10;
 }
 
 .content {
@@ -760,6 +761,7 @@ body {
 	display: block;
 	-webkit-animation: fadeIn 300ms ease-out forwards, rightIn 300ms ease-out forwards;
 	animation: fadeIn 300ms ease-out forwards, rightIn 300ms ease-out forwards;
+	z-index: 10;
 }
 
 /* -- PAGES -- */
@@ -912,8 +914,10 @@ body {
 	-webkit-box-ordinal-group: 6;
 	-ms-flex-order: 5;
 	order: 5;
-	-webkit-transform: rotate(-2deg) translateY(-1.5em) scale(1.1);
-	transform: rotate(-2deg) translateY(-1.5em) scale(1.1);
+	-webkit-transform: translateY(-1em) scaleY(1.2);
+	transform: translateY(-1em) scaleY(1.2);
+	width: 100vw;
+	z-index: 2;
 }
 
 .tile--contact .tile-inner {
@@ -925,6 +929,8 @@ body {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
+	-webkit-transform: scaleX(1.05) scaleY(0.9);
+	transform: scaleX(1.05) scaleY(0.9);
 	padding: 1em;
 	transition: background-color 500ms ease;
 	background-color: #d36344;
@@ -958,8 +964,8 @@ body {
 	-webkit-box-ordinal-group: 7;
 	-ms-flex-order: 6;
 	order: 6;
-	-webkit-transform: rotate(-2deg) translateY(-1em);
-	transform: rotate(-2deg) translateY(-1em);
+	-webkit-transform: rotate(0deg) translateY(-0.3em);
+	transform: rotate(0deg) translateY(-0.3em);
 }
 
 .tile--icons .tile-inner {
@@ -1311,6 +1317,7 @@ body {
 	-webkit-box-align: start;
 	-ms-flex-align: start;
 	align-items: flex-start;
+	margin-top: 2.3em;
 }
 
 .tile {
@@ -1362,6 +1369,11 @@ body {
 }
 
 .tile--contact {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.tile--contact .tile-inner {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
@@ -1778,6 +1790,10 @@ body::before {
 	transform: translateX(-0.5em);
 }
 
+.tiles {
+	margin-top: 0;
+}
+
 .tile {
 	-webkit-box-flex: 25%;
 	-ms-flex: 25%;
@@ -2068,6 +2084,29 @@ body::before {
 
 .sidebar-blogposts {
 	margin: 0;
+}
+
+}
+
+@media screen and (max-width: 53.125em) and (orientation: landscape) {
+
+.btn-menu {
+	background-color: #c54f2f;
+}
+
+.btn-menu:focus,
+.btn-menu:hover {
+	background-color: #c54f2f;
+}
+
+.main-nav--expanded {
+	height: auto;
+	overflow-Y: scroll;
+	z-index: 5;
+}
+
+.main-nav--expanded .main-menu__link {
+	padding: 2.625vh;
 }
 
 }

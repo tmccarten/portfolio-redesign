@@ -5,7 +5,7 @@
 .header-container--fixed {
   position: fixed;
   background: linear-gradient($altcolour, darken($altcolour, 5));
-  z-index: 2;
+  z-index: 10;
   animation: fadeIn 300ms ease;
 
   .header__top {
@@ -139,6 +139,7 @@
   }
 
 }
+
 
 @media screen and (min-width: $mqnavbar) {
 

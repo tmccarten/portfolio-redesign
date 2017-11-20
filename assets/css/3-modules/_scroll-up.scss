@@ -14,6 +14,7 @@
 .scroll-up--visible {
   display: block;
   animation: fadeIn 300ms ease-out forwards, rightIn 300ms ease-out forwards;
+  z-index: 10;
 
   @media screen and (min-width: $mqthreecol) {
     margin-bottom: 2rem;
