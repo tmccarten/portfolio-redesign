@@ -1155,7 +1155,7 @@ body {
 	border-left: 0.1em solid #d66e51;
 	background-color: #343859;
 	border: 0;
-	height: 20vh;
+	height: 15vh;
 	margin-top: 1rem;
 	padding: 1rem;
 	caret-color: white;
@@ -1224,7 +1224,7 @@ body {
 	-webkit-box-pack: start;
 	-ms-flex-pack: start;
 	justify-content: flex-start;
-	border-bottom: 0.1em dashed #343859;
+	border-bottom: 0.1em solid rgba(255, 255, 255, 0.05);
 	width: 100%;
 }
 

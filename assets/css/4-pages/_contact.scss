@@ -39,7 +39,7 @@
   border-left: .1em solid $altcolour;
   background-color: $tilecolour;
   border: 0;
-  height: 20vh;
+  height: 15vh;
   margin-top: 1rem;
   padding: 1rem;
   caret-color: white;
@@ -92,7 +92,7 @@
 .socialmedia-link-wrapper {
   display: flex;
   justify-content: flex-start;
-  border-bottom: .1em dashed $tilecolour;
+  border-bottom: .1em solid rgba(white, .05);
   width: 100%;
 
   &:hover {
