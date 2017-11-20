@@ -757,11 +757,11 @@ body {
 
 .scroll-up {
 	display: none;
-	background-color: #303453;
+	background-color: #d26040;
 	border-radius: 50%;
 	position: fixed;
 	bottom: 0;
-	right: 0;
+	right: -.5em;
 	height: 45px;
 	width: 45px;
 	margin-bottom: 1rem;

@@ -1,10 +1,10 @@
 .scroll-up {
   display: none;
-  background-color: $maincolour;
+  background-color: darken($altcolour, 4);
   border-radius: 50%;
   position: fixed;
   bottom: 0;
-  right: 0;
+  right: -.5em;
   height: 45px;
   width: 45px;
   margin-bottom: 1rem;
