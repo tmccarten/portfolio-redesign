@@ -341,12 +341,7 @@ body {
 }
 
 .content__heading--smaller {
-	font-weight: bold;
-	text-transform: uppercase;
-	font-size: .8125em;
-	letter-spacing: .15em;
-	margin: 2em 0;
-	color: #babdd7;
+	font-size: 1.575rem;
 }
 
 .content__heading--no-desktop {
@@ -2001,15 +1996,6 @@ body::before {
 
 .content__heading--contact {
 	display: none;
-}
-
-.contactform__submit {
-	box-shadow: 0.5em 0.5em 0 #ab563e;
-	transition: box-shadow 300ms ease;
-}
-
-.contactform__submit:hover {
-	box-shadow: none;
 }
 
 .socialmedia-link {

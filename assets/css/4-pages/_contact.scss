@@ -157,16 +157,7 @@
 
   .content__heading--contact {
     display: none;
-  }
-
-  .contactform__submit {
-    box-shadow: .5em .5em 0 desaturate(darken($altcolour, 12), 15);
-    transition: box-shadow 300ms ease;
-
-    &:hover {
-      box-shadow: none;
-    }
-  }
+  }  
 
   .socialmedia-link {
     width: 100%;

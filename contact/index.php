@@ -20,7 +20,7 @@
 
             <section class="contact">
               <div class="contact__wrapper-form">
-                <h3 class="content__heading">Get in touch...</h3>
+                <h3 class="content__heading">Get in touch</h3>
 
                 <form method="POST" action="../assets/includes/form-to-email.php" class="contactform">
                   <label for="name" class="contactform__label">Name</label>
