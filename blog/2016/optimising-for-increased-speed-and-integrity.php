@@ -15,12 +15,12 @@
 
         <section class="content">
 
-          <div class="content__item">
+          <div class="breadcrumb">
+            <a href=".." class="breadcrumb__link">Blog</a>
+            <p class="breadcrumb__grey">Optimising for increased speed and integrity</p>
+          </div>
 
-            <div class="breadcrumb">
-              <a href=".." class="breadcrumb__link">Blog</a>
-              <p class="breadcrumb__grey">Optimising for increased speed and integrity</p>
-            </div>
+          <div class="content__item">
 
             <article class="blogpost">
 

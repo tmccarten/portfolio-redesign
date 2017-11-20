@@ -420,10 +420,6 @@ body {
 	margin: 0;
 }
 
-.blogpost__meta--author {
-	text-shadow: 0.1em 0.1em #d05938;
-}
-
 .blogpost__meta--date {
 	background-color: #343859;
 }
@@ -620,6 +616,11 @@ body {
 
 .work__header {
 	font-weight: bold;
+	text-transform: uppercase;
+	font-size: .8125em;
+	letter-spacing: .15em;
+	margin: 2em 0;
+	color: #babdd7;
 }
 
 .work__btn-view {
@@ -1698,6 +1699,10 @@ body::before {
 	line-height: 1.5em;
 }
 
+.blogpost__title {
+	margin-top: 0;
+}
+
 .blogpost__share {
 	padding: 2rem;
 	padding-right: 0;
@@ -1821,7 +1826,7 @@ body::before {
 	font-weight: 300;
 	padding: 2rem 3rem;
 	font-size: 1rem;
-	background-color: #3a3f65;
+	background-color: #2c304d;
 	margin-bottom: 1em;
 }
 

@@ -34,6 +34,11 @@
 
 .work__header {
   font-weight: bold;
+  text-transform: uppercase;
+  font-size: .8125em;
+  letter-spacing: .15em;
+  margin: 2em 0;
+  color: lighten($contentcolour, 45);
 }
 
 .work__btn-view {

@@ -26,7 +26,7 @@
 }
 
 .blogpost__meta--author {
-  text-shadow: .1em .1em darken($altcolour, 6);
+  //text-shadow: .1em .1em darken($altcolour, 6);
 }
 
 .blogpost__meta--date {
@@ -232,6 +232,10 @@
     line-height: 1.5em;
   }
 
+  .blogpost__title {
+    margin-top: 0;
+  }
+
   .blogpost__share {
     padding: 2rem;
     padding-right: 0;
@@ -251,11 +255,5 @@
   .btn-share + * {
     margin-top: 1em;
   }
-
-}
-
-@media screen and (min-width: $mqthreecol) {
-
-
 
 }

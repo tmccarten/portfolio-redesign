@@ -15,12 +15,12 @@
 
         <section class="content">
 
-          <div class="content__item">
+          <div class="breadcrumb">
+            <a href=".." class="breadcrumb__link">Blog</a>
+            <p class="breadcrumb__grey">Getting started with WordPress Theme Development</p>
+          </div>
 
-            <div class="breadcrumb">
-              <a href=".." class="breadcrumb__link">Blog</a>
-              <p class="breadcrumb__grey">Getting started with WordPress Theme Development</p>
-            </div>
+          <div class="content__item">
 
             <article class="blogpost">
 
