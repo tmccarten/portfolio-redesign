@@ -12,8 +12,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="theme-color" content="#303453">
 
-    <!-- get page URL -- >
-
     <?php
     function curPageURL() {
      $pageURL = 'http';
@@ -26,9 +24,7 @@
      }
      return $pageURL;
     }
-    ?>
-
-    <!-- end 'get page url' -->
+    ?>   
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo curPageURL();?>">

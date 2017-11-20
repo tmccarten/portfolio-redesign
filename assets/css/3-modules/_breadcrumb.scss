@@ -7,9 +7,11 @@
 .breadcrumb {
   display: flex;
   align-items: center;
-  font-size: .8181818181818182em;
   font-weight: 300;
-  padding: 1rem 0 0 .08rem;
+  padding: 2rem 3rem;
+  font-size: 1rem;
+  background-color: darken($contentcolour, 2.5);
+  margin-bottom: 1em;
 }
 
 .breadcrumb__link {

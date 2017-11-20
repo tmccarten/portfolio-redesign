@@ -17,6 +17,11 @@
   max-width: 100%;
   width: 100%;
   height: auto;
+  display: block;
+}
+
+.work__img + * {
+  margin-top: 1em;
 }
 
 .work__img--landscape {
@@ -111,6 +116,7 @@
 
   .work__img--portrait {
     display: block;
+    margin-top: 0;
   }
 
   .work__btn-view {

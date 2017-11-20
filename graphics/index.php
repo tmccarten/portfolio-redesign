@@ -15,11 +15,11 @@
 
         <section class="content">
           <h2 class="title">Graphics</h2>
+          <div class="breadcrumb">
+            <a href=".." class="breadcrumb__link">Work</a><p class="breadcrumb__grey">Graphics</p>
+          </div>
 
-          <div class="content__item">
-            <div class="breadcrumb">
-              <a href=".." class="breadcrumb__link">Work</a><p class="breadcrumb__grey">Graphics</p>
-            </div>
+          <div class="content__item content__item--project">
 
             <section class="work">
               <h3 class="content__heading content__heading--no-desktop">Personas</h3>
@@ -36,7 +36,7 @@
 
           </div>
 
-          <div class="content__item">
+          <div class="content__item content__item--project">
 
             <section class="work">
               <h3 class="content__heading content__heading--no-desktop">Logos</h3>
@@ -53,7 +53,7 @@
 
           </div>
 
-          <div class="content__item">
+          <div class="content__item content__item--project">
 
             <section class="work">
               <h3 class="content__heading content__heading--no-desktop">Posters</h3>

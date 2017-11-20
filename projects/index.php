@@ -15,11 +15,11 @@
 
         <section class="content">
           <h2 class="title">Projects</h2>
+          <div class="breadcrumb">
+            <a href=".." class="breadcrumb__link">Work</a><p class="breadcrumb__grey">Projects</p>
+          </div>
 
           <div class="content__item content__item--project">
-            <div class="breadcrumb">
-              <a href=".." class="breadcrumb__link">Work</a><p class="breadcrumb__grey">Projects</p>
-            </div>
 
             <section class="work">
               <h3 class="content__heading content__heading--no-desktop">Living Lines: Birley Archive Project</h3>
