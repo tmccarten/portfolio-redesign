@@ -119,6 +119,17 @@ body {
 	animation: fadeIn 300ms ease;
 }
 
+.header-container--fixed .btn-menu {
+	background-color: #c54f2f;
+}
+
+.header-container--fixed .btn-menu:hover,
+.header-container--fixed .btn-menu:active,
+.header-container--fixed .btn-menu:focus {
+	outline: 0;
+	background-color: #c54f2f;
+}
+
 .header-container--fixed .header__top {
 	transition: padding 400ms ease;
 	padding: 0 1rem;
@@ -1619,14 +1630,14 @@ body::before {
 
 .main-menu__link {
 	color: white;
-	border-bottom: .2em solid transparent;
+	border: .125em solid transparent;
 }
 
 .main-menu__link:focus,
 .main-menu__link:hover,
 .main-menu__link.main-menu__link--current {
 	background-color: #363a5d;
-	border-bottom: 0.2em solid #d66e51;
+	border: 0.125em solid rgba(255, 255, 255, 0.025);
 }
 
 .title {
@@ -2089,15 +2100,6 @@ body::before {
 }
 
 @media screen and (max-width: 53.125em) and (orientation: landscape) {
-
-.btn-menu {
-	background-color: #c54f2f;
-}
-
-.btn-menu:focus,
-.btn-menu:hover {
-	background-color: #c54f2f;
-}
 
 .main-nav--expanded {
 	height: auto;

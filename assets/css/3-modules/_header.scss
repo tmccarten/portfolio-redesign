@@ -8,6 +8,15 @@
   z-index: 10;
   animation: fadeIn 300ms ease;
 
+  .btn-menu {
+    background-color: darken($altcolour, 10);
+
+    &:hover, &:active, &:focus {
+      outline: 0;
+      background-color: darken($altcolour, 10);
+    }
+  }
+
   .header__top {
     transition: padding 400ms ease;
     padding: 0 1rem;

@@ -45,14 +45,6 @@
 
 @media screen and (max-width: $mqnavbar) and (orientation:landscape) {
 
-  .btn-menu {
-    background-color: darken($altcolour, 10);
-
-    &:focus, &:hover {
-      background-color: darken($altcolour, 10);
-    }
-  }
-
   .main-nav--expanded {
     height: auto;
     overflow-Y: scroll;
@@ -69,7 +61,6 @@
 
   .main-nav {
     height: auto;
-    //background-color: $tilecolour;
   }
 
   .main-menu {
@@ -84,11 +75,11 @@
 
   .main-menu__link {
     color: white;
-    border-bottom: .2em solid transparent;
+    border: .125em solid transparent;
 
     &:focus, &:hover, &.main-menu__link--current {
       background-color: lighten($maincolour, 3);
-      border-bottom: .2em solid $altcolour;
+      border: .125em solid rgba(white, .025);
     }
 
   }
