@@ -35,8 +35,7 @@
   display: block;
   text-align: center;
   margin: 1em auto;
-  background-color: lighten($maincolour, 12);;
-  border: .1em solid lighten($maincolour, 15);
+  background-color: $altcolour;
   font-family: $bodyfont;
   font-weight: bold;
   padding: .5em;
@@ -44,6 +43,7 @@
   width: 50%;
   align-self: center;
   text-decoration: none;
+  text-shadow: 0.1em 0.1em darken($altcolour, 10);
 
   &:hover, &:active, &:focus {
     background-color: lighten($maincolour, 10);
@@ -63,8 +63,14 @@
   }
 }
 
+.work__text--tool-tag {
+  margin-top: 0;
+}
+
 .tool-tag {
-  background-color: $altcolour;
+  background-color: lighten($contentcolour, 10);
+  border-radius: 1em;
+  //border: .125em solid $tilecolour;
   padding: .5em 1em;
   display: inline-block;
   margin-bottom: .5em;
@@ -107,40 +113,42 @@
     display: block;
   }
 
-  .work__imgbtn-wrapper {
-    order: 3;
-    flex: 1;
-    height: 100%;
-    margin: 0 0 0 4em;
-    position: relative;
-  }
-
   .work__btn-view {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 12.7%;
+    bottom: 13.532934131736526946107784431138%;
     width: 89.55223880597015%;
-    height: 73.77245508982036%;
     height: 0;
+    overflow: hidden;
     margin: 0;
     padding: 0;
     border: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    visibility: hidden;
-    transition: background-color 300ms ease;
+    transition: height 300ms ease-out;
+    background: radial-gradient(rgba(lighten($altcolour, 5), .85), rgba(darken($altcolour, 15), .85));
+    text-shadow: .05em .05em darken($altcolour, 10);
+
+    &:hover, &:focus, &:active {
+      background-color: transparent;
+    }
   }
 
   .work__imgbtn-wrapper {
+    order: 3;
+    flex: 1;
+    height: 100%;
+    margin: 0 0 0 4em;
+    position: relative;
 
-    &:hover {
+    &:hover, &:active, &:focus {
+
       .work__btn-view {
-        display: flex;
-        visibility: visible;
-        background-color: rgba($altcolour, .9);
-        text-shadow: .1em .1em darken($altcolour, 5);
+        height: 73.77245508982036%;
+        transition: height 300ms ease-out;
+        //background: radial-gradient(lighten($altcolour, 5), darken($altcolour, 15));
       }
     }
   }
@@ -168,7 +176,7 @@
   }
 
   .work__btn-view {
-    width: 360px;
-    height: 616px;
+    //width: 360px;
+    //height: 616px;
   }
 }
