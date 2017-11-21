@@ -22,9 +22,7 @@
           </div>
 
           <div class="tile tile--image">
-            <div class="tile-inner">
-              <img class="tile__img" src="<?php echo $index?>/assets/img/tom_mccarten2.png" alt="Tom McCarten">
-            </div>
+              <img class="tile-inner" src="<?php echo $index?>/assets/img/tom_mccarten2.png" alt="Tom McCarten">            
           </div>
 
           <a href="projects/" class="tile tile--projects tile--interact">

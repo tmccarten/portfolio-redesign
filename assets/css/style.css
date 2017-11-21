@@ -861,6 +861,10 @@ body {
 }
 
 .tile--image .tile-inner {
+	max-width: 100%;
+	width: 100%;
+	max-height: 100%;
+	min-height: .125em;
 	-webkit-animation: fadeIn 2s ease 1s forwards;
 	animation: fadeIn 2s ease 1s forwards;
 }
@@ -869,13 +873,6 @@ body {
 	-webkit-animation: none;
 	animation: none;
 	opacity: 1;
-}
-
-.tile__img {
-	max-width: 100%;
-	width: 100%;
-	max-height: 100%;
-	min-height: .125em;
 }
 
 .tile--intro {
@@ -1425,7 +1422,7 @@ body {
 	transform: rotate(0deg) translateY(-2.3em);
 }
 
-.tile__img {
+.tile--image .tile-inner {
 	max-width: 80%;
 }
 
@@ -2132,7 +2129,7 @@ body::before {
 	height: 334px;
 }
 
-.tile__img {
+.tile--image .tile-inner {
 	width: 267px;
 	height: auto;
 	max-width: none;
