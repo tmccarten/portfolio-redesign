@@ -7,7 +7,7 @@
   padding: 1em 1rem;
   background-color: $contentcolour;
   font-size: 1.25rem;
-  //border: 2px solid $maincolour;
+  //border: .125rem solid $maincolour;
 }
 
 .content__item + * {
@@ -129,7 +129,7 @@
 
   .content__item {
     padding: 3rem;
-    background-color: rgba($contentcolour, .5);
+    //background-color: rgba($contentcolour, .5);
   }
 
   .content__item--project {
@@ -139,11 +139,8 @@
 
     .content__heading {
       text-align: left;
+      margin-top: 0;
     }
-  }
-
-  .content__heading {
-    margin-top: 0;
   }
 
   .content__heading--no-desktop {

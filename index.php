@@ -11,13 +11,6 @@
   <body>
     <?php include 'assets/includes/header.php';?>
 
-    <script> // script to make animation run once?
-      if(false == /(^|;)\s?tile-inner=1\s?($|;)/i.test(document.cookie)) {
-        document.body.id = "tile-inner";
-        document.cookie = "tile-inner=1; expire= path=/";
-    }
-    </script>
-
     <main id="main" class="main main--home">
         <section class="tiles">
 
@@ -29,7 +22,9 @@
           </div>
 
           <div class="tile tile--image">
-            <img class="tile__img" src="<?php echo $index?>/assets/img/tom_mccarten2.png" alt="Tom McCarten">
+            <div class="tile-inner">
+              <img class="tile__img" src="<?php echo $index?>/assets/img/tom_mccarten2.png" alt="Tom McCarten">
+            </div>
           </div>
 
           <a href="projects/" class="tile tile--projects tile--interact">
@@ -78,6 +73,7 @@
 
 
     <script src="<?php echo $index?>/assets/js/script.js?v=4"></script>
+    <script src="<?php echo $index?>/assets/js/cookie.js"></script>
   </body>
 
 </html>

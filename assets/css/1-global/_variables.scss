@@ -4,7 +4,7 @@ $maincolour: #303453;
 $tilecolour: lighten($maincolour, 2);
 $altcolour: lighten(saturate(adjust-hue($maincolour, -220), 35), 32);
 $sidebarcolour: lighten($maincolour, 8);
-$contentcolour: lighten($maincolour, 8);
+$contentcolour: lighten($maincolour, 6);
 
 // Fonts //
 $bodyfont: 'Webly Sleek UI', 'Segoe UI', Tahoma, Arial, sans-serif;

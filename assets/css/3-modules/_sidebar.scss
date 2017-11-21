@@ -13,6 +13,7 @@
   font-size: 1.125em;
   margin: 0;
   background-color: darken($sidebarcolour, 4);
+  box-shadow: 0 0.25em 0.25em darken($contentcolour, 4);
 }
 
 .sidebar-blogposts {
