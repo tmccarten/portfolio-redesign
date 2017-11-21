@@ -865,8 +865,13 @@ body {
 	width: 100%;
 	max-height: 100%;
 	min-height: .125em;
+	height: auto;
 	-webkit-animation: fadeIn 2s ease 1s forwards;
 	animation: fadeIn 2s ease 1s forwards;
+}
+
+.tile--image .tile-inner--desktop {
+	display: none;
 }
 
 .tile--image .no-animation {
@@ -1944,6 +1949,14 @@ body::before {
 	-webkit-box-ordinal-group: 1;
 	-ms-flex-order: 0;
 	order: 0;
+}
+
+.tile--image .tile-inner--desktop {
+	display: block;
+}
+
+.tile--image .tile-inner--mob {
+	display: none;
 }
 
 .about {
