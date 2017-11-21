@@ -327,6 +327,7 @@ body {
 	padding: 1em 1rem;
 	background-color: #3b4066;
 	font-size: 1.25rem;
+	border: 0.125rem solid #414670;
 }
 
 .content__item + * {
@@ -1914,7 +1915,7 @@ body::before {
 }
 
 .tile--interact {
-	background: rgba(214, 110, 81, 0.75);
+	background: #5a6197;
 }
 
 .tile--interact .tile-inner .tile-inner__main {

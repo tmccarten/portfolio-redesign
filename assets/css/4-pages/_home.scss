@@ -336,7 +336,7 @@
   }
 
   .tile--interact {
-    background: rgba($altcolour, .75);
+    background: adjust-color($maincolour, $red: 42, $green: 45, $blue: 68);
 
     .tile-inner {
 

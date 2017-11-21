@@ -7,7 +7,7 @@
   padding: 1em 1rem;
   background-color: $contentcolour;
   font-size: 1.25rem;
-  //border: .125rem solid $maincolour;
+  border: .125rem solid lighten($contentcolour, 3);
 }
 
 .content__item + * {
