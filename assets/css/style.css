@@ -2134,12 +2134,12 @@ body::before {
 @media screen and (min-width: 53.125em) and (max-width: 95.1875em) {
 
 .main {
-	max-width: 1066px;
+	max-width: 66.625rem;
 	padding: 0 2rem;
 }
 
 .header {
-	max-width: 1066px;
+	max-width: 66.625rem;
 }
 
 }
@@ -2189,7 +2189,7 @@ body::before {
 }
 
 .header {
-	max-width: 1066px;
+	max-width: 66.625rem;
 	padding: 4em 2rem;
 }
 
