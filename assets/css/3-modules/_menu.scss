@@ -54,8 +54,20 @@
   }
 }
 
+@media screen and (min-width: $mqbiglogo) {
+
+  .main-nav {
+    margin-top: 22.96393034825871vw;
+  }
+}
+
 
 @media screen and (max-width: $mqnavbar) and (orientation:landscape) {
+
+  .main-nav {
+    margin-top: 0;
+    transition: none;
+  }
 
   .main-menu__link {
     padding: 2.625vh;
@@ -77,6 +89,7 @@
     transform: scaleY(1);
     margin-top: 0;
     width: auto;
+    transition: none;
   }
 
   .header-container--fixed {

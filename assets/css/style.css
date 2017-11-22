@@ -1537,6 +1537,10 @@ body {
 	width: 100%;
 }
 
+.main-nav {
+	margin-top: 22.96393034825871vw;
+}
+
 .content {
 	width: 100%;
 	margin-left: 0;
@@ -1703,6 +1707,7 @@ body::before {
 	transform: scaleY(1);
 	margin-top: 0;
 	width: auto;
+	transition: none;
 }
 
 .header-container--fixed .main-nav {
@@ -2259,6 +2264,11 @@ body::before {
 }
 
 @media screen and (max-width: 53.125em) and (orientation: landscape) {
+
+.main-nav {
+	margin-top: 0;
+	transition: none;
+}
 
 .main-menu__link {
 	padding: 2.625vh;
