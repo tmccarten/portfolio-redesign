@@ -2271,6 +2271,7 @@ body::before {
 
 .logo {
 	width: 330px;
+	padding: 1rem 0;
 }
 
 .main-menu__item + * {
