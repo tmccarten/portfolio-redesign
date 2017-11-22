@@ -1195,6 +1195,7 @@ body {
 	flex-direction: column;
 	padding-bottom: 2rem;
 	border-bottom: 0.1em dashed #303453;
+	font-family: "Webly Sleek UI", "Segoe UI", Tahoma, Arial, sans-serif;
 }
 
 .contactform__label:not(:first-child) {
@@ -1227,9 +1228,9 @@ body {
 }
 
 .contactform__textarea {
-	border-left: 0.1em solid #d66e51;
-	background-color: #343859;
 	border: 0;
+	border-left: 0.125rem solid #323656;
+	background-color: #d66e51;
 	height: 15vh;
 	margin-top: 1rem;
 	padding: 1rem;
@@ -1240,21 +1241,27 @@ body {
 
 .contactform__textarea:focus,
 .contactform__textarea:active {
-	outline-color: #d66e51;
+	outline-color: #1f2236;
+	border-left: 0.125rem solid #3b4066;
 	height: 15em;
 }
 
 .contactform__submit {
 	margin-top: 2rem;
+	background-color: #343859;
 	border: 0;
-	background-color: #d66e51;
 	padding: 1rem;
-	max-width: 30%;
+	max-width: 40%;
 	color: white;
-	font-weight: 500;
 	width: auto;
-	text-shadow: 0.1em 0.1em #d15d3c;
 	cursor: pointer;
+	font-size: 1rem;
+	font-family: "Webly Sleek UI", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+.contactform__submit:hover {
+	background-color: #454a77;
+	border-left-color: #454a77;
 }
 
 .contactform__submit:focus,
@@ -1299,14 +1306,16 @@ body {
 	-webkit-box-pack: start;
 	-ms-flex-pack: start;
 	justify-content: flex-start;
-	border-bottom: 0.1em solid rgba(255, 255, 255, 0.05);
 	width: 100%;
+	transition: -webkit-transform 300ms ease;
+	transition: transform 300ms ease;
+	transition: transform 300ms ease, -webkit-transform 300ms ease;
 }
 
 .socialmedia-link-wrapper:hover {
-	border-right: 0.1em solid #d66e51;
-	-webkit-transform: translateX(-0.25em);
-	transform: translateX(-0.25em);
+	background-color: #3d426a;
+	-webkit-transform: translateY(-0.25em);
+	transform: translateY(-0.25em);
 }
 
 .socialmedia-link {
@@ -2020,6 +2029,16 @@ body::before {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
+}
+
+.contact--thanks {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
 }
 
 .contactform {

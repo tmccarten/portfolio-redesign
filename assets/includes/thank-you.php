@@ -17,7 +17,7 @@
 
           <div class="content__item">
 
-            <section class="contact">
+            <section class="contact contact--thanks">
               <h3 class="content__heading">Thanks!</h3>
 
               <p class="about__text">I look forward to reading your email.</p>
@@ -25,12 +25,7 @@
             </section>
 
           </div>
-        </section><!-- content ends -->
-
-        <aside class="sidebar">
-          <h4 class="sidebar__title">Recent blog posts</h4>
-          <?php include $index . '/assets/includes/sidebar.php';?>
-        </aside>
+        </section><!-- content ends -->        
 
     </main>
 
