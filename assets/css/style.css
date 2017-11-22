@@ -655,6 +655,7 @@ body {
 	text-align: center;
 	margin: 1em auto;
 	background-color: #d66e51;
+	box-shadow: 0 0.25em 0 0 #d15d3c;
 	font-family: "Webly Sleek UI", "Segoe UI", Tahoma, Arial, sans-serif;
 	font-weight: bold;
 	padding: .5em;
@@ -1859,17 +1860,25 @@ body::before {
 .work__img--portrait {
 	display: block;
 	margin-top: 0;
+	-webkit-animation: glowing 3000ms infinite;
+	animation: glowing 3000ms infinite;
+	border-radius: 1.75em;
 }
 
 .work__btn-view {
 	position: absolute;
 	left: 50%;
-	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%) scaleY(0);
+	transform: translateX(-50%) scaleY(0);
 	bottom: 13.532934131736526946107784431138%;
 	width: 89.55223880597015%;
-	height: 0;
-	overflow: hidden;
+	height: 73.77245508982036%;
+	transition: -webkit-transform 300ms ease-in;
+	transition: transform 300ms ease-in;
+	transition: transform 300ms ease-in, -webkit-transform 300ms ease-in;
+	-webkit-transform-origin: top;
+	transform-origin: top;
+	font-size: 1.25rem;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -1882,8 +1891,10 @@ body::before {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	transition: height 300ms ease-out;
-	background: radial-gradient(rgba(219, 127, 101, 0.85), rgba(176, 71, 42, 0.85));
+	box-shadow: none;
+	background: radial-gradient(#d66e51, #d66e51);
+	text-transform: uppercase;
+	letter-spacing: .1em;
 }
 
 .work__btn-view:hover,
@@ -1907,8 +1918,11 @@ body::before {
 .work__imgbtn-wrapper:hover .work__btn-view,
 .work__imgbtn-wrapper:active .work__btn-view,
 .work__imgbtn-wrapper:focus .work__btn-view {
-	height: 73.77245508982036%;
-	transition: height 300ms ease-out;
+	-webkit-transform: translateX(-50%) scaleY(1);
+	transform: translateX(-50%) scaleY(1);
+	transition: -webkit-transform 300ms ease-out;
+	transition: transform 300ms ease-out;
+	transition: transform 300ms ease-out, -webkit-transform 300ms ease-out;
 }
 
 .work__imgbtn-wrapper--graphics {
@@ -2403,6 +2417,46 @@ body::before {
 
 100% {
 	margin-right: 2rem;
+}
+
+}
+
+@-webkit-keyframes glowing {
+
+0% {
+	box-shadow: 0 0 -10px white;
+}
+
+40% {
+	box-shadow: 0 0 20px white;
+}
+
+60% {
+	box-shadow: 0 0 20px white;
+}
+
+100% {
+	box-shadow: 0 0 -10px white;
+}
+
+}
+
+@keyframes glowing {
+
+0% {
+	box-shadow: 0 0 -10px white;
+}
+
+40% {
+	box-shadow: 0 0 20px white;
+}
+
+60% {
+	box-shadow: 0 0 20px white;
+}
+
+100% {
+	box-shadow: 0 0 -10px white;
 }
 
 }
