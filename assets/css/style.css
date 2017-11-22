@@ -338,7 +338,6 @@ body {
 	font-size: 1.875rem;
 	font-weight: 700;
 	font-family: Merriweather, Georgia, Times, serif;
-	text-shadow: 0.05em 0.05em #303453;
 }
 
 .content__heading--smaller {
@@ -370,7 +369,19 @@ body {
 	width: 100%;
 	padding: 1rem;
 	margin: 0;
-	font-weight: 500;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 33vh;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	color: #b4b7d3;
+	text-transform: uppercase;
+	letter-spacing: .25em;
 }
 
 .return-link {
@@ -1915,7 +1926,7 @@ body::before {
 }
 
 .tile--interact {
-	background: #5a6197;
+	background: #545b86;
 }
 
 .tile--interact .tile-inner .tile-inner__main {

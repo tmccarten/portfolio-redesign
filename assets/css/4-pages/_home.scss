@@ -336,7 +336,7 @@
   }
 
   .tile--interact {
-    background: adjust-color($maincolour, $red: 42, $green: 45, $blue: 68);
+    background: darken(adjust-color($maincolour, $red: 42, $green: 45, $blue: 60), 3);
 
     .tile-inner {
 
