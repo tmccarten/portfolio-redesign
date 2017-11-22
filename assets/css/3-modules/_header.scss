@@ -208,11 +208,26 @@
 
 }
 
+@media screen and (min-width: $mqnavbar) and (max-width: $mqfourcol) {
+
+  .header {
+    max-width: 1066px;
+  }
+
+}
+
+@media screen and (min-width: $mqnavbar) {
+
+  .header {
+    padding: 4em 2rem;
+  }
+
+}
+
 @media screen and (min-width: $mqthreecol) {
 
   .logo {
     padding: 0;
-    width: 330px;
   }
 
   .header {
@@ -233,6 +248,10 @@
 
   .header {
     max-width: $max-width;
+  }
+
+  .logo {
+    width: 330px;
   }
 
 }
