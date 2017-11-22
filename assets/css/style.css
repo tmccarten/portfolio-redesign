@@ -267,10 +267,31 @@ body {
 /* -- Menu -- */
 
 .main-nav {
-	height: 0;
-	overflow: hidden;
-	transition: height 300ms ease-in;
+	position: absolute;
+	transition: -webkit-transform 300ms ease-in;
+	transition: transform 300ms ease-in;
+	transition: transform 300ms ease-in, -webkit-transform 300ms ease-in;
 	font-weight: 300;
+	width: 100%;
+	margin-top: 7.6875rem;
+	z-index: 15;
+	-webkit-transform: scaleY(0);
+	transform: scaleY(0);
+	-webkit-transform-origin: top;
+	transform-origin: top;
+	height: 26.25rem;
+}
+
+.header-container--fixed .main-nav {
+	margin-top: 3.6875rem;
+}
+
+.main-nav--expanded {
+	-webkit-transform: scaleY(1);
+	transform: scaleY(1);
+	transition: -webkit-transform 300ms ease-out;
+	transition: transform 300ms ease-out;
+	transition: transform 300ms ease-out, -webkit-transform 300ms ease-out;
 }
 
 .main-menu {
@@ -310,12 +331,6 @@ body {
 	outline: 0;
 	color: white;
 	background-color: #d05938;
-}
-
-.main-nav--expanded {
-	height: 26.25rem;
-	transition: height 500ms ease-out;
-	z-index: 10;
 }
 
 .content {
@@ -2236,14 +2251,14 @@ body::before {
 
 @media screen and (max-width: 53.125em) and (orientation: landscape) {
 
+.main-menu__link {
+	padding: 2.625vh;
+}
+
 .main-nav--expanded {
 	height: auto;
 	overflow-Y: scroll;
 	z-index: 5;
-}
-
-.main-nav--expanded .main-menu__link {
-	padding: 2.625vh;
 }
 
 }
