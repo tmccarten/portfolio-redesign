@@ -20,8 +20,8 @@
 
             <section class="about">
               <div class="about__img-wrapper">
-                <img class="about__img" src="<?php echo $index?>/assets/img/tom_mccarten-about.png" width="300" height="300" alt="Portrait photo of Tom McCarten">
-                <img class="about__img" src="<?php echo $index?>/assets/img/tom_mccarten-beach.jpg" width="300" height="300" alt="Portrait photo of Tom McCarten">
+                <img class="about__img" src="<?php echo $index?>/assets/img/about/dock.png" width="300" height="300" alt="Portrait photo of Tom McCarten">
+                <img class="about__img" src="<?php echo $index?>/assets/img/about/pub.png" width="300" height="300" alt="Portrait photo of Tom McCarten">
               </div>
               <div class="about__info">
                 <h3 class="content__heading">Hello</h3>
