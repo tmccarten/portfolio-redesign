@@ -73,6 +73,17 @@
 
   .main-nav {
     height: auto;
+    position: static;
+    transform: scaleY(1);
+    margin-top: 0;
+    width: auto;
+  }
+
+  .header-container--fixed {
+
+    .main-nav {
+      margin-top: 0;
+    }
   }
 
   .main-menu {
