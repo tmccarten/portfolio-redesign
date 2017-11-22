@@ -1651,7 +1651,7 @@ body::before {
 }
 
 .header-container--fixed .header {
-	padding: 0 1rem;
+	padding: 0 2rem;
 }
 
 .header-container--fixed .header .header__top {
