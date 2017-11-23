@@ -1,8 +1,9 @@
 html {
   box-sizing: border-box;
   overflow-y: scroll;
-  min-height: 100%;
+  height: 100%;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -17,4 +18,12 @@ h1,h2,h3,h4,h5,h6 {
 
 a {
   color: white;
+}
+
+@media screen and (min-width: $mqnavbar) {
+
+  html {
+    background: -webkit-linear-gradient(#303453 0%, #434873 100%);
+  }
+
 }
