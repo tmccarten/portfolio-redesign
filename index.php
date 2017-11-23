@@ -63,13 +63,12 @@
 
         <aside class="sidebar">
           <h4 class="sidebar__title">Recent blog posts</h4>
-
           <?php include 'assets/includes/sidebar.php';?>
-
         </aside>
 
     </main>
 
+    <?php include $index . '/assets/includes/footer.php';?>
 
     <script src="<?php echo $index?>/assets/js/script.js?v=4"></script>
     <script src="<?php echo $index?>/assets/js/cookie-home.js"></script>

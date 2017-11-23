@@ -45,6 +45,8 @@
 
     </main>
 
+    <?php include $index . '/assets/includes/footer.php';?>
+
     <script src="<?php echo $index?>/assets/js/cookie-about.js"></script>
     <script src="<?php echo $index?>/assets/js/script.js?v=4"></script>
   </body>

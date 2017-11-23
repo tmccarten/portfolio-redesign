@@ -20,7 +20,7 @@
             <p class="breadcrumb__grey">Building my portfolio</p>
           </div>
 
-          <div class="content__item">            
+          <div class="content__item">
 
             <article class="blogpost">
 
@@ -108,6 +108,7 @@
 
     </main>
 
+    <?php include $index . '/assets/includes/footer.php';?>
 
     <script src="<?php echo $index?>/assets/js/script.js?v=4"></script>
   </body>

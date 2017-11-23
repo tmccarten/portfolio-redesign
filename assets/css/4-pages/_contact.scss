@@ -126,6 +126,7 @@
 
   .contactform {
     border-bottom: none;
+    padding-bottom: 0;
   }
 
   .contact__wrapper-form {
@@ -158,6 +159,14 @@
 
   .socialmedia-link {
     width: 100%;
+  }
+
+}
+
+@media screen and (min-width: $mqfourcol) {
+
+  .content__item--contact {
+    margin-bottom: 1rem;
   }
 
 }

@@ -16,7 +16,7 @@
         <section class="content">
           <h2 class="title">Contact</h2>
 
-          <div class="content__item">
+          <div class="content__item content__item--contact">
 
             <section class="contact">
               <div class="contact__wrapper-form">
@@ -81,6 +81,7 @@
 
     </main>
 
+    <?php include $index . '/assets/includes/footer.php';?>
 
     <script src="<?php echo $index?>/assets/js/script.js?v=4"></script>
   </body>
