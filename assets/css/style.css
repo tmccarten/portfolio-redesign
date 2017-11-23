@@ -29,26 +29,6 @@ a {
 	color: white;
 }
 
-.visuallyhidden {
-	position: absolute;
-	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-	clip: rect(1px, 1px, 1px, 1px);
-	padding: 0;
-	border: 0;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
-}
-
-.full-width {
-	width: 100vw;
-	position: relative;
-	left: 50%;
-	right: 50%;
-	margin-left: -50vw;
-	margin-right: -50vw;
-}
-
 /* -- BASE -- */
 
 body {
@@ -1343,6 +1323,26 @@ body {
 	height: 44px;
 }
 
+.visuallyhidden {
+	position: absolute;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0;
+	border: 0;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.full-width {
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+}
+
 @media screen and (min-width: 26.5625em) {
 
 .content__heading {
@@ -2043,6 +2043,16 @@ body::before {
 	-ms-flex-order: 2;
 	order: 2;
 	margin: 7rem 0 0 1rem;
+	-webkit-animation: topIn 2s ease;
+	animation: topIn 2s ease;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+}
+
+.about__img-wrapper.no-animation {
+	-webkit-animation: none;
+	animation: none;
+	opacity: 1;
 }
 
 .about__img-aside {
@@ -2389,6 +2399,34 @@ body::before {
 
 100% {
 	margin-right: 2rem;
+}
+
+}
+
+@-webkit-keyframes topIn {
+
+0% {
+	margin-top: 0;
+	opacity: 0;
+}
+
+100% {
+	margin-top: 7rem;
+	opacity: 1;
+}
+
+}
+
+@keyframes topIn {
+
+0% {
+	margin-top: 0;
+	opacity: 0;
+}
+
+100% {
+	margin-top: 7rem;
+	opacity: 1;
 }
 
 }

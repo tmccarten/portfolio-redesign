@@ -63,11 +63,18 @@
     flex-direction: column;
     order: 2;
     margin: 7rem 0 0 1rem;
+    animation: topIn 2s ease;
+    animation-iteration-count: 1;
+
+    &.no-animation {
+      animation: none;
+      opacity: 1;
+    }
   }
 
   .about__img-aside {
     max-width: none;
-    height: auto;    
+    height: auto;
   }
 
   .about__img-aside + * {

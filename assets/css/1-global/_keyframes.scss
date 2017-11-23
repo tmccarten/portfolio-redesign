@@ -18,6 +18,17 @@
   100% { margin-right: 2rem; }
 }
 
+@keyframes topIn {
+  0% {
+    margin-top: 0;
+    opacity: 0;
+  }
+  100% { 
+    margin-top: 7rem;
+    opacity: 1;
+  }
+}
+
 @keyframes glowing {
   0% { box-shadow: 0 0 -.625rem white; }
   40% { box-shadow: 0 0 1.25rem white; }

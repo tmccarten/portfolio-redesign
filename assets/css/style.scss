@@ -3,7 +3,7 @@
 @import '1-global/variables';
 @import '1-global/mixins';
 @import '1-global/global';
-@import '1-global/utility';
+
 @import '1-global/keyframes';
 
 /* -- BASE -- */
@@ -26,3 +26,5 @@
 @import '4-pages/blogindex';
 @import '4-pages/about';
 @import '4-pages/contact';
+
+@import '1-global/utility';

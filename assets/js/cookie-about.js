@@ -11,19 +11,17 @@ setTimeout( function() {
 // ----- Set cookie to prevent animations on homepage each time ----- //
 
 function setCookie() {
-  document.cookie = "stopFadeIn";
+  document.cookie = "stopFadeInAbout";
 }
 
 // ----- Check if cookie is set ----- //
 
 function checkCookie() {
 
-  if (document.cookie === "stopFadeIn") {
-    var tileAnimation = document.querySelectorAll('.tile-inner')
+  if (document.cookie.indexOf("stopFadeInAbout") > -1) {
+    var imgAnimation = document.querySelector('.about__img-wrapper');
 
-    for (i = 0; i < tileAnimation.length; i++) {
-      tileAnimation[i].classList.add('no-animation');
-    }
+    imgAnimation.classList.add('no-animation');
 
   }
 }
