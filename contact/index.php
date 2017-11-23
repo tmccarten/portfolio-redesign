@@ -29,7 +29,7 @@
                   <input type="email" name="email" class="contactform__input">
                   <label for="message" class="contactform__label">Message</label>
                   <textarea name="message" class="contactform__textarea"></textarea>
-                  <button type="submit" class="contactform__submit">Send</button>
+                  <button type="submit" class="btn btn--contactform">Send</button>
                 </form>
               </div>
 

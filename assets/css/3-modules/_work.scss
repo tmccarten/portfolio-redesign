@@ -41,25 +41,9 @@
   color: lighten($contentcolour, 45);
 }
 
-.work__btn-view {
-  display: block;
-  text-align: center;
+.btn--work {
   margin: 1em auto;
-  background-color: $altcolour;
-  box-shadow: 0 .25em 0 0 darken($altcolour, 5);
-  font-family: $bodyfont;
-  font-weight: bold;
-  padding: .5em;
-  color: white;
-  width: 50%;
-  align-self: center;
-  text-decoration: none;
-  //text-shadow: 0.1em 0.1em darken($altcolour, 10);
-
-  &:hover, &:active, &:focus {
-    background-color: lighten($maincolour, 10);
-    color: white;
-  }
+  width: 50%;  
 }
 
 .work__text {
@@ -81,7 +65,6 @@
 .tool-tag {
   background-color: lighten($contentcolour, 10);
   border-radius: 1em;
-  //border: .125em solid $tilecolour;
   padding: .5em 1em;
   display: inline-block;
   margin-bottom: .5em;
@@ -127,7 +110,7 @@
     border-radius: 1.75em;
   }
 
-  .work__btn-view {
+  .btn--work {
     position: absolute;
     left: 50%;
     transform: translateX(-50%) scaleY(0);
@@ -147,7 +130,6 @@
     background: radial-gradient($altcolour, $altcolour);
     text-transform: uppercase;
     letter-spacing: .1em;
-    //text-shadow: .05em .05em darken($altcolour, 10);
 
     &:hover, &:focus, &:active {
       background-color: transparent;
@@ -163,7 +145,7 @@
 
     &:hover, &:active, &:focus {
 
-      .work__btn-view {
+      .btn--work {
         transform: translateX(-50%) scaleY(1);
         transition: transform 300ms ease-out;
         //background: radial-gradient(lighten($altcolour, 5), darken($altcolour, 15));
@@ -179,7 +161,7 @@
 
 @media screen and (min-width: $mqblogindex) {
 
-  .work__btn-view {
+  .btn--work {
     //bottom: 3.1%;
   }
 
@@ -193,7 +175,7 @@
     height: 835px;
   }
 
-  .work__btn-view {
+  .btn--work {
     //width: 360px;
     //height: 616px;
   }

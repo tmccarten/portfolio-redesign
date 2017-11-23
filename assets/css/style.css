@@ -422,6 +422,31 @@ body {
 	margin-right: 1em;
 }
 
+.btn {
+	display: block;
+	color: white;
+	text-decoration: none;
+	background-color: #d66e51;
+	box-shadow: 0 0.25em 0 0 #d15d3c;
+	border: 0;
+	border-radius: .25em;
+	padding: 1em;
+	transition: box-shadow 300ms ease, background-color 300ms ease;
+	font-weight: 500;
+	width: auto;
+	margin: 1em 0;
+	text-align: center;
+	cursor: pointer;
+	font-family: "Webly Sleek UI", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+	background-color: #636aa5;
+	box-shadow: none;
+}
+
 .blogpost {
 	font-size: 1rem;
 }
@@ -650,28 +675,9 @@ body {
 	color: #b4b7d3;
 }
 
-.work__btn-view {
-	display: block;
-	text-align: center;
+.btn--work {
 	margin: 1em auto;
-	background-color: #d66e51;
-	box-shadow: 0 0.25em 0 0 #d15d3c;
-	font-family: "Webly Sleek UI", "Segoe UI", Tahoma, Arial, sans-serif;
-	font-weight: bold;
-	padding: .5em;
-	color: white;
 	width: 50%;
-	-ms-flex-item-align: center;
-	-ms-grid-row-align: center;
-	align-self: center;
-	text-decoration: none;
-}
-
-.work__btn-view:hover,
-.work__btn-view:active,
-.work__btn-view:focus {
-	background-color: #434873;
-	color: white;
 }
 
 .work__text {
@@ -1133,21 +1139,9 @@ body {
 	font-size: .8em;
 }
 
-.bloglisting__btn-read {
-	padding: 1em;
-	color: white;
-	text-decoration: none;
-	background-color: #d66e51;
-	font-weight: 500;
-	width: auto;
-	margin: 1em 0;
+.btn--bloglisting {
 	-ms-flex-item-align: start;
 	align-self: flex-start;
-	box-shadow: 0 0.25em 0 0 #d15d3c;
-}
-
-.bloglisting__btn-read:hover {
-	background-color: #636aa5;
 }
 
 .about {
@@ -1257,7 +1251,7 @@ body {
 .contactform__textarea {
 	border: 0;
 	border-left: 0.125rem solid #323656;
-	background-color: #d66e51;
+	background-color: #343859;
 	height: 15vh;
 	margin-top: 1rem;
 	padding: 1rem;
@@ -1273,27 +1267,9 @@ body {
 	height: 15em;
 }
 
-.contactform__submit {
+.btn--contactform {
 	margin-top: 2rem;
-	background-color: #343859;
-	border: 0;
-	padding: 1rem;
 	max-width: 40%;
-	color: white;
-	width: auto;
-	cursor: pointer;
-	font-size: 1rem;
-	font-family: "Webly Sleek UI", "Segoe UI", Tahoma, Arial, sans-serif;
-}
-
-.contactform__submit:hover {
-	background-color: #454a77;
-	border-left-color: #454a77;
-}
-
-.contactform__submit:focus,
-.contactform__submit:active {
-	outline-color: white;
 }
 
 .content__heading--contact {
@@ -1865,7 +1841,7 @@ body::before {
 	border-radius: 1.75em;
 }
 
-.work__btn-view {
+.btn--work {
 	position: absolute;
 	left: 50%;
 	-webkit-transform: translateX(-50%) scaleY(0);
@@ -1897,9 +1873,9 @@ body::before {
 	letter-spacing: .1em;
 }
 
-.work__btn-view:hover,
-.work__btn-view:focus,
-.work__btn-view:active {
+.btn--work:hover,
+.btn--work:focus,
+.btn--work:active {
 	background-color: transparent;
 }
 
@@ -1915,9 +1891,9 @@ body::before {
 	position: relative;
 }
 
-.work__imgbtn-wrapper:hover .work__btn-view,
-.work__imgbtn-wrapper:active .work__btn-view,
-.work__imgbtn-wrapper:focus .work__btn-view {
+.work__imgbtn-wrapper:hover .btn--work,
+.work__imgbtn-wrapper:active .btn--work,
+.work__imgbtn-wrapper:focus .btn--work {
 	-webkit-transform: translateX(-50%) scaleY(1);
 	transform: translateX(-50%) scaleY(1);
 	transition: -webkit-transform 300ms ease-out;
@@ -2171,16 +2147,12 @@ body::before {
 	max-width: none;
 }
 
-.bloglisting__btn-read {
+.btn--bloglisting {
 	-ms-flex-item-align: center;
 	-ms-grid-row-align: center;
 	align-self: center;
 	margin: 0 auto;
-	transition: box-shadow 300ms ease, background-color 300ms ease;
-}
-
-.bloglisting__btn-read:hover {
-	box-shadow: 0 0 0 transparent;
+	padding: 1em 2em;
 }
 
 .bloglisting__teaser {

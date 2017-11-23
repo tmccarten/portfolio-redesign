@@ -30,23 +30,8 @@
   font-size: .8em;
 }
 
-.bloglisting__btn-read {
-  padding: 1em;
-  color: white;
-  text-decoration: none;
-  //background-color: lighten($maincolour, 5);
-  background-color: $altcolour;
-  //border: .1em solid $tilecolour;
-  font-weight: 500;
-  width: auto;
-  margin: 1em 0;
+.btn--bloglisting {
   align-self: flex-start;
-  box-shadow: 0 .25em 0 0 darken($altcolour, 5);
-  //text-shadow: .1em .1em darken($altcolour, 5);
-
-  &:hover {
-    background-color: lighten($contentcolour, 20);
-  }
 }
 
 @media screen and (min-width: $mqphonelimit) {
@@ -78,17 +63,11 @@
     max-width: none;
   }
 
-  .bloglisting__btn-read {
+  .btn--bloglisting {
     align-self: center;
     margin: 0 auto;
-    //box-shadow: .5em .5em 0 desaturate(darken($altcolour, 12), 15);
-    //background-color: transparent;
-    transition: box-shadow 300ms ease, background-color 300ms ease;
+    padding: 1em 2em;
 
-    &:hover {
-      box-shadow: 0 0 0 transparent;
-      //background-color: lighten($tilecolour, 8);
-    }
   }
 
   .bloglisting__teaser {

@@ -26,7 +26,7 @@
               <div class="work__imgbtn-wrapper">
                 <img class="work__img work__img--landscape" src="<?php echo $index?>/assets/img/projects/project-birley--landscape.png" width="625" height="364" alt="Birley Archive Project Screenshot">
                 <img class="work__img work__img--portrait" src="<?php echo $index?>/assets/img/projects/project-birley--portrait.png" width="402" height="835" alt="Birley Archive Project Screenshot">
-                <a href="#" class="work__btn-view">View site</a>
+                <a href="#" class="btn btn--work">View site</a>
               </div>
               <div class="work__info">
                 <h3 class="content__heading content__heading--no-mob">Living Lines: Birley Archive Project</h3>
@@ -53,7 +53,7 @@
               <div class="work__imgbtn-wrapper">
                 <img class="work__img work__img--landscape" src="<?php echo $index?>/assets/img/projects/project-lps--landscape.png" width="625" height="364" alt="LPS Website Screenshot">
                 <img class="work__img work__img--portrait" src="<?php echo $index?>/assets/img/projects/project-lps--portrait.png" width="402" height="835" alt="LPS Website Screenshot">
-                <a href="#" class="work__btn-view">View site</a>
+                <a href="#" class="btn btn--work">View site</a>
               </div>
               <div class="work__info">
                 <h3 class="content__heading content__heading--no-mob">Liverpool, Pembroke & Sefton Athletics</h3>
@@ -79,7 +79,7 @@
               <div class="work__imgbtn-wrapper">
                 <img class="work__img work__img--landscape" src="<?php echo $index?>/assets/img/projects/project-mylibrary--landscape.png" width="625" height="364" alt="Invision library app screenshot">
                 <img class="work__img work__img--portrait" src="<?php echo $index?>/assets/img/projects/project-mylibrary--portrait.png" width="402" height="835" alt="Invision library app screenshot">
-                <a href="#" class="work__btn-view">View site</a>
+                <a href="#" class="btn btn--work">View site</a>
               </div>
               <div class="work__info">
                 <h3 class="content__heading content__heading--no-mob">myLibrary App Invision Prototype</h3>
@@ -105,7 +105,7 @@
               <div class="work__imgbtn-wrapper">
                 <img class="work__img work__img--landscape" src="<?php echo $index?>/assets/img/projects/project-munchies--landscape.png" width="625" height="364" alt="Student recipes website screenshot">
                 <img class="work__img work__img--portrait" src="<?php echo $index?>/assets/img/projects/project-munchies--portrait.png" width="402" height="835" alt="Student recipes website screenshot">
-                <a href="#" class="work__btn-view">View site</a>
+                <a href="#" class="btn btn--work">View site</a>
               </div>
               <div class="work__info">
                 <h3 class="content__heading content__heading--no-mob">The Munchies</h3>
@@ -131,7 +131,7 @@
               <div class="work__imgbtn-wrapper">
                 <img class="work__img work__img--landscape" src="<?php echo $index?>/assets/img/projects/project-isongs--landscape.png" width="625" height="364" alt="iSongs database screenshot">
                 <img class="work__img work__img--portrait" src="<?php echo $index?>/assets/img/projects/project-isongs--portrait.png" width="402" height="835" alt="iSongs database screenshot">
-                <a href="#" class="work__btn-view">View site</a>
+                <a href="#" class="btn btn--work">View site</a>
               </div>
               <div class="work__info">
                 <h3 class="content__heading content__heading--no-mob">iSongs Database</h3>

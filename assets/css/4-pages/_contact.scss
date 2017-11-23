@@ -40,7 +40,7 @@
 .contactform__textarea {
   border: 0;
   border-left: .125rem solid darken($contentcolour, 5);
-  background-color: $altcolour;
+  background-color: $tilecolour;
   height: 15vh;
   margin-top: 1rem;
   padding: 1rem;
@@ -55,30 +55,9 @@
   }
 }
 
-.contactform__submit {
+.btn--contactform {
   margin-top: 2rem;
-  background-color: $tilecolour;
-  border: 0;
-  //border: .1em solid lighten($altcolour, 4);
-  //border-bottom: .25em solid darken($altcolour, 5);
-  padding: 1rem;
   max-width: 40%;
-  color: white;
-  width: auto;
-  cursor: pointer;
-  //text-transform: uppercase;
-  font-size: 1rem;
-  font-family: $bodyfont;
-
-  &:hover {
-    background-color: lighten($contentcolour, 5);
-    border-left-color: lighten($contentcolour, 5);
-  }
-
-  &:focus, &:active {
-    outline-color: white;
-  }
-
 }
 
 .content__heading--contact {
