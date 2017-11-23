@@ -156,7 +156,7 @@
     }
 
     &:hover {
-      background-color: darken(saturate($altcolour, 3), 5);
+      background-color: transparent;
 
       img {
         transform: translateY(-.25em);
@@ -336,7 +336,7 @@
   }
 
   .tile--interact {
-    background: darken(adjust-color($maincolour, $red: 42, $green: 45, $blue: 60), 3);
+    background: darken(adjust-color($maincolour, $red: 42, $green: 45, $blue: 80), 3);
 
     .tile-inner {
 

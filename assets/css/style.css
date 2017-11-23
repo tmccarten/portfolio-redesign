@@ -1029,7 +1029,7 @@ body {
 }
 
 .tile--contact .tile-inner:hover {
-	background-color: #d45a38;
+	background-color: transparent;
 }
 
 .tile--contact .tile-inner:hover img {
@@ -1992,7 +1992,7 @@ body::before {
 }
 
 .tile--interact {
-	background: #545b86;
+	background: #555b99;
 }
 
 .tile--interact .tile-inner .tile-inner__main {
@@ -2424,19 +2424,19 @@ body::before {
 @-webkit-keyframes glowing {
 
 0% {
-	box-shadow: 0 0 -10px white;
+	box-shadow: 0 0 -.625rem white;
 }
 
 40% {
-	box-shadow: 0 0 20px white;
+	box-shadow: 0 0 1.25rem white;
 }
 
 60% {
-	box-shadow: 0 0 20px white;
+	box-shadow: 0 0 1.25rem white;
 }
 
 100% {
-	box-shadow: 0 0 -10px white;
+	box-shadow: 0 0 -.625rem white;
 }
 
 }
@@ -2444,22 +2444,20 @@ body::before {
 @keyframes glowing {
 
 0% {
-	box-shadow: 0 0 -10px white;
+	box-shadow: 0 0 -.625rem white;
 }
 
 40% {
-	box-shadow: 0 0 20px white;
+	box-shadow: 0 0 1.25rem white;
 }
 
 60% {
-	box-shadow: 0 0 20px white;
+	box-shadow: 0 0 1.25rem white;
 }
 
 100% {
-	box-shadow: 0 0 -10px white;
+	box-shadow: 0 0 -.625rem white;
 }
 
 }
 
-
-/*# sourceMappingURL=source-maps/style.css.map */
