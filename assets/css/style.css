@@ -1753,7 +1753,7 @@ body::before {
 	content: "";
 	opacity: .2;
 	position: absolute;
-	height: 50vh;
+	height: 100vh;
 	right: 0;
 	bottom: 0;
 	left: 0;
