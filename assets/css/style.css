@@ -495,6 +495,10 @@ body {
 	max-width: 60ch;
 }
 
+.blogpost__text small {
+	word-break: break-all;
+}
+
 .blogpost__text--intro {
 	font-weight: bold;
 }

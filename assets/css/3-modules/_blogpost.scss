@@ -48,6 +48,10 @@
   font-weight: 300;
   line-height: 1.5em;
   max-width: 60ch;
+
+  small {
+    word-break: break-all;
+  }
 }
 
 .blogpost__text--intro {
