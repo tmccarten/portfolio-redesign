@@ -20,3 +20,5 @@
   </div>
   </footer>
 </div>
+
+<div class="background"></div>

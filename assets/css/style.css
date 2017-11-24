@@ -65,6 +65,7 @@ body {
 	margin: 0 auto;
 	padding: 0 1rem;
 	position: relative;
+	z-index: 1;
 }
 
 .main--home {
@@ -111,6 +112,7 @@ body {
 
 .header-container {
 	width: 100%;
+	z-index: 1;
 }
 
 .header-container--fixed {
@@ -179,6 +181,7 @@ body {
 	-ms-flex-align: center;
 	align-items: center;
 	padding: 1rem;
+	z-index: 1;
 }
 
 .logo {
@@ -1744,22 +1747,24 @@ html {
 	background: -webkit-linear-gradient(#303453 0%, #434873 100%);
 }
 
+.background {
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	background-image: url("../img/body_bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 0;
+	opacity: .1;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
 body {
 	background: linear-gradient(to bottom, #303453 0%, #434873 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	padding-bottom: calc(63px + 1rem);
-}
-
-body::before {
-	content: "";
-	opacity: .2;
-	position: absolute;
-	height: 100vh;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 0;
-	background-image: url("../img/body_bg.png");
-	background-size: cover;
 }
 
 .header-container--fixed .header {

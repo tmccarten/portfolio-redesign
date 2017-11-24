@@ -26,4 +26,19 @@ a {
     background: -webkit-linear-gradient(#303453 0%, #434873 100%);
   }
 
+  .background {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../img/body_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    opacity: .1;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
 }

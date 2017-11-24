@@ -1,5 +1,6 @@
 .header-container {
   width: 100%;
+  z-index: 1;
 }
 
 .header-container--fixed {
@@ -51,6 +52,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  z-index: 1;
 }
 
 .logo {

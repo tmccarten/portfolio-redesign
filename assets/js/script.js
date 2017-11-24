@@ -156,7 +156,8 @@ function fixedHeader() {
 // ----- Scroll events ----- //
 
 window.addEventListener("scroll", function(){
-	clearTimeout(throttleScroll);
+
+  clearTimeout(throttleScroll);
 
 	throttleScroll = setTimeout(function(){ // throttle code inside scroll to once every 50 milliseconds
 		amountScrolled();
