@@ -829,11 +829,6 @@ body {
 	transition: transform 500ms ease, -webkit-transform 500ms ease;
 }
 
-.avoid-footer {
-	-webkit-transform: translateY(-3.25rem);
-	transform: translateY(-3.25rem);
-}
-
 .footer-container {
 	max-width: 100%;
 	background-color: #343859;
@@ -881,12 +876,20 @@ body {
 }
 
 .footer__icons-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 	margin-top: .5em;
 }
 
 .footer-icon {
 	text-decoration: none;
 	opacity: .8;
+	display: block;
+}
+
+.footer-icon img {
+	display: block;
 }
 
 /* -- PAGES -- */
@@ -1662,6 +1665,11 @@ body {
 	font-size: 1rem;
 }
 
+.avoid-footer {
+	-webkit-transform: translateY(-3.25rem);
+	transform: translateY(-3.25rem);
+}
+
 .footer {
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
@@ -1681,9 +1689,16 @@ body {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
+}
+
+.footer__icons-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-top: 0;
 }
 
 .footer__link-wrapper {
@@ -2070,6 +2085,10 @@ body::before {
 
 .footer {
 	padding: .5em 2rem;
+}
+
+.footer__link {
+	margin: 0;
 }
 
 .tiles {

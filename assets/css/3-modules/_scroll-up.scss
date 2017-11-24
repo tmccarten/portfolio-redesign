@@ -23,6 +23,10 @@
   }
 }
 
+@media screen and (min-width: $mqbiglogo) {
+
 .avoid-footer {
   transform: translateY(-3.25rem);
+}
+
 }

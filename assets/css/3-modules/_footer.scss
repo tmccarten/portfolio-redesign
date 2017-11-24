@@ -31,12 +31,18 @@
 }
 
 .footer__icons-wrapper {
+  display: flex;
   margin-top: .5em;
 }
 
 .footer-icon {
   text-decoration: none;
   opacity: .8;
+  display: block;
+
+  img {
+    display: block;
+  }
 }
 
 @media screen and (min-width: $mqbiglogo) {
@@ -53,7 +59,12 @@
 
   .footer-wrap {
     display: flex;
-    justify-content: space-between;
+  }
+
+  .footer__icons-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
   }
 
   .footer__link-wrapper {
@@ -79,6 +90,14 @@
 
   .footer {
     padding: .5em 2rem;
+  }
+
+  .footer__link {
+    margin: 0;
+  }
+
+  .footer-wrap {
+    //justify-content: center;
   }
 
 }
