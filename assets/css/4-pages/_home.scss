@@ -296,7 +296,7 @@
 
 }
 
-@media screen and (min-width: $mqbiglogo) {
+@media screen and (min-width: $mqlogo) {
 
   .tile {
     height: 44.936708860759493670886075949367vw;
@@ -386,7 +386,7 @@
 
 }
 
-@media screen and (min-width: $mqthreecol) {
+@media screen and (min-width: $mqdesktop-small) {
 
   .tiles {
     justify-content: flex-start;
@@ -426,7 +426,7 @@
 
 }
 
-@media screen and (min-width: $mqfourcol) {
+@media screen and (min-width: $mqdesktop) {
 
   .tiles {
     margin-bottom: 2rem;

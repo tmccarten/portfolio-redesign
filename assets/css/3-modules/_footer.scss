@@ -45,7 +45,7 @@
   }
 }
 
-@media screen and (min-width: $mqbiglogo) {
+@media screen and (min-width: $mqlogo) {
 
   .footer {
     flex-direction: row;
@@ -102,7 +102,7 @@
 
 }
 
-@media screen and (min-width: $mqnavbar) and (max-width: $mqfourcol) {
+@media screen and (min-width: $mqnavbar) and (max-width: $mqdesktop) {
 
   .footer {
     max-width: 66.625rem;

@@ -89,7 +89,7 @@
 
 }
 
-@media screen and (min-width: $mqbiglogo) {
+@media screen and (min-width: $mqlogo) {
 
   .content {
     width: 100%;
@@ -159,14 +159,14 @@
 
 }
 
-@media screen and (min-width: $mqthreecol) {
+@media screen and (min-width: $mqdesktop-small) {
 
   .content {
     max-width: 62.875rem;
   }
 }
 
-@media screen and (min-width: $mqfourcol) {
+@media screen and (min-width: $mqdesktop) {
 
   .content {
     margin-bottom: 1em;

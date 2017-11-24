@@ -54,7 +54,7 @@
   }
 }
 
-@media screen and (min-width: $mqbiglogo) {
+@media screen and (min-width: $mqlogo) {
 
   .main-nav {
     margin-top: 22.96393034825871vw;
@@ -122,7 +122,7 @@
 
 }
 
-@media screen and (min-width: $mqfourcol) {
+@media screen and (min-width: $mqdesktop) {
 
   .main-menu__item + * {
     margin-left: 4rem;

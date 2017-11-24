@@ -67,7 +67,7 @@
   height: 0; // IE fix
 }
 
-@media screen and (min-width: $mqbiglogo) {
+@media screen and (min-width: $mqlogo) {
 
   .sidebar-blogposts {
     padding: 2em;
@@ -96,7 +96,7 @@
 }
 
 
-@media screen and (min-width: $mqfourcol) {
+@media screen and (min-width: $mqdesktop) {
 
   .sidebar {
     width: 400px;

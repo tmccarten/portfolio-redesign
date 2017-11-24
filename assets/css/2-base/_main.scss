@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (min-width: $mqnavbar) and (max-width: $mqfourcol) {
+@media screen and (min-width: $mqnavbar) and (max-width: $mqdesktop) {
 
   .main {
     max-width: 66.625rem;
@@ -36,7 +36,7 @@
 
 }
 
-@media screen and (min-width: $mqthreecol) {
+@media screen and (min-width: $mqdesktop-small) {
 
   .main {
     padding: 0 2rem;
@@ -44,7 +44,7 @@
 
 }
 
-@media screen and (min-width: $mqfourcol) {
+@media screen and (min-width: $mqdesktop) {
 
   .main {
     max-width: $max-width;

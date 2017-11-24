@@ -113,7 +113,7 @@
   transition: transform 300ms;
 }
 
-@media screen and (min-width: $mqbiglogo) {
+@media screen and (min-width: $mqlogo) {
 
   .header {
     padding: 1rem 0;
@@ -208,7 +208,7 @@
 
 }
 
-@media screen and (min-width: $mqnavbar) and (max-width: $mqfourcol) {
+@media screen and (min-width: $mqnavbar) and (max-width: $mqdesktop) {
 
   .header {
     max-width: 66.625rem;
@@ -224,7 +224,7 @@
 
 }
 
-@media screen and (min-width: $mqthreecol) {
+@media screen and (min-width: $mqdesktop-small) {
 
   .logo {
     padding: 0;
@@ -244,7 +244,7 @@
 
 }
 
-@media screen and (min-width: $mqfourcol) {
+@media screen and (min-width: $mqdesktop) {
 
   .header {
     max-width: $max-width;
