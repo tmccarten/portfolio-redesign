@@ -1,6 +1,6 @@
-.footer-wrapper {
+.footer-container {
   max-width: 100%;
-  background-color: $tilecolour;  
+  background-color: $tilecolour;
 }
 
 .footer {
@@ -71,7 +71,7 @@
 
 @media screen and (min-width: $mqnavbar) {
 
-  .footer-wrapper {
+  .footer-container {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -79,6 +79,14 @@
 
   .footer {
     padding: .5em 2rem;
+  }
+
+}
+
+@media screen and (min-width: $mqnavbar) and (max-width: $mqfourcol) {
+
+  .footer {
+    max-width: 66.625rem;
   }
 
 }

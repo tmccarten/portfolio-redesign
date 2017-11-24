@@ -1,4 +1,4 @@
-<div class="footer-wrapper">
+<div class="footer-container">
   <footer class="footer">
     <p><span>&copy;</span> Copyright <?php echo date("Y");?> | Tom McCarten </p>
     <div class="footer-wrap">

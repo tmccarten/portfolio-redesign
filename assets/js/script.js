@@ -77,10 +77,14 @@ function scrollUpFunction() {
 
     if (window.pageYOffset > 500) {
       scrollUpDiv.className = "scroll-up scroll-up--visible";
+
+      if (amountScrolled() > 99) {
+        scrollUpDiv.classList.toggle('avoid-footer');
+      }
+
     } else {
       scrollUpDiv.className = "scroll-up";
     }
-
   }
 
 }

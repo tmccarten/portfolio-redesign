@@ -824,9 +824,17 @@ body {
 	-webkit-animation: fadeIn 300ms ease-out forwards, rightIn 300ms ease-out forwards;
 	animation: fadeIn 300ms ease-out forwards, rightIn 300ms ease-out forwards;
 	z-index: 10;
+	transition: -webkit-transform 500ms ease;
+	transition: transform 500ms ease;
+	transition: transform 500ms ease, -webkit-transform 500ms ease;
 }
 
-.footer-wrapper {
+.avoid-footer {
+	-webkit-transform: translateY(-3.25rem);
+	transform: translateY(-3.25rem);
+}
+
+.footer-container {
 	max-width: 100%;
 	background-color: #343859;
 }
@@ -2054,7 +2062,7 @@ body::before {
 	transform: translateX(-0.5em);
 }
 
-.footer-wrapper {
+.footer-container {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
@@ -2253,6 +2261,10 @@ body::before {
 }
 
 .header {
+	max-width: 66.625rem;
+}
+
+.footer {
 	max-width: 66.625rem;
 }
 
