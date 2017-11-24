@@ -13,6 +13,12 @@
   flex-direction: column;
 }
 
+.work__wrap {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
 .work__img {
   max-width: 100%;
   width: 100%;
@@ -43,7 +49,7 @@
 
 .btn--work {
   margin: 1em auto;
-  width: 50%;  
+  width: 50%;
 }
 
 .work__text {
@@ -88,6 +94,17 @@
 
   .work {
     flex-direction: row;
+  }
+
+  .work__wrap {
+    align-self: center;
+    order: 3;
+    margin: 0 0 0 4em;
+    flex: 1;
+
+    a + * {
+      margin-top: 1rem;
+    }
   }
 
   .work__info {
