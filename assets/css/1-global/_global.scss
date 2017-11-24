@@ -33,6 +33,7 @@ a {
     background-image: url('../img/body_bg.png');
     background-repeat: no-repeat;
     background-size: cover;
+    will-change: transform;
     z-index: 0;
     opacity: .1;
     bottom: 0;
