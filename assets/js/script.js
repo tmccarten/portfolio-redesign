@@ -143,8 +143,10 @@ function fixedHeader() {
     setTimeout(function(){
   		header.classList.remove('header-container--fadeout');
       header.classList.remove('header-container--fixed');
+      header.classList.remove('header-container--fade');
       main.style.paddingTop = 0;
   	}, 300);
+
   } else if (mqLandscape.matches) {
     header.classList.add('header-container--fixed');
     main.style.paddingTop = "4.6875rem";
