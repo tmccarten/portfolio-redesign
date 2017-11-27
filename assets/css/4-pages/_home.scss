@@ -350,20 +350,28 @@
     margin-top: 0;
   }
 
-  .tile:nth-child(odd) {
-    margin-left: 0;
-  }
-
-  .tile:nth-child(even) {
-    margin-left: 0;
+  .tile:nth-child(4) {
     margin-right: .5em;
   }
 
-  .tile:nth-child(3), .tile:nth-child(6)  {
+  .tile:nth-child(5), .tile:nth-child(3) {
     margin-right: 0;
   }
 
+  .tile--contact {
+    border-right: 0;
+    background-color: lighten($tilecolour, 12);
+  }
+
+  .tile--icons {
+    border-left: 0;
+    background-color: lighten($tilecolour, 12);
+  }
+
+
   .tile--intro {
+    background-color: lighten($tilecolour, 5);
+    border-left: 0;
 
     .tile-inner {
       padding: 0;
@@ -372,6 +380,8 @@
 
   .tile--image {
     order: 0;
+    background-color: lighten($tilecolour, 5);
+    border-right: 0;
 
     .tile-inner--desktop {
       display: block;
