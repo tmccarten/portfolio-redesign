@@ -37,17 +37,17 @@
 
                 <div class="contact__wrapper-social">
                   <div class="socialmedia-link-wrapper">
-                    <a href="#" class="socialmedia-link">
+                    <a href="http://github.com/tmccarten" class="socialmedia-link">
                       <img src="../assets/img/icons/github.svg" height="44" width="44" alt="">GitHub
                     </a>
                   </div>
                   <div class="socialmedia-link-wrapper">
-                    <a href="#" class="socialmedia-link">
+                    <a href="http://twitter.com/thomasmccarten" class="socialmedia-link">
                       <img src="../assets/img/icons/twitter.svg" height="44" width="44" alt="">Twitter
                     </a>
                   </div>
                   <div class="socialmedia-link-wrapper">
-                    <a href="#" class="socialmedia-link">
+                    <a href="http://twitter.com/thomasmccarten" class="socialmedia-link">
                       <img src="../assets/img/icons/facebook.svg" height="44" width="44" alt="">Facebook
                     </a>
                   </div>
@@ -55,12 +55,12 @@
 
                 <div class="contact__wrapper-other">
                   <div class="socialmedia-link-wrapper">
-                    <a href="#" class="socialmedia-link">
+                    <a href="mailto:hello@tommccarten.co.uk" class="socialmedia-link">
                       <img src="../assets/img/icons/contact2.svg" height="44" width="44" alt="">Email me
                     </a>
                   </div>
                   <div class="socialmedia-link-wrapper">
-                    <a href="#" class="socialmedia-link">
+                    <a href="http://tommccarten.co.uk/assets/docs/CV.pdf" class="socialmedia-link">
                       <img src="../assets/img/icons/download.svg" height="44" width="44" alt="">View CV
                     </a>
                   </div>
