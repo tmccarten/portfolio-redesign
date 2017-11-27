@@ -26,7 +26,7 @@
               <div class="work__imgbtn-wrapper">
                 <img class="work__img work__img--landscape" src="<?php echo $index?>/assets/img/projects/project-birley--landscape.png" width="625" height="364" alt="Birley Archive Project Screenshot">
                 <img class="work__img work__img--portrait" src="<?php echo $index?>/assets/img/projects/project-birley--portrait.png" width="402" height="835" alt="Birley Archive Project Screenshot">
-                <a href="#" class="btn btn--work">View site</a>
+                <a href="http://tommccarten.co.uk/dev/birley" class="btn btn--work">View site</a>
               </div>
               <div class="work__info">
                 <h3 class="content__heading content__heading--no-mob">Living Lines: Birley Archive Project</h3>
@@ -53,7 +53,7 @@
               <div class="work__imgbtn-wrapper">
                 <img class="work__img work__img--landscape" src="<?php echo $index?>/assets/img/projects/project-lps--landscape.png" width="625" height="364" alt="LPS Website Screenshot">
                 <img class="work__img work__img--portrait" src="<?php echo $index?>/assets/img/projects/project-lps--portrait.png" width="402" height="835" alt="LPS Website Screenshot">
-                <a href="#" class="btn btn--work">View site</a>
+                <a href="http://tommccarten.co.uk/LPS" class="btn btn--work">View site</a>
               </div>
               <div class="work__info">
                 <h3 class="content__heading content__heading--no-mob">Liverpool, Pembroke & Sefton Athletics</h3>
@@ -79,19 +79,18 @@
               <div class="work__imgbtn-wrapper">
                 <img class="work__img work__img--landscape" src="<?php echo $index?>/assets/img/projects/project-mylibrary--landscape.png" width="625" height="364" alt="Invision library app screenshot">
                 <img class="work__img work__img--portrait" src="<?php echo $index?>/assets/img/projects/project-mylibrary--portrait.png" width="402" height="835" alt="Invision library app screenshot">
-                <a href="#" class="btn btn--work">View site</a>
+                <a href="https://invis.io/VR9NFEFSK" class="btn btn--work">View site</a>
               </div>
               <div class="work__info">
                 <h3 class="content__heading content__heading--no-mob">myLibrary App Invision Prototype</h3>
                 <h4 class="work__header">Overview</h4>
-                <p class="work__text"><span class="work__text--intro">Liverpool, Pembroke and Sefton Harriers and Athletics Club is based at Edge Hill University in the North West of England. Their official website whilst fully functional was lacking any sort of responsiveness, ensuring a poor user experience for all mobile users. I identified this as an opportunity for which to base my final year university project on, and, working with the website editor as my client gave the website a contemporary and responsive overhaul.</p>
+                <p class="work__text"><span class="work__text--intro">An interactive prototype of a university library app - a project completed at university to 'apply key principles of user experience design to the development of a digital product'. The prototype was accompanied by a 1500 word report critically evaluating and suggesting user experience improvements.</p>
+                <p class="work__text"><a href="#" class="content__link">Read the report</a></p>
                 <h4 class="work__header">Tools/Tech</h4>
                 <p class="work__text work__text--tool-tag">
-                  <span class="tool-tag">HTML5</span>
-                  <span class="tool-tag">CSS3</span>
-                  <span class="tool-tag">Sass</span>
-                  <span class="tool-tag">JavaScript</span>
-                  <span class="tool-tag">PHP</span>
+                  <span class="tool-tag">Invision</span>
+                  <span class="tool-tag">Axure</span>
+                  <span class="tool-tag">Photoshop</span>
                 </p>
               </div>
             </section>
@@ -105,17 +104,16 @@
               <div class="work__imgbtn-wrapper">
                 <img class="work__img work__img--landscape" src="<?php echo $index?>/assets/img/projects/project-munchies--landscape.png" width="625" height="364" alt="Student recipes website screenshot">
                 <img class="work__img work__img--portrait" src="<?php echo $index?>/assets/img/projects/project-munchies--portrait.png" width="402" height="835" alt="Student recipes website screenshot">
-                <a href="#" class="btn btn--work">View site</a>
+                <a href="http://tommccarten.co.uk/DPM/" class="btn btn--work">View site</a>
               </div>
               <div class="work__info">
                 <h3 class="content__heading content__heading--no-mob">The Munchies</h3>
                 <h4 class="work__header">Overview</h4>
-                <p class="work__text"><span class="work__text--intro">Liverpool, Pembroke and Sefton Harriers and Athletics Club is based at Edge Hill University in the North West of England. Their official website whilst fully functional was lacking any sort of responsiveness, ensuring a poor user experience for all mobile users. I identified this as an opportunity for which to base my final year university project on, and, working with the website editor as my client gave the website a contemporary and responsive overhaul.</p>
+                <p class="work__text"><span class="work__text--intro">Another university project. Taking on the Web Developer role in my team I was reponsible for the development of a fully responsive and accessible website showcasing cheap and easy student recipes.</p>
                 <h4 class="work__header">Tools/Tech</h4>
                 <p class="work__text work__text--tool-tag">
                   <span class="tool-tag">HTML5</span>
                   <span class="tool-tag">CSS3</span>
-                  <span class="tool-tag">Sass</span>
                   <span class="tool-tag">JavaScript</span>
                   <span class="tool-tag">PHP</span>
                 </p>
@@ -131,19 +129,18 @@
               <div class="work__imgbtn-wrapper">
                 <img class="work__img work__img--landscape" src="<?php echo $index?>/assets/img/projects/project-isongs--landscape.png" width="625" height="364" alt="iSongs database screenshot">
                 <img class="work__img work__img--portrait" src="<?php echo $index?>/assets/img/projects/project-isongs--portrait.png" width="402" height="835" alt="iSongs database screenshot">
-                <a href="#" class="btn btn--work">View site</a>
+                <a href="http://tommccarten.co.uk/work/iSongs/" class="btn btn--work">View site</a>
               </div>
               <div class="work__info">
                 <h3 class="content__heading content__heading--no-mob">iSongs Database</h3>
                 <h4 class="work__header">Overview</h4>
-                <p class="work__text"><span class="work__text--intro">Liverpool, Pembroke and Sefton Harriers and Athletics Club is based at Edge Hill University in the North West of England. Their official website whilst fully functional was lacking any sort of responsiveness, ensuring a poor user experience for all mobile users. I identified this as an opportunity for which to base my final year university project on, and, working with the website editor as my client gave the website a contemporary and responsive overhaul.</p>
+                <p class="work__text"><span class="work__text--intro">A database of songs and artists linked to customer details with customer registration ability. This was a project completed with the intention of becoming familiar with SQL, connecting to a database via PHP and outputting the contents.</p>
                 <h4 class="work__header">Tools/Tech</h4>
                 <p class="work__text work__text--tool-tag">
-                  <span class="tool-tag">HTML5</span>
+                  <span class="tool-tag">SQL</span>
                   <span class="tool-tag">CSS3</span>
-                  <span class="tool-tag">Sass</span>
-                  <span class="tool-tag">JavaScript</span>
                   <span class="tool-tag">PHP</span>
+                  <span class="tool-tag">phpPMyAdmin</span>
                 </p>
               </div>
             </section>
