@@ -1869,14 +1869,14 @@ body {
 
 .main-menu__link {
 	color: white;
-	border: .125em solid transparent;
+	border: .125rem solid transparent;
 }
 
 .main-menu__link:focus,
 .main-menu__link:hover,
 .main-menu__link.main-menu__link--current {
 	background-color: #363a5d;
-	border: 0.125em solid rgba(255, 255, 255, 0.025);
+	border: 0.125rem solid rgba(255, 255, 255, 0.025);
 }
 
 .title {
@@ -2064,6 +2064,7 @@ body {
 	transition: -webkit-transform 300ms ease-out;
 	transition: transform 300ms ease-out;
 	transition: transform 300ms ease-out, -webkit-transform 300ms ease-out;
+	border-radius: 0;
 }
 
 .work__imgbtn-wrapper--graphics {

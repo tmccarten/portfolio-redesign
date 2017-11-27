@@ -111,11 +111,11 @@
 
   .main-menu__link {
     color: white;
-    border: .125em solid transparent;
+    border: .125rem solid transparent;
 
     &:focus, &:hover, &.main-menu__link--current {
       background-color: lighten($maincolour, 3);
-      border: .125em solid rgba(white, .025);
+      border: .125rem solid rgba(white, .025);
     }
 
   }

@@ -165,6 +165,7 @@
       .btn--work {
         transform: translateX(-50%) scaleY(1);
         transition: transform 300ms ease-out;
+        border-radius: 0;
         //background: radial-gradient(lighten($altcolour, 5), darken($altcolour, 15));
       }
     }
@@ -172,14 +173,6 @@
 
   .work__imgbtn-wrapper--graphics {
     align-self: center;
-  }
-
-}
-
-@media screen and (min-width: $mqblogindex) {
-
-  .btn--work {
-    //bottom: 3.1%;
   }
 
 }
@@ -192,8 +185,4 @@
     height: 835px;
   }
 
-  .btn--work {
-    //width: 360px;
-    //height: 616px;
-  }
 }
