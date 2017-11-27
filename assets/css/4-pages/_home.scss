@@ -410,6 +410,7 @@
   }
 
   .tile--interact {
+    will-change: transform;
     transform: rotateY(0);
     transition: transform 300ms ease, background-color 500ms ease, border-color 500ms ease;
 

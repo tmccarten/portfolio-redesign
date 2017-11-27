@@ -2413,6 +2413,7 @@ body {
 }
 
 .tile--interact {
+	will-change: transform;
 	-webkit-transform: rotateY(0);
 	transform: rotateY(0);
 	transition: background-color 500ms ease, border-color 500ms ease, -webkit-transform 300ms ease;
