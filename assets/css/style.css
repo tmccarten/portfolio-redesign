@@ -1107,7 +1107,7 @@ body {
 	-webkit-transform: scaleX(1.05) scaleY(0.9);
 	transform: scaleX(1.05) scaleY(0.9);
 	padding: 1em;
-	transition: background-color 500ms ease;
+	transition: background-color 500ms ease, border-color 500ms ease;
 	background-color: #d36344;
 	border-radius: 2em;
 	-webkit-animation: fadeIn 2s ease 3s forwards;
@@ -1127,6 +1127,7 @@ body {
 
 .tile--contact .tile-inner:hover {
 	background-color: transparent;
+	border-color: transparent;
 }
 
 .tile--contact .tile-inner:hover img {
@@ -1543,7 +1544,8 @@ body {
 }
 
 .tile--image .tile-inner {
-	max-width: 80%;
+	max-width: 210px;
+	width: 70%;
 }
 
 .tile--contact {
@@ -1554,6 +1556,7 @@ body {
 .tile--contact .tile-inner {
 	-webkit-transform: scale(1);
 	transform: scale(1);
+	border: 0.125em solid #d9785d;
 }
 
 .tile--projects {
@@ -1912,6 +1915,10 @@ body {
 	font-size: 2.1875rem;
 }
 
+.content__heading--contact {
+	margin-top: 0;
+}
+
 .blogpost__main {
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
@@ -2149,10 +2156,15 @@ body {
 
 .tile--interact {
 	background: #555b99;
+	border: 0.125em solid #323656;
+}
+
+.tile--interact .tile-inner {
+	text-shadow: 0.125em 0.125em #3b4066;
 }
 
 .tile--interact .tile-inner .tile-inner__main {
-	border: 0.0625em solid rgba(255, 255, 255, 0.15);
+	border: none;
 }
 
 .tile:nth-child(1),
@@ -2175,6 +2187,10 @@ body {
 	background-color: #4a5080;
 }
 
+.tile--contact .tile-inner {
+	text-shadow: 0.1em 0.1em #cd5331;
+}
+
 .tile--icons {
 	border-left: 0;
 	background-color: #4a5080;
@@ -2187,6 +2203,7 @@ body {
 
 .tile--intro .tile-inner {
 	padding: 0;
+	text-shadow: 0.125em 0.125em #363a5d;
 }
 
 .tile--image {
@@ -2234,11 +2251,16 @@ body {
 	-webkit-box-ordinal-group: 3;
 	-ms-flex-order: 2;
 	order: 2;
-	margin: 7rem 0 0 1rem;
-	-webkit-animation: topIn 2s ease;
-	animation: topIn 2s ease;
+	margin: 0 0 0 1rem;
+	-webkit-animation: fadeIn 2s ease;
+	animation: fadeIn 2s ease;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
 	-webkit-animation-iteration-count: 1;
 	animation-iteration-count: 1;
+	opacity: 0;
 }
 
 .about__img-wrapper.no-animation {
@@ -2314,10 +2336,6 @@ body {
 	width: 100%;
 }
 
-.content__heading--contact {
-	display: none;
-}
-
 .socialmedia-link {
 	width: 100%;
 }
@@ -2366,6 +2384,11 @@ body {
 	padding-left: 1em;
 	border-left: 0.1em dashed #303453;
 	max-width: 30em;
+}
+
+.socialmedia-link {
+	font-size: 1em;
+	font-weight: 300;
 }
 
 }
@@ -2420,7 +2443,7 @@ body {
 }
 
 .tile--image .tile-inner {
-	width: 267px;
+	width: 210px;
 	height: auto;
 	max-width: none;
 }

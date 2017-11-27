@@ -153,14 +153,18 @@
     width: 100%;
   }
 
-  .content__heading--contact {
-    display: none;
-  }
-
   .socialmedia-link {
     width: 100%;
   }
 
+}
+
+@media screen and (min-width: $mqblogindex) {
+
+  .socialmedia-link {
+    font-size: 1em;
+    font-weight: 300;
+  }
 }
 
 @media screen and (min-width: $mqdesktop) {
