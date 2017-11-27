@@ -82,7 +82,31 @@
 
                   <p class="blogpost__text">Here’s <a href="https://github.com/tmccarten/agency_ready" class="content__link">my Github repository</a> if you want to see how much blood, sweat and tears went into making this site.</p>
 
-                  <h3 class="blogpost__heading">References</h3>
+                  <h4 class="blogpost__heading blogpost__heading--small">References</h4>
+
+                  <p class="blogpost__text"><small>Staff, C. B. (2016) '45 brilliant design portfolios to inspire you.'. [Online] 13th September. [Accessed on 12th November 2016] <a href="http://www.creativebloq.com/portfolios/examples-712368" class="content__link">http://www.creativebloq.com/portfolios/examples-712368</a></small></p>
+
+                  <p class="blogpost__text"><small>Strange, G. (no date) Strangelove. Strangelove. [Online] [Accessed on 13th November 2016] <a href="http://strange.wales" class="content__link">http://strange.wales</a></small></p>
+
+                  <p class="blogpost__text"><small>Christensen, T. (2013) The creative processing your brain won’t tell you about. 14th November. Creative Something. [Online] [Accessed on 13th November 2016] <a href="http://creativesomething.net/post/66982583259/the-creative-processing-your-brain-wont-tell-you" class="content__link">http://creativesomething.net/post/66982583259/the-creative-processing-your-brain-wont-tell-you</a></small></p>
+
+                  <p class="blogpost__text"><small>Rees, D. (2015) What is wireframing. 1st June. Experience UX. [Online] [Accessed on 13th November 2016] <a href="http://www.experienceux.co.uk/faqs/what-is-wireframing" class="content__link">http://www.experienceux.co.uk/faqs/what-is-wireframing</a></small></p>
+
+                  <p class="blogpost__text"><small>Franz, L. (2014) Size matters: Balancing line length and font size in responsive web design – smashing magazine. 29th September. Design. [Online] [Accessed on 13th November 2016] <a href="https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design" class="content__link">https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design</a></small></p>
+
+                  <p class="blogpost__text"><small>DevTips. (2015) DevTips/DevTips-Starter-Kit: Ground zero for your next project. 21st July. Github. [Online] [Accessed on 13th November 2016] <a href="https://github.com/DevTips/DevTips-Starter-Kit" class="content__link">https://github.com/DevTips/DevTips-Starter-Kit</a></small></p>
+
+                  <p class="blogpost__text"><small>Catlin, H., Weizenbaum, N. and Eppstein, C. (2015) Sass: Syntactically Awesome Style Sheets. Sass-lang. [Online] [Accessed on 13th November 2016] <a href="http://sass-lang.com" class="content__link">http://sass-lang.com</a></small></p>
+
+                  <p class="blogpost__text"><small>Gulpjs. (no date) gulp.js - the streaming build system. [Online] [Accessed on 13th November 2016] <a href="http://gulpjs.com" class="content__link">http://gulpjs.com</a></small></p>
+
+                  <p class="blogpost__text"><small>Git. (no date) Git. [Online] [Accessed on 13th November 2016] <a href="https://git-scm.com" class="content__link">https://git-scm.com</a></small></p>
+
+                  <p class="blogpost__text"><small>Browsersync. (no date) Browsersync - Time-saving synchronised browser testing. [Online] [Accessed on 13th November 2016] <a href="https://www.browsersync.io" class="content__link">https://www.browsersync.io</a></small></p>
+
+                  <p class="blogpost__text"><small>Blu, M. (2016) gulp-connect-php. 31st July. Npmjs. [Online] [Accessed on 13th November 2016] <a href="https://www.npmjs.com/package/gulp-connect-php" class="content__link">https://www.npmjs.com/package/gulp-connect-php</a></small></p>
+
+                  <p class="blogpost__text"><small>CodePen. (no date) A Pen by Thomas McCarten. [Online] [Accessed on 13th November 2016] <a href="https://codepen.io/blackmath/pen/qaGEog" class="content__link">https://codepen.io/blackmath/pen/qaGEog</a></small></p>
 
                 </section><!-- blogpost content ends -->
 
@@ -97,7 +121,7 @@
 
           </div><!-- content inner ends -->
 
-          <a href=".." class="return-link"><img src="<?php echo $index?>/assets/img/icons/back.svg" height="20" width="20" alt=""><p>Blog index</p></a>
+          <a href=".." class="return-link"><img src="<?php echo $index?>/assets/img/icons/back.svg" height="20" width="20" alt=""><p class="blogpost__text">Blog index</p></a>
 
         </section><!-- content ends -->
 

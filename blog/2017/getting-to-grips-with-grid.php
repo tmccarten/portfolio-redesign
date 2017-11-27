@@ -156,6 +156,16 @@
 
                   <h4 class="blogpost__heading blogpost__heading--small">References</h4>
 
+                  <p class="blogpost__text"><small>Andrew, R. (2016) <cite>Get Ready for CSS Grid Layout.</cite> New York: A Book Apart.</small></p>
+
+                  <p class="blogpost__text"><small>Andrew, R. (2017) <cite>Modern CSS Layout, power and responsibility</cite>. The site of Rachel Andrew, writer, speaker and web developer. [Online] [Accessed on 9 March 2017] <a href="https://rachelandrew.co.uk/archives/2015/07/28/modern-css-layout-power-and-responsibility/" class="content__link">https://rachelandrew.co.uk/archives/2015/07/28/modern-css-layout-power-and-responsibility/</a></small></p>
+
+                  <p class="blogpost__text"><small>Get on the CSS Grid!  |  Web       |  Google Developers. (2017) Google Developers. [Online] [Accessed on 9 March 2017] <a href="https://developers.google.com/web/updates/2014/03/Get-on-the-CSS-Grid" class="content__link">https://rachelandrew.co.uk/archives/2015/07/28/modern-css-layout-power-and-responsibility/</a></small></p>
+
+                  <p class="blogpost__text"><small>grid-auto-flow. (2017) Mozilla Developer Network. [Online] [Accessed on 9 March 2017] <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow" class="content__link">https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow</a></small></p>
+
+                  <p class="blogpost__text"><small>Devoxx. (2015) <cite>Start using CSS grid layout by Rachel Andrew.</cite> [Online video] [Accessed on 10th March 2017] <a href="https://www.youtube.com/watch?v=Felq4z_rdPQ&t=1091s" class="content__link">https://www.youtube.com/watch?v=Felq4z_rdPQ&t=1093s</a></small></p>
+
                 </section><!-- blogpost content ends -->
 
                 <aside class="blogpost__share">

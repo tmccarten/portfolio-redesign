@@ -68,9 +68,9 @@
 
                   <h4 class="blogpost__heading blogpost__heading--small">References</h4>
 
-                  <p class="blogpost__text"><small>React. (2016) A JavaScript library for building user interfaces - react. 2016. [Online] [Accessed on 1st November 2016] https://facebook.github.io/react/</small></p>
-                  <p class="blogpost__text"><small>Tech Nation. (2016) Transforming UK Industries. [Online] [Accessed on 1st November 2016] http://www.techcityuk.com/wp-content/uploads/2016/02/Tech-Nation-2016_FINAL-ONLINE-1.pdf</small></p>
-                  <p class="blogpost__text"><small>W3Techs Web Technology Surveys. (2016) Usage statistics and market share of content management systems for Websites, November 2016. 1st November. [Online] [Accessed on 1st November 2016] https://w3techs.com/technologies/overview/content_management/all</small></p>
+                  <p class="blogpost__text"><small>React. (2016) A JavaScript library for building user interfaces - react. 2016. [Online] [Accessed on 1st November 2016] <a href="https://facebook.github.io/react/" class="content__link">https://facebook.github.io/react/</a></small></p>
+                  <p class="blogpost__text"><small>Tech Nation. (2016) Transforming UK Industries. [Online] [Accessed on 1st November 2016] <a href="http://www.techcityuk.com/wp-content/uploads/2016/02/Tech-Nation-2016_FINAL-ONLINE-1.pdf" class="content__link">http://www.techcityuk.com/wp-content/uploads/2016/02/Tech-Nation-2016_FINAL-ONLINE-1.pdf</a></small></p>
+                  <p class="blogpost__text"><small>W3Techs Web Technology Surveys. (2016) Usage statistics and market share of content management systems for Websites, November 2016. 1st November. [Online] [Accessed on 1st November 2016] <a href="https://w3techs.com/technologies/overview/content_management/all" class="content__link">https://w3techs.com/technologies/overview/content_management/all</a></small></p>
 
                 </section><!-- blogpost content ends -->
 
