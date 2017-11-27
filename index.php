@@ -39,7 +39,7 @@
           </a>
 
           <div class="tile tile--contact">
-            <a href="#" class="tile-inner">
+            <a href="contact/" class="tile-inner">
               <h3 class="tile-inner__main">Get in touch</h3>
               <img src="<?php echo $index?>/assets/img/icons/contact.svg" alt="Email icon" width="22" height="22">
             </a>
