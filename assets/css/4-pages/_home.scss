@@ -141,7 +141,7 @@
     align-items: center;
     transform: scaleX(1.05) scaleY(.9);
     padding: 1em;
-    transition: background-color 500ms ease;
+    transition: background-color 500ms ease, border-color 500ms ease;
     background-color: darken($altcolour, 3);
     border-radius: 2em;
     animation: fadeIn 2s ease 3s forwards;
@@ -157,6 +157,7 @@
 
     &:hover {
       background-color: transparent;
+      border-color: transparent;
 
       img {
         transform: translateY(-.25em);
@@ -269,7 +270,8 @@
     transform: rotate(0deg) translateY(-2.3em);
 
     .tile-inner {
-      max-width: 80%;
+      max-width: 210px;
+      width: 70%;
     }
 
   }
@@ -279,6 +281,7 @@
 
     .tile-inner {
       transform: scale(1);
+      border: .125em solid lighten($altcolour, 3);
     }
   }
 
@@ -337,11 +340,13 @@
 
   .tile--interact {
     background: darken(adjust-color($maincolour, $red: 42, $green: 45, $blue: 80), 3);
+    border: .125em solid darken($contentcolour, 5);
 
     .tile-inner {
+      text-shadow: .125em .125em $contentcolour;
 
       .tile-inner__main {
-        border: .0625em solid rgba(255,255,255,.15);
+        border: none;
       }
     }
   }
@@ -361,6 +366,10 @@
   .tile--contact {
     border-right: 0;
     background-color: lighten($tilecolour, 12);
+
+    .tile-inner {
+      text-shadow: .1em .1em darken($altcolour, 8);
+    }
   }
 
   .tile--icons {
@@ -375,6 +384,7 @@
 
     .tile-inner {
       padding: 0;
+      text-shadow: .125em .125em darken($contentcolour, 3);
     }
   }
 
@@ -410,9 +420,10 @@
   .tile--image {
 
     .tile-inner {
-      width: 267px;
+      width: 210px;
       height: auto;
       max-width: none;
+      //box-shadow: .5em .5em 0 0 $tilecolour;
     }
 
   }
