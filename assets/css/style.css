@@ -1509,7 +1509,7 @@ body {
 	-webkit-box-align: start;
 	-ms-flex-align: start;
 	align-items: flex-start;
-	margin-top: 2.3em;
+	margin-bottom: 2.3em;
 }
 
 .tile {
@@ -1552,8 +1552,8 @@ body {
 
 .tile--image {
 	height: 46.235294117647058823529411764706vw;
-	-webkit-transform: rotate(0deg) translateY(-2.3em);
-	transform: rotate(0deg) translateY(-2.3em);
+	-webkit-transform: rotate(0deg) translateY(2.3em);
+	transform: rotate(0deg) translateY(2.3em);
 }
 
 .tile--image .tile-inner {
@@ -1578,13 +1578,18 @@ body {
 }
 
 .tile--graphics {
-	-webkit-transform: rotate(0deg) translateY(-2.2em);
-	transform: rotate(0deg) translateY(-2.2em);
+	-webkit-transform: rotate(0deg) translateY(2.2em);
+	transform: rotate(0deg) translateY(2.2em);
 }
 
 .tile--icons {
-	-webkit-transform: rotate(0deg) translateY(-2.2em);
-	transform: rotate(0deg) translateY(-2.2em);
+	-webkit-transform: rotate(0deg) translateY(2.2em);
+	transform: rotate(0deg) translateY(2.2em);
+}
+
+.tile--interact .tile-inner .tile-inner__main {
+	border: none;
+	border-radius: none;
 }
 
 .bloglisting__title {
@@ -2153,6 +2158,7 @@ body {
 
 .tiles {
 	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .tile {

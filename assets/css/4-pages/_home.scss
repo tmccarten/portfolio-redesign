@@ -226,7 +226,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin-top: 2.3em;
+    margin-bottom: 2.3em;
   }
 
   .tile {
@@ -267,7 +267,7 @@
 
   .tile--image {
     height: 46.235294117647058823529411764706vw;
-    transform: rotate(0deg) translateY(-2.3em);
+    transform: rotate(0deg) translateY(2.3em);
 
     .tile-inner {
       max-width: 210px;
@@ -290,11 +290,21 @@
   }
 
   .tile--graphics {
-    transform: rotate(0deg) translateY(-2.2em);
+    transform: rotate(0deg) translateY(2.2em);
   }
 
   .tile--icons {
-    transform: rotate(0deg) translateY(-2.2em);
+    transform: rotate(0deg) translateY(2.2em);
+  }
+
+  .tile--interact {
+
+    .tile-inner {
+      .tile-inner__main {
+        border: none;
+        border-radius: none;
+      }
+    }
   }
 
 }
@@ -327,6 +337,7 @@
 
   .tiles {
     margin-top: 0;
+    margin-bottom: 0;
   }
 
   .tile {
