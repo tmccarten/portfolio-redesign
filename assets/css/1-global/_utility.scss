@@ -30,3 +30,14 @@
   margin-left: -50vw;
   margin-right: -50vw;
 }
+
+.ie-upgrade {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: $contentcolour;
+  color: white;
+  font-size: 3rem;
+  z-index: 9999;
+  text-align: center;
+}

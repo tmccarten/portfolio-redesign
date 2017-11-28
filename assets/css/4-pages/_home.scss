@@ -434,7 +434,6 @@
       width: 210px;
       height: auto;
       max-width: none;
-      //box-shadow: .5em .5em 0 0 $tilecolour;
     }
 
   }
@@ -447,11 +446,6 @@
     &:hover {
       transform: rotateY(15deg) scale(0.95);
       background: rgba($altcolour, 1);
-
-      .tile-inner__main {
-        //background-color: transparent;
-      }
-
     }
   }
 

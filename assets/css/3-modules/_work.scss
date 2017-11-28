@@ -165,8 +165,7 @@
       .btn--work {
         transform: translateX(-50%) scaleY(1);
         transition: transform 300ms ease-out;
-        border-radius: 0;
-        //background: radial-gradient(lighten($altcolour, 5), darken($altcolour, 15));
+        border-radius: 0;        
       }
     }
   }

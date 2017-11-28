@@ -9,7 +9,7 @@
 
     <meta name="description" content="<?php echo $description ?>">
     <meta name="keywords" content="<?php echo $keywords ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="theme-color" content="#303453">
 
     <?php
@@ -24,7 +24,7 @@
      }
      return $pageURL;
     }
-    ?>   
+    ?>
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo curPageURL();?>">
@@ -46,5 +46,9 @@
     <link rel="stylesheet" href="<?php echo $index?>/assets/css/normalize.css">
     <link rel="stylesheet" href="<?php echo $index?>/assets/fonts/fonts.css">
     <link rel="stylesheet" href="<?php echo $index?>/assets/css/style.css">
+
+    <!-- [if lte IE 9]>
+    <p class="ie-upgrade">Please upgrade to Internet Explorer version 11.</p>
+    <![endif]-->    
 
   </head>

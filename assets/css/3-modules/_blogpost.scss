@@ -3,7 +3,6 @@
 }
 
 .blogpost__header {
-  //border-bottom: .1em dashed $maincolour;
   padding-bottom: 2.7rem;
 }
 
@@ -22,11 +21,6 @@
   font-size: 1em;
   font-weight: 300;
   margin: 0;
-  //clip-path: polygon(100% 0, 85% 100%, 0 100%, 0 0);
-}
-
-.blogpost__meta--author {
-  //text-shadow: .1em .1em darken($altcolour, 6);
 }
 
 .blogpost__meta--date {
@@ -163,10 +157,6 @@
 
 .btn-share--twitter {
   background-color: #4a64be;
-}
-
-.btn-share + * {
-  //margin-top: 1em;
 }
 
 @media screen and (min-width: $mqphonelimit) {
