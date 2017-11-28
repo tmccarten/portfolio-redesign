@@ -40,6 +40,16 @@ a {
 	overflow: hidden;
 }
 
+.visuallyhidden--skiplinks:active,
+.visuallyhidden--skiplinks:focus {
+	clip: auto;
+	height: auto;
+	width: auto;
+	overflow: visible;
+	color: white;
+	text-decoration: none;
+}
+
 .full-width {
 	width: 100vw;
 	position: relative;
