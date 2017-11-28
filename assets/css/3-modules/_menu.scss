@@ -62,15 +62,18 @@
 }
 
 
-@media screen and (max-width: $mqnavbar) and (orientation:landscape) {
+@media screen and (max-width: $mqlandscape) and (orientation:landscape) {
 
   .main-nav {
     margin-top: 0;
     transition: none;
   }
 
-  .main-menu__link {
-    padding: 2.625vh;
+  .header-container--fixed {
+
+    .main-menu__link {
+      padding: 2.625vh;
+    }
   }
 
   .main-nav--expanded {

@@ -131,7 +131,7 @@ function fixedHeader() {
 
   var header = document.getElementById('header'),
       main = document.getElementById('main'),
-      mqLandscape = window.matchMedia("(max-width: 53.125em) and (orientation: landscape)");
+      mqLandscape = window.matchMedia("(max-width: 50.75em) and (orientation: landscape)");
 
   if (window.pageYOffset > headerHeight && !mqLandscape.matches) {
     header.classList.add('header-container--fixed');

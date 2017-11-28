@@ -2517,14 +2517,14 @@ body {
 
 }
 
-@media screen and (max-width: 53.125em) and (orientation: landscape) {
+@media screen and (max-width: 50.75em) and (orientation: landscape) {
 
 .main-nav {
 	margin-top: 0;
 	transition: none;
 }
 
-.main-menu__link {
+.header-container--fixed .main-menu__link {
 	padding: 2.625vh;
 }
 
