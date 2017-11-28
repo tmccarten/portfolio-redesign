@@ -149,7 +149,7 @@ function fixedHeader() {
 
   } else if (mqLandscape.matches) {
     header.classList.add('header-container--fixed');
-    main.style.paddingTop = "4.6875rem";
+    main.style.paddingTop = "5.03125rem";
   }
 }
 

@@ -70,13 +70,13 @@
 .btn-menu {
   display: flex;
   background-color: $maincolour;
-  height: 59px;
-  min-width: 52px;
+  //height: 59px;
+  //min-width: 52px;
   align-items: center;
   align-self: center;
   justify-content: center;
   flex-direction: column;
-  padding: .25em .5em;
+  padding: .5em;
   border: 0;
 
   &:hover, &:active, &:focus {
@@ -91,7 +91,7 @@
   justify-content: space-between;
   height: 24px;
   width: 30px;
-  margin-top: .25em; 
+  margin-top: .25em;
 }
 
 .btn-menu__line {
