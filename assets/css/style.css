@@ -218,22 +218,7 @@ body {
 /*  Menu Button  */
 
 .btn-menu {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
 	background-color: #303453;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-ms-flex-item-align: center;
-	align-self: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
 	padding: .5em;
 	border: 0;
 }
@@ -257,8 +242,8 @@ body {
 	-ms-flex-pack: justify;
 	justify-content: space-between;
 	height: 24px;
-	width: 30px;
-	margin-top: .25em;
+	width: 24px;
+	margin: .25em auto;
 }
 
 .btn-menu__line {
@@ -278,7 +263,7 @@ body {
 	color: white;
 	display: block;
 	font-family: "Webly Sleek UI", "Segoe UI", Tahoma, Arial, sans-serif;
-	font-size: .8125em;
+	font-size: .75em;
 }
 
 .btn-menu__line--vanished {
@@ -317,6 +302,7 @@ body {
 	-webkit-transform-origin: top;
 	transform-origin: top;
 	height: 26.25rem;
+	top: 0;
 }
 
 .header-container--fixed .main-nav {

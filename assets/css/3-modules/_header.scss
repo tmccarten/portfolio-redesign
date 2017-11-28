@@ -68,12 +68,7 @@
 /*  Menu Button  */
 
 .btn-menu {
-  display: flex;
   background-color: $maincolour;
-  align-items: center;
-  align-self: center;
-  justify-content: center;
-  flex-direction: column;
   padding: .5em;
   border: 0;
 
@@ -88,8 +83,8 @@
   flex-direction: column;
   justify-content: space-between;
   height: 24px;
-  width: 30px;
-  margin-top: .25em;
+  width: 24px;
+  margin: .25em auto;
 }
 
 .btn-menu__line {
@@ -106,7 +101,7 @@
   color: white;
   display: block;
   font-family: $bodyfont;
-  font-size: .8125em;
+  font-size: .75em;
 }
 
 .btn-menu__line--vanished {

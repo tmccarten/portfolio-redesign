@@ -11,13 +11,14 @@
       </a>
 
       <button id="btnMenu" class="btn-menu" aria-expanded="false">
-        <span class="btn-menu__lines">
-          <span class="btn-menu__line"></span>
-          <span class="btn-menu__line"></span>
-          <span class="btn-menu__line"></span>
-        </span>
-        <span class="btn-menu__text">MENU</span>
+          <span class="btn-menu__lines">
+            <span class="btn-menu__line"></span>
+            <span class="btn-menu__line"></span>
+            <span class="btn-menu__line"></span>
+          </span>
+          <span class="btn-menu__text">MENU</span>
       </button>
+          
     </div>
 
     <nav id="mainNav" class="main-nav">
