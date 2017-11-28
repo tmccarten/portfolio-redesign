@@ -75,7 +75,8 @@
   align-items: center;
   align-self: center;
   justify-content: center;
-  padding: 0;
+  flex-direction: column;
+  padding: .25em .5em;
   border: 0;
 
   &:hover, &:active, &:focus {
@@ -89,7 +90,8 @@
   flex-direction: column;
   justify-content: space-between;
   height: 24px;
-  width: 24px;
+  width: 30px;
+  margin-top: .25em; 
 }
 
 .btn-menu__line {
@@ -99,6 +101,14 @@
   background-color: white;
   transform: rotate(0);
   transition: transform 300ms;
+}
+
+.btn-menu__text {
+  margin-top: .5em;
+  color: white;
+  display: block;
+  font-family: $bodyfont;
+  font-size: .8125em;
 }
 
 .btn-menu__line--vanished {

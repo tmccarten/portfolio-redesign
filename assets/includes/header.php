@@ -13,6 +13,7 @@
           <span class="btn-menu__line"></span>
           <span class="btn-menu__line"></span>
         </span>
+        <span class="btn-menu__text">MENU</span>
       </button>
     </div>
 

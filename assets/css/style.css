@@ -211,7 +211,11 @@ body {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	padding: 0;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding: .25em .5em;
 	border: 0;
 }
 
@@ -234,7 +238,8 @@ body {
 	-ms-flex-pack: justify;
 	justify-content: space-between;
 	height: 24px;
-	width: 24px;
+	width: 30px;
+	margin-top: .25em;
 }
 
 .btn-menu__line {
@@ -247,6 +252,14 @@ body {
 	transition: -webkit-transform 300ms;
 	transition: transform 300ms;
 	transition: transform 300ms, -webkit-transform 300ms;
+}
+
+.btn-menu__text {
+	margin-top: .5em;
+	color: white;
+	display: block;
+	font-family: "Webly Sleek UI", "Segoe UI", Tahoma, Arial, sans-serif;
+	font-size: .8125em;
 }
 
 .btn-menu__line--vanished {
