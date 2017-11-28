@@ -270,7 +270,7 @@
     transform: rotate(0deg) translateY(2.3em);
 
     .tile-inner {
-      max-width: 210px;
+      max-width: 13.125rem;
       width: 70%;
     }
 
@@ -419,19 +419,19 @@
 
   .tiles {
     justify-content: flex-start;
-    width: 1002px;
-    perspective: 1000px;
+    width: 62.625rem;
+    perspective: 62.5rem;
   }
 
   .tile {
-    width: 334px;
-    height: 334px;
+    width: 20.875rem;
+    height: 20.875rem;
   }
 
   .tile--image {
 
     .tile-inner {
-      width: 210px;
+      width: 13.125rem;
       height: auto;
       max-width: none;
     }
