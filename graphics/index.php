@@ -32,6 +32,7 @@
                 <h3 class="content__heading content__heading--no-mob">Personas</h3>
                 <h4 class="work__header">Overview</h4>
                 <p class="work__text">Personas help keep in mind different types of users and their needs during the development phase of a project.</p>
+                <p class="work__text"><a href="<?php echo $index?>/assets/docs/personas.pdf" class="content__link">Personas and user journeys</a></p>
 
               </div>
             </section>
@@ -50,7 +51,7 @@
               <div class="work__info">
                 <h3 class="content__heading content__heading--no-mob">Logos</h3>
                 <h4 class="work__header">Overview</h4>
-                <p class="work__text">A collection of logos I produced whilst trying my hand at speculative design work. No winners here sadly but it's the taking part that counts.</p>
+                <p class="work__text">A collection of logos I produced whilst trying my hand at speculative design work.</p>
 
               </div>
             </section>
@@ -90,7 +91,7 @@
               <div class="work__info">
                 <h3 class="content__heading content__heading--no-mob">Illustration</h3>
                 <h4 class="work__header">Overview</h4>
-                <p class="work__text">This was a perspective experiment in Illustrator that I got slightly carried away with. Not really sure what to call it. Man stands on path with mountains in distance and strange trees either side.
+                <p class="work__text">This was a vector made in Illustrator, beginning as a simple perspective experiment and ending in whatever this is.</p>
               </div>
             </section>
 

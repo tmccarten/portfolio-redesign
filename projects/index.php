@@ -85,7 +85,7 @@
                 <h3 class="content__heading content__heading--no-mob">myLibrary App Invision Prototype</h3>
                 <h4 class="work__header">Overview</h4>
                 <p class="work__text"><span class="work__text--intro">An interactive prototype of a university library app - a project completed at university to 'apply key principles of user experience design to the development of a digital product'. The prototype was accompanied by a 1500 word report critically evaluating and suggesting user experience improvements.</p>
-                <p class="work__text"><a href="http://tommccarten.co.uk/assets/docs/Report.pdf" class="content__link">Read the report</a></p>
+                <p class="work__text"><a href="http://tommccarten.co.uk/assets/docs/myLibrary-App-Report.pdf" class="content__link">Read the report</a></p>
                 <h4 class="work__header">Tools/Tech</h4>
                 <p class="work__text work__text--tool-tag">
                   <span class="tool-tag">Invision</span>

@@ -60,7 +60,7 @@
                     </a>
                   </div>
                   <div class="socialmedia-link-wrapper">
-                    <a href="http://tommccarten.co.uk/assets/docs/CV.pdf" class="socialmedia-link">
+                    <a href="http://tommccarten.co.uk/assets/docs/CV-ThomasMcCarten.pdf" class="socialmedia-link">
                       <img src="../assets/img/icons/download.svg" height="44" width="44" alt="">View CV
                     </a>
                   </div>
