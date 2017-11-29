@@ -45,10 +45,10 @@
 
     <link rel="stylesheet" href="<?php echo $index?>/assets/css/normalize.css">
     <link rel="stylesheet" href="<?php echo $index?>/assets/fonts/fonts.css">
-    <link rel="stylesheet" href="<?php echo $index?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo $index?>/assets/css/style.css?v=2">
 
     <!-- [if lte IE 9]>
     <p class="ie-upgrade">Please upgrade to Internet Explorer version 11.</p>
-    <![endif]-->    
+    <![endif]-->
 
   </head>
