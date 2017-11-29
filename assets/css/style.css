@@ -2381,6 +2381,10 @@ body {
 }
 
 .socialmedia-link {
+	border-bottom: 0.125em dashed rgba(255, 255, 255, 0.04);
+}
+
+.socialmedia-link {
 	font-size: 1em;
 	font-weight: 300;
 }
