@@ -75,7 +75,7 @@
                 </section><!-- blogpost content ends -->
 
                 <aside class="blogpost__share">
-                  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//tommccarten.co.uk/blog/2016/front-end-in-a-booming-digital-industry.php" class="btn-share" title="Building-my-portfolio" class="btn-share">Share on Facebook</a>
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//tommccarten.co.uk/blog/2016/front-end-in-a-booming-digital-industry.php" class="btn-share" title="Building-my-portfolio">Share on Facebook</a>
                   <a href="https://twitter.com/home?status=http%3A//tommccarten.co.uk/blog/2016/front-end-in-a-booming-digital-industry.php" class="btn-share btn-share--twitter">Share on Twitter</a>
                 </aside>
 

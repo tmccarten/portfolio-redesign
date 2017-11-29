@@ -24,11 +24,11 @@
 
                 <form method="POST" action="../assets/includes/form-to-email.php" class="contactform">
                   <label for="name" class="contactform__label">Name</label>
-                  <input type="text" name="name" class="contactform__input">
+                  <input type="text" id="name" name="name" class="contactform__input">
                   <label for="email" class="contactform__label">Email</label>
-                  <input type="email" name="email" class="contactform__input">
+                  <input type="email" id="email" name="email" class="contactform__input">
                   <label for="message" class="contactform__label">Message</label>
-                  <textarea name="message" class="contactform__textarea"></textarea>
+                  <textarea name="message" id="message" class="contactform__textarea"></textarea>
                   <button type="submit" class="btn btn--contactform">Send</button>
                 </form>
               </div>
