@@ -2119,7 +2119,7 @@ body {
 		-webkit-align-items: flex-start;
 		    -ms-flex-align: start;
 		        align-items: flex-start;
-		margin-bottom: 2.3em;
+		padding-bottom: 2.3em;
 	}
 	.tile {
 		width: 50%;
@@ -2210,6 +2210,7 @@ body {
 	.tiles {
 		margin-top: 0;
 		margin-bottom: 0;
+		padding-bottom: 0;
 	}
 	.tile {
 		-webkit-box-flex: 25%;
