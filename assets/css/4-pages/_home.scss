@@ -226,7 +226,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin-bottom: 2.3em;
+    padding-bottom: 2.3em;
   }
 
   .tile {
@@ -338,6 +338,7 @@
   .tiles {
     margin-top: 0;
     margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   .tile {
