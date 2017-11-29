@@ -161,6 +161,22 @@
 
 @media screen and (min-width: $mqphonelimit) {
 
+  @supports(-webkit-clip-path: polygon(13.5% 0, 0 100%, 85% 100%, 100% 0)) or (clip-path: polygon(13.5% 0, 0 100%, 85% 100%, 100% 0)) {
+
+    .blogpost__meta--date {
+      clip-path: polygon(13.5% 0, 0 100%, 85% 100%, 100% 0);
+      padding: .5em 3em .5em 2em;
+      transform: translateX(-2.2em);
+      border: none;
+      line-height: 1.4em;
+    }
+
+    .blogpost__meta--author {
+      padding: .5em 2em .5em 1em;
+    }
+
+  }
+
   .blogpost__title {
     font-size: 2.2em;
   }
@@ -183,31 +199,6 @@
 
   .blogpost__meta {
     display: inline-block;
-  }
-
-  @supports not ((clip-path: polygon()) or (-webkit-clip-path: polygon() )) {
-
-    .blogpost__meta--date {
-      padding: .5em 1em;
-      transform: none;
-    }
-
-    .blogpost__meta--author {
-      padding: .5em 1em;
-    }
-
-  }
-
-  .blogpost__meta--author {
-    padding: .5em 2em .5em 1em;
-  }
-
-  .blogpost__meta--date {
-    clip-path: polygon(13.5% 0, 0 100%, 85% 100%, 100% 0);
-    border-left: none;
-    padding: .5em 3em .5em 2em;
-    transform: translateX(-2.2em);
-    line-height: 1.4em;
   }
 
 }
