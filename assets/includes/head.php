@@ -49,6 +49,8 @@
 
     <!-- [if lte IE 9]>
     <p class="ie-upgrade">Please upgrade to Internet Explorer version 11.</p>
-    <![endif]-->    
+    <![endif]-->
+
+    <?php $jsVersion = '5'; ?>  
 
   </head>

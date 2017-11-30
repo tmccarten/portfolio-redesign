@@ -29,7 +29,7 @@
     </main>
 
 
-    <script src="/assets/js/script.js?v=4"></script>
+    <script src="/assets/js/script.js?v=<?php echo $jsVersion ?>"></script>
   </body>
 
 </html>
