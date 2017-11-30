@@ -43,14 +43,14 @@
     <link rel="icon" type="image/png" href="<?php echo $index?>/favicon.png">
     <link rel="apple-touch-icon" href="<?php echo $index?>/favicon-apple.png">
 
-    <link rel="stylesheet" href="<?php echo $index?>/assets/css/normalize.css">
-    <link rel="stylesheet" href="<?php echo $index?>/assets/fonts/fonts.css">
+    <link rel="stylesheet" href="<?php echo $index?>/assets/css/fonts.css">
+    <link rel="stylesheet" href="<?php echo $index?>/assets/css/normalize.css">    
     <link rel="stylesheet" href="<?php echo $index?>/assets/css/style.css">
 
     <!-- [if lte IE 9]>
     <p class="ie-upgrade">Please upgrade to Internet Explorer version 11.</p>
     <![endif]-->
 
-    <?php $jsVersion = '5'; ?>  
+    <?php $jsVersion = '5'; ?>
 
   </head>
