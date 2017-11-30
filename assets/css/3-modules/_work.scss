@@ -17,6 +17,10 @@
   display: flex;
   flex-direction: column;
   margin: 1rem 0;
+
+  a + * {
+    margin-top: 1rem;
+  }
 }
 
 .work__img {
@@ -101,10 +105,6 @@
     order: 3;
     margin: 0 0 0 4em;
     flex: 1;
-
-    a + * {
-      margin-top: 1rem;
-    }
   }
 
   .work__info {

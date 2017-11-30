@@ -1247,6 +1247,10 @@ body {
 	margin: 1rem 0;
 }
 
+.work__wrap a + * {
+	margin-top: 1rem;
+}
+
 .work__img {
 	max-width: 100%;
 	width: 100%;
@@ -1337,9 +1341,6 @@ body {
 		-webkit-flex: 1;
 		    -ms-flex: 1;
 		        flex: 1;
-	}
-	.work__wrap a + * {
-		margin-top: 1rem;
 	}
 	.work__info {
 		-webkit-box-ordinal-group: 3;
