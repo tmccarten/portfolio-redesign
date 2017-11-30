@@ -7,7 +7,7 @@
 
       <a href="<?php echo $index?>" class="logo" title="Tom McCarten Web Design Homepage">
         <h1 class="visuallyhidden">Tom McCarten Web Design</h1>
-        <img class="logo__img" src="<?php echo $index?>/assets/img/icons/logo.svg" width="250" height="59" alt="Tom McCarten Web Design">
+        <img class="logo__img" src="<?php echo $index?>/assets/img/icons/logo.svg" width="250" height="59" alt="Tom McCarten Web Design" aria-hidden="true">
       </a>
 
       <button id="btnMenu" class="btn-menu" aria-expanded="false">
@@ -18,7 +18,7 @@
           </span>
           <span class="btn-menu__text">MENU</span>
       </button>
-          
+
     </div>
 
     <nav id="mainNav" class="main-nav">
