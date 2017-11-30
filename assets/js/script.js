@@ -71,14 +71,17 @@ function addScrollButton() {
 
 function scrollUpFunction() {
 
-  var scrollUpDiv = document.getElementsByClassName('scroll-up')[0];
+  var scrollUpDiv = document.getElementsByClassName('scroll-up')[0],
+      mqLandscape = window.matchMedia("(max-width: 50.75em) and (orientation: landscape)");
 
   if (scrollUpDiv) {
 
     if (window.pageYOffset > 500) {
       scrollUpDiv.className = "scroll-up scroll-up--visible";
 
-      if (amountScrolled() > 99) {
+      if (amountScrolled() > 99 && !mqLandscape.matches ) {
+        scrollUpDiv.classList.toggle('avoid-footer');
+      } else if (amountScrolled() > 95 && mqLandscape.matches) {
         scrollUpDiv.classList.toggle('avoid-footer');
       }
 
