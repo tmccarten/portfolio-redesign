@@ -1,7 +1,7 @@
 <?php $index = "../.."; ?>
 
 <?php $activePage = "Blog"; ?>
-<?php $title = "Getting started with WordPress Theme Development | Blog | Thomas McCarten Portfolio"; ?>
+<?php $title = "Getting started with WordPress Theme Development | Blog | Tom McCarten Portfolio"; ?>
 <?php $description = "Blog post detailing an introduction to WordPress Theme Development by Web Developer Tom McCarten."; ?>
 <?php $keywords = "Tom McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
 <?php $ogimage = $index . "/assets/img/meta/ogimage.jpg"; ?>

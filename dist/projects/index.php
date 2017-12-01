@@ -1,9 +1,9 @@
 <?php $index = ".."; ?>
 
 <?php $activePage = "Work"; ?>
-<?php $title = "Work | Thomas McCarten Portfolio"; ?>
-<?php $description = "Projects and case studies Thomas McCarten has worked on as a web developer."; ?>
-<?php $keywords = "Thomas McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
+<?php $title = "Work | Tom McCarten Portfolio"; ?>
+<?php $description = "Projects and case studies Tom McCarten has worked on as a web developer."; ?>
+<?php $keywords = "Tom McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
 <?php $ogimage = $index . "/assets/img/meta/ogimage.jpg"; ?>
 
 <?php include $index . '/assets/includes/head.php';?>

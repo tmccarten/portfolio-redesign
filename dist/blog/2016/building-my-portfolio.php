@@ -1,7 +1,7 @@
 <?php $index = "../.."; ?>
 
 <?php $activePage = "Blog"; ?>
-<?php $title = "Building my portfolio | Blog | Thomas McCarten Portfolio"; ?>
+<?php $title = "Building my portfolio | Blog | Tom McCarten Portfolio"; ?>
 <?php $description = "Blog post detailing the building of a portfolio website by Web Developer Tom McCarten."; ?>
 <?php $keywords = "Tom McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
 <?php $ogimage = $index . "/assets/img/meta/ogimage.jpg"; ?>
@@ -106,7 +106,7 @@
 
                   <p class="blogpost__text"><small>Blu, M. (2016) gulp-connect-php. 31st July. Npmjs. [Online] [Accessed on 13th November 2016] <a href="https://www.npmjs.com/package/gulp-connect-php" class="content__link">https://www.npmjs.com/package/gulp-connect-php</a></small></p>
 
-                  <p class="blogpost__text"><small>CodePen. (no date) A Pen by Thomas McCarten. [Online] [Accessed on 13th November 2016] <a href="https://codepen.io/blackmath/pen/qaGEog" class="content__link">https://codepen.io/blackmath/pen/qaGEog</a></small></p>
+                  <p class="blogpost__text"><small>CodePen. (no date) A Pen by Tom McCarten. [Online] [Accessed on 13th November 2016] <a href="https://codepen.io/blackmath/pen/qaGEog" class="content__link">https://codepen.io/blackmath/pen/qaGEog</a></small></p>
 
                 </section><!-- blogpost content ends -->
 

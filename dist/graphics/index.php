@@ -1,9 +1,9 @@
 <?php $index = ".."; ?>
 
 <?php $activePage = "Work"; ?>
-<?php $title = "Graphics | Thomas McCarten Portfolio"; ?>
-<?php $description = "Illustrations and graphic design by web developer Thomas McCarten."; ?>
-<?php $keywords = "Thomas McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
+<?php $title = "Graphics | Tom McCarten Portfolio"; ?>
+<?php $description = "Illustrations and graphic design by web developer Tom McCarten."; ?>
+<?php $keywords = "Tom McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
 <?php $ogimage = $index . "/assets/img/meta/ogimage.jpg"; ?>
 
 <?php include $index . '/assets/includes/head.php';?>

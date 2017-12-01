@@ -1,7 +1,7 @@
 <?php $index = "../.."; ?>
 
 <?php $activePage = "Blog"; ?>
-<?php $title = "Front-end in a booming digital industry | Blog | Thomas McCarten Portfolio"; ?>
+<?php $title = "Front-end in a booming digital industry | Blog | Tom McCarten Portfolio"; ?>
 <?php $description = "Blog post detailing the boom of digital industries by Web Developer Tom McCarten."; ?>
 <?php $keywords = "Tom McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
 <?php $ogimage = $index . "/assets/img/meta/ogimage.jpg"; ?>

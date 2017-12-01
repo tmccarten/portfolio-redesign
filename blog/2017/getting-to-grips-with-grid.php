@@ -1,7 +1,7 @@
 <?php $index = "../.."; ?>
 
 <?php $activePage = "Blog"; ?>
-<?php $title = "Getting to grips with Grid | Blog | Thomas McCarten Portfolio"; ?>
+<?php $title = "Getting to grips with Grid | Blog | Tom McCarten Portfolio"; ?>
 <?php $description = "Blog post detailing CSS Grid Layout by Web Developer Tom McCarten."; ?>
 <?php $keywords = "Tom McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
 <?php $ogimage = $index . "/assets/img/meta/ogimage.jpg"; ?>

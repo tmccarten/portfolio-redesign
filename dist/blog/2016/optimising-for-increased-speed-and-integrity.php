@@ -1,7 +1,7 @@
 <?php $index = "../.."; ?>
 
 <?php $activePage = "Blog"; ?>
-<?php $title = "Optimising for increased speed and integrity | Blog | Thomas McCarten Portfolio"; ?>
+<?php $title = "Optimising for increased speed and integrity | Blog | Tom McCarten Portfolio"; ?>
 <?php $description = "Blog post detailing the optimisation process by Web Developer Tom McCarten."; ?>
 <?php $keywords = "Tom McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
 <?php $ogimage = $index . "/assets/img/meta/ogimage.jpg"; ?>

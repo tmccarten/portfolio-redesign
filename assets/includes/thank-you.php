@@ -1,9 +1,9 @@
 <?php $index = "../.."; ?>
 
 <?php $activePage = "Contact"; ?>
-<?php $title = "Contact | Thomas McCarten Portfolio"; ?>
-<?php $description = "Contact details for Thomas McCarten Web Developer."; ?>
-<?php $keywords = "Thomas McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
+<?php $title = "Contact | Tom McCarten Portfolio"; ?>
+<?php $description = "Contact details for Tom McCarten Web Developer."; ?>
+<?php $keywords = "Tom McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
 
 <?php include $index . '/assets/includes/head.php';?>
 

@@ -1,7 +1,7 @@
 <?php $index = ".."; ?>
 
 <?php $activePage = "Blog"; ?>
-<?php $title = "Blog | Thomas McCarten Portfolio"; ?>
+<?php $title = "Blog | Tom McCarten Portfolio"; ?>
 <?php $description = "Index of blog posts by Web Developer Tom McCarten."; ?>
 <?php $keywords = "Tom McCarten,Front-End,Design,Web Development,Logo Design,Illustrations"; ?>
 <?php $ogimage = $index . "/assets/img/meta/ogimage.jpg"; ?>
