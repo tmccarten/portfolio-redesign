@@ -194,8 +194,8 @@
 
     .tile-inner__main {
       border-radius: 3em;
-      border: .0625em solid rgba(255,255,255,.1);
-      padding: 1em;
+      border: .125rem solid rgba(255,255,255,.1);
+      padding: 1.125em 1em 1em 1em;
       font-family: $seriffont;
       font-weight: bold;
       font-size: 1.5em;
@@ -203,7 +203,7 @@
   }
 
   &:hover {
-    background: $altcolour;
+    background: radial-gradient($altcolour, $altcolour);
 
     .tile-inner__main {
       text-shadow: none;
@@ -297,16 +297,6 @@
     transform: rotate(0deg) translateY(2.2em);
   }
 
-  .tile--interact {
-
-    .tile-inner {
-      .tile-inner__main {
-        border: none;
-        border-radius: none;
-      }
-    }
-  }
-
 }
 
 @media screen and (min-width: $mqlogo) {
@@ -350,19 +340,6 @@
     border: .01em solid $tilecolour;
   }
 
-  .tile--interact {
-    background: darken(adjust-color($maincolour, $red: 42, $green: 45, $blue: 80), 3);
-    border: .125em solid darken($contentcolour, 5);
-
-    .tile-inner {
-      text-shadow: .125em .125em $contentcolour;
-
-      .tile-inner__main {
-        border: none;
-      }
-    }
-  }
-
   .tile:nth-child(1), .tile:nth-child(2), .tile:nth-child(3) {
     margin-top: 0;
   }
@@ -381,6 +358,12 @@
 
     .tile-inner {
       text-shadow: .1em .1em darken($altcolour, 8);
+    }
+
+    &:hover {
+      .tile-inner {
+        text-shadow: none;
+      }
     }
   }
 
@@ -446,7 +429,6 @@
 
     &:hover {
       transform: rotateY(15deg) scale(0.95);
-      background: rgba($altcolour, 1);
     }
   }
 
