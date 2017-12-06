@@ -220,6 +220,9 @@ body {
 
 @media screen and (min-width: 53.125em) {
 	body {
+		background: -webkit-linear-gradient(top, #313552 0%, #454a71 100%);
+		background: linear-gradient(to bottom, #313552 0%, #454a71 100%);
+		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		padding-bottom: calc(63px + 1rem);
 	}
 }
@@ -2221,7 +2224,7 @@ body {
 		-webkit-transform: rotate(0deg);
 		    -ms-transform: rotate(0deg);
 		        transform: rotate(0deg);
-		border: 0.01em solid #343859;
+		border: 0.01em solid #2a2e49;
 	}
 	.tile:nth-child(1), .tile:nth-child(2), .tile:nth-child(3) {
 		margin-top: 0;

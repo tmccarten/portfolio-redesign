@@ -10,7 +10,7 @@ body {
   @media screen and (min-width: $mqnavbar) {
 
     body {
-      //background: linear-gradient(to bottom,  $maincolour 0%, lighten($maincolour, 10) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      background: linear-gradient(to bottom,  desaturate($maincolour, 2) 0%, desaturate(lighten($maincolour, 10), 2) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
       padding-bottom: calc(63px + 1rem);
     }
   }

@@ -337,7 +337,7 @@
     margin: .5em;
     margin-bottom: 0;
     transform: rotate(0deg);
-    border: .01em solid $tilecolour;
+    border: .01em solid darken($tilecolour, 5);
   }
 
   .tile:nth-child(1), .tile:nth-child(2), .tile:nth-child(3) {
