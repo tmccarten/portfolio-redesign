@@ -2247,7 +2247,7 @@ body {
 		background-color: #4a5080;
 	}
 	.tile--intro {
-		background-color: #3d426a;
+		background-color: #454a77;
 		border-left: 0;
 	}
 	.tile--intro .tile-inner {
@@ -2259,7 +2259,7 @@ body {
 		-webkit-order: 0;
 		    -ms-flex-order: 0;
 		        order: 0;
-		background-color: #3d426a;
+		background-color: #454a77;
 		border-right: 0;
 	}
 	.tile--image .tile-inner--desktop {

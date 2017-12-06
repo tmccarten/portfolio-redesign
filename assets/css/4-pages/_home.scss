@@ -374,7 +374,7 @@
 
 
   .tile--intro {
-    background-color: lighten($tilecolour, 5);
+    background-color: lighten($tilecolour, 9);
     border-left: 0;
 
     .tile-inner {
@@ -385,7 +385,7 @@
 
   .tile--image {
     order: 0;
-    background-color: lighten($tilecolour, 5);
+    background-color: lighten($tilecolour, 9);
     border-right: 0;
 
     .tile-inner--desktop {
