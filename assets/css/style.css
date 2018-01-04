@@ -2224,7 +2224,7 @@ body {
 		-webkit-transform: rotate(0deg);
 		    -ms-transform: rotate(0deg);
 		        transform: rotate(0deg);
-		border: 0.01em solid #2a2e49;
+		border: .01em solid transparent;
 	}
 	.tile:nth-child(1), .tile:nth-child(2), .tile:nth-child(3) {
 		margin-top: 0;
@@ -2234,6 +2234,12 @@ body {
 	}
 	.tile:nth-child(5), .tile:nth-child(3) {
 		margin-right: 0;
+	}
+	.tile--interact {
+		border: 0.1em dotted #4e5487;
+	}
+	.tile--interact:hover {
+		border: 0.1em solid rgba(255, 255, 255, 0.1);
 	}
 	.tile--contact {
 		border-right: 0;
@@ -2255,7 +2261,6 @@ body {
 	}
 	.tile--intro .tile-inner {
 		padding: 0;
-		text-shadow: 0.125em 0.125em #363a5d;
 	}
 	.tile--image {
 		-webkit-box-ordinal-group: 1;
@@ -2296,10 +2301,10 @@ body {
 		will-change: transform;
 		-webkit-transform: rotateY(0);
 		        transform: rotateY(0);
-		-webkit-transition: background-color 500ms ease, border-color 500ms ease, -webkit-transform 300ms ease;
-		transition: background-color 500ms ease, border-color 500ms ease, -webkit-transform 300ms ease;
-		transition: transform 300ms ease, background-color 500ms ease, border-color 500ms ease;
-		transition: transform 300ms ease, background-color 500ms ease, border-color 500ms ease, -webkit-transform 300ms ease;
+		-webkit-transition: background-color 500ms ease, border-color 500ms ease, -webkit-transform 600ms ease;
+		transition: background-color 500ms ease, border-color 500ms ease, -webkit-transform 600ms ease;
+		transition: transform 600ms ease, background-color 500ms ease, border-color 500ms ease;
+		transition: transform 600ms ease, background-color 500ms ease, border-color 500ms ease, -webkit-transform 600ms ease;
 	}
 	.tile--interact:hover {
 		-webkit-transform: rotateY(15deg) scale(0.95);

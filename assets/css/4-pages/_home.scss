@@ -337,7 +337,7 @@
     margin: .5em;
     margin-bottom: 0;
     transform: rotate(0deg);
-    border: .01em solid darken($tilecolour, 5);
+    border: .01em solid transparent;
   }
 
   .tile:nth-child(1), .tile:nth-child(2), .tile:nth-child(3) {
@@ -350,6 +350,14 @@
 
   .tile:nth-child(5), .tile:nth-child(3) {
     margin-right: 0;
+  }
+
+  .tile--interact {
+    border: .1em dotted lighten($tilecolour, 14);
+
+    &:hover {
+      border: .1em solid rgba(white, 0.1);
+    }
   }
 
   .tile--contact {
@@ -379,7 +387,6 @@
 
     .tile-inner {
       padding: 0;
-      text-shadow: .125em .125em darken($contentcolour, 3);
     }
   }
 
@@ -425,7 +432,7 @@
   .tile--interact {
     will-change: transform;
     transform: rotateY(0);
-    transition: transform 300ms ease, background-color 500ms ease, border-color 500ms ease;
+    transition: transform 600ms ease, background-color 500ms ease, border-color 500ms ease;
 
     &:hover {
       transform: rotateY(15deg) scale(0.95);
