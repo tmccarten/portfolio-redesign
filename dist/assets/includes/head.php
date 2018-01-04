@@ -2,6 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90343501-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-90343501-1');
+    </script>
+
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
@@ -43,7 +53,8 @@
     <link rel="icon" type="image/png" href="<?php echo $index?>/favicon.png">
     <link rel="apple-touch-icon" href="<?php echo $index?>/favicon-apple.png">
 
-    <link rel="stylesheet" href="<?php echo $index?>/assets/css/style.css?v=7">
+    <link rel="stylesheet" href="<?php echo $index?>/assets/css/style.css?v=15">
+    <link rel="canonical" href="<?php echo curPageURL();?>">
 
     <!-- [if lte IE 9]>
     <p class="ie-upgrade">Please upgrade to Internet Explorer version 11.</p>

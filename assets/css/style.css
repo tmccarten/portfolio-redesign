@@ -138,31 +138,31 @@ a {
 
 @-webkit-keyframes glowing {
 	0% {
-		box-shadow: 0 0 -.625rem white;
+		box-shadow: 0 0 -2.25rem white;
 	}
 	40% {
-		box-shadow: 0 0 1.25rem white;
+		box-shadow: 0 0 2.25rem white;
 	}
 	60% {
-		box-shadow: 0 0 1.25rem white;
+		box-shadow: 0 0 2.25rem white;
 	}
 	100% {
-		box-shadow: 0 0 -.625rem white;
+		box-shadow: 0 0 -2.25rem white;
 	}
 }
 
 @keyframes glowing {
 	0% {
-		box-shadow: 0 0 -.625rem white;
+		box-shadow: 0 0 -2.25rem white;
 	}
 	40% {
-		box-shadow: 0 0 1.25rem white;
+		box-shadow: 0 0 2.25rem white;
 	}
 	60% {
-		box-shadow: 0 0 1.25rem white;
+		box-shadow: 0 0 2.25rem white;
 	}
 	100% {
-		box-shadow: 0 0 -.625rem white;
+		box-shadow: 0 0 -2.25rem white;
 	}
 }
 
@@ -1364,8 +1364,8 @@ body {
 	.work__img--portrait {
 		display: block;
 		margin-top: 0;
-		-webkit-animation: glowing 3000ms infinite;
-		        animation: glowing 3000ms infinite;
+		-webkit-animation: glowing 1750ms infinite;
+		        animation: glowing 1750ms infinite;
 		border-radius: 1.75em;
 	}
 	.btn--work {

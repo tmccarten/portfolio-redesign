@@ -23,15 +23,15 @@
     margin-top: 0;
     opacity: 0;
   }
-  100% { 
+  100% {
     margin-top: 7rem;
     opacity: 1;
   }
 }
 
 @keyframes glowing {
-  0% { box-shadow: 0 0 -.625rem white; }
-  40% { box-shadow: 0 0 1.25rem white; }
-  60% { box-shadow: 0 0 1.25rem white; }
-  100% { box-shadow: 0 0 -.625rem white; }
+  0% { box-shadow: 0 0 -2.25rem white; }
+  40% { box-shadow: 0 0 2.25rem white; }
+  60% { box-shadow: 0 0 2.25rem white; }
+  100% { box-shadow: 0 0 -2.25rem white; }
 }
